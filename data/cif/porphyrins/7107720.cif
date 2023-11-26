@@ -1,0 +1,2826 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 03:24:32 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180181 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/77/7107720.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7107720
+loop_
+_publ_author_name
+'Shohei Sakaue'
+'Akira Fuyuhiro'
+'Takamitsu Fukuda'
+'Naoto Ishikawa'
+_publ_section_title
+;
+ Dinuclear single-molecule magnets with porphyrin-phthalocyanine mixed
+ triple-decker ligand systems giving SAP and SP coordination polyhedra
+;
+_journal_name_full               Chem.Commun.
+_journal_page_first              5337
+_journal_paper_doi               10.1039/c2cc31125a
+_journal_volume                  48
+_journal_year                    2012
+_chemical_formula_moiety         'C128 H68 Cl4 N20 O4 Tb2'
+_chemical_formula_sum            'C128 H68 Cl4 N20 O4 Tb2'
+_chemical_formula_weight         2409.74
+_space_group_IT_number           85
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      85
+_symmetry_space_group_name_Hall  '-P 4a'
+_symmetry_space_group_name_H-M   'P 4/n :2'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 90.0000
+_cell_angle_gamma                90.0000
+_cell_formula_units_Z            2
+_cell_length_a                   20.2591(7)
+_cell_length_b                   20.2591(7)
+_cell_length_c                   12.8252(4)
+_cell_measurement_reflns_used    13126
+_cell_measurement_temperature    200
+_cell_measurement_theta_max      27.50
+_cell_measurement_theta_min      3.02
+_cell_volume                     5263.9(3)
+_computing_cell_refinement       'RAPID AUTO'
+_computing_data_collection       'RAPID AUTO (Rigaku, ????)'
+_computing_data_reduction        'RAPID AUTO'
+_computing_molecular_graphics    'CrystalStructure 4.0'
+_computing_publication_material  'CrystalStructure 4.0 (Rigaku, 2010)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SIR92 (Altomare, et al., 1994)'
+_diffrn_ambient_temperature      200
+_diffrn_detector_area_resol_mean 10.000
+_diffrn_measured_fraction_theta_full 0.999
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device_type  'Rigaku R-AXIS VII'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71075
+_diffrn_reflns_av_R_equivalents  0.0405
+_diffrn_reflns_limit_h_max       26
+_diffrn_reflns_limit_h_min       -26
+_diffrn_reflns_limit_k_max       25
+_diffrn_reflns_limit_k_min       -26
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            68247
+_diffrn_reflns_theta_full        27.49
+_diffrn_reflns_theta_max         27.48
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    1.500
+_exptl_absorpt_correction_T_max  0.985
+_exptl_absorpt_correction_T_min  0.713
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'ABSCOR (Rigaku, 1995)'
+_exptl_crystal_colour            dark-red
+_exptl_crystal_density_diffrn    1.520
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       platelet
+_exptl_crystal_F_000             2412.00
+_exptl_crystal_size_max          0.200
+_exptl_crystal_size_mid          0.170
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         2.170
+_refine_diff_density_min         -3.150
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.227
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_number_parameters     377
+_refine_ls_number_reflns         6053
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_gt           0.0648
+_refine_ls_shift/su_max          0.009
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0636P)^2^+32.6161P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.1653
+_reflns_number_gt                5945
+_reflns_number_total             6053
+_reflns_threshold_expression     F^2^>2.0\s(F^2^)
+_cod_data_source_file            c2cc31125a.txt
+_cod_data_source_block           Tb2Pc2MeOTPP-3-3
+_cod_original_cell_volume        5263.8(3)
+_cod_original_sg_symbol_H-M      'P 4/n'
+_cod_database_code               7107720
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +X,+Y,+Z
+2 1/2-Y,+X,+Z
+3 1/2-X,1/2-Y,+Z
+4 +Y,1/2-X,+Z
+5 -X,-Y,-Z
+6 1/2+Y,-X,-Z
+7 1/2+X,1/2+Y,-Z
+8 -Y,1/2+X,-Z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Tb1 Tb 0.2500 0.2500 0.59926(4) 0.01979(14) Uani 1.0 2 d .
+Tb2 Tb 0.2500 0.2500 0.31838(4) 0.02441(15) Uani 1.0 2 d .
+Cl1a Cl 0.3534(4) 0.2650(5) -0.0384(6) 0.0890(18) Uiso 0.5000 8 d .
+Cl1b Cl 0.3428(4) 0.2988(5) -0.0388(6) 0.096(2) Uiso 0.5000 8 d .
+O1 O 0.6574(3) 0.0682(4) 0.1409(5) 0.0580(16) Uani 1.0 8 d .
+N1 N 0.2929(3) 0.3377(3) 0.7011(4) 0.0253(10) Uani 1.0 8 d .
+N2 N 0.4073(3) 0.3044(3) 0.7186(4) 0.0325(11) Uani 1.0 8 d .
+N3 N 0.3399(3) 0.2833(3) 0.4711(4) 0.0275(10) Uani 1.0 8 d .
+N4 N 0.4012(3) 0.1802(3) 0.4694(4) 0.0307(11) Uani 1.0 8 d .
+N5 N 0.3460(3) 0.2833(3) 0.2260(4) 0.0233(9) Uani 1.0 8 d .
+C1 C 0.2601(3) 0.3968(3) 0.7150(5) 0.0295(12) Uani 1.0 8 d .
+C2 C 0.3588(3) 0.3486(3) 0.7154(5) 0.0283(12) Uani 1.0 8 d .
+C3 C 0.3082(4) 0.4491(3) 0.7337(5) 0.0343(13) Uani 1.0 8 d .
+C4 C 0.3699(4) 0.4192(3) 0.7340(5) 0.0350(14) Uani 1.0 8 d .
+C5 C 0.4271(4) 0.4555(4) 0.7505(7) 0.0499(18) Uani 1.0 8 d .
+C6 C 0.4205(5) 0.5219(5) 0.7629(8) 0.064(3) Uani 1.0 8 d .
+C7 C 0.3589(5) 0.5525(4) 0.7637(9) 0.064(3) Uani 1.0 8 d .
+C8 C 0.3014(4) 0.5166(4) 0.7486(7) 0.0467(17) Uani 1.0 8 d .
+C9 C 0.3586(3) 0.3486(3) 0.4698(5) 0.0277(12) Uani 1.0 8 d .
+C10 C 0.3969(3) 0.2453(3) 0.4707(5) 0.0281(12) Uani 1.0 8 d .
+C11 C 0.4303(3) 0.3531(4) 0.4677(5) 0.0354(14) Uani 1.0 8 d .
+C12 C 0.4543(3) 0.2890(4) 0.4691(5) 0.0351(14) Uani 1.0 8 d .
+C13 C 0.5215(4) 0.2754(4) 0.4708(6) 0.0453(17) Uani 1.0 8 d .
+C14 C 0.5637(4) 0.3293(5) 0.4703(8) 0.058(3) Uani 1.0 8 d .
+C15 C 0.5397(4) 0.3940(5) 0.4678(7) 0.057(3) Uani 1.0 8 d .
+C16 C 0.4733(4) 0.4071(4) 0.4658(6) 0.0453(17) Uani 1.0 8 d .
+C17 C 0.3658(3) 0.3476(3) 0.2107(5) 0.0298(12) Uani 1.0 8 d .
+C18 C 0.4351(3) 0.3494(4) 0.1897(5) 0.0352(14) Uani 1.0 8 d .
+C19 C 0.4574(3) 0.2868(4) 0.1903(5) 0.0348(14) Uani 1.0 8 d .
+C20 C 0.4014(3) 0.2454(3) 0.2115(5) 0.0291(12) Uani 1.0 8 d .
+C21 C 0.4029(3) 0.1762(3) 0.2062(5) 0.0298(12) Uani 1.0 8 d .
+C22 C 0.4692(3) 0.1452(3) 0.1868(5) 0.0304(12) Uani 1.0 8 d .
+C23 C 0.4879(4) 0.1262(5) 0.0879(6) 0.0478(19) Uani 1.0 8 d .
+C24 C 0.5500(4) 0.0997(5) 0.0685(6) 0.053(2) Uani 1.0 8 d .
+C25 C 0.5939(4) 0.0928(4) 0.1503(6) 0.0410(16) Uani 1.0 8 d .
+C26 C 0.5753(4) 0.1099(4) 0.2496(6) 0.0410(15) Uani 1.0 8 d .
+C27 C 0.5135(3) 0.1362(4) 0.2676(5) 0.0361(14) Uani 1.0 8 d .
+C28 C 0.6731(6) 0.0323(7) 0.0494(8) 0.082(4) Uani 1.0 8 d .
+C29a C 0.2644(19) 0.2806(15) -0.004(3) 0.059(8) Uiso 0.3000 8 d .
+C29b C 0.347(4) 0.188(5) -0.048(6) 0.091(18) Uiso 0.2000 8 d .
+C29c C 0.275(2) 0.3529(15) -0.042(3) 0.028(6) Uiso 0.2000 8 d .
+C29d C 0.235(3) 0.2276(18) -0.072(3) 0.057(8) Uiso 0.3000 8 d .
+C30 C 0.6514(10) 0.2634(9) 0.2493(18) 0.041(4) Uiso 0.4000 8 d .
+C31 C 0.6642(16) 0.2629(15) 0.089(3) 0.044(6) Uiso 0.3000 8 d .
+C32 C 0.689(3) 0.260(3) 0.147(5) 0.101(14) Uiso 0.3000 8 d .
+C33 C 0.6483(8) 0.2626(8) 0.2011(17) 0.043(4) Uiso 0.5000 8 d .
+C34 C 0.727(2) 0.230(2) 0.187(4) 0.076(11) Uiso 0.3000 8 d .
+C35 C 0.725(3) 0.229(3) 0.239(5) 0.069(14) Uiso 0.2000 8 d .
+C36 C 0.763(3) 0.268(3) 0.368(4) 0.054(10) Uiso 0.2000 8 d .
+C37 C 0.7443(15) 0.1956(16) 0.353(3) 0.057(7) Uiso 0.3000 8 d .
+C38 C 0.6549(14) 0.2639(13) 0.137(3) 0.040(6) Uiso 0.3000 8 d .
+C39 C 0.685(3) 0.286(3) 0.086(4) 0.054(11) Uiso 0.2000 8 d .
+H5 H 0.4691 0.4348 0.7531 0.0598 Uiso 1.0 8 calc R
+H6 H 0.4590 0.5481 0.7712 0.0773 Uiso 1.0 8 calc R
+H7 H 0.3563 0.5988 0.7749 0.0773 Uiso 1.0 8 calc R
+H8 H 0.2593 0.5372 0.7484 0.0560 Uiso 1.0 8 calc R
+H13 H 0.5377 0.2314 0.4721 0.0543 Uiso 1.0 8 calc R
+H14 H 0.6101 0.3222 0.4718 0.0692 Uiso 1.0 8 calc R
+H15 H 0.5701 0.4297 0.4675 0.0682 Uiso 1.0 8 calc R
+H16 H 0.4571 0.4511 0.4633 0.0543 Uiso 1.0 8 calc R
+H18 H 0.4608 0.3879 0.1774 0.0422 Uiso 1.0 8 calc R
+H19 H 0.5016 0.2728 0.1790 0.0417 Uiso 1.0 8 calc R
+H23 H 0.4577 0.1313 0.0318 0.0574 Uiso 1.0 8 calc R
+H24 H 0.5621 0.0866 0.0000 0.0636 Uiso 1.0 8 calc R
+H26 H 0.6050 0.1035 0.3060 0.0492 Uiso 1.0 8 calc R
+H27 H 0.5013 0.1483 0.3365 0.0434 Uiso 1.0 8 calc R
+H28A H 0.6660 0.0603 -0.0119 0.0986 Uiso 1.0 8 calc R
+H28B H 0.6446 -0.0067 0.0448 0.0986 Uiso 1.0 8 calc R
+H28C H 0.7194 0.0184 0.0519 0.0986 Uiso 1.0 8 calc R
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Tb1 0.02085(18) 0.02085(18) 0.0177(3) 0.0000 0.0000 0.0000
+Tb2 0.02440(19) 0.02440(19) 0.0244(3) 0.0000 0.0000 0.0000
+O1 0.034(3) 0.082(4) 0.057(4) 0.029(3) 0.003(3) -0.015(3)
+N1 0.029(3) 0.023(3) 0.024(3) -0.0042(19) -0.0001(18) 0.0019(18)
+N2 0.028(3) 0.040(3) 0.030(3) -0.005(2) -0.001(2) -0.000(3)
+N3 0.027(3) 0.028(3) 0.027(3) 0.0003(19) -0.0012(19) 0.0012(19)
+N4 0.030(3) 0.036(3) 0.027(3) 0.005(2) 0.002(2) -0.003(2)
+N5 0.024(3) 0.022(3) 0.024(3) 0.0028(17) 0.0003(18) 0.0004(17)
+C1 0.038(3) 0.028(3) 0.023(3) -0.001(3) 0.000(3) -0.001(3)
+C2 0.030(3) 0.031(3) 0.024(3) -0.007(3) 0.001(3) -0.000(3)
+C3 0.042(4) 0.027(3) 0.033(3) -0.007(3) 0.003(3) -0.003(3)
+C4 0.041(4) 0.031(3) 0.033(3) -0.013(3) -0.001(3) -0.001(3)
+C5 0.040(4) 0.049(5) 0.060(5) -0.016(4) -0.005(4) -0.007(4)
+C6 0.063(6) 0.047(5) 0.083(7) -0.032(4) -0.005(5) -0.009(5)
+C7 0.073(6) 0.033(4) 0.087(7) -0.017(4) -0.006(5) -0.009(4)
+C8 0.058(5) 0.025(3) 0.056(5) -0.003(3) 0.003(4) -0.005(3)
+C9 0.031(3) 0.030(3) 0.022(3) -0.007(3) 0.002(2) 0.001(3)
+C10 0.022(3) 0.039(3) 0.023(3) 0.002(3) 0.002(2) -0.003(3)
+C11 0.032(3) 0.043(4) 0.031(3) -0.007(3) 0.002(3) -0.001(3)
+C12 0.028(3) 0.047(4) 0.031(3) -0.005(3) 0.001(3) -0.003(3)
+C13 0.027(3) 0.058(5) 0.050(4) -0.002(3) 0.002(3) -0.009(4)
+C14 0.026(4) 0.075(6) 0.072(6) -0.008(4) 0.003(4) -0.010(5)
+C15 0.039(4) 0.071(6) 0.061(5) -0.025(4) 0.006(4) -0.007(5)
+C16 0.040(4) 0.049(4) 0.047(4) -0.014(3) 0.009(3) -0.005(4)
+C17 0.028(3) 0.034(3) 0.027(3) -0.004(3) -0.000(3) -0.001(3)
+C18 0.029(3) 0.035(4) 0.041(4) -0.009(3) 0.003(3) 0.001(3)
+C19 0.024(3) 0.039(4) 0.042(4) -0.004(3) 0.003(3) 0.001(3)
+C20 0.027(3) 0.032(3) 0.028(3) -0.001(3) 0.000(3) 0.002(3)
+C21 0.023(3) 0.035(3) 0.031(3) 0.007(3) -0.000(3) -0.000(3)
+C22 0.024(3) 0.036(4) 0.032(3) 0.005(3) 0.002(3) -0.002(3)
+C23 0.036(4) 0.072(6) 0.035(4) 0.021(4) -0.004(3) -0.005(4)
+C24 0.045(4) 0.080(6) 0.034(4) 0.024(4) 0.001(3) -0.011(4)
+C25 0.030(4) 0.047(4) 0.046(4) 0.015(3) 0.002(3) -0.004(3)
+C26 0.031(4) 0.049(4) 0.043(4) 0.013(3) -0.004(3) -0.003(3)
+C27 0.031(3) 0.045(4) 0.033(3) 0.006(3) -0.001(3) -0.005(3)
+C28 0.064(6) 0.117(10) 0.066(6) 0.047(7) 0.009(5) -0.026(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Tb Tb -0.172 4.154
+;
+International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.4)
+;
+C C 0.003 0.002
+;
+International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.4)
+;
+H H 0.000 0.000
+;
+International Tables for Crystallography
+(1992, Vol. C, Table 6.1.1.4)
+;
+N N 0.006 0.003
+;
+International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.4)
+;
+O O 0.011 0.006
+;
+International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.4)
+;
+Cl Cl 0.148 0.159
+;
+International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.4)
+;
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+N1 Tb1 N1 72.32(16) yes . 2_555
+N1 Tb1 N1 113.12(16) yes . 3_555
+N1 Tb1 N1 72.32(16) yes . 4_555
+N1 Tb1 N3 83.95(16) yes . .
+N1 Tb1 N3 85.24(16) yes . 2_555
+N1 Tb1 N3 144.83(16) yes . 3_555
+N1 Tb1 N3 142.66(16) yes . 4_555
+N1 Tb1 N1 72.32(16) yes 2_555 3_555
+N1 Tb1 N1 113.12(16) yes 2_555 4_555
+N1 Tb1 N3 142.66(16) yes 2_555 .
+N1 Tb1 N3 83.95(16) yes 2_555 2_555
+N1 Tb1 N3 85.24(16) yes 2_555 3_555
+N1 Tb1 N3 144.83(16) yes 2_555 4_555
+N1 Tb1 N1 72.32(16) yes 3_555 4_555
+N1 Tb1 N3 144.83(16) yes 3_555 .
+N1 Tb1 N3 142.66(16) yes 3_555 2_555
+N1 Tb1 N3 83.95(16) yes 3_555 3_555
+N1 Tb1 N3 85.24(16) yes 3_555 4_555
+N1 Tb1 N3 85.24(16) yes 4_555 .
+N1 Tb1 N3 144.83(16) yes 4_555 2_555
+N1 Tb1 N3 142.66(16) yes 4_555 3_555
+N1 Tb1 N3 83.95(16) yes 4_555 4_555
+N3 Tb1 N3 65.33(16) yes . 2_555
+N3 Tb1 N3 99.51(16) yes . 3_555
+N3 Tb1 N3 65.33(16) yes . 4_555
+N3 Tb1 N3 65.33(16) yes 2_555 3_555
+N3 Tb1 N3 99.51(16) yes 2_555 4_555
+N3 Tb1 N3 65.33(16) yes 3_555 4_555
+N3 Tb2 N3 59.71(15) yes . 2_555
+N3 Tb2 N3 89.49(15) yes . 3_555
+N3 Tb2 N3 59.71(15) yes . 4_555
+N3 Tb2 N5 75.17(15) yes . .
+N3 Tb2 N5 109.96(15) yes . 2_555
+N3 Tb2 N5 164.62(15) yes . 3_555
+N3 Tb2 N5 111.52(15) yes . 4_555
+N3 Tb2 N3 59.71(15) yes 2_555 3_555
+N3 Tb2 N3 89.49(15) yes 2_555 4_555
+N3 Tb2 N5 111.52(15) yes 2_555 .
+N3 Tb2 N5 75.17(15) yes 2_555 2_555
+N3 Tb2 N5 109.96(15) yes 2_555 3_555
+N3 Tb2 N5 164.62(15) yes 2_555 4_555
+N3 Tb2 N3 59.71(15) yes 3_555 4_555
+N3 Tb2 N5 164.62(15) yes 3_555 .
+N3 Tb2 N5 111.52(15) yes 3_555 2_555
+N3 Tb2 N5 75.17(15) yes 3_555 3_555
+N3 Tb2 N5 109.96(15) yes 3_555 4_555
+N3 Tb2 N5 109.96(15) yes 4_555 .
+N3 Tb2 N5 164.62(15) yes 4_555 2_555
+N3 Tb2 N5 111.52(15) yes 4_555 3_555
+N3 Tb2 N5 75.17(15) yes 4_555 4_555
+N5 Tb2 N5 75.61(16) yes . 2_555
+N5 Tb2 N5 120.19(16) yes . 3_555
+N5 Tb2 N5 75.61(16) yes . 4_555
+N5 Tb2 N5 75.61(16) yes 2_555 3_555
+N5 Tb2 N5 120.19(16) yes 2_555 4_555
+N5 Tb2 N5 75.61(16) yes 3_555 4_555
+C29a Cl1a C29a 31.0(16) yes . 4_555
+C29a Cl1a C29b 96(3) yes . .
+C29a Cl1a C29b 55(3) yes . 2_555
+C29a Cl1a C29d 40.6(16) yes . 2_555
+C29a Cl1a C29d 27.5(13) yes . 3_555
+C29a Cl1a C29b 66(3) yes 4_555 .
+C29a Cl1a C29b 86(3) yes 4_555 2_555
+C29a Cl1a C29d 29.3(14) yes 4_555 2_555
+C29a Cl1a C29d 39.2(16) yes 4_555 3_555
+C29b Cl1a C29b 147(4) yes . 2_555
+C29b Cl1a C29d 64(3) yes . 2_555
+C29b Cl1a C29d 89(3) yes . 3_555
+C29b Cl1a C29d 83(3) yes 2_555 2_555
+C29b Cl1a C29d 58(3) yes 2_555 3_555
+C29d Cl1a C29d 24.4(18) yes 2_555 3_555
+C29a Cl1b C29a 31.4(15) yes . 4_555
+C29a Cl1b C29c 53.5(16) yes . .
+C29a Cl1b C29c 85.4(16) yes . 4_555
+C29a Cl1b C29d 40.0(15) yes . 2_555
+C29a Cl1b C29d 30.1(15) yes . 3_555
+C29a Cl1b C29c 84.4(16) yes 4_555 .
+C29a Cl1b C29c 54.1(16) yes 4_555 4_555
+C29a Cl1b C29d 26.5(13) yes 4_555 2_555
+C29a Cl1b C29d 38.7(15) yes 4_555 3_555
+C29c Cl1b C29c 136.2(17) yes . 4_555
+C29c Cl1b C29d 80.6(17) yes . 2_555
+C29c Cl1b C29d 58.0(17) yes . 3_555
+C29c Cl1b C29d 56.2(17) yes 4_555 2_555
+C29c Cl1b C29d 79.0(18) yes 4_555 3_555
+C29d Cl1b C29d 22.8(18) yes 2_555 3_555
+C25 O1 C28 117.7(7) yes . .
+Tb1 N1 C1 122.9(4) yes . .
+Tb1 N1 C2 123.7(4) yes . .
+C1 N1 C2 108.2(5) yes . .
+C1 N2 C2 123.1(6) yes 4_555 .
+Tb1 N3 Tb2 85.50(15) yes . .
+Tb1 N3 C9 117.4(4) yes . .
+Tb1 N3 C10 116.8(4) yes . .
+Tb2 N3 C9 114.1(4) yes . .
+Tb2 N3 C10 114.3(4) yes . .
+C9 N3 C10 107.7(5) yes . .
+C9 N4 C10 122.7(6) yes 4_555 .
+Tb2 N5 C17 125.3(4) yes . .
+Tb2 N5 C20 125.3(4) yes . .
+C17 N5 C20 105.8(5) yes . .
+N1 C1 N2 128.2(6) yes . 2_555
+N1 C1 C3 109.2(6) yes . .
+N2 C1 C3 122.4(6) yes 2_555 .
+N1 C2 N2 128.0(6) yes . .
+N1 C2 C4 109.3(5) yes . .
+N2 C2 C4 122.6(6) yes . .
+C1 C3 C4 106.5(6) yes . .
+C1 C3 C8 132.2(7) yes . .
+C4 C3 C8 121.3(7) yes . .
+C2 C4 C3 106.6(6) yes . .
+C2 C4 C5 132.0(7) yes . .
+C3 C4 C5 121.4(7) yes . .
+C4 C5 C6 117.4(8) yes . .
+C5 C6 C7 121.9(9) yes . .
+C6 C7 C8 121.2(8) yes . .
+C3 C8 C7 116.9(8) yes . .
+N3 C9 N4 127.5(6) yes . 2_555
+N3 C9 C11 109.6(6) yes . .
+N4 C9 C11 122.9(6) yes 2_555 .
+N3 C10 N4 127.4(6) yes . .
+N3 C10 C12 109.1(6) yes . .
+N4 C10 C12 123.5(6) yes . .
+C9 C11 C12 106.9(6) yes . .
+C9 C11 C16 132.1(7) yes . .
+C12 C11 C16 121.0(6) yes . .
+C10 C12 C11 106.8(6) yes . .
+C10 C12 C13 131.2(7) yes . .
+C11 C12 C13 122.0(7) yes . .
+C12 C13 C14 116.5(8) yes . .
+C13 C14 C15 121.6(7) yes . .
+C14 C15 C16 121.6(8) yes . .
+C11 C16 C15 117.3(8) yes . .
+N5 C17 C18 109.7(6) yes . .
+N5 C17 C21 125.7(6) yes . 2_555
+C18 C17 C21 124.4(6) yes . 2_555
+C17 C18 C19 107.7(6) yes . .
+C18 C19 C20 106.6(6) yes . .
+N5 C20 C19 110.2(6) yes . .
+N5 C20 C21 125.6(6) yes . .
+C19 C20 C21 123.9(6) yes . .
+C17 C21 C20 125.8(6) yes 4_555 .
+C17 C21 C22 117.7(6) yes 4_555 .
+C20 C21 C22 116.4(5) yes . .
+C21 C22 C23 121.0(6) yes . .
+C21 C22 C27 120.7(6) yes . .
+C23 C22 C27 118.3(6) yes . .
+C22 C23 C24 121.4(7) yes . .
+C23 C24 C25 119.0(7) yes . .
+O1 C25 C24 124.6(7) yes . .
+O1 C25 C26 115.2(7) yes . .
+C24 C25 C26 120.2(7) yes . .
+C25 C26 C27 120.1(7) yes . .
+C22 C27 C26 121.0(6) yes . .
+Cl1a C29a Cl1a 115.7(19) yes . 2_555
+Cl1a C29a Cl1b 22.3(7) yes . .
+Cl1a C29a Cl1b 136.1(18) yes . 2_555
+Cl1a C29a C29a 148(4) yes . 2_555
+Cl1a C29a C29a 105(3) yes . 3_555
+Cl1a C29a C29a 61(3) yes . 4_555
+Cl1a C29a C29b 62(3) yes . 2_555
+Cl1a C29a C29c 88(3) yes . .
+Cl1a C29a C29d 97(3) yes . .
+Cl1a C29a C29d 66(3) yes . 2_555
+Cl1a C29a C29d 113(3) yes . 4_555
+Cl1a C29a Cl1b 94.3(17) yes 2_555 .
+Cl1a C29a Cl1b 22.7(7) yes 2_555 2_555
+Cl1a C29a C29a 88(4) yes 2_555 2_555
+Cl1a C29a C29a 131(3) yes 2_555 3_555
+Cl1a C29a C29a 164(4) yes 2_555 4_555
+Cl1a C29a C29b 55(3) yes 2_555 2_555
+Cl1a C29a C29c 28.9(17) yes 2_555 .
+Cl1a C29a C29d 110(3) yes 2_555 .
+Cl1a C29a C29d 121(3) yes 2_555 2_555
+Cl1a C29a C29d 79(3) yes 2_555 4_555
+Cl1b C29a Cl1b 116.0(17) yes . 2_555
+Cl1b C29a C29a 163(4) yes . 2_555
+Cl1b C29a C29a 127(3) yes . 3_555
+Cl1b C29a C29a 83(3) yes . 4_555
+Cl1b C29a C29b 40(3) yes . 2_555
+Cl1b C29a C29c 66(2) yes . .
+Cl1b C29a C29d 112(3) yes . .
+Cl1b C29a C29d 82(3) yes . 2_555
+Cl1b C29a C29d 117(3) yes . 4_555
+Cl1b C29a C29a 65(3) yes 2_555 2_555
+Cl1b C29a C29a 109(3) yes 2_555 3_555
+Cl1b C29a C29a 151(4) yes 2_555 4_555
+Cl1b C29a C29b 77(3) yes 2_555 2_555
+Cl1b C29a C29c 51.4(18) yes 2_555 .
+Cl1b C29a C29d 94(3) yes 2_555 .
+Cl1b C29a C29d 115(3) yes 2_555 2_555
+Cl1b C29a C29d 65(3) yes 2_555 4_555
+C29a C29a C29a 45(3) yes 2_555 3_555
+C29a C29a C29a 90(4) yes 2_555 4_555
+C29a C29a C29b 141(5) yes 2_555 2_555
+C29a C29a C29c 116(4) yes 2_555 .
+C29a C29a C29d 52(3) yes 2_555 .
+C29a C29a C29d 83(4) yes 2_555 2_555
+C29a C29a C29d 47(3) yes 2_555 4_555
+C29a C29a C29a 45(3) yes 3_555 4_555
+C29a C29a C29b 158(4) yes 3_555 2_555
+C29a C29a C29c 155(4) yes 3_555 .
+C29a C29a C29d 35.5(19) yes 3_555 .
+C29a C29a C29d 53(3) yes 3_555 2_555
+C29a C29a C29d 60(3) yes 3_555 4_555
+C29a C29a C29b 123(5) yes 4_555 2_555
+C29a C29a C29c 147(4) yes 4_555 .
+C29a C29a C29d 58(3) yes 4_555 .
+C29a C29a C29d 44(3) yes 4_555 2_555
+C29a C29a C29d 88(4) yes 4_555 4_555
+C29b C29a C29c 26(4) yes 2_555 .
+C29b C29a C29d 125(4) yes 2_555 .
+C29b C29a C29d 106(4) yes 2_555 2_555
+C29b C29a C29d 108(4) yes 2_555 4_555
+C29c C29a C29d 123(3) yes . .
+C29c C29a C29d 117(3) yes . 2_555
+C29c C29a C29d 96(4) yes . 4_555
+C29d C29a C29d 31(3) yes . 2_555
+C29d C29a C29d 31(3) yes . 4_555
+C29d C29a C29d 52(3) yes 2_555 4_555
+Cl1a C29b Cl1a 121(5) yes . 4_555
+Cl1a C29b C29a 60(3) yes . 4_555
+Cl1a C29b C29a 63(3) yes 4_555 4_555
+Cl1b C29c Cl1b 134(2) yes . 2_555
+Cl1b C29c C29a 60.8(18) yes . .
+Cl1b C29c C29d 59.6(19) yes . 3_555
+Cl1b C29c C29a 74(3) yes 2_555 .
+Cl1b C29c C29d 76(3) yes 2_555 3_555
+C29a C29c C29d 31.3(16) yes . 3_555
+Cl1a C29d Cl1a 110(2) yes 3_555 4_555
+Cl1a C29d Cl1b 22.8(8) yes 3_555 3_555
+Cl1a C29d Cl1b 130(2) yes 3_555 4_555
+Cl1a C29d C29a 101(3) yes 3_555 .
+Cl1a C29d C29a 61(3) yes 3_555 2_555
+Cl1a C29d C29a 122(3) yes 3_555 4_555
+Cl1a C29d C29c 85(3) yes 3_555 3_555
+Cl1a C29d C29d 118(4) yes 3_555 3_555
+Cl1a C29d Cl1b 88.1(17) yes 4_555 3_555
+Cl1a C29d Cl1b 21.3(7) yes 4_555 4_555
+Cl1a C29d C29a 112(3) yes 4_555 .
+Cl1a C29d C29a 119(3) yes 4_555 2_555
+Cl1a C29d C29a 73(3) yes 4_555 4_555
+Cl1a C29d C29c 26.4(16) yes 4_555 3_555
+Cl1a C29d C29d 124(4) yes 4_555 3_555
+Cl1b C29d Cl1b 108.8(18) yes 3_555 4_555
+Cl1b C29d C29a 116(3) yes 3_555 .
+Cl1b C29d C29a 77(3) yes 3_555 2_555
+Cl1b C29d C29a 122(3) yes 3_555 4_555
+Cl1b C29d C29c 62(2) yes 3_555 3_555
+Cl1b C29d C29d 140(4) yes 3_555 3_555
+Cl1b C29d C29a 98(3) yes 4_555 .
+Cl1b C29d C29a 118(3) yes 4_555 2_555
+Cl1b C29d C29a 58(3) yes 4_555 4_555
+Cl1b C29d C29c 47.6(17) yes 4_555 3_555
+Cl1b C29d C29d 103(4) yes 4_555 3_555
+C29a C29d C29a 40(3) yes . 2_555
+C29a C29d C29a 40(3) yes . 4_555
+C29a C29d C29c 127(3) yes . 3_555
+C29a C29d C29d 36(3) yes . 3_555
+C29a C29d C29a 67(3) yes 2_555 4_555
+C29a C29d C29c 114(3) yes 2_555 3_555
+C29a C29d C29d 68(3) yes 2_555 3_555
+C29a C29d C29c 93(3) yes 4_555 3_555
+C29a C29d C29d 59(3) yes 4_555 3_555
+C29c C29d C29d 150(5) yes 3_555 3_555
+C32 C30 C35 58(4) yes . .
+C32 C30 C38 27(3) yes . .
+C35 C30 C38 83(3) yes . .
+C30 C32 C33 19.7(18) yes . .
+C30 C32 C34 88(5) yes . .
+C30 C32 C35 66(4) yes . .
+C33 C32 C34 105(6) yes . .
+C33 C32 C35 83(5) yes . .
+C34 C32 C35 23(4) yes . .
+C31 C33 C32 37(4) yes . .
+C31 C33 C34 72(2) yes . .
+C31 C33 C39 21(2) yes . .
+C32 C33 C34 38(4) yes . .
+C32 C33 C39 29(4) yes . .
+C34 C33 C39 68(3) yes . .
+C32 C34 C33 37(4) yes . .
+C32 C34 C34 100(5) yes . 3_655
+C32 C34 C35 111(5) yes . 3_655
+C32 C34 C38 13(4) yes . .
+C33 C34 C34 116(4) yes . 3_655
+C33 C34 C35 111(4) yes . 3_655
+C33 C34 C38 27.8(15) yes . .
+C34 C34 C35 27(4) yes 3_655 3_655
+C34 C34 C38 112(4) yes 3_655 .
+C35 C34 C38 121(4) yes 3_655 .
+C30 C35 C32 57(3) yes . .
+C30 C35 C34 113(4) yes . 3_655
+C30 C35 C35 114(5) yes . 3_655
+C30 C35 C36 92(4) yes . 3_655
+C30 C35 C37 109(4) yes . .
+C32 C35 C34 74(4) yes . 3_655
+C32 C35 C35 95(5) yes . 3_655
+C32 C35 C36 144(5) yes . 3_655
+C32 C35 C37 165(5) yes . .
+C34 C35 C35 27(4) yes 3_655 3_655
+C34 C35 C36 109(5) yes 3_655 3_655
+C34 C35 C37 119(5) yes 3_655 .
+C35 C35 C36 82(5) yes 3_655 3_655
+C35 C35 C37 94(5) yes 3_655 .
+C36 C35 C37 27(3) yes 3_655 .
+C35 C36 C37 87(3) yes 3_655 .
+C35 C37 C36 78(3) yes . .
+C30 C38 C34 71(3) yes . .
+C30 C38 C39 133(4) yes . .
+C34 C38 C39 85(4) yes . .
+C33 C39 C38 19(3) yes . .
+C4 C5 H5 121.310 no . .
+C6 C5 H5 121.317 no . .
+C5 C6 H6 119.043 no . .
+C7 C6 H6 119.057 no . .
+C6 C7 H7 119.433 no . .
+C8 C7 H7 119.416 no . .
+C3 C8 H8 121.553 no . .
+C7 C8 H8 121.549 no . .
+C12 C13 H13 121.745 no . .
+C14 C13 H13 121.731 no . .
+C13 C14 H14 119.223 no . .
+C15 C14 H14 119.203 no . .
+C14 C15 H15 119.220 no . .
+C16 C15 H15 119.211 no . .
+C11 C16 H16 121.359 no . .
+C15 C16 H16 121.363 no . .
+C17 C18 H18 126.147 no . .
+C19 C18 H18 126.151 no . .
+C18 C19 H19 126.689 no . .
+C20 C19 H19 126.695 no . .
+C22 C23 H23 119.309 no . .
+C24 C23 H23 119.296 no . .
+C23 C24 H24 120.480 no . .
+C25 C24 H24 120.484 no . .
+C25 C26 H26 119.960 no . .
+C27 C26 H26 119.955 no . .
+C22 C27 H27 119.522 no . .
+C26 C27 H27 119.510 no . .
+O1 C28 H28A 109.463 no . .
+O1 C28 H28B 109.474 no . .
+O1 C28 H28C 109.464 no . .
+H28A C28 H28B 109.471 no . .
+H28A C28 H28C 109.473 no . .
+H28B C28 H28C 109.482 no . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+_geom_bond_site_symmetry_2
+Tb1 N1 2.370(5) yes .
+Tb1 N1 2.370(5) yes 2_555
+Tb1 N1 2.370(5) yes 3_555
+Tb1 N1 2.370(5) yes 4_555
+Tb1 N3 2.544(5) yes .
+Tb1 N3 2.544(5) yes 2_555
+Tb1 N3 2.544(5) yes 3_555
+Tb1 N3 2.544(5) yes 4_555
+Tb2 N3 2.758(5) yes .
+Tb2 N3 2.758(5) yes 2_555
+Tb2 N3 2.758(5) yes 3_555
+Tb2 N3 2.758(5) yes 4_555
+Tb2 N5 2.375(5) yes .
+Tb2 N5 2.375(5) yes 2_555
+Tb2 N5 2.375(5) yes 3_555
+Tb2 N5 2.375(5) yes 4_555
+Cl1a C29a 1.88(4) yes .
+Cl1a C29a 1.65(4) yes 4_555
+Cl1a C29b 1.56(9) yes .
+Cl1a C29b 1.87(8) yes 2_555
+Cl1a C29d 1.80(4) yes 2_555
+Cl1a C29d 1.85(5) yes 3_555
+Cl1b C29a 1.69(4) yes .
+Cl1b C29a 1.85(4) yes 4_555
+Cl1b C29c 1.76(4) yes .
+Cl1b C29c 1.50(5) yes 4_555
+Cl1b C29d 1.97(4) yes 2_555
+Cl1b C29d 1.72(5) yes 3_555
+O1 C25 1.386(9) yes .
+O1 C28 1.417(13) yes .
+N1 C1 1.382(8) yes .
+N1 C2 1.365(8) yes .
+N2 C1 1.323(9) yes 4_555
+N2 C2 1.330(8) yes .
+N3 C9 1.377(8) yes .
+N3 C10 1.388(8) yes .
+N4 C9 1.324(8) yes 4_555
+N4 C10 1.322(8) yes .
+N5 C17 1.376(8) yes .
+N5 C20 1.373(8) yes .
+C1 C3 1.460(9) yes .
+C2 C4 1.468(9) yes .
+C3 C4 1.390(10) yes .
+C3 C8 1.386(9) yes .
+C4 C5 1.387(11) yes .
+C5 C6 1.361(12) yes .
+C6 C7 1.394(14) yes .
+C7 C8 1.389(13) yes .
+C9 C11 1.457(9) yes .
+C10 C12 1.462(9) yes .
+C11 C12 1.387(10) yes .
+C11 C16 1.397(11) yes .
+C12 C13 1.389(10) yes .
+C13 C14 1.389(12) yes .
+C14 C15 1.398(14) yes .
+C15 C16 1.373(11) yes .
+C17 C18 1.432(9) yes .
+C17 C21 1.408(9) yes 2_555
+C18 C19 1.346(10) yes .
+C19 C20 1.437(9) yes .
+C20 C21 1.403(9) yes .
+C21 C22 1.504(9) yes .
+C22 C23 1.379(10) yes .
+C22 C27 1.383(9) yes .
+C23 C24 1.390(11) yes .
+C24 C25 1.383(11) yes .
+C25 C26 1.372(11) yes .
+C26 C27 1.380(10) yes .
+C29a C29a 0.97(5) yes 2_555
+C29a C29a 1.37(5) yes 3_555
+C29a C29a 0.97(5) yes 4_555
+C29a C29b 1.74(9) yes 2_555
+C29a C29c 1.56(5) yes .
+C29a C29d 1.50(5) yes .
+C29a C29d 1.28(5) yes 2_555
+C29a C29d 1.19(5) yes 4_555
+C29c C29d 1.69(5) yes 3_555
+C29d C29d 1.09(6) yes 3_555
+C30 C32 1.52(7) yes .
+C30 C35 1.65(6) yes .
+C30 C38 1.44(5) yes .
+C31 C33 1.48(4) yes .
+C32 C33 1.08(7) yes .
+C32 C34 1.11(8) yes .
+C32 C35 1.53(9) yes .
+C33 C34 1.74(5) yes .
+C33 C39 1.72(6) yes .
+C34 C34 1.23(6) yes 3_655
+C34 C35 1.45(8) yes 3_655
+C34 C38 1.74(5) yes .
+C35 C35 1.34(8) yes 3_655
+C35 C36 1.68(8) yes 3_655
+C35 C37 1.65(7) yes .
+C36 C37 1.53(6) yes .
+C38 C39 1.00(6) yes .
+C5 H5 0.950 no .
+C6 H6 0.950 no .
+C7 H7 0.950 no .
+C8 H8 0.950 no .
+C13 H13 0.950 no .
+C14 H14 0.950 no .
+C15 H15 0.950 no .
+C16 H16 0.950 no .
+C18 H18 0.950 no .
+C19 H19 0.950 no .
+C23 H23 0.950 no .
+C24 H24 0.950 no .
+C26 H26 0.950 no .
+C27 H27 0.950 no .
+C28 H28A 0.980 no .
+C28 H28B 0.980 no .
+C28 H28C 0.980 no .
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_publ_flag
+_geom_contact_site_symmetry_2
+Tb1 C1 3.330(6) no 2_555
+Tb1 C1 3.330(6) no 3_555
+Tb1 C1 3.330(6) no 4_555
+Tb1 C2 3.327(6) no 2_555
+Tb1 C2 3.327(6) no 3_555
+Tb1 C2 3.327(6) no 4_555
+Tb1 C9 3.404(6) no 2_555
+Tb1 C9 3.404(6) no 3_555
+Tb1 C9 3.404(6) no 4_555
+Tb1 C10 3.403(6) no 2_555
+Tb1 C10 3.403(6) no 3_555
+Tb1 C10 3.403(6) no 4_555
+Tb2 C9 3.550(6) no 2_555
+Tb2 C9 3.550(6) no 3_555
+Tb2 C9 3.550(6) no 4_555
+Tb2 C10 3.561(6) no 2_555
+Tb2 C10 3.561(6) no 3_555
+Tb2 C10 3.561(6) no 4_555
+Tb2 C17 3.364(6) no 2_555
+Tb2 C17 3.364(6) no 3_555
+Tb2 C17 3.364(6) no 4_555
+Tb2 C20 3.361(6) no 2_555
+Tb2 C20 3.361(6) no 3_555
+Tb2 C20 3.361(6) no 4_555
+Cl1a C29c 3.53(4) no 3_555
+N1 N4 3.283(7) no 2_555
+N1 C1 2.895(8) no 4_555
+N1 C2 2.905(8) no 2_555
+N1 C9 3.258(8) no .
+N1 C10 3.282(8) no 2_555
+N2 N3 3.481(7) no .
+N2 C1 3.521(8) no .
+N2 C2 3.513(8) no 4_555
+N2 C3 3.560(9) no .
+N2 C4 3.545(9) no 4_555
+N2 C5 3.115(10) no .
+N2 C8 3.105(9) no 4_555
+N2 C9 3.458(8) no .
+N2 C10 3.403(8) no .
+N2 C11 3.399(8) no .
+N2 C12 3.353(8) no .
+N3 C1 3.447(8) no 4_555
+N3 C2 3.422(8) no .
+N3 C9 2.880(8) no 4_555
+N3 C10 2.877(8) no 2_555
+N4 C1 3.374(8) no 4_555
+N4 C2 3.421(8) no 4_555
+N4 C3 3.534(8) no 4_555
+N4 C4 3.561(8) no 4_555
+N4 C9 3.519(8) no .
+N4 C10 3.522(8) no 4_555
+N4 C11 3.552(9) no .
+N4 C12 3.549(9) no 4_555
+N4 C13 3.107(9) no .
+N4 C16 3.112(9) no 4_555
+N4 C20 3.563(8) no .
+N4 C21 3.377(8) no .
+N4 C27 3.561(9) no .
+N5 C9 3.404(7) no .
+N5 C10 3.391(7) no .
+N5 C17 3.027(8) no 4_555
+N5 C20 3.032(8) no 2_555
+C1 C10 3.135(8) no 2_555
+C1 C12 3.505(9) no 2_555
+C2 C9 3.149(8) no .
+C2 C11 3.493(9) no .
+C3 C6 2.737(12) no .
+C4 C7 2.736(11) no .
+C5 C8 2.832(12) no .
+C9 C17 3.326(8) no .
+C10 C20 3.326(8) no .
+C11 C14 2.745(10) no .
+C11 C17 3.547(9) no .
+C11 C18 3.568(9) no .
+C12 C15 2.741(12) no .
+C12 C19 3.577(9) no .
+C12 C20 3.585(9) no .
+C13 C16 2.844(12) no .
+C17 C21 3.552(9) no .
+C17 C23 3.254(10) no 2_555
+C17 C27 3.440(9) no 2_555
+C18 C21 3.575(9) no .
+C18 C22 2.922(9) no 2_555
+C18 C23 3.334(10) no 2_555
+C19 C21 3.592(9) no 2_555
+C19 C22 2.879(10) no .
+C19 C23 3.563(11) no .
+C19 C27 3.404(10) no .
+C20 C21 3.557(9) no 2_555
+C20 C23 3.378(10) no .
+C20 C27 3.252(9) no .
+C22 C25 2.780(9) no .
+C23 C26 2.747(10) no .
+C24 C27 2.759(11) no .
+C24 C28 2.854(14) no .
+C29b C29c 2.60(9) no 3_555
+C30 C31 2.08(4) no .
+C30 C32 3.53(7) no 3_655
+C30 C36 2.74(5) no .
+C30 C37 2.63(4) no 3_655
+C31 C31 3.52(5) no 3_655
+C31 C32 3.11(7) no 3_655
+C31 C34 2.54(6) no 3_655
+C31 C35 2.39(7) no .
+C31 C35 2.97(7) no 3_655
+C31 C39 3.22(6) no 3_655
+C32 C32 2.52(9) no 3_655
+C32 C33 3.41(7) no 3_655
+C32 C36 3.22(8) no .
+C32 C37 3.10(7) no 3_655
+C32 C38 3.21(7) no 3_655
+C32 C39 2.84(8) no 3_655
+C33 C36 3.17(5) no .
+C33 C36 2.86(5) no 3_655
+C33 C37 3.06(4) no .
+C33 C37 3.04(4) no 3_655
+C34 C36 2.33(7) no 3_655
+C34 C37 2.26(6) no .
+C34 C39 2.23(7) no 3_655
+C35 C39 2.42(8) no .
+C35 C39 2.70(8) no 3_655
+C36 C38 3.46(6) no 3_655
+C37 C37 2.22(5) no 3_655
+C37 C38 3.59(5) no .
+C37 C38 3.54(5) no 3_655
+C38 C39 3.47(6) no 3_655
+C39 C39 3.02(8) no 3_655
+Cl1a N1 3.556(9) no 4_554
+Cl1a N2 3.398(9) no 1_554
+Cl1a N5 3.415(9) no .
+Cl1a C1 3.323(9) no 4_554
+Cl1a C2 3.585(10) no 1_554
+Cl1a C20 3.372(9) no .
+Cl1b N1 3.573(9) no 1_554
+Cl1b N2 3.377(9) no 1_554
+Cl1b N5 3.412(9) no .
+Cl1b C1 3.549(10) no 4_554
+Cl1b C2 3.326(10) no 1_554
+Cl1b C17 3.382(10) no .
+Cl1b C20 3.589(10) no .
+O1 C8 3.407(10) no 7_546
+N1 Cl1a 3.556(9) no 2_556
+N1 Cl1b 3.573(9) no 1_556
+N1 C29b 3.24(7) no 2_556
+N1 C29c 3.33(3) no 1_556
+N1 C29d 3.25(3) no 3_556
+N1 C29d 3.52(4) no 4_556
+N2 Cl1a 3.398(9) no 1_556
+N2 Cl1b 3.377(9) no 1_556
+N5 Cl1a 3.415(9) no .
+N5 Cl1b 3.412(9) no .
+N5 C29a 3.38(4) no .
+N5 C29a 3.38(3) no 4_555
+C1 Cl1a 3.323(9) no 2_556
+C1 Cl1b 3.549(10) no 2_556
+C1 C29b 3.36(7) no 2_556
+C1 C29c 3.26(3) no 1_556
+C2 Cl1a 3.585(10) no 1_556
+C2 Cl1b 3.326(10) no 1_556
+C2 C29b 3.18(7) no 2_556
+C2 C29c 3.55(4) no 1_556
+C3 C29b 3.48(7) no 2_556
+C3 C29c 3.54(3) no 1_556
+C4 C29b 3.36(7) no 2_556
+C6 C15 3.508(14) no 5_666
+C8 O1 3.407(10) no 7_456
+C15 C6 3.508(14) no 5_666
+C17 Cl1b 3.382(10) no .
+C17 C29b 3.50(7) no 2_555
+C19 C28 3.523(13) no 6_565
+C20 Cl1a 3.372(9) no .
+C20 Cl1b 3.589(10) no .
+C20 C29c 3.42(3) no 4_555
+C21 C29b 3.47(7) no .
+C21 C29c 3.49(4) no 4_555
+C23 C29b 3.58(8) no .
+C26 C30 3.47(2) no .
+C26 C33 3.486(18) no .
+C28 C19 3.523(13) no 8_645
+C28 C31 3.46(4) no 8_645
+C29a N5 3.38(4) no .
+C29a N5 3.38(3) no 2_555
+C29b N1 3.24(7) no 4_554
+C29b C1 3.36(7) no 4_554
+C29b C2 3.18(7) no 4_554
+C29b C3 3.48(7) no 4_554
+C29b C4 3.36(7) no 4_554
+C29b C17 3.50(7) no 4_555
+C29b C21 3.47(7) no .
+C29b C23 3.58(8) no .
+C29c N1 3.33(3) no 1_554
+C29c C1 3.26(3) no 1_554
+C29c C2 3.55(4) no 1_554
+C29c C3 3.54(3) no 1_554
+C29c C20 3.42(3) no 2_555
+C29c C21 3.49(4) no 2_555
+C29d N1 3.52(4) no 2_554
+C29d N1 3.25(3) no 3_554
+C30 C26 3.47(2) no .
+C31 C28 3.46(4) no 6_565
+C31 C31 3.37(5) no 6_565
+C31 C31 3.37(5) no 8_645
+C31 C39 3.50(6) no 6_565
+C31 C39 2.92(6) no 8_645
+C32 C39 3.39(8) no 8_645
+C33 C26 3.486(18) no .
+C36 C36 3.44(6) no 6_566
+C36 C36 3.44(6) no 8_646
+C38 C39 3.48(6) no 8_645
+C39 C31 2.92(6) no 6_565
+C39 C31 3.50(6) no 8_645
+C39 C32 3.39(8) no 6_565
+C39 C38 3.48(6) no 6_565
+C39 C39 3.07(7) no 6_565
+C39 C39 3.07(7) no 8_645
+O1 H24 2.6711 no .
+O1 H26 2.4750 no .
+N2 H5 2.9575 no .
+N2 H8 2.9565 no 4_555
+N4 H13 2.9538 no .
+N4 H16 2.9618 no 4_555
+N4 H27 2.7276 no .
+N5 H18 3.2067 no .
+N5 H19 3.2158 no .
+C1 H8 2.8770 no .
+C2 H5 2.8767 no .
+C3 H5 3.2830 no .
+C3 H7 3.2284 no .
+C4 H6 3.2097 no .
+C4 H8 3.2828 no .
+C5 H7 3.2536 no .
+C6 H8 3.2870 no .
+C7 H5 3.2697 no .
+C8 H6 3.2707 no .
+C9 H16 2.8810 no .
+C9 H27 3.5364 no 2_555
+C10 H13 2.8668 no .
+C10 H27 3.3613 no .
+C11 H13 3.2896 no .
+C11 H15 3.2287 no .
+C12 H14 3.2259 no .
+C12 H16 3.2849 no .
+C12 H27 3.4536 no .
+C13 H15 3.2787 no .
+C13 H27 3.1239 no .
+C14 H16 3.2806 no .
+C15 H13 3.2957 no .
+C16 H14 3.2636 no .
+C16 H27 3.5288 no 2_555
+C17 H19 3.1678 no .
+C17 H23 3.2008 no 2_555
+C17 H27 3.5177 no 2_555
+C18 H23 3.2750 no 2_555
+C19 H27 3.4899 no .
+C20 H18 3.1569 no .
+C20 H23 3.4570 no .
+C20 H27 3.2459 no .
+C21 H18 2.8177 no 4_555
+C21 H19 2.8183 no .
+C21 H23 2.6582 no .
+C21 H27 2.6616 no .
+C22 H18 2.7096 no 4_555
+C22 H19 2.6681 no .
+C22 H24 3.2696 no .
+C22 H26 3.2593 no .
+C23 H18 2.9210 no 4_555
+C23 H19 3.2022 no .
+C23 H27 3.2310 no .
+C24 H26 3.2451 no .
+C24 H28A 2.6870 no .
+C24 H28B 2.9016 no .
+C25 H23 3.2454 no .
+C25 H27 3.2382 no .
+C25 H28A 2.6253 no .
+C25 H28B 2.6369 no .
+C25 H28C 3.2133 no .
+C26 H24 3.2467 no .
+C27 H13 3.2921 no .
+C27 H16 3.3864 no 4_555
+C27 H18 3.4177 no 4_555
+C27 H19 3.0011 no .
+C27 H23 3.2303 no .
+C28 H24 2.5816 no .
+H5 H6 2.3163 no .
+H6 H7 2.3221 no .
+H7 H8 2.3526 no .
+H8 H13 3.5484 no 2_555
+H13 H14 2.3522 no .
+H13 H27 2.5302 no .
+H14 H15 2.3250 no .
+H15 H16 2.3308 no .
+H16 H27 2.8698 no 2_555
+H18 H19 2.4740 no .
+H18 H23 2.9957 no 2_555
+H19 H23 3.5438 no .
+H19 H27 3.2309 no .
+H23 H24 2.3368 no .
+H24 H28A 2.1760 no .
+H24 H28B 2.5883 no .
+H24 H28C 3.5362 no .
+H26 H27 2.3226 no .
+Cl1a H23 3.5516 no .
+Cl1a H28B 3.3753 no 6_565
+Cl1a H28C 3.3636 no 6_565
+Cl1b H23 3.3854 no 2_555
+Cl1b H28B 3.2582 no 6_565
+Cl1b H28C 3.5812 no 6_565
+O1 H5 3.0619 no 8_646
+O1 H8 2.5817 no 7_546
+C3 H28C 3.5722 no 7_456
+C5 H28B 3.5783 no 6_566
+C6 H15 3.1185 no 5_666
+C6 H18 3.1161 no 5_666
+C6 H24 3.1519 no 2_556
+C7 H15 3.3150 no 5_666
+C7 H24 3.2311 no 2_556
+C8 H28C 3.0504 no 7_456
+C14 H26 3.2626 no 6_566
+C15 H6 3.2817 no 5_666
+C15 H16 3.2605 no 5_666
+C15 H26 3.1757 no 6_566
+C16 H6 3.4554 no 5_666
+C16 H15 3.5256 no 5_666
+C16 H16 3.3266 no 5_666
+C18 H6 3.0268 no 5_666
+C18 H28A 3.4248 no 6_565
+C18 H28B 3.2315 no 6_565
+C19 H28A 3.2400 no 6_565
+C19 H28B 3.3979 no 6_565
+C19 H28C 3.3457 no 6_565
+C24 H5 3.5122 no 8_646
+C25 H5 2.8548 no 8_646
+C26 H5 2.8588 no 8_646
+C27 H5 3.5531 no 8_646
+C28 H5 3.5820 no 8_646
+C28 H8 3.1283 no 7_546
+C28 H18 3.4756 no 8_645
+C28 H19 3.1887 no 8_645
+C29b H23 2.7256 no .
+C29c H23 3.0059 no 2_555
+C29c H28C 3.5369 no 7_455
+C30 H7 2.8128 no 5_666
+C30 H14 3.2027 no .
+C30 H19 3.1728 no .
+C30 H26 3.4501 no .
+C31 H7 3.3289 no 5_666
+C31 H19 3.4981 no .
+C31 H28A 2.7340 no 6_565
+C31 H28C 3.4791 no 6_565
+C32 H7 3.1614 no 5_666
+C32 H28A 3.4644 no 6_565
+C33 H7 2.8261 no 5_666
+C33 H19 2.9933 no .
+C33 H28A 3.3411 no 6_565
+C36 H14 3.5554 no .
+C36 H14 3.4134 no 3_655
+C36 H14 3.4287 no 6_566
+C37 H7 3.4148 no 7_546
+C37 H8 3.4728 no 7_546
+C37 H14 3.3431 no 3_655
+C37 H14 3.1452 no 8_646
+C37 H26 3.4340 no .
+C38 H7 3.0111 no 5_666
+C38 H19 3.1570 no .
+C38 H28A 2.8727 no 6_565
+C39 H7 3.0510 no 5_666
+C39 H28A 2.8636 no 6_565
+H5 O1 3.0619 no 6_566
+H5 C24 3.5122 no 6_566
+H5 C25 2.8548 no 6_566
+H5 C26 2.8588 no 6_566
+H5 C27 3.5531 no 6_566
+H5 C28 3.5820 no 6_566
+H5 H26 2.9395 no 6_566
+H5 H28B 3.0902 no 6_566
+H6 C15 3.2817 no 5_666
+H6 C16 3.4554 no 5_666
+H6 C18 3.0268 no 5_666
+H6 H15 3.1492 no 5_666
+H6 H16 3.4534 no 5_666
+H6 H18 2.1807 no 5_666
+H6 H24 3.0903 no 2_556
+H7 C30 2.8128 no 5_666
+H7 C31 3.3289 no 5_666
+H7 C32 3.1614 no 5_666
+H7 C33 2.8261 no 5_666
+H7 C37 3.4148 no 7_456
+H7 C38 3.0111 no 5_666
+H7 C39 3.0510 no 5_666
+H7 H15 3.4954 no 5_666
+H7 H24 3.1989 no 2_556
+H7 H28A 3.4910 no 2_556
+H8 O1 2.5817 no 7_456
+H8 C28 3.1283 no 7_456
+H8 C37 3.4728 no 7_456
+H8 H26 3.4720 no 7_456
+H8 H28C 2.7120 no 7_456
+H13 H15 3.4218 no 8_646
+H14 C30 3.2027 no .
+H14 C36 3.5554 no .
+H14 C36 3.4134 no 3_655
+H14 C36 3.4287 no 8_646
+H14 C37 3.3431 no 3_655
+H14 C37 3.1452 no 6_566
+H14 H26 3.2116 no 6_566
+H15 C6 3.1185 no 5_666
+H15 C7 3.3150 no 5_666
+H15 C16 3.5256 no 5_666
+H15 H6 3.1492 no 5_666
+H15 H7 3.4954 no 5_666
+H15 H13 3.4218 no 6_566
+H15 H16 2.6308 no 5_666
+H15 H26 3.0646 no 6_566
+H15 H27 3.2843 no 6_566
+H16 C15 3.2605 no 5_666
+H16 C16 3.3266 no 5_666
+H16 H6 3.4534 no 5_666
+H16 H15 2.6308 no 5_666
+H16 H16 2.7987 no 5_666
+H18 C6 3.1161 no 5_666
+H18 C28 3.4756 no 6_565
+H18 H6 2.1807 no 5_666
+H18 H24 3.5633 no 6_565
+H18 H28A 3.1243 no 6_565
+H18 H28B 2.9977 no 6_565
+H19 C28 3.1887 no 6_565
+H19 C30 3.1728 no .
+H19 C31 3.4981 no .
+H19 C33 2.9933 no .
+H19 C38 3.1570 no .
+H19 H28A 2.7477 no 6_565
+H19 H28B 3.3263 no 6_565
+H19 H28C 2.9851 no 6_565
+H23 Cl1a 3.5516 no .
+H23 Cl1b 3.3854 no 4_555
+H23 C29b 2.7256 no .
+H23 C29c 3.0059 no 4_555
+H23 H28B 3.4111 no 5_655
+H23 H28C 3.4370 no 6_565
+H24 C6 3.1519 no 4_554
+H24 C7 3.2311 no 4_554
+H24 H6 3.0903 no 4_554
+H24 H7 3.1989 no 4_554
+H24 H18 3.5633 no 8_645
+H26 C14 3.2626 no 8_646
+H26 C15 3.1757 no 8_646
+H26 C30 3.4501 no .
+H26 C37 3.4340 no .
+H26 H5 2.9395 no 8_646
+H26 H8 3.4720 no 7_546
+H26 H14 3.2116 no 8_646
+H26 H15 3.0646 no 8_646
+H27 H15 3.2843 no 8_646
+H28A C18 3.4248 no 8_645
+H28A C19 3.2400 no 8_645
+H28A C31 2.7340 no 8_645
+H28A C32 3.4644 no 8_645
+H28A C33 3.3411 no 8_645
+H28A C38 2.8727 no 8_645
+H28A C39 2.8636 no 8_645
+H28A H7 3.4910 no 4_554
+H28A H18 3.1243 no 8_645
+H28A H19 2.7477 no 8_645
+H28B Cl1a 3.3753 no 8_645
+H28B Cl1b 3.2582 no 8_645
+H28B C5 3.5783 no 8_646
+H28B C18 3.2315 no 8_645
+H28B C19 3.3979 no 8_645
+H28B H5 3.0902 no 8_646
+H28B H18 2.9977 no 8_645
+H28B H19 3.3263 no 8_645
+H28B H23 3.4111 no 5_655
+H28C Cl1a 3.3636 no 8_645
+H28C Cl1b 3.5812 no 8_645
+H28C C3 3.5722 no 7_546
+H28C C8 3.0504 no 7_546
+H28C C19 3.3457 no 8_645
+H28C C29c 3.5369 no 7_545
+H28C C31 3.4791 no 8_645
+H28C H8 2.7120 no 7_546
+H28C H19 2.9851 no 8_645
+H28C H23 3.4370 no 8_645
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+N1 Tb1 N1 C1 -165.3(4) no . 2_555 2_555
+N1 Tb1 N1 C2 43.2(3) no . 2_555 2_555
+N1 Tb1 N1 C1 -43.0(3) no 2_555 . .
+N1 Tb1 N1 C2 165.4(4) no 2_555 . .
+N1 Tb1 N1 C1 -104.1(4) no . 3_555 3_555
+N1 Tb1 N1 C2 104.3(4) no . 3_555 3_555
+N1 Tb1 N1 C1 -104.1(4) no 3_555 . .
+N1 Tb1 N1 C2 104.3(4) no 3_555 . .
+N1 Tb1 N1 C1 -43.0(3) no . 4_555 4_555
+N1 Tb1 N1 C2 165.4(4) no . 4_555 4_555
+N1 Tb1 N1 C1 -165.3(4) no 4_555 . .
+N1 Tb1 N1 C2 43.2(3) no 4_555 . .
+N1 Tb1 N3 Tb2 -144.66(16) no . . .
+N1 Tb1 N3 C9 -29.8(3) no . . .
+N1 Tb1 N3 C10 100.4(3) no . . .
+N3 Tb1 N1 C1 107.8(4) no . . .
+N3 Tb1 N1 C2 -43.8(4) no . . .
+N1 Tb1 N3 Tb2 142.65(15) no . 2_555 .
+N1 Tb1 N3 C9 -102.5(3) no . 2_555 2_555
+N1 Tb1 N3 C10 27.7(3) no . 2_555 2_555
+N3 Tb1 N1 C1 42.2(4) no 2_555 . .
+N3 Tb1 N1 C2 -109.4(4) no 2_555 . .
+N1 Tb1 N3 Tb2 93.0(3) no . 3_555 .
+N1 Tb1 N3 C9 -152.1(3) no . 3_555 3_555
+N1 Tb1 N3 C10 -22.0(5) no . 3_555 3_555
+N3 Tb1 N1 C1 9.9(5) no 3_555 . .
+N3 Tb1 N1 C2 -141.7(3) no 3_555 . .
+N1 Tb1 N3 Tb2 -94.6(3) no . 4_555 .
+N1 Tb1 N3 C9 20.2(5) no . 4_555 4_555
+N1 Tb1 N3 C10 150.4(3) no . 4_555 4_555
+N3 Tb1 N1 C1 141.6(3) no 4_555 . .
+N3 Tb1 N1 C2 -10.0(5) no 4_555 . .
+N1 Tb1 N1 C1 -165.3(4) no 2_555 3_555 3_555
+N1 Tb1 N1 C2 43.2(3) no 2_555 3_555 3_555
+N1 Tb1 N1 C1 -43.0(3) no 3_555 2_555 2_555
+N1 Tb1 N1 C2 165.4(4) no 3_555 2_555 2_555
+N1 Tb1 N1 C1 -104.1(4) no 2_555 4_555 4_555
+N1 Tb1 N1 C2 104.3(4) no 2_555 4_555 4_555
+N1 Tb1 N1 C1 -104.1(4) no 4_555 2_555 2_555
+N1 Tb1 N1 C2 104.3(4) no 4_555 2_555 2_555
+N1 Tb1 N3 Tb2 -94.6(3) no 2_555 . .
+N1 Tb1 N3 C9 20.2(5) no 2_555 . .
+N1 Tb1 N3 C10 150.4(3) no 2_555 . .
+N3 Tb1 N1 C1 141.6(3) no . 2_555 2_555
+N3 Tb1 N1 C2 -10.0(5) no . 2_555 2_555
+N1 Tb1 N3 Tb2 -144.66(16) no 2_555 2_555 .
+N1 Tb1 N3 C9 -29.8(3) no 2_555 2_555 2_555
+N1 Tb1 N3 C10 100.4(3) no 2_555 2_555 2_555
+N3 Tb1 N1 C1 107.8(4) no 2_555 2_555 2_555
+N3 Tb1 N1 C2 -43.8(4) no 2_555 2_555 2_555
+N1 Tb1 N3 Tb2 142.65(15) no 2_555 3_555 .
+N1 Tb1 N3 C9 -102.5(3) no 2_555 3_555 3_555
+N1 Tb1 N3 C10 27.7(3) no 2_555 3_555 3_555
+N3 Tb1 N1 C1 42.2(4) no 3_555 2_555 2_555
+N3 Tb1 N1 C2 -109.4(4) no 3_555 2_555 2_555
+N1 Tb1 N3 Tb2 93.0(3) no 2_555 4_555 .
+N1 Tb1 N3 C9 -152.1(3) no 2_555 4_555 4_555
+N1 Tb1 N3 C10 -22.0(5) no 2_555 4_555 4_555
+N3 Tb1 N1 C1 9.9(5) no 4_555 2_555 2_555
+N3 Tb1 N1 C2 -141.7(3) no 4_555 2_555 2_555
+N1 Tb1 N1 C1 -165.3(4) no 3_555 4_555 4_555
+N1 Tb1 N1 C2 43.2(3) no 3_555 4_555 4_555
+N1 Tb1 N1 C1 -43.0(3) no 4_555 3_555 3_555
+N1 Tb1 N1 C2 165.4(4) no 4_555 3_555 3_555
+N1 Tb1 N3 Tb2 93.0(3) no 3_555 . .
+N1 Tb1 N3 C9 -152.1(3) no 3_555 . .
+N1 Tb1 N3 C10 -22.0(5) no 3_555 . .
+N3 Tb1 N1 C1 9.9(5) no . 3_555 3_555
+N3 Tb1 N1 C2 -141.7(3) no . 3_555 3_555
+N1 Tb1 N3 Tb2 -94.6(3) no 3_555 2_555 .
+N1 Tb1 N3 C9 20.2(5) no 3_555 2_555 2_555
+N1 Tb1 N3 C10 150.4(3) no 3_555 2_555 2_555
+N3 Tb1 N1 C1 141.6(3) no 2_555 3_555 3_555
+N3 Tb1 N1 C2 -10.0(5) no 2_555 3_555 3_555
+N1 Tb1 N3 Tb2 -144.66(16) no 3_555 3_555 .
+N1 Tb1 N3 C9 -29.8(3) no 3_555 3_555 3_555
+N1 Tb1 N3 C10 100.4(3) no 3_555 3_555 3_555
+N3 Tb1 N1 C1 107.8(4) no 3_555 3_555 3_555
+N3 Tb1 N1 C2 -43.8(4) no 3_555 3_555 3_555
+N1 Tb1 N3 Tb2 142.65(15) no 3_555 4_555 .
+N1 Tb1 N3 C9 -102.5(3) no 3_555 4_555 4_555
+N1 Tb1 N3 C10 27.7(3) no 3_555 4_555 4_555
+N3 Tb1 N1 C1 42.2(4) no 4_555 3_555 3_555
+N3 Tb1 N1 C2 -109.4(4) no 4_555 3_555 3_555
+N1 Tb1 N3 Tb2 142.65(15) no 4_555 . .
+N1 Tb1 N3 C9 -102.5(3) no 4_555 . .
+N1 Tb1 N3 C10 27.7(3) no 4_555 . .
+N3 Tb1 N1 C1 42.2(4) no . 4_555 4_555
+N3 Tb1 N1 C2 -109.4(4) no . 4_555 4_555
+N1 Tb1 N3 Tb2 93.0(3) no 4_555 2_555 .
+N1 Tb1 N3 C9 -152.1(3) no 4_555 2_555 2_555
+N1 Tb1 N3 C10 -22.0(5) no 4_555 2_555 2_555
+N3 Tb1 N1 C1 9.9(5) no 2_555 4_555 4_555
+N3 Tb1 N1 C2 -141.7(3) no 2_555 4_555 4_555
+N1 Tb1 N3 Tb2 -94.6(3) no 4_555 3_555 .
+N1 Tb1 N3 C9 20.2(5) no 4_555 3_555 3_555
+N1 Tb1 N3 C10 150.4(3) no 4_555 3_555 3_555
+N3 Tb1 N1 C1 141.6(3) no 3_555 4_555 4_555
+N3 Tb1 N1 C2 -10.0(5) no 3_555 4_555 4_555
+N1 Tb1 N3 Tb2 -144.66(16) no 4_555 4_555 .
+N1 Tb1 N3 C9 -29.8(3) no 4_555 4_555 4_555
+N1 Tb1 N3 C10 100.4(3) no 4_555 4_555 4_555
+N3 Tb1 N1 C1 107.8(4) no 4_555 4_555 4_555
+N3 Tb1 N1 C2 -43.8(4) no 4_555 4_555 4_555
+N3 Tb1 N3 Tb2 57.14(15) no . 2_555 .
+N3 Tb1 N3 C9 172.0(4) no . 2_555 2_555
+N3 Tb1 N3 C10 -57.8(3) no . 2_555 2_555
+N3 Tb1 N3 Tb2 -57.14(15) no 2_555 . .
+N3 Tb1 N3 C9 57.7(3) no 2_555 . .
+N3 Tb1 N3 C10 -172.1(4) no 2_555 . .
+N3 Tb1 N3 C9 114.9(3) no . 3_555 3_555
+N3 Tb1 N3 C10 -115.0(3) no . 3_555 3_555
+N3 Tb1 N3 C9 114.9(3) no 3_555 . .
+N3 Tb1 N3 C10 -115.0(3) no 3_555 . .
+N3 Tb1 N3 Tb2 -57.14(15) no . 4_555 .
+N3 Tb1 N3 C9 57.7(3) no . 4_555 4_555
+N3 Tb1 N3 C10 -172.1(4) no . 4_555 4_555
+N3 Tb1 N3 Tb2 57.14(15) no 4_555 . .
+N3 Tb1 N3 C9 172.0(4) no 4_555 . .
+N3 Tb1 N3 C10 -57.8(3) no 4_555 . .
+N3 Tb1 N3 Tb2 57.14(15) no 2_555 3_555 .
+N3 Tb1 N3 C9 172.0(4) no 2_555 3_555 3_555
+N3 Tb1 N3 C10 -57.8(3) no 2_555 3_555 3_555
+N3 Tb1 N3 Tb2 -57.14(15) no 3_555 2_555 .
+N3 Tb1 N3 C9 57.7(3) no 3_555 2_555 2_555
+N3 Tb1 N3 C10 -172.1(4) no 3_555 2_555 2_555
+N3 Tb1 N3 C9 114.9(3) no 2_555 4_555 4_555
+N3 Tb1 N3 C10 -115.0(3) no 2_555 4_555 4_555
+N3 Tb1 N3 C9 114.9(3) no 4_555 2_555 2_555
+N3 Tb1 N3 C10 -115.0(3) no 4_555 2_555 2_555
+N3 Tb1 N3 Tb2 57.14(15) no 3_555 4_555 .
+N3 Tb1 N3 C9 172.0(4) no 3_555 4_555 4_555
+N3 Tb1 N3 C10 -57.8(3) no 3_555 4_555 4_555
+N3 Tb1 N3 Tb2 -57.14(15) no 4_555 3_555 .
+N3 Tb1 N3 C9 57.7(3) no 4_555 3_555 3_555
+N3 Tb1 N3 C10 -172.1(4) no 4_555 3_555 3_555
+N3 Tb2 N3 Tb1 -54.62(15) no . 2_555 .
+N3 Tb2 N3 C9 -172.7(4) no . 2_555 2_555
+N3 Tb2 N3 C10 62.8(3) no . 2_555 2_555
+N3 Tb2 N3 Tb1 54.62(15) no 2_555 . .
+N3 Tb2 N3 C9 -63.4(3) no 2_555 . .
+N3 Tb2 N3 C10 172.1(4) no 2_555 . .
+N3 Tb2 N3 C9 -118.0(3) no . 3_555 3_555
+N3 Tb2 N3 C10 117.5(3) no . 3_555 3_555
+N3 Tb2 N3 C9 -118.0(3) no 3_555 . .
+N3 Tb2 N3 C10 117.5(3) no 3_555 . .
+N3 Tb2 N3 Tb1 54.62(15) no . 4_555 .
+N3 Tb2 N3 C9 -63.4(3) no . 4_555 4_555
+N3 Tb2 N3 C10 172.1(4) no . 4_555 4_555
+N3 Tb2 N3 Tb1 -54.62(15) no 4_555 . .
+N3 Tb2 N3 C9 -172.7(4) no 4_555 . .
+N3 Tb2 N3 C10 62.8(3) no 4_555 . .
+N3 Tb2 N5 C17 -77.3(4) no . . .
+N3 Tb2 N5 C20 78.4(4) no . . .
+N5 Tb2 N3 Tb1 -178.93(17) no . . .
+N5 Tb2 N3 C9 63.0(3) no . . .
+N5 Tb2 N3 C10 -61.5(3) no . . .
+N3 Tb2 N5 C17 -126.6(3) no . 2_555 2_555
+N3 Tb2 N5 C20 29.1(4) no . 2_555 2_555
+N5 Tb2 N3 Tb1 112.77(15) no 2_555 . .
+N5 Tb2 N3 C9 -5.3(4) no 2_555 . .
+N5 Tb2 N3 C10 -129.8(3) no 2_555 . .
+N3 Tb2 N5 C17 -29.0(4) no . 4_555 4_555
+N3 Tb2 N5 C20 126.7(3) no . 4_555 4_555
+N5 Tb2 N3 Tb1 -111.32(15) no 4_555 . .
+N5 Tb2 N3 C9 130.6(3) no 4_555 . .
+N5 Tb2 N3 C10 6.1(4) no 4_555 . .
+N3 Tb2 N3 Tb1 -54.62(15) no 2_555 3_555 .
+N3 Tb2 N3 C9 -172.7(4) no 2_555 3_555 3_555
+N3 Tb2 N3 C10 62.8(3) no 2_555 3_555 3_555
+N3 Tb2 N3 Tb1 54.62(15) no 3_555 2_555 .
+N3 Tb2 N3 C9 -63.4(3) no 3_555 2_555 2_555
+N3 Tb2 N3 C10 172.1(4) no 3_555 2_555 2_555
+N3 Tb2 N3 Tb1 0(660550) no 2_555 4_555 .
+N3 Tb2 N3 C9 -118.0(3) no 2_555 4_555 4_555
+N3 Tb2 N3 C10 117.5(3) no 2_555 4_555 4_555
+N3 Tb2 N3 Tb1 0(660550) no 4_555 2_555 .
+N3 Tb2 N3 C9 -118.0(3) no 4_555 2_555 2_555
+N3 Tb2 N3 C10 117.5(3) no 4_555 2_555 2_555
+N3 Tb2 N5 C17 -29.0(4) no 2_555 . .
+N3 Tb2 N5 C20 126.7(3) no 2_555 . .
+N5 Tb2 N3 Tb1 -111.32(15) no . 2_555 .
+N5 Tb2 N3 C9 130.6(3) no . 2_555 2_555
+N5 Tb2 N3 C10 6.1(4) no . 2_555 2_555
+N3 Tb2 N5 C17 -77.3(4) no 2_555 2_555 2_555
+N3 Tb2 N5 C20 78.4(4) no 2_555 2_555 2_555
+N5 Tb2 N3 Tb1 -178.93(17) no 2_555 2_555 .
+N5 Tb2 N3 C9 63.0(3) no 2_555 2_555 2_555
+N5 Tb2 N3 C10 -61.5(3) no 2_555 2_555 2_555
+N3 Tb2 N5 C17 -126.6(3) no 2_555 3_555 3_555
+N3 Tb2 N5 C20 29.1(4) no 2_555 3_555 3_555
+N5 Tb2 N3 Tb1 112.77(15) no 3_555 2_555 .
+N5 Tb2 N3 C9 -5.3(4) no 3_555 2_555 2_555
+N5 Tb2 N3 C10 -129.8(3) no 3_555 2_555 2_555
+N3 Tb2 N3 Tb1 -54.62(15) no 3_555 4_555 .
+N3 Tb2 N3 C9 -172.7(4) no 3_555 4_555 4_555
+N3 Tb2 N3 C10 62.8(3) no 3_555 4_555 4_555
+N3 Tb2 N3 Tb1 54.62(15) no 4_555 3_555 .
+N3 Tb2 N3 C9 -63.4(3) no 4_555 3_555 3_555
+N3 Tb2 N3 C10 172.1(4) no 4_555 3_555 3_555
+N3 Tb2 N5 C17 -29.0(4) no 3_555 2_555 2_555
+N3 Tb2 N5 C20 126.7(3) no 3_555 2_555 2_555
+N5 Tb2 N3 Tb1 -111.32(15) no 2_555 3_555 .
+N5 Tb2 N3 C9 130.6(3) no 2_555 3_555 3_555
+N5 Tb2 N3 C10 6.1(4) no 2_555 3_555 3_555
+N3 Tb2 N5 C17 -77.3(4) no 3_555 3_555 3_555
+N3 Tb2 N5 C20 78.4(4) no 3_555 3_555 3_555
+N5 Tb2 N3 Tb1 -178.93(17) no 3_555 3_555 .
+N5 Tb2 N3 C9 63.0(3) no 3_555 3_555 3_555
+N5 Tb2 N3 C10 -61.5(3) no 3_555 3_555 3_555
+N3 Tb2 N5 C17 -126.6(3) no 3_555 4_555 4_555
+N3 Tb2 N5 C20 29.1(4) no 3_555 4_555 4_555
+N5 Tb2 N3 Tb1 112.77(15) no 4_555 3_555 .
+N5 Tb2 N3 C9 -5.3(4) no 4_555 3_555 3_555
+N5 Tb2 N3 C10 -129.8(3) no 4_555 3_555 3_555
+N3 Tb2 N5 C17 -126.6(3) no 4_555 . .
+N3 Tb2 N5 C20 29.1(4) no 4_555 . .
+N5 Tb2 N3 Tb1 112.77(15) no . 4_555 .
+N5 Tb2 N3 C9 -5.3(4) no . 4_555 4_555
+N5 Tb2 N3 C10 -129.8(3) no . 4_555 4_555
+N3 Tb2 N5 C17 -29.0(4) no 4_555 3_555 3_555
+N3 Tb2 N5 C20 126.7(3) no 4_555 3_555 3_555
+N5 Tb2 N3 Tb1 -111.32(15) no 3_555 4_555 .
+N5 Tb2 N3 C9 130.6(3) no 3_555 4_555 4_555
+N5 Tb2 N3 C10 6.1(4) no 3_555 4_555 4_555
+N3 Tb2 N5 C17 -77.3(4) no 4_555 4_555 4_555
+N3 Tb2 N5 C20 78.4(4) no 4_555 4_555 4_555
+N5 Tb2 N3 Tb1 -178.93(17) no 4_555 4_555 .
+N5 Tb2 N3 C9 63.0(3) no 4_555 4_555 4_555
+N5 Tb2 N3 C10 -61.5(3) no 4_555 4_555 4_555
+N5 Tb2 N5 C17 165.4(4) no . 2_555 2_555
+N5 Tb2 N5 C20 -38.9(3) no . 2_555 2_555
+N5 Tb2 N5 C17 38.4(3) no 2_555 . .
+N5 Tb2 N5 C20 -165.9(4) no 2_555 . .
+N5 Tb2 N5 C17 101.9(4) no . 3_555 3_555
+N5 Tb2 N5 C20 -102.4(4) no . 3_555 3_555
+N5 Tb2 N5 C17 101.9(4) no 3_555 . .
+N5 Tb2 N5 C20 -102.4(4) no 3_555 . .
+N5 Tb2 N5 C17 38.4(3) no . 4_555 4_555
+N5 Tb2 N5 C20 -165.9(4) no . 4_555 4_555
+N5 Tb2 N5 C17 165.4(4) no 4_555 . .
+N5 Tb2 N5 C20 -38.9(3) no 4_555 . .
+N5 Tb2 N5 C17 165.4(4) no 2_555 3_555 3_555
+N5 Tb2 N5 C20 -38.9(3) no 2_555 3_555 3_555
+N5 Tb2 N5 C17 38.4(3) no 3_555 2_555 2_555
+N5 Tb2 N5 C20 -165.9(4) no 3_555 2_555 2_555
+N5 Tb2 N5 C17 101.9(4) no 2_555 4_555 4_555
+N5 Tb2 N5 C20 -102.4(4) no 2_555 4_555 4_555
+N5 Tb2 N5 C17 101.9(4) no 4_555 2_555 2_555
+N5 Tb2 N5 C20 -102.4(4) no 4_555 2_555 2_555
+N5 Tb2 N5 C17 165.4(4) no 3_555 4_555 4_555
+N5 Tb2 N5 C20 -38.9(3) no 3_555 4_555 4_555
+N5 Tb2 N5 C17 38.4(3) no 4_555 3_555 3_555
+N5 Tb2 N5 C20 -165.9(4) no 4_555 3_555 3_555
+C29a Cl1a C29a Cl1a 157(4) no . 4_555 4_555
+C29a Cl1a C29a Cl1b 163(4) no . 4_555 4_555
+C29a Cl1a C29a Cl1b -0(3) no . 4_555 .
+C29a Cl1a C29a C29a 14(3) no . 4_555 2_555
+C29a Cl1a C29a C29b 168(3) no . 4_555 .
+C29a Cl1a C29a C29c 171(3) no . 4_555 4_555
+C29a Cl1a C29a C29d 48(3) no . 4_555 4_555
+C29a Cl1a C29a C29d 80(4) no . 4_555 .
+C29a Cl1a C29a C29d 47(3) no . 4_555 3_555
+C29a Cl1a C29a Cl1a -163(4) no 4_555 . 2_555
+C29a Cl1a C29a Cl1b 180(3) no 4_555 . .
+C29a Cl1a C29a Cl1b -150(5) no 4_555 . 2_555
+C29a Cl1a C29a C29a -30(4) no 4_555 . 2_555
+C29a Cl1a C29a C29a -11(2) no 4_555 . 3_555
+C29a Cl1a C29a C29b -173(3) no 4_555 . 2_555
+C29a Cl1a C29a C29c -169(4) no 4_555 . .
+C29a Cl1a C29a C29d -47(3) no 4_555 . .
+C29a Cl1a C29a C29d -49(3) no 4_555 . 2_555
+C29a Cl1a C29a C29d -74(3) no 4_555 . 4_555
+C29a Cl1a C29b Cl1a 6(5) no . . 4_555
+C29a Cl1a C29b C29a -6.2(17) no . . 4_555
+C29b Cl1a C29a Cl1a -152(3) no . . 2_555
+C29b Cl1a C29a Cl1b -169(3) no . . .
+C29b Cl1a C29a Cl1b -139(4) no . . 2_555
+C29b Cl1a C29a C29a -19(6) no . . 2_555
+C29b Cl1a C29a C29a -0(3) no . . 3_555
+C29b Cl1a C29a C29a 11(3) no . . 4_555
+C29b Cl1a C29a C29b -162(3) no . . 2_555
+C29b Cl1a C29a C29c -158(3) no . . .
+C29b Cl1a C29a C29d -36(3) no . . .
+C29b Cl1a C29a C29d -38(3) no . . 2_555
+C29b Cl1a C29a C29d -63(4) no . . 4_555
+C29a Cl1a C29b Cl1a -11(3) no . 2_555 2_555
+C29b Cl1a C29a Cl1a 10(3) no 2_555 . 2_555
+C29b Cl1a C29a Cl1b -7(3) no 2_555 . .
+C29b Cl1a C29a Cl1b 23(4) no 2_555 . 2_555
+C29b Cl1a C29a C29a 143(6) no 2_555 . 2_555
+C29b Cl1a C29a C29a 162(4) no 2_555 . 3_555
+C29b Cl1a C29a C29a 173(4) no 2_555 . 4_555
+C29b Cl1a C29a C29c 4(3) no 2_555 . .
+C29b Cl1a C29a C29d 126(3) no 2_555 . .
+C29b Cl1a C29a C29d 124(3) no 2_555 . 2_555
+C29b Cl1a C29a C29d 99(4) no 2_555 . 4_555
+C29a Cl1a C29d Cl1a -119(3) no . 2_555 4_555
+C29a Cl1a C29d Cl1b -125(3) no . 2_555 4_555
+C29a Cl1a C29d Cl1b 42(2) no . 2_555 .
+C29a Cl1a C29d C29a -6.9(16) no . 2_555 2_555
+C29a Cl1a C29d C29a -51(3) no . 2_555 3_555
+C29a Cl1a C29d C29c -137(3) no . 2_555 4_555
+C29a Cl1a C29d C29d 31(3) no . 2_555 4_555
+C29d Cl1a C29a Cl1a -114(3) no 2_555 . 2_555
+C29d Cl1a C29a Cl1b -132(3) no 2_555 . .
+C29d Cl1a C29a Cl1b -102(4) no 2_555 . 2_555
+C29d Cl1a C29a C29a 19(5) no 2_555 . 2_555
+C29d Cl1a C29a C29a 37(2) no 2_555 . 3_555
+C29d Cl1a C29a C29a 49(3) no 2_555 . 4_555
+C29d Cl1a C29a C29b -124(3) no 2_555 . 2_555
+C29d Cl1a C29a C29c -121(3) no 2_555 . .
+C29d Cl1a C29a C29d 2.1(19) no 2_555 . .
+C29d Cl1a C29a C29d -25(3) no 2_555 . 4_555
+C29a Cl1a C29d Cl1a 59(3) no . 3_555 2_555
+C29a Cl1a C29d Cl1b 74(3) no . 3_555 .
+C29a Cl1a C29d Cl1b 50(3) no . 3_555 2_555
+C29a Cl1a C29d C29a -60(3) no . 3_555 3_555
+C29a Cl1a C29d C29a -54(3) no . 3_555 4_555
+C29a Cl1a C29d C29a -24(3) no . 3_555 2_555
+C29a Cl1a C29d C29c 67(3) no . 3_555 .
+C29a Cl1a C29d C29d -94(4) no . 3_555 .
+C29d Cl1a C29a Cl1a -76(4) no 3_555 . 2_555
+C29d Cl1a C29a Cl1b -94(3) no 3_555 . .
+C29d Cl1a C29a Cl1b -64(4) no 3_555 . 2_555
+C29d Cl1a C29a C29a 57(5) no 3_555 . 2_555
+C29d Cl1a C29a C29a 75(4) no 3_555 . 3_555
+C29d Cl1a C29a C29a 87(4) no 3_555 . 4_555
+C29d Cl1a C29a C29b -86(3) no 3_555 . 2_555
+C29d Cl1a C29a C29c -83(3) no 3_555 . .
+C29d Cl1a C29a C29d 40(3) no 3_555 . .
+C29d Cl1a C29a C29d 38(3) no 3_555 . 2_555
+C29d Cl1a C29a C29d 13(3) no 3_555 . 4_555
+C29a Cl1a C29b Cl1a 12(3) no 4_555 . 4_555
+C29b Cl1a C29a Cl1a -11(3) no . 4_555 4_555
+C29b Cl1a C29a Cl1b -5(3) no . 4_555 4_555
+C29b Cl1a C29a Cl1b -168(3) no . 4_555 .
+C29b Cl1a C29a C29a -168(4) no . 4_555 .
+C29b Cl1a C29a C29a -154(4) no . 4_555 2_555
+C29b Cl1a C29a C29c 3(3) no . 4_555 4_555
+C29b Cl1a C29a C29d -120(4) no . 4_555 4_555
+C29b Cl1a C29a C29d -88(4) no . 4_555 .
+C29b Cl1a C29a C29d -121(4) no . 4_555 3_555
+C29a Cl1a C29b Cl1a -8(5) no 4_555 2_555 2_555
+C29a Cl1a C29b C29a 3.6(17) no 4_555 2_555 .
+C29b Cl1a C29a Cl1a 151(3) no 2_555 4_555 4_555
+C29b Cl1a C29a Cl1b 158(3) no 2_555 4_555 4_555
+C29b Cl1a C29a Cl1b -6(3) no 2_555 4_555 .
+C29b Cl1a C29a C29a -6(3) no 2_555 4_555 .
+C29b Cl1a C29a C29a 9(4) no 2_555 4_555 2_555
+C29b Cl1a C29a C29b 162(3) no 2_555 4_555 .
+C29b Cl1a C29a C29c 165(3) no 2_555 4_555 4_555
+C29b Cl1a C29a C29d 42(3) no 2_555 4_555 4_555
+C29b Cl1a C29a C29d 74(4) no 2_555 4_555 .
+C29b Cl1a C29a C29d 41(3) no 2_555 4_555 3_555
+C29a Cl1a C29d Cl1a -67(4) no 4_555 2_555 4_555
+C29a Cl1a C29d Cl1b -72(4) no 4_555 2_555 4_555
+C29a Cl1a C29d Cl1b 94(4) no 4_555 2_555 .
+C29a Cl1a C29d C29a 45(3) no 4_555 2_555 2_555
+C29a Cl1a C29d C29a 1(3) no 4_555 2_555 3_555
+C29a Cl1a C29d C29a 52(3) no 4_555 2_555 .
+C29a Cl1a C29d C29c -85(4) no 4_555 2_555 4_555
+C29a Cl1a C29d C29d 84(4) no 4_555 2_555 4_555
+C29d Cl1a C29a Cl1a 70(4) no 2_555 4_555 4_555
+C29d Cl1a C29a Cl1b 76(4) no 2_555 4_555 4_555
+C29d Cl1a C29a Cl1b -88(4) no 2_555 4_555 .
+C29d Cl1a C29a C29a -87(4) no 2_555 4_555 .
+C29d Cl1a C29a C29a -73(4) no 2_555 4_555 2_555
+C29d Cl1a C29a C29b 81(4) no 2_555 4_555 .
+C29d Cl1a C29a C29c 84(4) no 2_555 4_555 4_555
+C29d Cl1a C29a C29d -39(4) no 2_555 4_555 4_555
+C29d Cl1a C29a C29d -7(3) no 2_555 4_555 .
+C29d Cl1a C29a C29d -41(4) no 2_555 4_555 3_555
+C29a Cl1a C29d Cl1a 113(3) no 4_555 3_555 2_555
+C29a Cl1a C29d Cl1b 128(3) no 4_555 3_555 .
+C29a Cl1a C29d Cl1b 104(3) no 4_555 3_555 2_555
+C29a Cl1a C29d C29a -5.9(19) no 4_555 3_555 3_555
+C29a Cl1a C29d C29a 31(3) no 4_555 3_555 2_555
+C29a Cl1a C29d C29c 121(3) no 4_555 3_555 .
+C29a Cl1a C29d C29d -39(3) no 4_555 3_555 .
+C29d Cl1a C29a Cl1a 110(3) no 3_555 4_555 4_555
+C29d Cl1a C29a Cl1b 117(3) no 3_555 4_555 4_555
+C29d Cl1a C29a Cl1b -47(3) no 3_555 4_555 .
+C29d Cl1a C29a C29a -47(2) no 3_555 4_555 .
+C29d Cl1a C29a C29a -32(3) no 3_555 4_555 2_555
+C29d Cl1a C29a C29b 121(3) no 3_555 4_555 .
+C29d Cl1a C29a C29c 124(3) no 3_555 4_555 4_555
+C29d Cl1a C29a C29d 1.4(17) no 3_555 4_555 4_555
+C29d Cl1a C29a C29d 33(3) no 3_555 4_555 .
+C29b Cl1a C29b Cl1a 23(9) no . 2_555 2_555
+C29b Cl1a C29b C29a 34(7) no . 2_555 .
+C29b Cl1a C29b Cl1a -22(9) no 2_555 . 4_555
+C29b Cl1a C29b C29a -34(7) no 2_555 . 4_555
+C29b Cl1a C29d Cl1a 19(3) no . 2_555 4_555
+C29b Cl1a C29d Cl1b 13(3) no . 2_555 4_555
+C29b Cl1a C29d Cl1b 180(3) no . 2_555 .
+C29b Cl1a C29d C29a 131(4) no . 2_555 2_555
+C29b Cl1a C29d C29a 87(5) no . 2_555 3_555
+C29b Cl1a C29d C29a 138(4) no . 2_555 .
+C29b Cl1a C29d C29c 1(3) no . 2_555 4_555
+C29b Cl1a C29d C29d 169(4) no . 2_555 4_555
+C29d Cl1a C29b Cl1a -21(3) no 2_555 . 4_555
+C29d Cl1a C29b C29a -32.3(12) no 2_555 . 4_555
+C29b Cl1a C29d Cl1a 164(3) no . 3_555 2_555
+C29b Cl1a C29d Cl1b 180(3) no . 3_555 .
+C29b Cl1a C29d Cl1b 155(4) no . 3_555 2_555
+C29b Cl1a C29d C29a 45(3) no . 3_555 3_555
+C29b Cl1a C29d C29a 51(3) no . 3_555 4_555
+C29b Cl1a C29d C29a 82(4) no . 3_555 2_555
+C29b Cl1a C29d C29c 172(3) no . 3_555 .
+C29b Cl1a C29d C29d 12(4) no . 3_555 .
+C29d Cl1a C29b Cl1a -21(4) no 3_555 . 4_555
+C29d Cl1a C29b C29a -32.7(14) no 3_555 . 4_555
+C29b Cl1a C29d Cl1a -162(3) no 2_555 2_555 4_555
+C29b Cl1a C29d Cl1b -168(3) no 2_555 2_555 4_555
+C29b Cl1a C29d Cl1b -1(3) no 2_555 2_555 .
+C29b Cl1a C29d C29a -50(3) no 2_555 2_555 2_555
+C29b Cl1a C29d C29a -94(4) no 2_555 2_555 3_555
+C29b Cl1a C29d C29a -43(3) no 2_555 2_555 .
+C29b Cl1a C29d C29c 180(3) no 2_555 2_555 4_555
+C29b Cl1a C29d C29d -12(4) no 2_555 2_555 4_555
+C29d Cl1a C29b Cl1a 21(4) no 2_555 2_555 2_555
+C29d Cl1a C29b C29a 32.8(16) no 2_555 2_555 .
+C29b Cl1a C29d Cl1a -17(3) no 2_555 3_555 2_555
+C29b Cl1a C29d Cl1b -1(3) no 2_555 3_555 .
+C29b Cl1a C29d Cl1b -26(3) no 2_555 3_555 2_555
+C29b Cl1a C29d C29a -136(3) no 2_555 3_555 3_555
+C29b Cl1a C29d C29a -130(3) no 2_555 3_555 4_555
+C29b Cl1a C29d C29a -99(4) no 2_555 3_555 2_555
+C29b Cl1a C29d C29c -9(3) no 2_555 3_555 .
+C29b Cl1a C29d C29d -169(4) no 2_555 3_555 .
+C29d Cl1a C29b Cl1a 21(4) no 3_555 2_555 2_555
+C29d Cl1a C29b C29a 32.8(15) no 3_555 2_555 .
+C29d Cl1a C29d Cl1a 163(4) no 2_555 3_555 2_555
+C29d Cl1a C29d Cl1b 179(4) no 2_555 3_555 .
+C29d Cl1a C29d Cl1b 154(5) no 2_555 3_555 2_555
+C29d Cl1a C29d C29a 44(3) no 2_555 3_555 3_555
+C29d Cl1a C29d C29a 50(3) no 2_555 3_555 4_555
+C29d Cl1a C29d C29a 81(4) no 2_555 3_555 2_555
+C29d Cl1a C29d C29c 171(4) no 2_555 3_555 .
+C29d Cl1a C29d C29d 11(3) no 2_555 3_555 .
+C29d Cl1a C29d Cl1a -162(4) no 3_555 2_555 4_555
+C29d Cl1a C29d Cl1b -168(4) no 3_555 2_555 4_555
+C29d Cl1a C29d Cl1b -1(3) no 3_555 2_555 .
+C29d Cl1a C29d C29a -50(3) no 3_555 2_555 2_555
+C29d Cl1a C29d C29a -94(5) no 3_555 2_555 3_555
+C29d Cl1a C29d C29a -43(3) no 3_555 2_555 .
+C29d Cl1a C29d C29c 180(4) no 3_555 2_555 4_555
+C29d Cl1a C29d C29d -12(3) no 3_555 2_555 4_555
+C29a Cl1b C29a Cl1a 149(5) no . 4_555 4_555
+C29a Cl1b C29a Cl1a 180(3) no . 4_555 .
+C29a Cl1b C29a Cl1b 162(4) no . 4_555 4_555
+C29a Cl1b C29a C29a 11(2) no . 4_555 2_555
+C29a Cl1b C29a C29a 33(5) no . 4_555 3_555
+C29a Cl1b C29a C29b 170(3) no . 4_555 .
+C29a Cl1b C29a C29c 174(3) no . 4_555 4_555
+C29a Cl1b C29a C29d 44(3) no . 4_555 4_555
+C29a Cl1b C29a C29d 69(3) no . 4_555 .
+C29a Cl1b C29a C29d 52(3) no . 4_555 3_555
+C29a Cl1b C29a Cl1a -0(3) no 4_555 . .
+C29a Cl1b C29a Cl1a -164(4) no 4_555 . 2_555
+C29a Cl1b C29a Cl1b -158(4) no 4_555 . 2_555
+C29a Cl1b C29a C29a -14(2) no 4_555 . 3_555
+C29a Cl1b C29a C29b -170(3) no 4_555 . 2_555
+C29a Cl1b C29a C29c -168(3) no 4_555 . .
+C29a Cl1b C29a C29d -51(3) no 4_555 . .
+C29a Cl1b C29a C29d -44(2) no 4_555 . 2_555
+C29a Cl1b C29a C29d -84(3) no 4_555 . 4_555
+C29a Cl1b C29c Cl1b -17(3) no . . 2_555
+C29a Cl1b C29c C29d -36.2(14) no . . 3_555
+C29c Cl1b C29a Cl1a 168.2(16) no . . .
+C29c Cl1b C29a Cl1a 3.9(13) no . . 2_555
+C29c Cl1b C29a Cl1b 10.9(15) no . . 2_555
+C29c Cl1b C29a C29a 155(4) no . . 3_555
+C29c Cl1b C29a C29a 168(3) no . . 4_555
+C29c Cl1b C29a C29b -1.8(13) no . . 2_555
+C29c Cl1b C29a C29d 117(3) no . . .
+C29c Cl1b C29a C29d 124(3) no . . 2_555
+C29c Cl1b C29a C29d 84(3) no . . 4_555
+C29a Cl1b C29c Cl1b 12(3) no . 4_555 4_555
+C29a Cl1b C29c C29a -3.0(13) no . 4_555 4_555
+C29a Cl1b C29c C29d 29.4(13) no . 4_555 2_555
+C29c Cl1b C29a Cl1a 4.5(12) no 4_555 . .
+C29c Cl1b C29a Cl1a -159.8(17) no 4_555 . 2_555
+C29c Cl1b C29a Cl1b -153(2) no 4_555 . 2_555
+C29c Cl1b C29a C29a -9(3) no 4_555 . 3_555
+C29c Cl1b C29a C29a 5(2) no 4_555 . 4_555
+C29c Cl1b C29a C29b -165.6(14) no 4_555 . 2_555
+C29c Cl1b C29a C29c -163.8(15) no 4_555 . .
+C29c Cl1b C29a C29d -46(2) no 4_555 . .
+C29c Cl1b C29a C29d -39.4(17) no 4_555 . 2_555
+C29c Cl1b C29a C29d -80(3) no 4_555 . 4_555
+C29a Cl1b C29d Cl1a -107(3) no . 2_555 4_555
+C29a Cl1b C29d Cl1a -131(3) no . 2_555 .
+C29a Cl1b C29d Cl1b -117(3) no . 2_555 4_555
+C29a Cl1b C29d C29a 4.3(17) no . 2_555 2_555
+C29a Cl1b C29d C29a -32(3) no . 2_555 3_555
+C29a Cl1b C29d C29c -130(3) no . 2_555 4_555
+C29a Cl1b C29d C29d 40(2) no . 2_555 4_555
+C29d Cl1b C29a Cl1a 44(3) no 2_555 . .
+C29d Cl1b C29a Cl1a -120(3) no 2_555 . 2_555
+C29d Cl1b C29a Cl1b -114(3) no 2_555 . 2_555
+C29d Cl1b C29a C29a 31(3) no 2_555 . 3_555
+C29d Cl1b C29a C29a 44(2) no 2_555 . 4_555
+C29d Cl1b C29a C29b -126(3) no 2_555 . 2_555
+C29d Cl1b C29a C29c -124(3) no 2_555 . .
+C29d Cl1b C29a C29d -7.0(17) no 2_555 . .
+C29d Cl1b C29a C29d -40(3) no 2_555 . 4_555
+C29a Cl1b C29d Cl1a -100(3) no . 3_555 .
+C29a Cl1b C29d Cl1a 65(3) no . 3_555 2_555
+C29a Cl1b C29d Cl1b 60(3) no . 3_555 2_555
+C29a Cl1b C29d C29a -49(3) no . 3_555 3_555
+C29a Cl1b C29d C29a -55(3) no . 3_555 4_555
+C29a Cl1b C29d C29a -3(3) no . 3_555 2_555
+C29a Cl1b C29d C29c 71(3) no . 3_555 .
+C29a Cl1b C29d C29d -83(5) no . 3_555 .
+C29d Cl1b C29a Cl1a 80(3) no 3_555 . .
+C29d Cl1b C29a Cl1a -84(4) no 3_555 . 2_555
+C29d Cl1b C29a Cl1b -77(4) no 3_555 . 2_555
+C29d Cl1b C29a C29a 67(4) no 3_555 . 3_555
+C29d Cl1b C29a C29a 81(4) no 3_555 . 4_555
+C29d Cl1b C29a C29b -90(3) no 3_555 . 2_555
+C29d Cl1b C29a C29c -88(3) no 3_555 . .
+C29d Cl1b C29a C29d 30(3) no 3_555 . .
+C29d Cl1b C29a C29d 37(3) no 3_555 . 2_555
+C29d Cl1b C29a C29d -4(3) no 3_555 . 4_555
+C29a Cl1b C29c Cl1b -11(3) no 4_555 . 2_555
+C29a Cl1b C29c C29a 6.0(12) no 4_555 . .
+C29a Cl1b C29c C29d -30.2(11) no 4_555 . 3_555
+C29c Cl1b C29a Cl1a 140(3) no . 4_555 4_555
+C29c Cl1b C29a Cl1a 170.4(14) no . 4_555 .
+C29c Cl1b C29a Cl1b 152(2) no . 4_555 4_555
+C29c Cl1b C29a C29a -9.3(18) no . 4_555 .
+C29c Cl1b C29a C29a 2.1(19) no . 4_555 2_555
+C29c Cl1b C29a C29a 24(6) no . 4_555 3_555
+C29c Cl1b C29a C29b 160.5(14) no . 4_555 .
+C29c Cl1b C29a C29c 164.9(13) no . 4_555 4_555
+C29c Cl1b C29a C29d 35.2(16) no . 4_555 4_555
+C29c Cl1b C29a C29d 59(3) no . 4_555 .
+C29c Cl1b C29a C29d 43.1(16) no . 4_555 3_555
+C29a Cl1b C29c Cl1b 15(2) no 4_555 4_555 4_555
+C29a Cl1b C29c C29d 32.4(13) no 4_555 4_555 2_555
+C29c Cl1b C29a Cl1a -25(3) no 4_555 4_555 4_555
+C29c Cl1b C29a Cl1a 5.5(15) no 4_555 4_555 .
+C29c Cl1b C29a Cl1b -12.7(17) no 4_555 4_555 4_555
+C29c Cl1b C29a C29a -174(3) no 4_555 4_555 .
+C29c Cl1b C29a C29a -163(3) no 4_555 4_555 2_555
+C29c Cl1b C29a C29a -141(7) no 4_555 4_555 3_555
+C29c Cl1b C29a C29b -4.4(14) no 4_555 4_555 .
+C29c Cl1b C29a C29d -130(3) no 4_555 4_555 4_555
+C29c Cl1b C29a C29d -106(3) no 4_555 4_555 .
+C29c Cl1b C29a C29d -122(3) no 4_555 4_555 3_555
+C29a Cl1b C29d Cl1a -53(3) no 4_555 2_555 4_555
+C29a Cl1b C29d Cl1a -77(4) no 4_555 2_555 .
+C29a Cl1b C29d Cl1b -63(4) no 4_555 2_555 4_555
+C29a Cl1b C29d C29a 58(3) no 4_555 2_555 2_555
+C29a Cl1b C29d C29a 22(3) no 4_555 2_555 3_555
+C29a Cl1b C29d C29a 54(3) no 4_555 2_555 .
+C29a Cl1b C29d C29c -76(4) no 4_555 2_555 4_555
+C29a Cl1b C29d C29d 94(4) no 4_555 2_555 4_555
+C29d Cl1b C29a Cl1a 60(4) no 2_555 4_555 4_555
+C29d Cl1b C29a Cl1a 90(4) no 2_555 4_555 .
+C29d Cl1b C29a Cl1b 72(4) no 2_555 4_555 4_555
+C29d Cl1b C29a C29a -89(4) no 2_555 4_555 .
+C29d Cl1b C29a C29a -78(4) no 2_555 4_555 2_555
+C29d Cl1b C29a C29a -56(6) no 2_555 4_555 3_555
+C29d Cl1b C29a C29b 80(4) no 2_555 4_555 .
+C29d Cl1b C29a C29c 85(4) no 2_555 4_555 4_555
+C29d Cl1b C29a C29d -45(3) no 2_555 4_555 4_555
+C29d Cl1b C29a C29d -21(3) no 2_555 4_555 .
+C29d Cl1b C29a C29d -37(3) no 2_555 4_555 3_555
+C29a Cl1b C29d Cl1a -45(3) no 4_555 3_555 .
+C29a Cl1b C29d Cl1a 121(3) no 4_555 3_555 2_555
+C29a Cl1b C29d Cl1b 116(3) no 4_555 3_555 2_555
+C29a Cl1b C29d C29a 6.6(18) no 4_555 3_555 3_555
+C29a Cl1b C29d C29a -0(3682356) no 4_555 3_555 4_555
+C29a Cl1b C29d C29a 52(3) no 4_555 3_555 2_555
+C29a Cl1b C29d C29c 127(3) no 4_555 3_555 .
+C29a Cl1b C29d C29d -28(3) no 4_555 3_555 .
+C29d Cl1b C29a Cl1a 97(4) no 3_555 4_555 4_555
+C29d Cl1b C29a Cl1a 127(3) no 3_555 4_555 .
+C29d Cl1b C29a Cl1b 109(3) no 3_555 4_555 4_555
+C29d Cl1b C29a C29a -52(3) no 3_555 4_555 .
+C29d Cl1b C29a C29a -41(3) no 3_555 4_555 2_555
+C29d Cl1b C29a C29a -19(5) no 3_555 4_555 3_555
+C29d Cl1b C29a C29b 117(3) no 3_555 4_555 .
+C29d Cl1b C29a C29c 122(3) no 3_555 4_555 4_555
+C29d Cl1b C29a C29d -7.9(19) no 3_555 4_555 4_555
+C29d Cl1b C29a C29d 16(2) no 3_555 4_555 .
+C29d Cl1b C29a C29d -0(3427808) no 3_555 4_555 3_555
+C29c Cl1b C29c Cl1b -7(4) no . 4_555 4_555
+C29c Cl1b C29c C29a -22(3) no . 4_555 4_555
+C29c Cl1b C29c C29d 10(3) no . 4_555 2_555
+C29c Cl1b C29c Cl1b 7(4) no 4_555 . 2_555
+C29c Cl1b C29c C29a 24(3) no 4_555 . .
+C29c Cl1b C29c C29d -12(3) no 4_555 . 3_555
+C29c Cl1b C29d Cl1a -149(3) no . 2_555 4_555
+C29c Cl1b C29d Cl1a -173.1(14) no . 2_555 .
+C29c Cl1b C29d Cl1b -159.3(18) no . 2_555 4_555
+C29c Cl1b C29d C29a -38.0(18) no . 2_555 2_555
+C29c Cl1b C29d C29a -75(3) no . 2_555 3_555
+C29c Cl1b C29d C29a -42.3(16) no . 2_555 .
+C29c Cl1b C29d C29c -172.7(13) no . 2_555 4_555
+C29c Cl1b C29d C29d -2.3(19) no . 2_555 4_555
+C29d Cl1b C29c Cl1b 16(3) no 2_555 . 2_555
+C29d Cl1b C29c C29a 32.5(11) no 2_555 . .
+C29d Cl1b C29c C29d -3.7(10) no 2_555 . 3_555
+C29c Cl1b C29d Cl1a -171.7(15) no . 3_555 .
+C29c Cl1b C29d Cl1a -6.2(12) no . 3_555 2_555
+C29c Cl1b C29d Cl1b -11.2(14) no . 3_555 2_555
+C29c Cl1b C29d C29a -120(3) no . 3_555 3_555
+C29c Cl1b C29d C29a -127(3) no . 3_555 4_555
+C29c Cl1b C29d C29a -75(3) no . 3_555 2_555
+C29c Cl1b C29d C29d -154(5) no . 3_555 .
+C29d Cl1b C29c Cl1b 19(3) no 3_555 . 2_555
+C29d Cl1b C29c C29a 36.2(13) no 3_555 . .
+C29c Cl1b C29d Cl1a 23(2) no 4_555 2_555 4_555
+C29c Cl1b C29d Cl1a -0.4(15) no 4_555 2_555 .
+C29c Cl1b C29d Cl1b 13.5(16) no 4_555 2_555 4_555
+C29c Cl1b C29d C29a 135(3) no 4_555 2_555 2_555
+C29c Cl1b C29d C29a 98(4) no 4_555 2_555 3_555
+C29c Cl1b C29d C29a 130(3) no 4_555 2_555 .
+C29c Cl1b C29d C29c -0(3708753) no 4_555 2_555 4_555
+C29c Cl1b C29d C29d 170(3) no 4_555 2_555 4_555
+C29d Cl1b C29c Cl1b -17(2) no 2_555 4_555 4_555
+C29d Cl1b C29c C29a -32.4(11) no 2_555 4_555 4_555
+C29c Cl1b C29d Cl1a -0.4(13) no 4_555 3_555 .
+C29c Cl1b C29d Cl1a 165.0(16) no 4_555 3_555 2_555
+C29c Cl1b C29d Cl1b 160.1(18) no 4_555 3_555 2_555
+C29c Cl1b C29d C29a 51(3) no 4_555 3_555 3_555
+C29c Cl1b C29d C29a 44.5(18) no 4_555 3_555 4_555
+C29c Cl1b C29d C29a 97(3) no 4_555 3_555 2_555
+C29c Cl1b C29d C29c 171.2(15) no 4_555 3_555 .
+C29c Cl1b C29d C29d 17(4) no 4_555 3_555 .
+C29d Cl1b C29c Cl1b -18(3) no 3_555 4_555 4_555
+C29d Cl1b C29c C29a -32.7(12) no 3_555 4_555 4_555
+C29d Cl1b C29c C29d -0.3(12) no 3_555 4_555 2_555
+C29d Cl1b C29d Cl1a -1(4) no 2_555 3_555 .
+C29d Cl1b C29d Cl1a 164(4) no 2_555 3_555 2_555
+C29d Cl1b C29d Cl1b 159(4) no 2_555 3_555 2_555
+C29d Cl1b C29d C29a 50(3) no 2_555 3_555 3_555
+C29d Cl1b C29d C29a 44(3) no 2_555 3_555 4_555
+C29d Cl1b C29d C29a 96(4) no 2_555 3_555 2_555
+C29d Cl1b C29d C29c 171(4) no 2_555 3_555 .
+C29d Cl1b C29d C29d 16(3) no 2_555 3_555 .
+C29d Cl1b C29d Cl1a -158(5) no 3_555 2_555 4_555
+C29d Cl1b C29d Cl1a 179(4) no 3_555 2_555 .
+C29d Cl1b C29d Cl1b -167(4) no 3_555 2_555 4_555
+C29d Cl1b C29d C29a -46(3) no 3_555 2_555 2_555
+C29d Cl1b C29d C29a -83(5) no 3_555 2_555 3_555
+C29d Cl1b C29d C29a -50(3) no 3_555 2_555 .
+C29d Cl1b C29d C29c 179(4) no 3_555 2_555 4_555
+C29d Cl1b C29d C29d -10(3) no 3_555 2_555 4_555
+C28 O1 C25 C24 -17.2(11) no . . .
+C28 O1 C25 C26 161.9(8) no . . .
+Tb1 N1 C1 N2 32.0(8) no . . 2_555
+Tb1 N1 C1 C3 -152.2(3) no . . .
+Tb1 N1 C2 N2 -31.5(8) no . . .
+Tb1 N1 C2 C4 152.0(3) no . . .
+C1 N1 C2 N2 173.4(5) no . . .
+C1 N1 C2 C4 -3.1(6) no . . .
+C2 N1 C1 N2 -172.6(5) no . . 2_555
+C2 N1 C1 C3 3.1(6) no . . .
+C1 N2 C2 N1 -4.8(9) no 4_555 . .
+C1 N2 C2 C4 171.2(5) no 4_555 . .
+C2 N2 C1 N1 4.4(10) no . 4_555 4_555
+C2 N2 C1 C3 -170.8(5) no . 4_555 4_555
+Tb1 N3 C9 N4 -45.9(7) no . . 2_555
+Tb1 N3 C9 C11 134.7(3) no . . .
+Tb1 N3 C10 N4 46.9(7) no . . .
+Tb1 N3 C10 C12 -134.5(3) no . . .
+Tb2 N3 C9 N4 51.9(7) no . . 2_555
+Tb2 N3 C9 C11 -127.5(3) no . . .
+Tb2 N3 C10 N4 -50.7(7) no . . .
+Tb2 N3 C10 C12 127.9(3) no . . .
+C9 N3 C10 N4 -178.5(5) no . . .
+C9 N3 C10 C12 0.0(6) no . . .
+C10 N3 C9 N4 179.8(5) no . . 2_555
+C10 N3 C9 C11 0.5(6) no . . .
+C9 N4 C10 N3 -0.9(9) no 4_555 . .
+C9 N4 C10 C12 -179.3(5) no 4_555 . .
+C10 N4 C9 N3 0.2(9) no . 4_555 4_555
+C10 N4 C9 C11 179.5(5) no . 4_555 4_555
+Tb2 N5 C17 C18 157.7(3) no . . .
+Tb2 N5 C17 C21 -28.0(8) no . . 2_555
+Tb2 N5 C20 C19 -157.5(3) no . . .
+Tb2 N5 C20 C21 29.0(8) no . . .
+C17 N5 C20 C19 2.1(6) no . . .
+C17 N5 C20 C21 -171.4(5) no . . .
+C20 N5 C17 C18 -1.9(6) no . . .
+C20 N5 C17 C21 172.4(5) no . . 2_555
+N1 C1 C3 C4 -1.9(7) no . . .
+N1 C1 C3 C8 177.5(6) no . . .
+N2 C1 C3 C4 174.2(5) no 2_555 . .
+N2 C1 C3 C8 -6.5(10) no 2_555 . .
+N1 C2 C4 C3 2.0(7) no . . .
+N1 C2 C4 C5 -178.4(6) no . . .
+N2 C2 C4 C3 -174.8(5) no . . .
+N2 C2 C4 C5 4.8(10) no . . .
+C1 C3 C4 C2 -0.0(7) no . . .
+C1 C3 C4 C5 -179.7(5) no . . .
+C1 C3 C8 C7 -179.4(6) no . . .
+C4 C3 C8 C7 -0.0(10) no . . .
+C8 C3 C4 C2 -179.5(6) no . . .
+C8 C3 C4 C5 0.9(10) no . . .
+C2 C4 C5 C6 178.3(6) no . . .
+C3 C4 C5 C6 -2.2(11) no . . .
+C4 C5 C6 C7 2.8(13) no . . .
+C5 C6 C7 C8 -2.1(16) no . . .
+C6 C7 C8 C3 0.6(14) no . . .
+N3 C9 C11 C12 -0.8(6) no . . .
+N3 C9 C11 C16 -180.0(6) no . . .
+N4 C9 C11 C12 179.8(5) no 2_555 . .
+N4 C9 C11 C16 0.6(10) no 2_555 . .
+N3 C10 C12 C11 -0.6(6) no . . .
+N3 C10 C12 C13 178.2(6) no . . .
+N4 C10 C12 C11 178.1(5) no . . .
+N4 C10 C12 C13 -3.2(10) no . . .
+C9 C11 C12 C10 0.8(7) no . . .
+C9 C11 C12 C13 -178.1(5) no . . .
+C9 C11 C16 C15 177.7(6) no . . .
+C12 C11 C16 C15 -1.4(10) no . . .
+C16 C11 C12 C10 -179.9(6) no . . .
+C16 C11 C12 C13 1.2(10) no . . .
+C10 C12 C13 C14 -178.9(6) no . . .
+C11 C12 C13 C14 -0.3(10) no . . .
+C12 C13 C14 C15 -0.3(12) no . . .
+C13 C14 C15 C16 0.1(13) no . . .
+C14 C15 C16 C11 0.8(12) no . . .
+N5 C17 C18 C19 1.0(7) no . . .
+N5 C17 C21 C20 -3.3(10) no . 2_555 2_555
+N5 C17 C21 C22 -178.9(5) no . 2_555 2_555
+C18 C17 C21 C20 170.2(6) no . 2_555 2_555
+C18 C17 C21 C22 -5.4(9) no . 2_555 2_555
+C21 C17 C18 C19 -173.4(6) no 2_555 . .
+C17 C18 C19 C20 0.3(7) no . . .
+C18 C19 C20 N5 -1.5(7) no . . .
+C18 C19 C20 C21 172.1(5) no . . .
+N5 C20 C21 C17 2.8(10) no . . 4_555
+N5 C20 C21 C22 178.4(5) no . . .
+C19 C20 C21 C17 -169.8(6) no . . 4_555
+C19 C20 C21 C22 5.8(9) no . . .
+C17 C21 C22 C23 78.5(7) no 4_555 . .
+C17 C21 C22 C27 -102.8(7) no 4_555 . .
+C20 C21 C22 C23 -97.4(7) no . . .
+C20 C21 C22 C27 81.2(7) no . . .
+C21 C22 C23 C24 177.6(6) no . . .
+C21 C22 C27 C26 -177.7(5) no . . .
+C23 C22 C27 C26 1.0(10) no . . .
+C27 C22 C23 C24 -1.1(11) no . . .
+C22 C23 C24 C25 -0.4(13) no . . .
+C23 C24 C25 O1 -178.8(7) no . . .
+C23 C24 C25 C26 2.1(12) no . . .
+O1 C25 C26 C27 178.6(6) no . . .
+C24 C25 C26 C27 -2.3(11) no . . .
+C25 C26 C27 C22 0.7(10) no . . .
+Cl1a C29a C29a Cl1a -139(6) no . 2_555 2_555
+Cl1a C29a C29a Cl1b -139(6) no . 2_555 2_555
+Cl1a C29a C29a Cl1b -4(12) no . 2_555 3_555
+Cl1a C29a C29a C29a 26(7) no . 2_555 3_555
+Cl1a C29a C29a C29a 26(5) no . 2_555 4_555
+Cl1a C29a C29a C29b -131(5) no . 2_555 3_555
+Cl1a C29a C29a C29c -119(7) no . 2_555 2_555
+Cl1a C29a C29a C29d -17(5) no . 2_555 2_555
+Cl1a C29a C29a C29d -54(5) no . 2_555 3_555
+Cl1a C29a C29a C29d -21(7) no . 2_555 .
+Cl1a C29a C29a Cl1a -152.1(15) no . 3_555 3_555
+Cl1a C29a C29a Cl1a -7(4) no . 3_555 4_555
+Cl1a C29a C29a Cl1b -147(3) no . 3_555 3_555
+Cl1a C29a C29a Cl1b -1(3) no . 3_555 4_555
+Cl1a C29a C29a C29a 14.0(17) no . 3_555 4_555
+Cl1a C29a C29a C29a -166(3) no . 3_555 2_555
+Cl1a C29a C29a C29b -103(8) no . 3_555 4_555
+Cl1a C29a C29a C29c -34(8) no . 3_555 3_555
+Cl1a C29a C29a C29d -71(2) no . 3_555 3_555
+Cl1a C29a C29a C29d -108(2) no . 3_555 4_555
+Cl1a C29a C29a C29d -44.2(17) no . 3_555 2_555
+Cl1a C29a C29a Cl1a -139(6) no . 4_555 4_555
+Cl1a C29a C29a Cl1b 0.1(12) no . 4_555 .
+Cl1a C29a C29a C29a -165(2) no . 4_555 2_555
+Cl1a C29a C29a C29a -165(3) no . 4_555 3_555
+Cl1a C29a C29a C29b -16(4) no . 4_555 .
+Cl1a C29a C29a C29c -4.9(15) no . 4_555 4_555
+Cl1a C29a C29a C29d -117.4(19) no . 4_555 4_555
+Cl1a C29a C29a C29d -121.4(19) no . 4_555 .
+Cl1a C29a C29a C29d -77(3) no . 4_555 3_555
+Cl1a C29a C29b Cl1a 169(3) no . 2_555 2_555
+Cl1a C29a C29c Cl1b -4.5(6) no . . .
+Cl1a C29a C29c Cl1b 163.0(15) no . . 2_555
+Cl1a C29a C29c C29d 74(3) no . . 3_555
+Cl1a C29a C29d Cl1a 176.7(14) no . . 3_555
+Cl1a C29a C29d Cl1a 59(3) no . . 4_555
+Cl1a C29a C29d Cl1b 159(2) no . . 3_555
+Cl1a C29a C29d Cl1b 43.3(18) no . . 4_555
+Cl1a C29a C29d C29a 169(3) no . . 2_555
+Cl1a C29a C29d C29a 48.9(17) no . . 4_555
+Cl1a C29a C29d C29c 84(4) no . . 3_555
+Cl1a C29a C29d C29d -59(3) no . . 3_555
+Cl1a C29a C29d Cl1a 104(3) no . 2_555 4_555
+Cl1a C29a C29d Cl1b 76(3) no . 2_555 4_555
+Cl1a C29a C29d Cl1b -16.7(8) no . 2_555 .
+Cl1a C29a C29d C29a 170(3) no . 2_555 2_555
+Cl1a C29a C29d C29a 133(2) no . 2_555 3_555
+Cl1a C29a C29d C29c 17.6(9) no . 2_555 4_555
+Cl1a C29a C29d C29d -150(3) no . 2_555 4_555
+Cl1a C29a C29d Cl1a -114(3) no . 4_555 2_555
+Cl1a C29a C29d Cl1a 148(3) no . 4_555 3_555
+Cl1a C29a C29d Cl1b -132(2) no . 4_555 2_555
+Cl1a C29a C29d Cl1b 124(3) no . 4_555 3_555
+Cl1a C29a C29d C29a 57(2) no . 4_555 4_555
+Cl1a C29a C29d C29a 94(2) no . 4_555 3_555
+Cl1a C29a C29d C29c 177(2) no . 4_555 2_555
+Cl1a C29a C29d C29d 30(3) no . 4_555 2_555
+Cl1a C29a C29a Cl1b -0.1(12) no 2_555 2_555 2_555
+Cl1a C29a C29a Cl1b 135(6) no 2_555 2_555 3_555
+Cl1a C29a C29a C29a 165(2) no 2_555 2_555 3_555
+Cl1a C29a C29a C29a 165(3) no 2_555 2_555 4_555
+Cl1a C29a C29a C29b 7(4) no 2_555 2_555 3_555
+Cl1a C29a C29a C29c 20(7) no 2_555 2_555 2_555
+Cl1a C29a C29a C29d 121.4(19) no 2_555 2_555 2_555
+Cl1a C29a C29a C29d 85(2) no 2_555 2_555 3_555
+Cl1a C29a C29a C29d 117.4(19) no 2_555 2_555 .
+Cl1a C29a C29a Cl1a -7(4) no 2_555 3_555 3_555
+Cl1a C29a C29a Cl1a 139(3) no 2_555 3_555 4_555
+Cl1a C29a C29a Cl1b -1(5) no 2_555 3_555 3_555
+Cl1a C29a C29a Cl1b 145(3) no 2_555 3_555 4_555
+Cl1a C29a C29a C29a 159(4) no 2_555 3_555 4_555
+Cl1a C29a C29a C29a -21(3) no 2_555 3_555 2_555
+Cl1a C29a C29a C29b 42(10) no 2_555 3_555 4_555
+Cl1a C29a C29a C29c 111(7) no 2_555 3_555 3_555
+Cl1a C29a C29a C29d 75(3) no 2_555 3_555 3_555
+Cl1a C29a C29a C29d 38(3) no 2_555 3_555 4_555
+Cl1a C29a C29a C29d 101(4) no 2_555 3_555 2_555
+Cl1a C29a C29b Cl1a -169(3) no 2_555 2_555 .
+Cl1a C29a C29c Cl1b -172(3) no 2_555 . .
+Cl1a C29a C29c Cl1b -4.4(13) no 2_555 . 2_555
+Cl1a C29a C29c C29d -93(3) no 2_555 . 3_555
+Cl1a C29a C29d Cl1a -63(3) no 2_555 . 3_555
+Cl1a C29a C29d Cl1a -179.9(19) no 2_555 . 4_555
+Cl1a C29a C29d Cl1b -81(3) no 2_555 . 3_555
+Cl1a C29a C29d Cl1b 164.0(18) no 2_555 . 4_555
+Cl1a C29a C29d C29a -71(3) no 2_555 . 2_555
+Cl1a C29a C29d C29a 170(4) no 2_555 . 4_555
+Cl1a C29a C29d C29c -155(3) no 2_555 . 3_555
+Cl1a C29a C29d C29d 61(3) no 2_555 . 3_555
+Cl1a C29a C29d Cl1a -149(3) no 2_555 2_555 4_555
+Cl1a C29a C29d Cl1a 107(3) no 2_555 2_555 .
+Cl1a C29a C29d Cl1b -177(2) no 2_555 2_555 4_555
+Cl1a C29a C29d Cl1b 90(3) no 2_555 2_555 .
+Cl1a C29a C29d C29a -83(4) no 2_555 2_555 2_555
+Cl1a C29a C29d C29a -120(4) no 2_555 2_555 3_555
+Cl1a C29a C29d C29c 125(3) no 2_555 2_555 4_555
+Cl1a C29a C29d C29d -43(3) no 2_555 2_555 4_555
+Cl1a C29a C29d Cl1a -0(4327516) no 2_555 4_555 2_555
+Cl1a C29a C29d Cl1a -98(3) no 2_555 4_555 3_555
+Cl1a C29a C29d Cl1b -18.2(9) no 2_555 4_555 2_555
+Cl1a C29a C29d Cl1b -123(3) no 2_555 4_555 3_555
+Cl1a C29a C29d C29a 171(3) no 2_555 4_555 4_555
+Cl1a C29a C29d C29a -152(2) no 2_555 4_555 3_555
+Cl1a C29a C29d C29c -69(3) no 2_555 4_555 2_555
+Cl1a C29a C29d C29d 143(3) no 2_555 4_555 2_555
+Cl1b C29a C29a Cl1a -147(3) no . 3_555 3_555
+Cl1b C29a C29a Cl1a -1(5) no . 3_555 4_555
+Cl1b C29a C29a Cl1b -142(3) no . 3_555 3_555
+Cl1b C29a C29a Cl1b 4(4) no . 3_555 4_555
+Cl1b C29a C29a C29a 19(3) no . 3_555 4_555
+Cl1b C29a C29a C29a -161(4) no . 3_555 2_555
+Cl1b C29a C29a C29b -98(9) no . 3_555 4_555
+Cl1b C29a C29a C29c -29(9) no . 3_555 3_555
+Cl1b C29a C29a C29d -65(3) no . 3_555 3_555
+Cl1b C29a C29a C29d -103(3) no . 3_555 4_555
+Cl1b C29a C29a C29d -39(3) no . 3_555 2_555
+Cl1b C29a C29a Cl1a -139(6) no . 4_555 4_555
+Cl1b C29a C29a Cl1a -0.1(12) no . 4_555 .
+Cl1b C29a C29a C29a -165(3) no . 4_555 2_555
+Cl1b C29a C29a C29a -165(3) no . 4_555 3_555
+Cl1b C29a C29a C29b -16(5) no . 4_555 .
+Cl1b C29a C29a C29c -5(3) no . 4_555 4_555
+Cl1b C29a C29a C29d -118(2) no . 4_555 4_555
+Cl1b C29a C29a C29d -121.4(16) no . 4_555 .
+Cl1b C29a C29a C29d -78(2) no . 4_555 3_555
+Cl1b C29a C29b Cl1a 173(5) no . 2_555 2_555
+Cl1b C29a C29b Cl1a 4.3(16) no . 2_555 .
+Cl1b C29a C29c Cl1b 167.5(17) no . . 2_555
+Cl1b C29a C29c C29d 79(3) no . . 3_555
+Cl1b C29a C29d Cl1a -166.0(16) no . . 3_555
+Cl1b C29a C29d Cl1a 77(3) no . . 4_555
+Cl1b C29a C29d Cl1b 176.0(18) no . . 3_555
+Cl1b C29a C29d Cl1b 61(3) no . . 4_555
+Cl1b C29a C29d C29a -174(3) no . . 2_555
+Cl1b C29a C29d C29a 66(3) no . . 4_555
+Cl1b C29a C29d C29c 102(4) no . . 3_555
+Cl1b C29a C29d C29d -42(3) no . . 3_555
+Cl1b C29a C29d Cl1a 120(3) no . 2_555 4_555
+Cl1b C29a C29d Cl1a 16.7(8) no . 2_555 .
+Cl1b C29a C29d Cl1b 93(3) no . 2_555 4_555
+Cl1b C29a C29d C29a -173(3) no . 2_555 2_555
+Cl1b C29a C29d C29a 149(2) no . 2_555 3_555
+Cl1b C29a C29d C29c 34.3(16) no . 2_555 4_555
+Cl1b C29a C29d C29d -133(2) no . 2_555 4_555
+Cl1b C29a C29d Cl1a -89(3) no . 4_555 2_555
+Cl1b C29a C29d Cl1a 172(2) no . 4_555 3_555
+Cl1b C29a C29d Cl1b -108(3) no . 4_555 2_555
+Cl1b C29a C29d Cl1b 148(2) no . 4_555 3_555
+Cl1b C29a C29d C29a 82(3) no . 4_555 4_555
+Cl1b C29a C29d C29a 118(3) no . 4_555 3_555
+Cl1b C29a C29d C29c -159(2) no . 4_555 2_555
+Cl1b C29a C29d C29d 54(3) no . 4_555 2_555
+Cl1b C29a C29a Cl1a 0.1(12) no 2_555 2_555 2_555
+Cl1b C29a C29a Cl1b 135(7) no 2_555 2_555 3_555
+Cl1b C29a C29a C29a 165(3) no 2_555 2_555 3_555
+Cl1b C29a C29a C29a 165(3) no 2_555 2_555 4_555
+Cl1b C29a C29a C29b 7(2) no 2_555 2_555 3_555
+Cl1b C29a C29a C29c 20(6) no 2_555 2_555 2_555
+Cl1b C29a C29a C29d 121.4(16) no 2_555 2_555 2_555
+Cl1b C29a C29a C29d 85(2) no 2_555 2_555 3_555
+Cl1b C29a C29a C29d 118(2) no 2_555 2_555 .
+Cl1b C29a C29a Cl1a -1(3) no 2_555 3_555 3_555
+Cl1b C29a C29a Cl1a 145(3) no 2_555 3_555 4_555
+Cl1b C29a C29a Cl1b 4(4) no 2_555 3_555 3_555
+Cl1b C29a C29a Cl1b 150.6(16) no 2_555 3_555 4_555
+Cl1b C29a C29a C29a 165(3) no 2_555 3_555 4_555
+Cl1b C29a C29a C29a -14.7(18) no 2_555 3_555 2_555
+Cl1b C29a C29a C29b 48(9) no 2_555 3_555 4_555
+Cl1b C29a C29a C29c 117(7) no 2_555 3_555 3_555
+Cl1b C29a C29a C29d 81(3) no 2_555 3_555 3_555
+Cl1b C29a C29a C29d 43.4(16) no 2_555 3_555 4_555
+Cl1b C29a C29a C29d 107(2) no 2_555 3_555 2_555
+Cl1b C29a C29a Cl1a -4(12) no 2_555 4_555 4_555
+Cl1b C29a C29a Cl1a 135(6) no 2_555 4_555 .
+Cl1b C29a C29a Cl1b 135(7) no 2_555 4_555 .
+Cl1b C29a C29a C29a -30(6) no 2_555 4_555 2_555
+Cl1b C29a C29a C29a -30(8) no 2_555 4_555 3_555
+Cl1b C29a C29a C29b 119(7) no 2_555 4_555 .
+Cl1b C29a C29a C29c 130(6) no 2_555 4_555 4_555
+Cl1b C29a C29a C29d 17(6) no 2_555 4_555 4_555
+Cl1b C29a C29a C29d 13(7) no 2_555 4_555 .
+Cl1b C29a C29a C29d 57(6) no 2_555 4_555 3_555
+Cl1b C29a C29b Cl1a 4.7(11) no 2_555 2_555 2_555
+Cl1b C29a C29b Cl1a -164(2) no 2_555 2_555 .
+Cl1b C29a C29c Cl1b -167.5(17) no 2_555 . .
+Cl1b C29a C29c C29d -89(3) no 2_555 . 3_555
+Cl1b C29a C29d Cl1a -45.7(18) no 2_555 . 3_555
+Cl1b C29a C29d Cl1a -163(2) no 2_555 . 4_555
+Cl1b C29a C29d Cl1b -64(3) no 2_555 . 3_555
+Cl1b C29a C29d Cl1b -179.2(15) no 2_555 . 4_555
+Cl1b C29a C29d C29a -53.8(17) no 2_555 . 2_555
+Cl1b C29a C29d C29a -174(3) no 2_555 . 4_555
+Cl1b C29a C29d C29c -138(4) no 2_555 . 3_555
+Cl1b C29a C29d C29d 78(3) no 2_555 . 3_555
+Cl1b C29a C29d Cl1a -125(3) no 2_555 2_555 4_555
+Cl1b C29a C29d Cl1a 132(3) no 2_555 2_555 .
+Cl1b C29a C29d Cl1b -152(2) no 2_555 2_555 4_555
+Cl1b C29a C29d Cl1b 115(3) no 2_555 2_555 .
+Cl1b C29a C29d C29a -58(3) no 2_555 2_555 2_555
+Cl1b C29a C29d C29a -96(3) no 2_555 2_555 3_555
+Cl1b C29a C29d C29c 149(2) no 2_555 2_555 4_555
+Cl1b C29a C29d C29d -18(3) no 2_555 2_555 4_555
+Cl1b C29a C29d Cl1a 18.2(9) no 2_555 4_555 2_555
+Cl1b C29a C29d Cl1a -80(3) no 2_555 4_555 3_555
+Cl1b C29a C29d Cl1b -105(3) no 2_555 4_555 3_555
+Cl1b C29a C29d C29a -171(3) no 2_555 4_555 4_555
+Cl1b C29a C29d C29a -133.9(19) no 2_555 4_555 3_555
+Cl1b C29a C29d C29c -51(3) no 2_555 4_555 2_555
+Cl1b C29a C29d C29d 161(3) no 2_555 4_555 2_555
+C29a C29a C29a Cl1a 14(3) no 2_555 3_555 3_555
+C29a C29a C29a Cl1a 159(5) no 2_555 3_555 4_555
+C29a C29a C29a Cl1b 19(4) no 2_555 3_555 3_555
+C29a C29a C29a Cl1b 165(4) no 2_555 3_555 4_555
+C29a C29a C29a C29b 63(9) no 2_555 3_555 4_555
+C29a C29a C29a C29c 132(8) no 2_555 3_555 3_555
+C29a C29a C29a C29d 95(4) no 2_555 3_555 3_555
+C29a C29a C29a C29d 58(3) no 2_555 3_555 4_555
+C29a C29a C29a C29d 122(4) no 2_555 3_555 2_555
+C29a C29a C29a Cl1a -165(3) no 3_555 2_555 2_555
+C29a C29a C29a Cl1b -165(4) no 3_555 2_555 2_555
+C29a C29a C29a Cl1b -30(6) no 3_555 2_555 3_555
+C29a C29a C29a C29b -157(5) no 3_555 2_555 3_555
+C29a C29a C29a C29c -145(8) no 3_555 2_555 2_555
+C29a C29a C29a C29d -43(3) no 3_555 2_555 2_555
+C29a C29a C29a C29d -79(3) no 3_555 2_555 3_555
+C29a C29a C29a C29d -47(3) no 3_555 2_555 .
+C29a C29a C29a Cl1a 26(7) no 2_555 4_555 4_555
+C29a C29a C29a Cl1a 165(3) no 2_555 4_555 .
+C29a C29a C29a Cl1b 165(4) no 2_555 4_555 .
+C29a C29a C29a C29b 149(5) no 2_555 4_555 .
+C29a C29a C29a C29c 160(3) no 2_555 4_555 4_555
+C29a C29a C29a C29d 47(3) no 2_555 4_555 4_555
+C29a C29a C29a C29d 43(3) no 2_555 4_555 .
+C29a C29a C29a C29d 87(4) no 2_555 4_555 3_555
+C29a C29a C29a Cl1a -165(4) no 4_555 2_555 2_555
+C29a C29a C29a Cl1b -165(3) no 4_555 2_555 2_555
+C29a C29a C29a Cl1b -30(8) no 4_555 2_555 3_555
+C29a C29a C29a C29b -157(3) no 4_555 2_555 3_555
+C29a C29a C29a C29c -145(6) no 4_555 2_555 2_555
+C29a C29a C29a C29d -43(3) no 4_555 2_555 2_555
+C29a C29a C29a C29d -79(3) no 4_555 2_555 3_555
+C29a C29a C29a C29d -47(3) no 4_555 2_555 .
+C29a C29a C29b Cl1a 19(7) no 2_555 2_555 2_555
+C29a C29a C29b Cl1a -149(6) no 2_555 2_555 .
+C29b C29a C29a Cl1a -16(6) no 2_555 2_555 2_555
+C29b C29a C29a Cl1b -16(6) no 2_555 2_555 2_555
+C29b C29a C29a Cl1b 119(8) no 2_555 2_555 3_555
+C29b C29a C29a C29a 149(6) no 2_555 2_555 3_555
+C29b C29a C29a C29a 149(7) no 2_555 2_555 4_555
+C29b C29a C29a C29b -8(8) no 2_555 2_555 3_555
+C29b C29a C29a C29c 4(11) no 2_555 2_555 2_555
+C29b C29a C29a C29d 106(6) no 2_555 2_555 2_555
+C29b C29a C29a C29d 69(6) no 2_555 2_555 3_555
+C29b C29a C29a C29d 102(6) no 2_555 2_555 .
+C29a C29a C29c Cl1b -162(4) no 2_555 . .
+C29a C29a C29c Cl1b 6(4) no 2_555 . 2_555
+C29a C29a C29c C29d -83(4) no 2_555 . 3_555
+C29c C29a C29a Cl1a -5(2) no . 2_555 2_555
+C29c C29a C29a Cl1b -5(3) no . 2_555 2_555
+C29c C29a C29a Cl1b 130(6) no . 2_555 3_555
+C29c C29a C29a C29a 160(3) no . 2_555 3_555
+C29c C29a C29a C29a 160(4) no . 2_555 4_555
+C29c C29a C29a C29b 2(5) no . 2_555 3_555
+C29c C29a C29a C29c 15(8) no . 2_555 2_555
+C29c C29a C29a C29d 116(4) no . 2_555 2_555
+C29c C29a C29a C29d 80(3) no . 2_555 3_555
+C29c C29a C29a C29d 113(3) no . 2_555 .
+C29a C29a C29d Cl1a 8(3) no 2_555 . 3_555
+C29a C29a C29d Cl1a -109(4) no 2_555 . 4_555
+C29a C29a C29d Cl1b -10(4) no 2_555 . 3_555
+C29a C29a C29d Cl1b -125(4) no 2_555 . 4_555
+C29a C29a C29d C29a -120(4) no 2_555 . 4_555
+C29a C29a C29d C29c -84(5) no 2_555 . 3_555
+C29a C29a C29d C29d 132(5) no 2_555 . 3_555
+C29d C29a C29a Cl1a -117(3) no . 2_555 2_555
+C29d C29a C29a Cl1b -118(3) no . 2_555 2_555
+C29d C29a C29a Cl1b 17(6) no . 2_555 3_555
+C29d C29a C29a C29a 47(3) no . 2_555 3_555
+C29d C29a C29a C29a 47(3) no . 2_555 4_555
+C29d C29a C29a C29b -110(4) no . 2_555 3_555
+C29d C29a C29a C29c -98(7) no . 2_555 2_555
+C29d C29a C29a C29d 4(3) no . 2_555 2_555
+C29d C29a C29a C29d -32(3) no . 2_555 3_555
+C29a C29a C29d Cl1a -66(4) no 2_555 2_555 4_555
+C29a C29a C29d Cl1a -170(3) no 2_555 2_555 .
+C29a C29a C29d Cl1b -93(4) no 2_555 2_555 4_555
+C29a C29a C29d Cl1b 173(4) no 2_555 2_555 .
+C29a C29a C29d C29a -37(3) no 2_555 2_555 3_555
+C29a C29a C29d C29c -152(3) no 2_555 2_555 4_555
+C29a C29a C29d C29d 40(3) no 2_555 2_555 4_555
+C29d C29a C29a Cl1a -121(3) no 2_555 2_555 2_555
+C29d C29a C29a Cl1b -121(3) no 2_555 2_555 2_555
+C29d C29a C29a Cl1b 13(7) no 2_555 2_555 3_555
+C29d C29a C29a C29a 43(3) no 2_555 2_555 3_555
+C29d C29a C29a C29a 43(2) no 2_555 2_555 4_555
+C29d C29a C29a C29b -114(4) no 2_555 2_555 3_555
+C29d C29a C29a C29c -102(6) no 2_555 2_555 2_555
+C29d C29a C29a C29d -36(2) no 2_555 2_555 3_555
+C29d C29a C29a C29d -4(3) no 2_555 2_555 .
+C29a C29a C29d Cl1a 97(4) no 2_555 4_555 2_555
+C29a C29a C29d Cl1a -1(4) no 2_555 4_555 3_555
+C29a C29a C29d Cl1b 79(4) no 2_555 4_555 2_555
+C29a C29a C29d Cl1b -26(4) no 2_555 4_555 3_555
+C29a C29a C29d C29a -92(5) no 2_555 4_555 4_555
+C29a C29a C29d C29a -55(4) no 2_555 4_555 3_555
+C29a C29a C29d C29c 28(4) no 2_555 4_555 2_555
+C29a C29a C29d C29d -120(5) no 2_555 4_555 2_555
+C29d C29a C29a Cl1a -77(4) no 4_555 2_555 2_555
+C29d C29a C29a Cl1b -78(4) no 4_555 2_555 2_555
+C29d C29a C29a Cl1b 57(7) no 4_555 2_555 3_555
+C29d C29a C29a C29a 87(4) no 4_555 2_555 3_555
+C29d C29a C29a C29a 87(4) no 4_555 2_555 4_555
+C29d C29a C29a C29b -70(4) no 4_555 2_555 3_555
+C29d C29a C29a C29c -58(6) no 4_555 2_555 2_555
+C29d C29a C29a C29d 44(4) no 4_555 2_555 2_555
+C29d C29a C29a C29d 8(4) no 4_555 2_555 3_555
+C29d C29a C29a C29d 40(4) no 4_555 2_555 .
+C29a C29a C29a Cl1a 26(5) no 3_555 4_555 4_555
+C29a C29a C29a Cl1a 165(4) no 3_555 4_555 .
+C29a C29a C29a Cl1b 165(3) no 3_555 4_555 .
+C29a C29a C29a C29b 149(6) no 3_555 4_555 .
+C29a C29a C29a C29c 160(5) no 3_555 4_555 4_555
+C29a C29a C29a C29d 47(3) no 3_555 4_555 4_555
+C29a C29a C29a C29d 43(3) no 3_555 4_555 .
+C29a C29a C29a C29d 87(4) no 3_555 4_555 3_555
+C29a C29a C29a Cl1a -166(4) no 4_555 3_555 3_555
+C29a C29a C29a Cl1a -21(4) no 4_555 3_555 4_555
+C29a C29a C29a Cl1b -161(5) no 4_555 3_555 3_555
+C29a C29a C29a Cl1b -15(3) no 4_555 3_555 4_555
+C29a C29a C29a C29b -117(9) no 4_555 3_555 4_555
+C29a C29a C29a C29c -48(7) no 4_555 3_555 3_555
+C29a C29a C29a C29d -85(4) no 4_555 3_555 3_555
+C29a C29a C29a C29d -122(4) no 4_555 3_555 4_555
+C29a C29a C29a C29d -58(3) no 4_555 3_555 2_555
+C29a C29a C29b Cl1a 113(11) no 3_555 2_555 2_555
+C29a C29a C29b Cl1a -56(11) no 3_555 2_555 .
+C29b C29a C29a Cl1a -103(11) no 2_555 3_555 3_555
+C29b C29a C29a Cl1a 42(12) no 2_555 3_555 4_555
+C29b C29a C29a Cl1b -98(11) no 2_555 3_555 3_555
+C29b C29a C29a Cl1b 48(12) no 2_555 3_555 4_555
+C29b C29a C29a C29a 63(11) no 2_555 3_555 4_555
+C29b C29a C29a C29a -117(11) no 2_555 3_555 2_555
+C29b C29a C29a C29b -54(16) no 2_555 3_555 4_555
+C29b C29a C29a C29c 15(16) no 2_555 3_555 3_555
+C29b C29a C29a C29d -22(10) no 2_555 3_555 3_555
+C29b C29a C29a C29d -59(11) no 2_555 3_555 4_555
+C29b C29a C29a C29d 5(11) no 2_555 3_555 2_555
+C29a C29a C29c Cl1b -126(8) no 3_555 . .
+C29a C29a C29c Cl1b 42(8) no 3_555 . 2_555
+C29a C29a C29c C29d -47(7) no 3_555 . 3_555
+C29c C29a C29a Cl1a -34(8) no . 3_555 3_555
+C29c C29a C29a Cl1a 111(8) no . 3_555 4_555
+C29c C29a C29a Cl1b -29(9) no . 3_555 3_555
+C29c C29a C29a Cl1b 117(8) no . 3_555 4_555
+C29c C29a C29a C29a 132(8) no . 3_555 4_555
+C29c C29a C29a C29a -48(8) no . 3_555 2_555
+C29c C29a C29a C29b 15(14) no . 3_555 4_555
+C29c C29a C29a C29c 84(11) no . 3_555 3_555
+C29c C29a C29a C29d 47(7) no . 3_555 3_555
+C29c C29a C29a C29d 10(7) no . 3_555 4_555
+C29c C29a C29a C29d 74(8) no . 3_555 2_555
+C29a C29a C29d Cl1a 71(4) no 3_555 . 3_555
+C29a C29a C29d Cl1a -46(4) no 3_555 . 4_555
+C29a C29a C29d Cl1b 53(4) no 3_555 . 3_555
+C29a C29a C29d Cl1b -62(4) no 3_555 . 4_555
+C29a C29a C29d C29a 63(4) no 3_555 . 2_555
+C29a C29a C29d C29a -57(4) no 3_555 . 4_555
+C29a C29a C29d C29c -21(4) no 3_555 . 3_555
+C29a C29a C29d C29d -165(6) no 3_555 . 3_555
+C29d C29a C29a Cl1a -71(4) no . 3_555 3_555
+C29d C29a C29a Cl1a 75(5) no . 3_555 4_555
+C29d C29a C29a Cl1b -65(4) no . 3_555 3_555
+C29d C29a C29a Cl1b 81(4) no . 3_555 4_555
+C29d C29a C29a C29a 95(4) no . 3_555 4_555
+C29d C29a C29a C29a -85(4) no . 3_555 2_555
+C29d C29a C29a C29b -22(7) no . 3_555 4_555
+C29d C29a C29a C29c 47(7) no . 3_555 3_555
+C29d C29a C29a C29d 11(4) no . 3_555 3_555
+C29d C29a C29a C29d -26(4) no . 3_555 4_555
+C29d C29a C29a C29d 37(4) no . 3_555 2_555
+C29a C29a C29d Cl1a -29(3) no 3_555 2_555 4_555
+C29a C29a C29d Cl1a -133(3) no 3_555 2_555 .
+C29a C29a C29d Cl1b -56(4) no 3_555 2_555 4_555
+C29a C29a C29d Cl1b -149(3) no 3_555 2_555 .
+C29a C29a C29d C29a 37(3) no 3_555 2_555 2_555
+C29a C29a C29d C29c -115(3) no 3_555 2_555 4_555
+C29a C29a C29d C29d 77(3) no 3_555 2_555 4_555
+C29d C29a C29a Cl1a -108(3) no 2_555 3_555 3_555
+C29d C29a C29a Cl1a 38(4) no 2_555 3_555 4_555
+C29d C29a C29a Cl1b -103(4) no 2_555 3_555 3_555
+C29d C29a C29a Cl1b 43(3) no 2_555 3_555 4_555
+C29d C29a C29a C29a 58(3) no 2_555 3_555 4_555
+C29d C29a C29a C29a -122(4) no 2_555 3_555 2_555
+C29d C29a C29a C29b -59(8) no 2_555 3_555 4_555
+C29d C29a C29a C29c 10(7) no 2_555 3_555 3_555
+C29d C29a C29a C29d -26(3) no 2_555 3_555 3_555
+C29d C29a C29a C29d -64(3) no 2_555 3_555 4_555
+C29a C29a C29d Cl1a 152(3) no 3_555 4_555 2_555
+C29a C29a C29d Cl1a 54(4) no 3_555 4_555 3_555
+C29a C29a C29d Cl1b 134(3) no 3_555 4_555 2_555
+C29a C29a C29d Cl1b 29(3) no 3_555 4_555 3_555
+C29a C29a C29d C29a -37(3) no 3_555 4_555 4_555
+C29a C29a C29d C29c 83(3) no 3_555 4_555 2_555
+C29a C29a C29d C29d -65(3) no 3_555 4_555 2_555
+C29d C29a C29a Cl1a -44(3) no 4_555 3_555 3_555
+C29d C29a C29a Cl1a 101(4) no 4_555 3_555 4_555
+C29d C29a C29a Cl1b -39(4) no 4_555 3_555 3_555
+C29d C29a C29a Cl1b 107(3) no 4_555 3_555 4_555
+C29d C29a C29a C29a 122(4) no 4_555 3_555 4_555
+C29d C29a C29a C29a -58(3) no 4_555 3_555 2_555
+C29d C29a C29a C29b 5(8) no 4_555 3_555 4_555
+C29d C29a C29a C29c 74(7) no 4_555 3_555 3_555
+C29d C29a C29a C29d 37(3) no 4_555 3_555 3_555
+C29d C29a C29a C29d 64(3) no 4_555 3_555 2_555
+C29a C29a C29b Cl1a 161(4) no 4_555 2_555 2_555
+C29a C29a C29b Cl1a -7(4) no 4_555 2_555 .
+C29b C29a C29a Cl1a -131(6) no 2_555 4_555 4_555
+C29b C29a C29a Cl1a 7(5) no 2_555 4_555 .
+C29b C29a C29a Cl1b 7(4) no 2_555 4_555 .
+C29b C29a C29a C29a -157(5) no 2_555 4_555 2_555
+C29b C29a C29a C29a -157(4) no 2_555 4_555 3_555
+C29b C29a C29a C29b -8(8) no 2_555 4_555 .
+C29b C29a C29a C29c 2(6) no 2_555 4_555 4_555
+C29b C29a C29a C29d -110(5) no 2_555 4_555 4_555
+C29b C29a C29a C29d -114(4) no 2_555 4_555 .
+C29b C29a C29a C29d -70(4) no 2_555 4_555 3_555
+C29a C29a C29c Cl1b -22(7) no 4_555 . .
+C29a C29a C29c Cl1b 146(7) no 4_555 . 2_555
+C29a C29a C29c C29d 57(6) no 4_555 . 3_555
+C29c C29a C29a Cl1a -119(7) no . 4_555 4_555
+C29c C29a C29a Cl1a 20(7) no . 4_555 .
+C29c C29a C29a Cl1b 20(6) no . 4_555 .
+C29c C29a C29a C29a -145(8) no . 4_555 2_555
+C29c C29a C29a C29a -145(6) no . 4_555 3_555
+C29c C29a C29a C29b 4(11) no . 4_555 .
+C29c C29a C29a C29c 15(8) no . 4_555 4_555
+C29c C29a C29a C29d -98(7) no . 4_555 4_555
+C29c C29a C29a C29d -102(7) no . 4_555 .
+C29c C29a C29a C29d -58(6) no . 4_555 3_555
+C29a C29a C29d Cl1a 128(3) no 4_555 . 3_555
+C29a C29a C29d Cl1a 10(4) no 4_555 . 4_555
+C29a C29a C29d Cl1b 110(4) no 4_555 . 3_555
+C29a C29a C29d Cl1b -6(3) no 4_555 . 4_555
+C29a C29a C29d C29a 120(4) no 4_555 . 2_555
+C29a C29a C29d C29c 36(4) no 4_555 . 3_555
+C29a C29a C29d C29d -108(5) no 4_555 . 3_555
+C29d C29a C29a Cl1a -17(5) no . 4_555 4_555
+C29d C29a C29a Cl1a 121(3) no . 4_555 .
+C29d C29a C29a Cl1b 121(3) no . 4_555 .
+C29d C29a C29a C29a -43(3) no . 4_555 2_555
+C29d C29a C29a C29a -43(2) no . 4_555 3_555
+C29d C29a C29a C29b 106(5) no . 4_555 .
+C29d C29a C29a C29c 116(4) no . 4_555 4_555
+C29d C29a C29a C29d 4(3) no . 4_555 4_555
+C29d C29a C29a C29d 44(3) no . 4_555 3_555
+C29a C29a C29d Cl1a 31(4) no 4_555 2_555 4_555
+C29a C29a C29d Cl1a -72(4) no 4_555 2_555 .
+C29a C29a C29d Cl1b 4(4) no 4_555 2_555 4_555
+C29a C29a C29d Cl1b -89(4) no 4_555 2_555 .
+C29a C29a C29d C29a 98(4) no 4_555 2_555 2_555
+C29a C29a C29d C29a 60(4) no 4_555 2_555 3_555
+C29a C29a C29d C29c -55(4) no 4_555 2_555 4_555
+C29a C29a C29d C29d 138(5) no 4_555 2_555 4_555
+C29d C29a C29a Cl1a -54(6) no 2_555 4_555 4_555
+C29d C29a C29a Cl1a 85(4) no 2_555 4_555 .
+C29d C29a C29a Cl1b 85(4) no 2_555 4_555 .
+C29d C29a C29a C29a -79(4) no 2_555 4_555 2_555
+C29d C29a C29a C29a -79(4) no 2_555 4_555 3_555
+C29d C29a C29a C29b 69(5) no 2_555 4_555 .
+C29d C29a C29a C29c 80(4) no 2_555 4_555 4_555
+C29d C29a C29a C29d -32(4) no 2_555 4_555 4_555
+C29d C29a C29a C29d -36(3) no 2_555 4_555 .
+C29d C29a C29a C29d 8(4) no 2_555 4_555 3_555
+C29a C29a C29d Cl1a -171(4) no 4_555 4_555 2_555
+C29a C29a C29d Cl1a 91(4) no 4_555 4_555 3_555
+C29a C29a C29d Cl1b 171(3) no 4_555 4_555 2_555
+C29a C29a C29d Cl1b 66(4) no 4_555 4_555 3_555
+C29a C29a C29d C29a 37(3) no 4_555 4_555 3_555
+C29a C29a C29d C29c 120(4) no 4_555 4_555 2_555
+C29a C29a C29d C29d -28(3) no 4_555 4_555 2_555
+C29d C29a C29a Cl1a -21(7) no 4_555 4_555 4_555
+C29d C29a C29a Cl1a 117(3) no 4_555 4_555 .
+C29d C29a C29a Cl1b 118(3) no 4_555 4_555 .
+C29d C29a C29a C29a -47(3) no 4_555 4_555 2_555
+C29d C29a C29a C29a -47(3) no 4_555 4_555 3_555
+C29d C29a C29a C29b 102(5) no 4_555 4_555 .
+C29d C29a C29a C29c 113(3) no 4_555 4_555 4_555
+C29d C29a C29a C29d -4(3) no 4_555 4_555 .
+C29d C29a C29a C29d 40(2) no 4_555 4_555 3_555
+C29b C29a C29c Cl1b 3(6) no 2_555 . .
+C29b C29a C29c Cl1b 170(6) no 2_555 . 2_555
+C29b C29a C29c C29d 81(6) no 2_555 . 3_555
+C29c C29a C29b Cl1a -3(4) no . 2_555 2_555
+C29c C29a C29b Cl1a -172(7) no . 2_555 .
+C29b C29a C29d Cl1a -123(5) no 2_555 . 3_555
+C29b C29a C29d Cl1a 120(5) no 2_555 . 4_555
+C29b C29a C29d Cl1b -141(4) no 2_555 . 3_555
+C29b C29a C29d Cl1b 104(5) no 2_555 . 4_555
+C29b C29a C29d C29a -131(5) no 2_555 . 2_555
+C29b C29a C29d C29a 109(5) no 2_555 . 4_555
+C29b C29a C29d C29c 145(5) no 2_555 . 3_555
+C29b C29a C29d C29d 1(5) no 2_555 . 3_555
+C29d C29a C29b Cl1a 91(4) no . 2_555 2_555
+C29d C29a C29b Cl1a -78(4) no . 2_555 .
+C29b C29a C29d Cl1a 153(4) no 2_555 2_555 4_555
+C29b C29a C29d Cl1a 49(4) no 2_555 2_555 .
+C29b C29a C29d Cl1b 126(4) no 2_555 2_555 4_555
+C29b C29a C29d Cl1b 32(3) no 2_555 2_555 .
+C29b C29a C29d C29a -141(4) no 2_555 2_555 2_555
+C29b C29a C29d C29a -178(4) no 2_555 2_555 3_555
+C29b C29a C29d C29c 67(4) no 2_555 2_555 4_555
+C29b C29a C29d C29d -101(4) no 2_555 2_555 4_555
+C29d C29a C29b Cl1a 117(4) no 2_555 2_555 2_555
+C29d C29a C29b Cl1a -52(3) no 2_555 2_555 .
+C29b C29a C29d Cl1a -47(3) no 2_555 4_555 2_555
+C29b C29a C29d Cl1a -146(4) no 2_555 4_555 3_555
+C29b C29a C29d Cl1b -65(4) no 2_555 4_555 2_555
+C29b C29a C29d Cl1b -170(4) no 2_555 4_555 3_555
+C29b C29a C29d C29a 124(5) no 2_555 4_555 4_555
+C29b C29a C29d C29a 161(4) no 2_555 4_555 3_555
+C29b C29a C29d C29c -117(4) no 2_555 4_555 2_555
+C29b C29a C29d C29d 96(4) no 2_555 4_555 2_555
+C29d C29a C29b Cl1a 62(4) no 4_555 2_555 2_555
+C29d C29a C29b Cl1a -107(4) no 4_555 2_555 .
+C29c C29a C29d Cl1a -91(4) no . . 3_555
+C29c C29a C29d Cl1a 151(3) no . . 4_555
+C29c C29a C29d Cl1b -109(4) no . . 3_555
+C29c C29a C29d Cl1b 135(3) no . . 4_555
+C29c C29a C29d C29a -99(4) no . . 2_555
+C29c C29a C29d C29a 141(5) no . . 4_555
+C29c C29a C29d C29c 176(3) no . . 3_555
+C29c C29a C29d C29d 32(4) no . . 3_555
+C29d C29a C29c Cl1b -102(4) no . . .
+C29d C29a C29c Cl1b 66(4) no . . 2_555
+C29d C29a C29c C29d -23(3) no . . 3_555
+C29c C29a C29d Cl1a 178(3) no . 2_555 4_555
+C29c C29a C29d Cl1a 74(3) no . 2_555 .
+C29c C29a C29d Cl1b 151(3) no . 2_555 4_555
+C29c C29a C29d Cl1b 58(3) no . 2_555 .
+C29c C29a C29d C29a -116(4) no . 2_555 2_555
+C29c C29a C29d C29a -153(4) no . 2_555 3_555
+C29c C29a C29d C29c 92(4) no . 2_555 4_555
+C29c C29a C29d C29d -76(4) no . 2_555 4_555
+C29d C29a C29c Cl1b -66(4) no 2_555 . .
+C29d C29a C29c Cl1b 101(4) no 2_555 . 2_555
+C29d C29a C29c C29d 12(2) no 2_555 . 3_555
+C29c C29a C29d Cl1a -23.7(16) no . 4_555 2_555
+C29c C29a C29d Cl1a -122(4) no . 4_555 3_555
+C29c C29a C29d Cl1b -42(2) no . 4_555 2_555
+C29c C29a C29d Cl1b -146(3) no . 4_555 3_555
+C29c C29a C29d C29a 147(4) no . 4_555 4_555
+C29c C29a C29d C29a -176(3) no . 4_555 3_555
+C29c C29a C29d C29c -93(4) no . 4_555 2_555
+C29c C29a C29d C29d 120(3) no . 4_555 2_555
+C29d C29a C29c Cl1b -117(3) no 4_555 . .
+C29d C29a C29c Cl1b 50(3) no 4_555 . 2_555
+C29d C29a C29c C29d -38(2) no 4_555 . 3_555
+C29d C29a C29d Cl1a -72(4) no . 2_555 4_555
+C29d C29a C29d Cl1a -176(5) no . 2_555 .
+C29d C29a C29d Cl1b -99(5) no . 2_555 4_555
+C29d C29a C29d Cl1b 167(4) no . 2_555 .
+C29d C29a C29d C29a -6(4) no . 2_555 2_555
+C29d C29a C29d C29a -43(4) no . 2_555 3_555
+C29d C29a C29d C29c -158(5) no . 2_555 4_555
+C29d C29a C29d C29d 34(3) no . 2_555 4_555
+C29d C29a C29d Cl1a -180(5) no 2_555 . 3_555
+C29d C29a C29d Cl1a 63(5) no 2_555 . 4_555
+C29d C29a C29d Cl1b 162(5) no 2_555 . 3_555
+C29d C29a C29d Cl1b 47(4) no 2_555 . 4_555
+C29d C29a C29d C29a 172(5) no 2_555 . 2_555
+C29d C29a C29d C29a 53(4) no 2_555 . 4_555
+C29d C29a C29d C29c 88(6) no 2_555 . 3_555
+C29d C29a C29d C29d -56(4) no 2_555 . 3_555
+C29d C29a C29d Cl1a -177(5) no . 4_555 2_555
+C29d C29a C29d Cl1a 84(5) no . 4_555 3_555
+C29d C29a C29d Cl1b 164(5) no . 4_555 2_555
+C29d C29a C29d Cl1b 60(5) no . 4_555 3_555
+C29d C29a C29d C29a -7(5) no . 4_555 4_555
+C29d C29a C29d C29a 30(4) no . 4_555 3_555
+C29d C29a C29d C29c 113(6) no . 4_555 2_555
+C29d C29a C29d C29d -34(4) no . 4_555 2_555
+C29d C29a C29d Cl1a -60(4) no 4_555 . 3_555
+C29d C29a C29d Cl1a -177(6) no 4_555 . 4_555
+C29d C29a C29d Cl1b -78(5) no 4_555 . 3_555
+C29d C29a C29d Cl1b 167(5) no 4_555 . 4_555
+C29d C29a C29d C29a -68(5) no 4_555 . 2_555
+C29d C29a C29d C29a 172(6) no 4_555 . 4_555
+C29d C29a C29d C29c -152(7) no 4_555 . 3_555
+C29d C29a C29d C29d 64(4) no 4_555 . 3_555
+C29d C29a C29d Cl1a -143(3) no 2_555 4_555 2_555
+C29d C29a C29d Cl1a 118(5) no 2_555 4_555 3_555
+C29d C29a C29d Cl1b -161(4) no 2_555 4_555 2_555
+C29d C29a C29d Cl1b 94(4) no 2_555 4_555 3_555
+C29d C29a C29d C29a 28(3) no 2_555 4_555 4_555
+C29d C29a C29d C29a 65(3) no 2_555 4_555 3_555
+C29d C29a C29d C29c 147(5) no 2_555 4_555 2_555
+C29d C29a C29d Cl1a -106(4) no 4_555 2_555 4_555
+C29d C29a C29d Cl1a 150(4) no 4_555 2_555 .
+C29d C29a C29d Cl1b -133(5) no 4_555 2_555 4_555
+C29d C29a C29d Cl1b 133(3) no 4_555 2_555 .
+C29d C29a C29d C29a -40(3) no 4_555 2_555 2_555
+C29d C29a C29d C29a -77(3) no 4_555 2_555 3_555
+C29d C29a C29d C29c 168(4) no 4_555 2_555 4_555
+Cl1b C29c C29d Cl1a 3.2(6) no . 3_555 .
+Cl1b C29c C29d Cl1a 166(3) no . 3_555 2_555
+Cl1b C29c C29d Cl1b 165.6(17) no . 3_555 2_555
+Cl1b C29c C29d C29a 103(4) no . 3_555 3_555
+Cl1b C29c C29d C29a 59(3) no . 3_555 4_555
+Cl1b C29c C29d C29a 125(2) no . 3_555 2_555
+Cl1b C29c C29d C29d 147(6) no . 3_555 .
+Cl1b C29c C29d Cl1a -162.4(15) no 2_555 3_555 .
+Cl1b C29c C29d Cl1a 0.3(12) no 2_555 3_555 2_555
+Cl1b C29c C29d Cl1b -165.6(17) no 2_555 3_555 .
+Cl1b C29c C29d C29a -62(4) no 2_555 3_555 3_555
+Cl1b C29c C29d C29a -107(4) no 2_555 3_555 4_555
+Cl1b C29c C29d C29a -40.3(19) no 2_555 3_555 2_555
+Cl1b C29c C29d C29d -19(6) no 2_555 3_555 .
+C29a C29c C29d Cl1a -80(4) no . 3_555 .
+C29a C29c C29d Cl1a 83(5) no . 3_555 2_555
+C29a C29c C29d Cl1b -83(4) no . 3_555 .
+C29a C29c C29d Cl1b 83(4) no . 3_555 2_555
+C29a C29c C29d C29a 21(4) no . 3_555 3_555
+C29a C29c C29d C29a -24(3) no . 3_555 4_555
+C29a C29c C29d C29a 42(3) no . 3_555 2_555
+C29a C29c C29d C29d 64(6) no . 3_555 .
+Cl1a C29d C29d Cl1a 149(2) no 3_555 3_555 .
+Cl1a C29d C29d Cl1a 1(5) no 3_555 3_555 2_555
+Cl1a C29d C29d Cl1b 142(4) no 3_555 3_555 .
+Cl1a C29d C29d Cl1b -3(3) no 3_555 3_555 2_555
+Cl1a C29d C29d C29a 82(4) no 3_555 3_555 3_555
+Cl1a C29d C29d C29a 113(3) no 3_555 3_555 4_555
+Cl1a C29d C29d C29a 37(2) no 3_555 3_555 2_555
+Cl1a C29d C29d C29c 12(8) no 3_555 3_555 .
+Cl1a C29d C29d Cl1a 1(5) no 4_555 3_555 .
+Cl1a C29d C29d Cl1a -146(3) no 4_555 3_555 2_555
+Cl1a C29d C29d Cl1b -6(6) no 4_555 3_555 .
+Cl1a C29d C29d Cl1b -150(3) no 4_555 3_555 2_555
+Cl1a C29d C29d C29a -66(3) no 4_555 3_555 3_555
+Cl1a C29d C29d C29a -35(3) no 4_555 3_555 4_555
+Cl1a C29d C29d C29a -111(3) no 4_555 3_555 2_555
+Cl1a C29d C29d C29c -136(6) no 4_555 3_555 .
+Cl1b C29d C29d Cl1a 142(4) no 3_555 3_555 .
+Cl1b C29d C29d Cl1a -6(6) no 3_555 3_555 2_555
+Cl1b C29d C29d Cl1b 134(5) no 3_555 3_555 .
+Cl1b C29d C29d Cl1b -10(5) no 3_555 3_555 2_555
+Cl1b C29d C29d C29a 74(4) no 3_555 3_555 3_555
+Cl1b C29d C29d C29a 105(5) no 3_555 3_555 4_555
+Cl1b C29d C29d C29a 29(4) no 3_555 3_555 2_555
+Cl1b C29d C29d C29c 4(10) no 3_555 3_555 .
+Cl1b C29d C29d Cl1a -3(3) no 4_555 3_555 .
+Cl1b C29d C29d Cl1a -150(3) no 4_555 3_555 2_555
+Cl1b C29d C29d Cl1b -10(5) no 4_555 3_555 .
+Cl1b C29d C29d Cl1b -154.5(14) no 4_555 3_555 2_555
+Cl1b C29d C29d C29a -70(3) no 4_555 3_555 3_555
+Cl1b C29d C29d C29a -39.3(17) no 4_555 3_555 4_555
+Cl1b C29d C29d C29a -115(2) no 4_555 3_555 2_555
+Cl1b C29d C29d C29c -140(6) no 4_555 3_555 .
+C29a C29d C29d Cl1a 82(4) no . 3_555 .
+C29a C29d C29d Cl1a -66(4) no . 3_555 2_555
+C29a C29d C29d Cl1b 74(5) no . 3_555 .
+C29a C29d C29d Cl1b -70(4) no . 3_555 2_555
+C29a C29d C29d C29a 14(6) no . 3_555 3_555
+C29a C29d C29d C29a 45(4) no . 3_555 4_555
+C29a C29d C29d C29a -31(4) no . 3_555 2_555
+C29a C29d C29d C29c -56(5) no . 3_555 .
+C29a C29d C29d Cl1a 113(3) no 2_555 3_555 .
+C29a C29d C29d Cl1a -35(3) no 2_555 3_555 2_555
+C29a C29d C29d Cl1b 105(5) no 2_555 3_555 .
+C29a C29d C29d Cl1b -39(3) no 2_555 3_555 2_555
+C29a C29d C29d C29a 45(3) no 2_555 3_555 3_555
+C29a C29d C29d C29a 76(2) no 2_555 3_555 4_555
+C29a C29d C29d C29c -25(6) no 2_555 3_555 .
+C29a C29d C29d Cl1a 37(3) no 4_555 3_555 .
+C29a C29d C29d Cl1a -111(4) no 4_555 3_555 2_555
+C29a C29d C29d Cl1b 29(4) no 4_555 3_555 .
+C29a C29d C29d Cl1b -115(3) no 4_555 3_555 2_555
+C29a C29d C29d C29a -31(4) no 4_555 3_555 3_555
+C29a C29d C29d C29a -76(2) no 4_555 3_555 2_555
+C29a C29d C29d C29c -101(6) no 4_555 3_555 .
+C29c C29d C29d Cl1a 12(8) no 3_555 3_555 .
+C29c C29d C29d Cl1a -136(6) no 3_555 3_555 2_555
+C29c C29d C29d Cl1b 4(10) no 3_555 3_555 .
+C29c C29d C29d Cl1b -140(6) no 3_555 3_555 2_555
+C29c C29d C29d C29a -56(5) no 3_555 3_555 3_555
+C29c C29d C29d C29a -25(7) no 3_555 3_555 4_555
+C29c C29d C29d C29a -101(6) no 3_555 3_555 2_555
+C29c C29d C29d C29c -126(8) no 3_555 3_555 .
+C32 C30 C35 C34 50(4) no . . 3_655
+C32 C30 C35 C35 80(5) no . . 3_655
+C32 C30 C35 C36 162(4) no . . 3_655
+C32 C30 C35 C37 -176(5) no . . .
+C35 C30 C32 C34 5(3) no . . .
+C32 C30 C38 C34 18(5) no . . .
+C32 C30 C38 C39 -44(5) no . . .
+C38 C30 C32 C34 -152(7) no . . .
+C38 C30 C32 C35 -157(6) no . . .
+C35 C30 C38 C34 -1(2) no . . .
+C35 C30 C38 C39 -63(4) no . . .
+C38 C30 C35 C32 10.4(15) no . . .
+C38 C30 C35 C34 61(4) no . . 3_655
+C38 C30 C35 C35 91(5) no . . 3_655
+C38 C30 C35 C36 173(3) no . . 3_655
+C38 C30 C35 C37 -165(4) no . . .
+C30 C32 C34 C33 11(2) no . . .
+C30 C32 C34 C34 -111(4) no . . 3_655
+C30 C32 C34 C35 -85(4) no . . 3_655
+C30 C32 C35 C34 -133(4) no . . 3_655
+C30 C32 C35 C35 -116(4) no . . 3_655
+C30 C32 C35 C36 -32(7) no . . 3_655
+C33 C32 C34 C34 -122(5) no . . 3_655
+C33 C32 C34 C35 -96(5) no . . 3_655
+C34 C32 C33 C31 -150(8) no . . .
+C34 C32 C33 C39 174(10) no . . .
+C33 C32 C35 C30 -9.2(18) no . . .
+C33 C32 C35 C34 -142(4) no . . 3_655
+C33 C32 C35 C35 -125(4) no . . 3_655
+C33 C32 C35 C36 -41(9) no . . 3_655
+C35 C32 C33 C31 -158(6) no . . .
+C35 C32 C33 C34 -8(3) no . . .
+C35 C32 C33 C39 165(8) no . . .
+C34 C32 C35 C30 -168(9) no . . .
+C34 C32 C35 C34 59(8) no . . 3_655
+C34 C32 C35 C35 76(8) no . . 3_655
+C34 C32 C35 C36 160(13) no . . 3_655
+C35 C32 C34 C33 22(10) no . . .
+C35 C32 C34 C34 -100(9) no . . 3_655
+C35 C32 C34 C35 -74(8) no . . 3_655
+C31 C33 C34 C32 18.5(19) no . . .
+C31 C33 C34 C34 88(4) no . . 3_655
+C31 C33 C34 C35 117(3) no . . 3_655
+C31 C33 C34 C38 0.1(14) no . . .
+C32 C33 C34 C34 69(6) no . . 3_655
+C32 C33 C34 C35 99(6) no . . 3_655
+C32 C33 C34 C38 -18(5) no . . .
+C39 C33 C34 C32 -3(3) no . . .
+C39 C33 C34 C34 66(4) no . . 3_655
+C39 C33 C34 C35 95(4) no . . 3_655
+C39 C33 C34 C38 -22(2) no . . .
+C32 C34 C34 C32 -124(5) no . 3_655 3_655
+C32 C34 C34 C33 -159(5) no . 3_655 3_655
+C32 C34 C34 C35 117(7) no . 3_655 .
+C32 C34 C34 C38 -129(5) no . 3_655 3_655
+C32 C34 C35 C30 -152(5) no . 3_655 3_655
+C32 C34 C35 C32 -110(5) no . 3_655 3_655
+C32 C34 C35 C35 110(7) no . 3_655 .
+C32 C34 C35 C36 107(6) no . 3_655 .
+C32 C34 C35 C37 79(6) no . 3_655 3_655
+C33 C34 C34 C32 -159(3) no . 3_655 3_655
+C33 C34 C34 C33 167(3) no . 3_655 3_655
+C33 C34 C34 C35 82(5) no . 3_655 .
+C33 C34 C34 C38 -163(3) no . 3_655 3_655
+C33 C34 C35 C30 168(3) no . 3_655 3_655
+C33 C34 C35 C32 -150(3) no . 3_655 3_655
+C33 C34 C35 C35 70(4) no . 3_655 .
+C33 C34 C35 C36 68(5) no . 3_655 .
+C33 C34 C35 C37 39(6) no . 3_655 3_655
+C33 C34 C38 C30 4.1(14) no . . .
+C33 C34 C38 C39 144(4) no . . .
+C34 C34 C35 C30 -84(7) no 3_655 3_655 3_655
+C34 C34 C35 C32 -42(6) no 3_655 3_655 3_655
+C34 C34 C35 C35 178(8) no 3_655 3_655 .
+C34 C34 C35 C36 175(9) no 3_655 3_655 .
+C34 C34 C35 C37 147(9) no 3_655 3_655 3_655
+C35 C34 C34 C32 117(8) no 3_655 3_655 3_655
+C35 C34 C34 C33 82(7) no 3_655 3_655 3_655
+C35 C34 C34 C35 -2(8) no 3_655 3_655 .
+C35 C34 C34 C38 113(7) no 3_655 3_655 3_655
+C34 C34 C38 C30 -101(4) no 3_655 . .
+C34 C34 C38 C39 39(4) no 3_655 . .
+C38 C34 C34 C32 -129(4) no . 3_655 3_655
+C38 C34 C34 C33 -163(3) no . 3_655 3_655
+C38 C34 C34 C35 113(6) no . 3_655 .
+C38 C34 C34 C38 -133(3) no . 3_655 3_655
+C35 C34 C38 C30 -72(5) no 3_655 . .
+C35 C34 C38 C39 68(5) no 3_655 . .
+C38 C34 C35 C30 -163(4) no . 3_655 3_655
+C38 C34 C35 C32 -121(4) no . 3_655 3_655
+C38 C34 C35 C35 99(5) no . 3_655 .
+C38 C34 C35 C36 97(5) no . 3_655 .
+C38 C34 C35 C37 68(6) no . 3_655 3_655
+C30 C35 C35 C30 170(4) no . 3_655 3_655
+C30 C35 C35 C32 -134(4) no . 3_655 3_655
+C30 C35 C35 C34 -96(7) no . 3_655 .
+C30 C35 C35 C36 82(5) no . 3_655 .
+C30 C35 C35 C37 57(5) no . 3_655 3_655
+C30 C35 C36 C37 -80(3) no . 3_655 3_655
+C30 C35 C37 C36 -82(3) no . . .
+C32 C35 C35 C30 -134(5) no . 3_655 3_655
+C32 C35 C35 C32 -78(4) no . 3_655 3_655
+C32 C35 C35 C34 -40(4) no . 3_655 .
+C32 C35 C35 C36 137(4) no . 3_655 .
+C32 C35 C35 C37 113(4) no . 3_655 3_655
+C32 C35 C36 C37 -54(8) no . 3_655 3_655
+C34 C35 C35 C30 -96(8) no 3_655 3_655 3_655
+C34 C35 C35 C32 -40(5) no 3_655 3_655 3_655
+C34 C35 C35 C34 -1(8) no 3_655 3_655 .
+C34 C35 C35 C36 176(8) no 3_655 3_655 .
+C34 C35 C35 C37 151(8) no 3_655 3_655 3_655
+C34 C35 C36 C37 35(4) no 3_655 3_655 3_655
+C34 C35 C37 C36 49(5) no 3_655 . .
+C35 C35 C36 C37 34(4) no 3_655 3_655 3_655
+C36 C35 C35 C30 82(5) no 3_655 3_655 3_655
+C36 C35 C35 C32 137(4) no 3_655 3_655 3_655
+C36 C35 C35 C34 176(7) no 3_655 3_655 .
+C36 C35 C35 C36 -7(3) no 3_655 3_655 .
+C36 C35 C35 C37 -31(3) no 3_655 3_655 3_655
+C35 C35 C37 C36 35(4) no 3_655 . .
+C37 C35 C35 C30 57(5) no . 3_655 3_655
+C37 C35 C35 C32 113(4) no . 3_655 3_655
+C37 C35 C35 C34 151(7) no . 3_655 .
+C37 C35 C35 C36 -31(3) no . 3_655 .
+C37 C35 C35 C37 -56(4) no . 3_655 3_655
+C36 C35 C37 C36 -28(4) no 3_655 . .
+C37 C35 C36 C37 150(5) no . 3_655 3_655
+C35 C36 C37 C35 -27(3) no 3_655 . .

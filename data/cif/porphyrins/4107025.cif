@@ -1,0 +1,4155 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:33:37 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178816 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/70/4107025.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4107025
+loop_
+_publ_author_name
+'Johannes K. Sprafke'
+'Dmitry V. Kondratuk'
+'Michael Wykes'
+'Amber L. Thompson'
+'Markus Hoffmann'
+'Rokas Drevinskas'
+'Wei-Hsin Chen'
+'Chaw Keong Yong'
+'Joakim K\"arnbratt'
+'Joseph E. Bullock'
+'Marc Malfois'
+'Michael R. Wasielewski'
+'Bo Albinsson'
+'Laura M. Herz'
+'Donatas Zigmantas'
+'David Beljonne'
+'Harry L. Anderson'
+_publ_contact_author             'Harry L. Anderson'
+_publ_contact_author_email       harry.anderson@chem.ox.ac.uk
+_publ_section_title
+;
+ Belt-Shaped \p-Systems: Relating Geometry to Electronic Structure in a
+ Six-Porphyrin Nanoring
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              17262
+_journal_page_last               17273
+_journal_paper_doi               10.1021/ja2045919
+_journal_volume                  133
+_journal_year                    2011
+_chemical_formula_moiety         'C384 H348 N30 Zn6, 2.19(C H Cl3)'
+_chemical_formula_sum            'C386.19 H350.19 Cl6.56 N30 Zn6'
+_chemical_formula_weight         6036.69
+_space_group_IT_number           56
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ab 2ac'
+_symmetry_space_group_name_H-M   'P c c n'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     other
+_audit_creation_date             11-05-09
+_audit_creation_method           CRYSTALS_ver_14.21
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   59.310(5)
+_cell_length_b                   25.141(3)
+_cell_length_c                   31.050(4)
+_cell_measurement_reflns_used    21602
+_cell_measurement_temperature    150
+_cell_measurement_theta_max      17
+_cell_measurement_theta_min      1
+_cell_volume                     46299(9)
+_computing_cell_refinement
+'CrystalClear-SM Expert 2.0 r4 (Rigaku, 2009)'
+_computing_data_collection
+'CrystalClear-SM Expert 2.0 r4 (Rigaku, 2009)'
+_computing_data_reduction
+'CrystalClear-SM Expert 2.0 r4 (Rigaku, 2009)'
+_computing_molecular_graphics    'CAMERON (Watkin et al., 1996)'
+_computing_publication_material  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_refinement  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_solution    'Superflip (Palatinus & Chapuis, 2007)'
+_diffrn_ambient_temperature      150
+_diffrn_detector                 CCD
+_diffrn_measured_fraction_theta_full 0.996
+_diffrn_measured_fraction_theta_max 0.996
+_diffrn_measurement_details
+;
+scan:
+    Number of images: 165
+               Slice: -60.0000 - 105.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: 0.0000
+                 Phi: 0.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 120
+               Slice: -60.0000 - 60.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: -50.0000
+                 Phi: 0.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 120
+               Slice: -60.0000 - 60.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: -50.0000
+                 Phi: 120.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 120
+               Slice: -60.0000 - 60.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: -50.0000
+                 Phi: 240.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 115
+               Slice: -10.0000 - 105.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: 50.0000
+                 Phi: 0.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 115
+               Slice: -10.0000 - 105.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: 50.0000
+                 Phi: 120.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+scan:
+    Number of images: 115
+               Slice: -10.0000 - 105.0000
+         Image width: 1.0000
+            Exp time: 1.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+               Kappa: 50.0000
+                 Phi: 240.0000
+                 XTD: 89.6746
+              2theta: 15.0796
+
+;
+_diffrn_measurement_device       'CrystalLogic Kappa (3 circle)'
+_diffrn_measurement_device_type  'Rigaku Saturn724+ (2x2 bin mode)'
+_diffrn_measurement_method       'profile data from \w-scans'
+_diffrn_orient_matrix_type       d*Trek
+_diffrn_orient_matrix_UB_11      -0.029892
+_diffrn_orient_matrix_UB_12      -0.015746
+_diffrn_orient_matrix_UB_13      0.020991
+_diffrn_orient_matrix_UB_21      -0.021210
+_diffrn_orient_matrix_UB_22      0.012983
+_diffrn_orient_matrix_UB_23      -0.020465
+_diffrn_orient_matrix_UB_31      0.000655
+_diffrn_orient_matrix_UB_32      -0.013912
+_diffrn_orient_matrix_UB_33      -0.009504
+_diffrn_radiation_monochromator  Synchrotron
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     0.68890
+_diffrn_reflns_av_R_equivalents  0.153
+_diffrn_reflns_limit_h_max       54
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       22
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       28
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            213483
+_diffrn_reflns_theta_full        18.307
+_diffrn_reflns_theta_max         18.307
+_diffrn_reflns_theta_min         1.210
+_diffrn_source                   Synchrotron
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.388
+_exptl_absorpt_correction_T_max  0.96
+_exptl_absorpt_correction_T_min  0.67
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+'CrystalClear-SM Expert 2.0 r4 (Rigaku, 2009)'
+_exptl_crystal_colour            metallic_dark_green
+_exptl_crystal_density_diffrn    0.866
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             12675.637
+_exptl_crystal_size_max          0.200
+_exptl_crystal_size_mid          0.150
+_exptl_crystal_size_min          0.100
+_platon_squeeze_details
+;
+The discrete Fourier transform of the void region were treated as 
+contributions to the A and B parts of the calculated structure factors.
+;
+_refine_diff_density_max         0.78
+_refine_diff_density_min         -0.63
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.9235
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     2291
+_refine_ls_number_reflns         18128
+_refine_ls_number_restraints     3401
+_refine_ls_R_factor_all          0.1065
+_refine_ls_R_factor_gt           0.1047
+_refine_ls_shift/su_max          0.0039934
+_refine_ls_shift/su_mean         0.0002024
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+ Method, part 1, Chebychev polynomial, (Watkin, 1994, Prince, 1982) 
+ [weight] = 1.0/[A~0~*T~0~(x)+A~1~*T~1~(x) ... +A~n-1~]*T~n-1~(x)] 
+ where A~i~ are the Chebychev coefficients listed below and x= Fcalc/Fmax 
+ Method = Robust Weighting (Prince, 1982) 
+ W = [weight] * [1-(deltaF/6*sigmaF)^2^]^2^ 
+ A~i~ are: 
+ 36.5 57.9 30.7 10.3 1.78 
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.2626
+_refine_ls_wR_factor_gt          0.2611
+_refine_ls_wR_factor_ref         0.2626
+_reflns_limit_h_max              54
+_reflns_limit_h_min              0
+_reflns_limit_k_max              22
+_reflns_limit_k_min              0
+_reflns_limit_l_max              28
+_reflns_limit_l_min              0
+_reflns_number_gt                17372
+_reflns_number_total             18318
+_reflns_threshold_expression     I>2.0\s(I)
+_oxford_diffrn_Wilson_B_factor   4.07
+_oxford_diffrn_Wilson_scale      577.19
+_oxford_refine_ls_r_factor_ref   0.1065
+_oxford_refine_ls_scale          0.047640(9)
+_oxford_reflns_number_all        18128
+_oxford_reflns_threshold_expression_ref I>-3.0\s(I)
+_oxford_structure_analysis_title DIA6281
+_cod_data_source_file            ja2045919_si_001.cif
+_cod_data_source_block           c-P6-T6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_sites_solution_primary' value 'Other' changed to 'other'
+according to the built-in table from CIF Core dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        46299(8)
+_cod_original_sg_symbol_H-M      'P c c n '
+_cod_database_code               4107025
+#BEGIN Tags that were not found in dictionaries:
+_iucr_refine_instruction_details_constraints
+;
+BLOCK SCALE X'S, U'S 
+EQUIV RESIDUE(2,OCC) 
+EQUIV RESIDUE(3,OCC) 
+EQUIV PART(1001,OCC) PART(1002,OCC) 
+WEIGHT -1 PART(1002,OCC) 
+EQUIV PART(2001,OCC) PART(2002,OCC) 
+WEIGHT -1 PART(2002,OCC) 
+EQUIV PART(3001,OCC) PART(3002,OCC) 
+WEIGHT -1 PART(3002,OCC) 
+EQUIV PART(4001,OCC) PART(4002,OCC) 
+WEIGHT -1 PART(4002,OCC) 
+EQUIV PART(4003,OCC) PART(4004,OCC) 
+WEIGHT -1 PART(4004,OCC) 
+EQUIV PART(5001,OCC) PART(5002,OCC) 
+WEIGHT -1 PART(5002,OCC) 
+EQUIV PART(5003,OCC) PART(5004,OCC) 
+WEIGHT -1 PART(5004,OCC) 
+EQUIV PART(5005,OCC) PART(5006,OCC) 
+WEIGHT -1 PART(5006,OCC) 
+EQUIV PART(5007,OCC) PART(5008,OCC) 
+WEIGHT -1 PART(5008,OCC) 
+EQUIV PART(6005,OCC) PART(6006,OCC) 
+WEIGHT -1 PART(6006,OCC) 
+EQUIV PART(6007,OCC) PART(6008,OCC) 
+WEIGHT -1 PART(6008,OCC) 
+RIDE C   ( 103,X'S) H   (1031,X'S) 
+RIDE C   ( 104,X'S) H   (1041,X'S) 
+RIDE C   ( 108,X'S) H   (1081,X'S) 
+RIDE C   ( 109,X'S) H   (1091,X'S) 
+RIDE C   ( 113,X'S) H   (1131,X'S) 
+RIDE C   ( 114,X'S) H   (1141,X'S) 
+RIDE C   ( 118,X'S) H   (1181,X'S) 
+RIDE C   ( 119,X'S) H   (1191,X'S) 
+RIDE C   ( 130,X'S) H   (1301,X'S) 
+RIDE C   ( 132,X'S) H   (1321,X'S) 
+RIDE C   ( 134,X'S) H   (1341,X'S) 
+RIDE C   ( 136,X'S) H   (1361,X'S) H   (1362,X'S) H   (1363,X'S) 
+RIDE C   ( 137,X'S) H   (1371,X'S) H   (1372,X'S) H   (1373,X'S) 
+RIDE C   ( 138,X'S) H   (1381,X'S) H   (1382,X'S) H   (1383,X'S) 
+RIDE C   ( 140,X'S) H   (1401,X'S) H   (1402,X'S) H   (1403,X'S) 
+RIDE C   ( 141,X'S) H   (1411,X'S) H   (1412,X'S) H   (1413,X'S) 
+RIDE C   ( 142,X'S) H   (1421,X'S) H   (1422,X'S) H   (1423,X'S) 
+RIDE C   ( 144,X'S) H   (1441,X'S) 
+RIDE C   ( 146,X'S) H   (1461,X'S) 
+RIDE C   ( 148,X'S) H   (1481,X'S) 
+RIDE C   ( 150,X'S) H   (1501,X'S) H   (1502,X'S) H   (1503,X'S) 
+RIDE C   ( 151,X'S) H   (1511,X'S) H   (1512,X'S) H   (1513,X'S) 
+RIDE C   ( 152,X'S) H   (1521,X'S) H   (1522,X'S) H   (1523,X'S) 
+RIDE C   ( 154,X'S) H   (1541,X'S) H   (1542,X'S) H   (1543,X'S) 
+RIDE C   ( 155,X'S) H   (1551,X'S) H   (1552,X'S) H   (1553,X'S) 
+RIDE C   ( 156,X'S) H   (1561,X'S) H   (1562,X'S) H   (1563,X'S) 
+RIDE C   ( 166,X'S) H   (1661,X'S) H   (1662,X'S) H   (1663,X'S) 
+RIDE C   ( 167,X'S) H   (1671,X'S) H   (1672,X'S) H   (1673,X'S) 
+RIDE C   ( 168,X'S) H   (1681,X'S) H   (1682,X'S) H   (1683,X'S) 
+RIDE C   ( 170,X'S) H   (1701,X'S) H   (1702,X'S) H   (1703,X'S) 
+RIDE C   ( 171,X'S) H   (1711,X'S) H   (1712,X'S) H   (1713,X'S) 
+RIDE C   ( 172,X'S) H   (1721,X'S) H   (1722,X'S) H   (1723,X'S) 
+RIDE C   ( 203,X'S) H   (2031,X'S) 
+RIDE C   ( 204,X'S) H   (2041,X'S) 
+RIDE C   ( 208,X'S) H   (2081,X'S) 
+RIDE C   ( 209,X'S) H   (2091,X'S) 
+RIDE C   ( 213,X'S) H   (2131,X'S) 
+RIDE C   ( 214,X'S) H   (2141,X'S) 
+RIDE C   ( 218,X'S) H   (2181,X'S) 
+RIDE C   ( 219,X'S) H   (2191,X'S) 
+RIDE C   ( 230,X'S) H   (2301,X'S) 
+RIDE C   ( 232,X'S) H   (2321,X'S) 
+RIDE C   ( 234,X'S) H   (2341,X'S) 
+RIDE C   ( 236,X'S) H   (2361,X'S) H   (2362,X'S) H   (2363,X'S) 
+RIDE C   ( 237,X'S) H   (2371,X'S) H   (2372,X'S) H   (2373,X'S) 
+RIDE C   ( 238,X'S) H   (2381,X'S) H   (2382,X'S) H   (2383,X'S) 
+RIDE C   ( 240,X'S) H   (2401,X'S) H   (2402,X'S) H   (2403,X'S) 
+RIDE C   ( 241,X'S) H   (2411,X'S) H   (2412,X'S) H   (2413,X'S) 
+RIDE C   ( 242,X'S) H   (2421,X'S) H   (2422,X'S) H   (2423,X'S) 
+RIDE C   ( 244,X'S) H   (2441,X'S) 
+RIDE C   ( 246,X'S) H   (2461,X'S) 
+RIDE C   ( 248,X'S) H   (2481,X'S) 
+RIDE C   ( 250,X'S) H   (2501,X'S) H   (2502,X'S) H   (2503,X'S) 
+RIDE C   ( 251,X'S) H   (2511,X'S) H   (2512,X'S) H   (2513,X'S) 
+RIDE C   ( 252,X'S) H   (2521,X'S) H   (2522,X'S) H   (2523,X'S) 
+RIDE C   ( 254,X'S) H   (2541,X'S) H   (2542,X'S) H   (2543,X'S) 
+RIDE C   ( 255,X'S) H   (2551,X'S) H   (2552,X'S) H   (2553,X'S) 
+RIDE C   ( 256,X'S) H   (2561,X'S) H   (2562,X'S) H   (2563,X'S) 
+RIDE C   ( 266,X'S) H   (2661,X'S) H   (2662,X'S) H   (2663,X'S) 
+RIDE C   ( 267,X'S) H   (2671,X'S) H   (2672,X'S) H   (2673,X'S) 
+RIDE C   ( 268,X'S) H   (2681,X'S) H   (2682,X'S) H   (2683,X'S) 
+RIDE C   ( 270,X'S) H   (2701,X'S) H   (2702,X'S) H   (2703,X'S) 
+RIDE C   ( 271,X'S) H   (2711,X'S) H   (2712,X'S) H   (2713,X'S) 
+RIDE C   ( 272,X'S) H   (2721,X'S) H   (2722,X'S) H   (2723,X'S) 
+RIDE C   ( 280,X'S) H   (2801,X'S) H   (2802,X'S) H   (2803,X'S) 
+RIDE C   ( 281,X'S) H   (2811,X'S) H   (2812,X'S) H   (2813,X'S) 
+RIDE C   ( 282,X'S) H   (2821,X'S) H   (2822,X'S) H   (2823,X'S) 
+RIDE C   ( 284,X'S) H   (2841,X'S) H   (2842,X'S) H   (2843,X'S) 
+RIDE C   ( 285,X'S) H   (2851,X'S) H   (2852,X'S) H   (2853,X'S) 
+RIDE C   ( 286,X'S) H   (2861,X'S) H   (2862,X'S) H   (2863,X'S) 
+RIDE C   ( 303,X'S) H   (3031,X'S) 
+RIDE C   ( 304,X'S) H   (3041,X'S) 
+RIDE C   ( 308,X'S) H   (3081,X'S) 
+RIDE C   ( 309,X'S) H   (3091,X'S) 
+RIDE C   ( 313,X'S) H   (3131,X'S) 
+RIDE C   ( 314,X'S) H   (3141,X'S) 
+RIDE C   ( 318,X'S) H   (3181,X'S) 
+RIDE C   ( 319,X'S) H   (3191,X'S) 
+RIDE C   ( 330,X'S) H   (3301,X'S) 
+RIDE C   ( 332,X'S) H   (3321,X'S) 
+RIDE C   ( 334,X'S) H   (3341,X'S) 
+RIDE C   ( 336,X'S) H   (3361,X'S) H   (3362,X'S) H   (3363,X'S) 
+RIDE C   ( 337,X'S) H   (3371,X'S) H   (3372,X'S) H   (3373,X'S) 
+RIDE C   ( 338,X'S) H   (3381,X'S) H   (3382,X'S) H   (3383,X'S) 
+RIDE C   ( 340,X'S) H   (3401,X'S) H   (3402,X'S) H   (3403,X'S) 
+RIDE C   ( 341,X'S) H   (3411,X'S) H   (3412,X'S) H   (3413,X'S) 
+RIDE C   ( 342,X'S) H   (3421,X'S) H   (3422,X'S) H   (3423,X'S) 
+RIDE C   ( 344,X'S) H   (3441,X'S) 
+RIDE C   ( 346,X'S) H   (3461,X'S) 
+RIDE C   ( 348,X'S) H   (3481,X'S) 
+RIDE C   ( 350,X'S) H   (3501,X'S) H   (3502,X'S) H   (3503,X'S) 
+RIDE C   ( 351,X'S) H   (3511,X'S) H   (3512,X'S) H   (3513,X'S) 
+RIDE C   ( 352,X'S) H   (3521,X'S) H   (3522,X'S) H   (3523,X'S) 
+RIDE C   ( 354,X'S) H   (3541,X'S) H   (3542,X'S) H   (3543,X'S) 
+RIDE C   ( 355,X'S) H   (3551,X'S) H   (3552,X'S) H   (3553,X'S) 
+RIDE C   ( 356,X'S) H   (3561,X'S) H   (3562,X'S) H   (3563,X'S) 
+RIDE C   ( 380,X'S) H   (3801,X'S) H   (3802,X'S) H   (3803,X'S) 
+RIDE C   ( 381,X'S) H   (3811,X'S) H   (3812,X'S) H   (3813,X'S) 
+RIDE C   ( 382,X'S) H   (3821,X'S) H   (3822,X'S) H   (3823,X'S) 
+RIDE C   ( 384,X'S) H   (3841,X'S) H   (3842,X'S) H   (3843,X'S) 
+RIDE C   ( 385,X'S) H   (3851,X'S) H   (3852,X'S) H   (3853,X'S) 
+RIDE C   ( 386,X'S) H   (3861,X'S) H   (3862,X'S) H   (3863,X'S) 
+RIDE C   ( 402,X'S) H   (4021,X'S) 
+RIDE C   ( 403,X'S) H   (4031,X'S) 
+RIDE C   ( 405,X'S) H   (4051,X'S) 
+RIDE C   ( 406,X'S) H   (4061,X'S) 
+RIDE C   ( 408,X'S) H   (4081,X'S) 
+RIDE C   ( 409,X'S) H   (4091,X'S) 
+RIDE C   ( 411,X'S) H   (4111,X'S) 
+RIDE C   ( 412,X'S) H   (4121,X'S) 
+RIDE C   ( 414,X'S) H   (4141,X'S) 
+RIDE C   ( 415,X'S) H   (4151,X'S) 
+RIDE C   ( 416,X'S) H   (4161,X'S) 
+RIDE C   ( 417,X'S) H   (4171,X'S) 
+RIDE C   ( 502,X'S) H   (5021,X'S) 
+RIDE C   ( 503,X'S) H   (5031,X'S) 
+RIDE C   ( 505,X'S) H   (5051,X'S) 
+RIDE C   ( 506,X'S) H   (5061,X'S) 
+RIDE C   ( 508,X'S) H   (5081,X'S) 
+RIDE C   ( 509,X'S) H   (5091,X'S) 
+RIDE C   ( 511,X'S) H   (5111,X'S) 
+RIDE C   ( 512,X'S) H   (5121,X'S) 
+RIDE C   ( 514,X'S) H   (5141,X'S) 
+RIDE C   ( 515,X'S) H   (5151,X'S) 
+RIDE C   ( 516,X'S) H   (5161,X'S) 
+RIDE C   ( 517,X'S) H   (5171,X'S) 
+RIDE C   ( 602,X'S) H   (6021,X'S) 
+RIDE C   ( 603,X'S) H   (6031,X'S) 
+RIDE C   ( 605,X'S) H   (6051,X'S) 
+RIDE C   ( 606,X'S) H   (6061,X'S) 
+RIDE C   ( 608,X'S) H   (6081,X'S) 
+RIDE C   ( 609,X'S) H   (6091,X'S) 
+RIDE C   ( 611,X'S) H   (6111,X'S) 
+RIDE C   ( 612,X'S) H   (6121,X'S) 
+RIDE C   ( 614,X'S) H   (6141,X'S) 
+RIDE C   ( 615,X'S) H   (6151,X'S) 
+RIDE C   ( 616,X'S) H   (6161,X'S) 
+RIDE C   ( 617,X'S) H   (6171,X'S) 
+RIDE C   ( 701,X'S) H   (7011,X'S) 
+RIDE C   ( 705,X'S) H   (7051,X'S) 
+CONT CL  ( 706,X'S) CL  ( 707,X'S) CL  ( 708,X'S) 
+END                                                                             
+;
+_iucr_refine_instruction_details_restraints
+;
+SAME  N(401)  C(402)  C(403)  C(404)  C(405)  C(406)  AND 
+CONT  N(501)  C(502)  C(503)  C(504)  C(505)  C(506)  AND 
+CONT  N(601)  C(602)  C(603)  C(604)  C(605)  C(606) 
+SAME  C(407)  C(408)  C(409)  C(410)  C(411)  C(412)  AND 
+CONT  C(408)  C(409)  C(410)  C(411)  C(412)  C(407)  AND 
+CONT  C(409)  C(410)  C(411)  C(412)  C(407)  C(408)  AND 
+CONT  C(410)  C(411)  C(412)  C(407)  C(408)  C(409)  AND 
+CONT  C(411)  C(412)  C(407)  C(408)  C(409)  C(410)  AND 
+CONT  C(412)  C(407)  C(408)  C(409)  C(410)  C(411)  AND 
+CONT  C(507)  C(508)  C(509)  C(510)  C(511)  C(512)  AND 
+CONT  C(508)  C(509)  C(510)  C(511)  C(512)  C(507)  AND 
+CONT  C(509)  C(510)  C(511)  C(512)  C(507)  C(508)  AND 
+CONT  C(510)  C(511)  C(512)  C(507)  C(508)  C(509)  AND 
+CONT  C(511)  C(512)  C(507)  C(508)  C(509)  C(510)  AND 
+CONT  C(512)  C(507)  C(508)  C(509)  C(510)  C(511)  AND 
+CONT  C(607)  C(608)  C(609)  C(610)  C(611)  C(612)  AND 
+CONT  C(608)  C(609)  C(610)  C(611)  C(612)  C(607)  AND 
+CONT  C(609)  C(610)  C(611)  C(612)  C(607)  C(608)  AND 
+CONT  C(610)  C(611)  C(612)  C(607)  C(608)  C(609)  AND 
+CONT  C(611)  C(612)  C(607)  C(608)  C(609)  C(610)  AND 
+CONT  C(612)  C(607)  C(608)  C(609)  C(610)  C(611)  AND 
+CONT  C(407)  C(414)  C(415)  C(410)  C(416)  C(417)  AND 
+CONT  C(414)  C(415)  C(410)  C(416)  C(417)  C(407)  AND 
+CONT  C(415)  C(410)  C(416)  C(417)  C(407)  C(414)  AND 
+CONT  C(410)  C(416)  C(417)  C(407)  C(414)  C(415)  AND 
+CONT  C(416)  C(417)  C(407)  C(414)  C(415)  C(410)  AND 
+CONT  C(417)  C(407)  C(414)  C(415)  C(410)  C(416)  AND 
+CONT  C(507)  C(514)  C(515)  C(510)  C(516)  C(517)  AND 
+CONT  C(514)  C(515)  C(510)  C(516)  C(517)  C(507)  AND 
+CONT  C(515)  C(510)  C(516)  C(517)  C(507)  C(514)  AND 
+CONT  C(510)  C(516)  C(517)  C(507)  C(514)  C(515)  AND 
+CONT  C(516)  C(517)  C(507)  C(514)  C(515)  C(510)  AND 
+CONT  C(517)  C(507)  C(514)  C(515)  C(510)  C(516)  AND 
+CONT  C(607)  C(614)  C(615)  C(610)  C(616)  C(617)  AND 
+CONT  C(614)  C(615)  C(610)  C(616)  C(617)  C(607)  AND 
+CONT  C(615)  C(610)  C(616)  C(617)  C(607)  C(614)  AND 
+CONT  C(610)  C(616)  C(617)  C(607)  C(614)  C(615)  AND 
+CONT  C(616)  C(617)  C(607)  C(614)  C(615)  C(610)  AND 
+CONT  C(617)  C(607)  C(614)  C(615)  C(610)  C(616) 
+PLANAR 0.01  N(401)  C(402)  C(403)  C(404)  C(405)  C(406)  C(407) 
+PLANAR 0.01  N(501)  C(502)  C(503)  C(504)  C(505)  C(506)  C(507) 
+PLANAR 0.01  N(601)  C(602)  C(603)  C(604)  C(605)  C(606)  C(607) 
+PLANAR 0.01  C(407)  C(408)  C(409)  C(410)  C(411)  C(412)  C(413) 
+PLANAR 0.01  C(507)  C(508)  C(509)  C(510)  C(511)  C(512)  C(513) 
+PLANAR 0.01  C(607)  C(608)  C(609)  C(610)  C(611)  C(612)  C(613) 
+PLANAR 0.01  C(407)  C(414)  C(415)  C(410)  C(416)  C(417)  C(413) 
+PLANAR 0.01  C(507)  C(514)  C(515)  C(510)  C(516)  C(517)  C(513) 
+PLANAR 0.01  C(607)  C(614)  C(615)  C(610)  C(616)  C(617)  C(613) 
+SAME C(131) C(135) C(136) C(137) C(138) AND 
+CONT C(133) C(139) C(140) C(141) C(142) AND 
+CONT C(145) C(149) C(150) C(151) C(152) AND 
+CONT C(147) C(153) C(154) C(155) C(156) AND 
+CONT C(231) C(235) C(236) C(237) C(238) AND 
+CONT C(233) C(239) C(240) C(241) C(242) AND 
+CONT C(245) C(249) C(250) C(251) C(252) AND 
+CONT C(247) C(253) C(254) C(255) C(256) AND 
+CONT C(331) C(335) C(336) C(337) C(338) AND 
+CONT C(333) C(339) C(340) C(341) C(342) AND 
+CONT C(345) C(349) C(350) C(351) C(352) AND 
+CONT C(347) C(353) C(354) C(355) C(356) AND 
+CONT C(131) C(135) C(166) C(167) C(168) AND 
+CONT C(133) C(139) C(170) C(171) C(172) AND 
+CONT C(231) C(235) C(266) C(267) C(268) AND 
+CONT C(233) C(239) C(270) C(271) C(272) AND 
+CONT C(245) C(249) C(280) C(281) C(282) AND 
+CONT C(247) C(253) C(284) C(285) C(286) AND 
+CONT C(345) C(349) C(380) C(381) C(382) AND 
+CONT C(347) C(353) C(384) C(385) C(386) 
+SAME C(701) CL(702) CL(703) CL(704) AND 
+CONT C(701) CL(703) CL(704) CL(702) AND 
+CONT C(701) CL(704) CL(702) CL(703) AND 
+CONT C(705) CL(706) CL(707) CL(708) AND 
+CONT C(705) CL(707) CL(708) CL(706) AND 
+CONT C(705) CL(708) CL(706) CL(707) 
+REM CONT C(709) CL(710) CL(711) CL(712) AND 
+REM CONT C(709) CL(711) CL(712) CL(710) AND 
+REM CONT C(709) CL(712) CL(710) CL(711) 
+REM   DELU   START (DO NOT REMOVE THIS LINE) 
+VIBR .0, 0.00200 = ZN(100) TO N(101) 
+VIBR .0, 0.00200 = ZN(100) TO N(106) 
+VIBR .0, 0.00200 = ZN(100) TO N(111) 
+VIBR .0, 0.00200 = ZN(100) TO N(116) 
+VIBR .0, 0.00200 = ZN(100) TO N(401) 
+VIBR .0, 0.00500 = N(106) TO N(101) 
+VIBR .0, 0.00500 = N(111) TO N(101) 
+VIBR .0, 0.00500 = N(111) TO N(106) 
+VIBR .0, 0.00500 = N(116) TO N(101) 
+VIBR .0, 0.00500 = N(116) TO N(106) 
+VIBR .0, 0.00500 = N(116) TO N(111) 
+VIBR .0, 0.00500 = N(401) TO N(101) 
+VIBR .0, 0.00500 = N(401) TO N(106) 
+VIBR .0, 0.00500 = N(401) TO N(111) 
+VIBR .0, 0.00500 = N(401) TO N(116) 
+VIBR .0, 0.00200 = N(101) TO C(102) 
+VIBR .0, 0.00200 = N(101) TO C(105) 
+VIBR .0, 0.00500 = C(102) TO ZN(100) 
+VIBR .0, 0.00500 = C(105) TO ZN(100) 
+VIBR .0, 0.00500 = C(105) TO C(102) 
+VIBR .0, 0.00200 = C(102) TO C(103) 
+VIBR .0, 0.00200 = C(102) TO C(121) 
+VIBR .0, 0.00500 = C(103) TO N(101) 
+VIBR .0, 0.00500 = C(121) TO N(101) 
+VIBR .0, 0.00500 = C(121) TO C(103) 
+VIBR .0, 0.00200 = C(103) TO C(104) 
+VIBR .0, 0.00500 = C(104) TO C(102) 
+VIBR .0, 0.00200 = C(104) TO C(105) 
+VIBR .0, 0.00500 = C(105) TO C(103) 
+VIBR .0, 0.00200 = C(105) TO C(127) 
+VIBR .0, 0.00500 = N(101) TO C(104) 
+VIBR .0, 0.00500 = C(127) TO C(104) 
+VIBR .0, 0.00500 = C(127) TO N(101) 
+VIBR .0, 0.00200 = N(106) TO C(107) 
+VIBR .0, 0.00200 = N(106) TO C(258) 
+VIBR .0, 0.00500 = C(107) TO ZN(100) 
+VIBR .0, 0.00500 = C(258) TO ZN(100) 
+VIBR .0, 0.00500 = C(258) TO C(107) 
+VIBR .0, 0.00200 = C(107) TO C(108) 
+VIBR .0, 0.00200 = C(107) TO C(127) 
+VIBR .0, 0.00500 = C(108) TO N(106) 
+VIBR .0, 0.00500 = C(127) TO N(106) 
+VIBR .0, 0.00500 = C(127) TO C(108) 
+VIBR .0, 0.00200 = C(108) TO C(109) 
+VIBR .0, 0.00500 = C(109) TO C(107) 
+VIBR .0, 0.00200 = C(109) TO C(258) 
+VIBR .0, 0.00500 = C(258) TO C(108) 
+VIBR .0, 0.00200 = N(111) TO C(112) 
+VIBR .0, 0.00200 = N(111) TO C(115) 
+VIBR .0, 0.00500 = C(112) TO ZN(100) 
+VIBR .0, 0.00500 = C(115) TO ZN(100) 
+VIBR .0, 0.00500 = C(115) TO C(112) 
+VIBR .0, 0.00200 = C(112) TO C(113) 
+VIBR .0, 0.00200 = C(112) TO C(259) 
+VIBR .0, 0.00500 = C(113) TO N(111) 
+VIBR .0, 0.00500 = C(259) TO N(111) 
+VIBR .0, 0.00500 = C(259) TO C(113) 
+VIBR .0, 0.00200 = C(113) TO C(114) 
+VIBR .0, 0.00500 = C(114) TO C(112) 
+VIBR .0, 0.00200 = C(114) TO C(115) 
+VIBR .0, 0.00500 = C(115) TO C(113) 
+VIBR .0, 0.00200 = C(115) TO C(128) 
+VIBR .0, 0.00500 = N(111) TO C(114) 
+VIBR .0, 0.00500 = C(128) TO C(114) 
+VIBR .0, 0.00500 = C(128) TO N(111) 
+VIBR .0, 0.00200 = N(116) TO C(117) 
+VIBR .0, 0.00200 = N(116) TO C(120) 
+VIBR .0, 0.00500 = C(117) TO ZN(100) 
+VIBR .0, 0.00500 = C(120) TO ZN(100) 
+VIBR .0, 0.00500 = C(120) TO C(117) 
+VIBR .0, 0.00200 = C(117) TO C(118) 
+VIBR .0, 0.00200 = C(117) TO C(128) 
+VIBR .0, 0.00500 = C(118) TO N(116) 
+VIBR .0, 0.00500 = C(128) TO N(116) 
+VIBR .0, 0.00500 = C(128) TO C(118) 
+VIBR .0, 0.00200 = C(118) TO C(119) 
+VIBR .0, 0.00500 = C(119) TO C(117) 
+VIBR .0, 0.00200 = C(119) TO C(120) 
+VIBR .0, 0.00500 = C(120) TO C(118) 
+VIBR .0, 0.00200 = C(120) TO C(121) 
+VIBR .0, 0.00500 = C(119) TO N(116) 
+VIBR .0, 0.00500 = C(121) TO N(116) 
+VIBR .0, 0.00500 = C(121) TO C(119) 
+VIBR .0, 0.00200 = C(121) TO C(122) 
+VIBR .0, 0.00500 = C(102) TO C(120) 
+VIBR .0, 0.00500 = C(122) TO C(120) 
+VIBR .0, 0.00500 = C(122) TO C(102) 
+VIBR .0, 0.00200 = C(122) TO C(123) 
+VIBR .0, 0.00500 = C(123) TO C(121) 
+VIBR .0, 0.00200 = C(123) TO C(326,-1,1,1,0,1) 
+VIBR .0, 0.00500 = C(122) TO C(326,-1,1,1,0,1) 
+VIBR .0, 0.00200 = C(125) TO C(126) 
+VIBR .0, 0.00200 = C(125) TO C(259) 
+VIBR .0, 0.00500 = C(259) TO C(126) 
+VIBR .0, 0.00200 = C(126) TO C(223) 
+VIBR .0, 0.00500 = C(223) TO C(125) 
+VIBR .0, 0.00200 = C(127) TO C(129) 
+VIBR .0, 0.00500 = C(107) TO C(105) 
+VIBR .0, 0.00500 = C(129) TO C(105) 
+VIBR .0, 0.00500 = C(129) TO C(107) 
+VIBR .0, 0.00200 = C(128) TO C(143) 
+VIBR .0, 0.00500 = C(117) TO C(115) 
+VIBR .0, 0.00500 = C(143) TO C(115) 
+VIBR .0, 0.00500 = C(143) TO C(117) 
+VIBR .0, 0.00200 = C(129) TO C(130) 
+VIBR .0, 0.00200 = C(129) TO C(134) 
+VIBR .0, 0.00500 = C(130) TO C(127) 
+VIBR .0, 0.00500 = C(134) TO C(127) 
+VIBR .0, 0.00500 = C(134) TO C(130) 
+VIBR .0, 0.00200 = C(130) TO C(131) 
+VIBR .0, 0.00500 = C(131) TO C(129) 
+VIBR .0, 0.00200 = C(131) TO C(132) 
+VIBR .0, 0.00200 = C(131) TO C(135) 
+VIBR .0, 0.00500 = C(132) TO C(130) 
+VIBR .0, 0.00500 = C(135) TO C(130) 
+VIBR .0, 0.00500 = C(135) TO C(132) 
+VIBR .0, 0.00200 = C(132) TO C(133) 
+VIBR .0, 0.00500 = C(133) TO C(131) 
+VIBR .0, 0.00200 = C(133) TO C(134) 
+VIBR .0, 0.00200 = C(133) TO C(139) 
+VIBR .0, 0.00500 = C(134) TO C(132) 
+VIBR .0, 0.00500 = C(139) TO C(132) 
+VIBR .0, 0.00500 = C(139) TO C(134) 
+VIBR .0, 0.00500 = C(129) TO C(133) 
+VIBR .0, 0.00200 = C(135) TO C(136) 
+VIBR .0, 0.00200 = C(135) TO C(137) 
+VIBR .0, 0.00200 = C(135) TO C(138) 
+VIBR .0, 0.00500 = C(136) TO C(131) 
+VIBR .0, 0.00500 = C(137) TO C(131) 
+VIBR .0, 0.00500 = C(137) TO C(136) 
+VIBR .0, 0.00500 = C(138) TO C(131) 
+VIBR .0, 0.00500 = C(138) TO C(136) 
+VIBR .0, 0.00500 = C(138) TO C(137) 
+VIBR .0, 0.00200 = C(135) TO C(166) 
+VIBR .0, 0.00200 = C(135) TO C(167) 
+VIBR .0, 0.00200 = C(135) TO C(168) 
+VIBR .0, 0.00500 = C(166) TO C(131) 
+VIBR .0, 0.00500 = C(167) TO C(131) 
+VIBR .0, 0.00500 = C(167) TO C(166) 
+VIBR .0, 0.00500 = C(168) TO C(131) 
+VIBR .0, 0.00500 = C(168) TO C(166) 
+VIBR .0, 0.00500 = C(168) TO C(167) 
+VIBR .0, 0.00200 = C(139) TO C(140) 
+VIBR .0, 0.00200 = C(139) TO C(141) 
+VIBR .0, 0.00200 = C(139) TO C(142) 
+VIBR .0, 0.00500 = C(140) TO C(133) 
+VIBR .0, 0.00500 = C(141) TO C(133) 
+VIBR .0, 0.00500 = C(141) TO C(140) 
+VIBR .0, 0.00500 = C(142) TO C(133) 
+VIBR .0, 0.00500 = C(142) TO C(140) 
+VIBR .0, 0.00500 = C(142) TO C(141) 
+VIBR .0, 0.00200 = C(139) TO C(170) 
+VIBR .0, 0.00200 = C(139) TO C(171) 
+VIBR .0, 0.00200 = C(139) TO C(172) 
+VIBR .0, 0.00500 = C(170) TO C(133) 
+VIBR .0, 0.00500 = C(171) TO C(133) 
+VIBR .0, 0.00500 = C(171) TO C(170) 
+VIBR .0, 0.00500 = C(172) TO C(133) 
+VIBR .0, 0.00500 = C(172) TO C(170) 
+VIBR .0, 0.00500 = C(172) TO C(171) 
+VIBR .0, 0.00200 = C(143) TO C(144) 
+VIBR .0, 0.00200 = C(143) TO C(148) 
+VIBR .0, 0.00500 = C(144) TO C(128) 
+VIBR .0, 0.00500 = C(148) TO C(128) 
+VIBR .0, 0.00500 = C(148) TO C(144) 
+VIBR .0, 0.00200 = C(144) TO C(145) 
+VIBR .0, 0.00500 = C(145) TO C(143) 
+VIBR .0, 0.00200 = C(145) TO C(146) 
+VIBR .0, 0.00200 = C(145) TO C(149) 
+VIBR .0, 0.00500 = C(146) TO C(144) 
+VIBR .0, 0.00500 = C(149) TO C(144) 
+VIBR .0, 0.00500 = C(149) TO C(146) 
+VIBR .0, 0.00200 = C(146) TO C(147) 
+VIBR .0, 0.00500 = C(147) TO C(145) 
+VIBR .0, 0.00200 = C(147) TO C(148) 
+VIBR .0, 0.00200 = C(147) TO C(153) 
+VIBR .0, 0.00500 = C(148) TO C(146) 
+VIBR .0, 0.00500 = C(153) TO C(146) 
+VIBR .0, 0.00500 = C(153) TO C(148) 
+VIBR .0, 0.00500 = C(143) TO C(147) 
+VIBR .0, 0.00200 = C(149) TO C(150) 
+VIBR .0, 0.00200 = C(149) TO C(151) 
+VIBR .0, 0.00200 = C(149) TO C(152) 
+VIBR .0, 0.00500 = C(150) TO C(145) 
+VIBR .0, 0.00500 = C(151) TO C(145) 
+VIBR .0, 0.00500 = C(151) TO C(150) 
+VIBR .0, 0.00500 = C(152) TO C(145) 
+VIBR .0, 0.00500 = C(152) TO C(150) 
+VIBR .0, 0.00500 = C(152) TO C(151) 
+VIBR .0, 0.00200 = C(153) TO C(154) 
+VIBR .0, 0.00200 = C(153) TO C(155) 
+VIBR .0, 0.00200 = C(153) TO C(156) 
+VIBR .0, 0.00500 = C(154) TO C(147) 
+VIBR .0, 0.00500 = C(155) TO C(147) 
+VIBR .0, 0.00500 = C(155) TO C(154) 
+VIBR .0, 0.00500 = C(156) TO C(147) 
+VIBR .0, 0.00500 = C(156) TO C(154) 
+VIBR .0, 0.00500 = C(156) TO C(155) 
+VIBR .0, 0.00200 = ZN(200) TO N(201) 
+VIBR .0, 0.00200 = ZN(200) TO N(206) 
+VIBR .0, 0.00200 = ZN(200) TO N(211) 
+VIBR .0, 0.00200 = ZN(200) TO N(216) 
+VIBR .0, 0.00200 = ZN(200) TO N(501) 
+VIBR .0, 0.00500 = N(206) TO N(201) 
+VIBR .0, 0.00500 = N(211) TO N(201) 
+VIBR .0, 0.00500 = N(211) TO N(206) 
+VIBR .0, 0.00500 = N(216) TO N(201) 
+VIBR .0, 0.00500 = N(216) TO N(206) 
+VIBR .0, 0.00500 = N(216) TO N(211) 
+VIBR .0, 0.00500 = N(501) TO N(201) 
+VIBR .0, 0.00500 = N(501) TO N(206) 
+VIBR .0, 0.00500 = N(501) TO N(211) 
+VIBR .0, 0.00500 = N(501) TO N(216) 
+VIBR .0, 0.00200 = N(201) TO C(202) 
+VIBR .0, 0.00200 = N(201) TO C(205) 
+VIBR .0, 0.00500 = C(202) TO ZN(200) 
+VIBR .0, 0.00500 = C(205) TO ZN(200) 
+VIBR .0, 0.00500 = C(205) TO C(202) 
+VIBR .0, 0.00200 = C(202) TO C(203) 
+VIBR .0, 0.00200 = C(202) TO C(221) 
+VIBR .0, 0.00500 = C(203) TO N(201) 
+VIBR .0, 0.00500 = C(221) TO N(201) 
+VIBR .0, 0.00500 = C(221) TO C(203) 
+VIBR .0, 0.00200 = C(203) TO C(204) 
+VIBR .0, 0.00500 = C(204) TO C(202) 
+VIBR .0, 0.00200 = C(204) TO C(205) 
+VIBR .0, 0.00500 = C(205) TO C(203) 
+VIBR .0, 0.00200 = C(205) TO C(227) 
+VIBR .0, 0.00500 = N(201) TO C(204) 
+VIBR .0, 0.00500 = C(227) TO C(204) 
+VIBR .0, 0.00500 = C(227) TO N(201) 
+VIBR .0, 0.00200 = N(206) TO C(207) 
+VIBR .0, 0.00200 = N(206) TO C(257) 
+VIBR .0, 0.00500 = C(207) TO ZN(200) 
+VIBR .0, 0.00500 = C(257) TO ZN(200) 
+VIBR .0, 0.00500 = C(257) TO C(207) 
+VIBR .0, 0.00200 = C(207) TO C(208) 
+VIBR .0, 0.00200 = C(207) TO C(227) 
+VIBR .0, 0.00500 = C(208) TO N(206) 
+VIBR .0, 0.00500 = C(227) TO N(206) 
+VIBR .0, 0.00500 = C(227) TO C(208) 
+VIBR .0, 0.00200 = C(208) TO C(209) 
+VIBR .0, 0.00500 = C(209) TO C(207) 
+VIBR .0, 0.00200 = C(209) TO C(257) 
+VIBR .0, 0.00500 = C(257) TO C(208) 
+VIBR .0, 0.00200 = N(211) TO C(212) 
+VIBR .0, 0.00200 = N(211) TO C(215) 
+VIBR .0, 0.00500 = C(212) TO ZN(200) 
+VIBR .0, 0.00500 = C(215) TO ZN(200) 
+VIBR .0, 0.00500 = C(215) TO C(212) 
+VIBR .0, 0.00200 = C(212) TO C(213) 
+VIBR .0, 0.00200 = C(212) TO C(224) 
+VIBR .0, 0.00500 = C(213) TO N(211) 
+VIBR .0, 0.00500 = C(224) TO N(211) 
+VIBR .0, 0.00500 = C(224) TO C(213) 
+VIBR .0, 0.00200 = C(213) TO C(214) 
+VIBR .0, 0.00500 = C(214) TO C(212) 
+VIBR .0, 0.00200 = C(214) TO C(215) 
+VIBR .0, 0.00500 = C(215) TO C(213) 
+VIBR .0, 0.00200 = C(215) TO C(228) 
+VIBR .0, 0.00500 = N(211) TO C(214) 
+VIBR .0, 0.00500 = C(228) TO C(214) 
+VIBR .0, 0.00500 = C(228) TO N(211) 
+VIBR .0, 0.00200 = N(216) TO C(217) 
+VIBR .0, 0.00200 = N(216) TO C(220) 
+VIBR .0, 0.00500 = C(217) TO ZN(200) 
+VIBR .0, 0.00500 = C(220) TO ZN(200) 
+VIBR .0, 0.00500 = C(220) TO C(217) 
+VIBR .0, 0.00200 = C(217) TO C(218) 
+VIBR .0, 0.00200 = C(217) TO C(228) 
+VIBR .0, 0.00500 = C(218) TO N(216) 
+VIBR .0, 0.00500 = C(228) TO N(216) 
+VIBR .0, 0.00500 = C(228) TO C(218) 
+VIBR .0, 0.00200 = C(218) TO C(219) 
+VIBR .0, 0.00500 = C(219) TO C(217) 
+VIBR .0, 0.00200 = C(219) TO C(220) 
+VIBR .0, 0.00500 = C(220) TO C(218) 
+VIBR .0, 0.00200 = C(220) TO C(221) 
+VIBR .0, 0.00500 = N(216) TO C(219) 
+VIBR .0, 0.00500 = C(221) TO C(219) 
+VIBR .0, 0.00500 = C(221) TO N(216) 
+VIBR .0, 0.00200 = C(221) TO C(222) 
+VIBR .0, 0.00500 = C(220) TO C(202) 
+VIBR .0, 0.00500 = C(222) TO C(202) 
+VIBR .0, 0.00500 = C(222) TO C(220) 
+VIBR .0, 0.00200 = C(222) TO C(223) 
+VIBR .0, 0.00500 = C(223) TO C(221) 
+VIBR .0, 0.00500 = C(222) TO C(126) 
+VIBR .0, 0.00200 = C(224) TO C(225) 
+VIBR .0, 0.00200 = C(224) TO C(257) 
+VIBR .0, 0.00500 = C(225) TO C(212) 
+VIBR .0, 0.00500 = C(257) TO C(212) 
+VIBR .0, 0.00500 = C(257) TO C(225) 
+VIBR .0, 0.00200 = C(225) TO C(226) 
+VIBR .0, 0.00500 = C(226) TO C(224) 
+VIBR .0, 0.00200 = C(226) TO C(323) 
+VIBR .0, 0.00500 = C(323) TO C(225) 
+VIBR .0, 0.00200 = C(227) TO C(229) 
+VIBR .0, 0.00500 = C(207) TO C(205) 
+VIBR .0, 0.00500 = C(229) TO C(205) 
+VIBR .0, 0.00500 = C(229) TO C(207) 
+VIBR .0, 0.00200 = C(228) TO C(243) 
+VIBR .0, 0.00500 = C(215) TO C(217) 
+VIBR .0, 0.00500 = C(243) TO C(217) 
+VIBR .0, 0.00500 = C(243) TO C(215) 
+VIBR .0, 0.00200 = C(229) TO C(230) 
+VIBR .0, 0.00200 = C(229) TO C(234) 
+VIBR .0, 0.00500 = C(230) TO C(227) 
+VIBR .0, 0.00500 = C(234) TO C(227) 
+VIBR .0, 0.00500 = C(234) TO C(230) 
+VIBR .0, 0.00200 = C(230) TO C(231) 
+VIBR .0, 0.00500 = C(231) TO C(229) 
+VIBR .0, 0.00200 = C(231) TO C(232) 
+VIBR .0, 0.00200 = C(231) TO C(235) 
+VIBR .0, 0.00500 = C(232) TO C(230) 
+VIBR .0, 0.00500 = C(235) TO C(230) 
+VIBR .0, 0.00500 = C(235) TO C(232) 
+VIBR .0, 0.00200 = C(232) TO C(233) 
+VIBR .0, 0.00500 = C(233) TO C(231) 
+VIBR .0, 0.00200 = C(233) TO C(234) 
+VIBR .0, 0.00200 = C(233) TO C(239) 
+VIBR .0, 0.00500 = C(234) TO C(232) 
+VIBR .0, 0.00500 = C(239) TO C(232) 
+VIBR .0, 0.00500 = C(239) TO C(234) 
+VIBR .0, 0.00500 = C(229) TO C(233) 
+VIBR .0, 0.00200 = C(235) TO C(236) 
+VIBR .0, 0.00200 = C(235) TO C(237) 
+VIBR .0, 0.00200 = C(235) TO C(238) 
+VIBR .0, 0.00500 = C(236) TO C(231) 
+VIBR .0, 0.00500 = C(237) TO C(231) 
+VIBR .0, 0.00500 = C(237) TO C(236) 
+VIBR .0, 0.00500 = C(238) TO C(231) 
+VIBR .0, 0.00500 = C(238) TO C(236) 
+VIBR .0, 0.00500 = C(238) TO C(237) 
+VIBR .0, 0.00200 = C(235) TO C(266) 
+VIBR .0, 0.00200 = C(235) TO C(267) 
+VIBR .0, 0.00200 = C(235) TO C(268) 
+VIBR .0, 0.00500 = C(266) TO C(231) 
+VIBR .0, 0.00500 = C(267) TO C(231) 
+VIBR .0, 0.00500 = C(267) TO C(266) 
+VIBR .0, 0.00500 = C(268) TO C(231) 
+VIBR .0, 0.00500 = C(268) TO C(266) 
+VIBR .0, 0.00500 = C(268) TO C(267) 
+VIBR .0, 0.00200 = C(239) TO C(240) 
+VIBR .0, 0.00200 = C(239) TO C(241) 
+VIBR .0, 0.00200 = C(239) TO C(242) 
+VIBR .0, 0.00500 = C(240) TO C(233) 
+VIBR .0, 0.00500 = C(241) TO C(233) 
+VIBR .0, 0.00500 = C(241) TO C(240) 
+VIBR .0, 0.00500 = C(242) TO C(233) 
+VIBR .0, 0.00500 = C(242) TO C(240) 
+VIBR .0, 0.00500 = C(242) TO C(241) 
+VIBR .0, 0.00200 = C(239) TO C(270) 
+VIBR .0, 0.00200 = C(239) TO C(271) 
+VIBR .0, 0.00200 = C(239) TO C(272) 
+VIBR .0, 0.00500 = C(270) TO C(233) 
+VIBR .0, 0.00500 = C(271) TO C(233) 
+VIBR .0, 0.00500 = C(271) TO C(270) 
+VIBR .0, 0.00500 = C(272) TO C(233) 
+VIBR .0, 0.00500 = C(272) TO C(270) 
+VIBR .0, 0.00500 = C(272) TO C(271) 
+VIBR .0, 0.00200 = C(243) TO C(244) 
+VIBR .0, 0.00200 = C(243) TO C(248) 
+VIBR .0, 0.00500 = C(244) TO C(228) 
+VIBR .0, 0.00500 = C(248) TO C(228) 
+VIBR .0, 0.00500 = C(248) TO C(244) 
+VIBR .0, 0.00200 = C(244) TO C(245) 
+VIBR .0, 0.00500 = C(245) TO C(243) 
+VIBR .0, 0.00200 = C(245) TO C(246) 
+VIBR .0, 0.00200 = C(245) TO C(249) 
+VIBR .0, 0.00500 = C(246) TO C(244) 
+VIBR .0, 0.00500 = C(249) TO C(244) 
+VIBR .0, 0.00500 = C(249) TO C(246) 
+VIBR .0, 0.00200 = C(246) TO C(247) 
+VIBR .0, 0.00500 = C(247) TO C(245) 
+VIBR .0, 0.00200 = C(247) TO C(248) 
+VIBR .0, 0.00200 = C(247) TO C(253) 
+VIBR .0, 0.00500 = C(248) TO C(246) 
+VIBR .0, 0.00500 = C(253) TO C(246) 
+VIBR .0, 0.00500 = C(253) TO C(248) 
+VIBR .0, 0.00500 = C(247) TO C(243) 
+VIBR .0, 0.00200 = C(249) TO C(250) 
+VIBR .0, 0.00200 = C(249) TO C(251) 
+VIBR .0, 0.00200 = C(249) TO C(252) 
+VIBR .0, 0.00500 = C(250) TO C(245) 
+VIBR .0, 0.00500 = C(251) TO C(245) 
+VIBR .0, 0.00500 = C(251) TO C(250) 
+VIBR .0, 0.00500 = C(252) TO C(245) 
+VIBR .0, 0.00500 = C(252) TO C(250) 
+VIBR .0, 0.00500 = C(252) TO C(251) 
+VIBR .0, 0.00200 = C(249) TO C(280) 
+VIBR .0, 0.00200 = C(249) TO C(281) 
+VIBR .0, 0.00200 = C(249) TO C(282) 
+VIBR .0, 0.00500 = C(280) TO C(245) 
+VIBR .0, 0.00500 = C(281) TO C(245) 
+VIBR .0, 0.00500 = C(281) TO C(280) 
+VIBR .0, 0.00500 = C(282) TO C(245) 
+VIBR .0, 0.00500 = C(282) TO C(280) 
+VIBR .0, 0.00500 = C(282) TO C(281) 
+VIBR .0, 0.00200 = C(253) TO C(254) 
+VIBR .0, 0.00200 = C(253) TO C(255) 
+VIBR .0, 0.00200 = C(253) TO C(256) 
+VIBR .0, 0.00500 = C(254) TO C(247) 
+VIBR .0, 0.00500 = C(255) TO C(247) 
+VIBR .0, 0.00500 = C(255) TO C(254) 
+VIBR .0, 0.00500 = C(256) TO C(247) 
+VIBR .0, 0.00500 = C(256) TO C(254) 
+VIBR .0, 0.00500 = C(256) TO C(255) 
+VIBR .0, 0.00200 = C(253) TO C(284) 
+VIBR .0, 0.00200 = C(253) TO C(285) 
+VIBR .0, 0.00200 = C(253) TO C(286) 
+VIBR .0, 0.00500 = C(284) TO C(247) 
+VIBR .0, 0.00500 = C(285) TO C(247) 
+VIBR .0, 0.00500 = C(285) TO C(284) 
+VIBR .0, 0.00500 = C(286) TO C(247) 
+VIBR .0, 0.00500 = C(286) TO C(284) 
+VIBR .0, 0.00500 = C(286) TO C(285) 
+VIBR .0, 0.00500 = C(224) TO C(209) 
+VIBR .0, 0.00500 = N(206) TO C(209) 
+VIBR .0, 0.00500 = N(206) TO C(224) 
+VIBR .0, 0.00200 = C(258) TO C(259) 
+VIBR .0, 0.00500 = N(106) TO C(109) 
+VIBR .0, 0.00500 = C(259) TO C(109) 
+VIBR .0, 0.00500 = C(259) TO N(106) 
+VIBR .0, 0.00500 = C(112) TO C(125) 
+VIBR .0, 0.00500 = C(258) TO C(125) 
+VIBR .0, 0.00500 = C(258) TO C(112) 
+VIBR .0, 0.00200 = ZN(300) TO N(301) 
+VIBR .0, 0.00200 = ZN(300) TO N(306) 
+VIBR .0, 0.00200 = ZN(300) TO N(311) 
+VIBR .0, 0.00200 = ZN(300) TO N(316) 
+VIBR .0, 0.00200 = ZN(300) TO N(601) 
+VIBR .0, 0.00500 = N(306) TO N(301) 
+VIBR .0, 0.00500 = N(311) TO N(301) 
+VIBR .0, 0.00500 = N(311) TO N(306) 
+VIBR .0, 0.00500 = N(316) TO N(301) 
+VIBR .0, 0.00500 = N(316) TO N(306) 
+VIBR .0, 0.00500 = N(316) TO N(311) 
+VIBR .0, 0.00500 = N(601) TO N(301) 
+VIBR .0, 0.00500 = N(601) TO N(306) 
+VIBR .0, 0.00500 = N(601) TO N(311) 
+VIBR .0, 0.00500 = N(601) TO N(316) 
+VIBR .0, 0.00200 = N(301) TO C(302) 
+VIBR .0, 0.00200 = N(301) TO C(305) 
+VIBR .0, 0.00500 = C(302) TO ZN(300) 
+VIBR .0, 0.00500 = C(305) TO ZN(300) 
+VIBR .0, 0.00500 = C(305) TO C(302) 
+VIBR .0, 0.00200 = C(302) TO C(303) 
+VIBR .0, 0.00200 = C(302) TO C(321) 
+VIBR .0, 0.00500 = C(303) TO N(301) 
+VIBR .0, 0.00500 = C(321) TO N(301) 
+VIBR .0, 0.00500 = C(321) TO C(303) 
+VIBR .0, 0.00200 = C(303) TO C(304) 
+VIBR .0, 0.00500 = C(304) TO C(302) 
+VIBR .0, 0.00200 = C(304) TO C(305) 
+VIBR .0, 0.00500 = C(305) TO C(303) 
+VIBR .0, 0.00200 = C(305) TO C(327) 
+VIBR .0, 0.00500 = N(301) TO C(304) 
+VIBR .0, 0.00500 = C(327) TO C(304) 
+VIBR .0, 0.00500 = C(327) TO N(301) 
+VIBR .0, 0.00200 = N(306) TO C(307) 
+VIBR .0, 0.00200 = N(306) TO C(310) 
+VIBR .0, 0.00500 = C(307) TO ZN(300) 
+VIBR .0, 0.00500 = C(310) TO ZN(300) 
+VIBR .0, 0.00500 = C(310) TO C(307) 
+VIBR .0, 0.00200 = C(307) TO C(308) 
+VIBR .0, 0.00200 = C(307) TO C(327) 
+VIBR .0, 0.00500 = C(308) TO N(306) 
+VIBR .0, 0.00500 = C(327) TO N(306) 
+VIBR .0, 0.00500 = C(327) TO C(308) 
+VIBR .0, 0.00200 = C(308) TO C(309) 
+VIBR .0, 0.00500 = C(309) TO C(307) 
+VIBR .0, 0.00200 = C(309) TO C(310) 
+VIBR .0, 0.00500 = C(310) TO C(308) 
+VIBR .0, 0.00200 = C(310) TO C(324) 
+VIBR .0, 0.00500 = N(306) TO C(309) 
+VIBR .0, 0.00500 = C(324) TO C(309) 
+VIBR .0, 0.00500 = C(324) TO N(306) 
+VIBR .0, 0.00200 = N(311) TO C(312) 
+VIBR .0, 0.00200 = N(311) TO C(315) 
+VIBR .0, 0.00500 = C(312) TO ZN(300) 
+VIBR .0, 0.00500 = C(315) TO ZN(300) 
+VIBR .0, 0.00500 = C(315) TO C(312) 
+VIBR .0, 0.00200 = C(312) TO C(313) 
+VIBR .0, 0.00200 = C(312) TO C(324) 
+VIBR .0, 0.00500 = C(313) TO N(311) 
+VIBR .0, 0.00500 = C(324) TO N(311) 
+VIBR .0, 0.00500 = C(324) TO C(313) 
+VIBR .0, 0.00200 = C(313) TO C(314) 
+VIBR .0, 0.00500 = C(314) TO C(312) 
+VIBR .0, 0.00200 = C(314) TO C(315) 
+VIBR .0, 0.00500 = C(315) TO C(313) 
+VIBR .0, 0.00200 = C(315) TO C(328) 
+VIBR .0, 0.00500 = N(311) TO C(314) 
+VIBR .0, 0.00500 = C(328) TO C(314) 
+VIBR .0, 0.00500 = C(328) TO N(311) 
+VIBR .0, 0.00200 = N(316) TO C(317) 
+VIBR .0, 0.00200 = N(316) TO C(320) 
+VIBR .0, 0.00500 = C(317) TO ZN(300) 
+VIBR .0, 0.00500 = C(320) TO ZN(300) 
+VIBR .0, 0.00500 = C(320) TO C(317) 
+VIBR .0, 0.00200 = C(317) TO C(318) 
+VIBR .0, 0.00200 = C(317) TO C(328) 
+VIBR .0, 0.00500 = C(318) TO N(316) 
+VIBR .0, 0.00500 = C(328) TO N(316) 
+VIBR .0, 0.00500 = C(328) TO C(318) 
+VIBR .0, 0.00200 = C(318) TO C(319) 
+VIBR .0, 0.00500 = C(319) TO C(317) 
+VIBR .0, 0.00200 = C(319) TO C(320) 
+VIBR .0, 0.00500 = C(320) TO C(318) 
+VIBR .0, 0.00200 = C(320) TO C(321) 
+VIBR .0, 0.00500 = N(316) TO C(319) 
+VIBR .0, 0.00500 = C(321) TO C(319) 
+VIBR .0, 0.00500 = C(321) TO N(316) 
+VIBR .0, 0.00200 = C(321) TO C(322) 
+VIBR .0, 0.00500 = C(320) TO C(302) 
+VIBR .0, 0.00500 = C(322) TO C(302) 
+VIBR .0, 0.00500 = C(322) TO C(320) 
+VIBR .0, 0.00200 = C(322) TO C(323) 
+VIBR .0, 0.00500 = C(323) TO C(321) 
+VIBR .0, 0.00500 = C(322) TO C(226) 
+VIBR .0, 0.00200 = C(324) TO C(325) 
+VIBR .0, 0.00500 = C(310) TO C(312) 
+VIBR .0, 0.00500 = C(325) TO C(312) 
+VIBR .0, 0.00500 = C(325) TO C(310) 
+VIBR .0, 0.00200 = C(325) TO C(326) 
+VIBR .0, 0.00500 = C(326) TO C(324) 
+VIBR .0, 0.00500 = C(325) TO C(123,-1,1,1,0,1) 
+VIBR .0, 0.00200 = C(327) TO C(329) 
+VIBR .0, 0.00500 = C(307) TO C(305) 
+VIBR .0, 0.00500 = C(329) TO C(305) 
+VIBR .0, 0.00500 = C(329) TO C(307) 
+VIBR .0, 0.00200 = C(328) TO C(343) 
+VIBR .0, 0.00500 = C(315) TO C(317) 
+VIBR .0, 0.00500 = C(343) TO C(317) 
+VIBR .0, 0.00500 = C(343) TO C(315) 
+VIBR .0, 0.00200 = C(329) TO C(330) 
+VIBR .0, 0.00200 = C(329) TO C(334) 
+VIBR .0, 0.00500 = C(330) TO C(327) 
+VIBR .0, 0.00500 = C(334) TO C(327) 
+VIBR .0, 0.00500 = C(334) TO C(330) 
+VIBR .0, 0.00200 = C(330) TO C(331) 
+VIBR .0, 0.00500 = C(331) TO C(329) 
+VIBR .0, 0.00200 = C(331) TO C(332) 
+VIBR .0, 0.00200 = C(331) TO C(335) 
+VIBR .0, 0.00500 = C(332) TO C(330) 
+VIBR .0, 0.00500 = C(335) TO C(330) 
+VIBR .0, 0.00500 = C(335) TO C(332) 
+VIBR .0, 0.00200 = C(332) TO C(333) 
+VIBR .0, 0.00500 = C(333) TO C(331) 
+VIBR .0, 0.00200 = C(333) TO C(334) 
+VIBR .0, 0.00200 = C(333) TO C(339) 
+VIBR .0, 0.00500 = C(334) TO C(332) 
+VIBR .0, 0.00500 = C(339) TO C(332) 
+VIBR .0, 0.00500 = C(339) TO C(334) 
+VIBR .0, 0.00500 = C(333) TO C(329) 
+VIBR .0, 0.00200 = C(335) TO C(336) 
+VIBR .0, 0.00200 = C(335) TO C(337) 
+VIBR .0, 0.00200 = C(335) TO C(338) 
+VIBR .0, 0.00500 = C(336) TO C(331) 
+VIBR .0, 0.00500 = C(337) TO C(331) 
+VIBR .0, 0.00500 = C(337) TO C(336) 
+VIBR .0, 0.00500 = C(338) TO C(331) 
+VIBR .0, 0.00500 = C(338) TO C(336) 
+VIBR .0, 0.00500 = C(338) TO C(337) 
+VIBR .0, 0.00200 = C(339) TO C(340) 
+VIBR .0, 0.00200 = C(339) TO C(341) 
+VIBR .0, 0.00200 = C(339) TO C(342) 
+VIBR .0, 0.00500 = C(340) TO C(333) 
+VIBR .0, 0.00500 = C(341) TO C(333) 
+VIBR .0, 0.00500 = C(341) TO C(340) 
+VIBR .0, 0.00500 = C(342) TO C(333) 
+VIBR .0, 0.00500 = C(342) TO C(340) 
+VIBR .0, 0.00500 = C(342) TO C(341) 
+VIBR .0, 0.00200 = C(343) TO C(344) 
+VIBR .0, 0.00200 = C(343) TO C(348) 
+VIBR .0, 0.00500 = C(344) TO C(328) 
+VIBR .0, 0.00500 = C(348) TO C(328) 
+VIBR .0, 0.00500 = C(348) TO C(344) 
+VIBR .0, 0.00200 = C(344) TO C(345) 
+VIBR .0, 0.00500 = C(345) TO C(343) 
+VIBR .0, 0.00200 = C(345) TO C(346) 
+VIBR .0, 0.00200 = C(345) TO C(349) 
+VIBR .0, 0.00500 = C(346) TO C(344) 
+VIBR .0, 0.00500 = C(349) TO C(344) 
+VIBR .0, 0.00500 = C(349) TO C(346) 
+VIBR .0, 0.00200 = C(346) TO C(347) 
+VIBR .0, 0.00500 = C(347) TO C(345) 
+VIBR .0, 0.00200 = C(347) TO C(348) 
+VIBR .0, 0.00200 = C(347) TO C(353) 
+VIBR .0, 0.00500 = C(348) TO C(346) 
+VIBR .0, 0.00500 = C(353) TO C(346) 
+VIBR .0, 0.00500 = C(353) TO C(348) 
+VIBR .0, 0.00500 = C(347) TO C(343) 
+VIBR .0, 0.00200 = C(349) TO C(350) 
+VIBR .0, 0.00200 = C(349) TO C(351) 
+VIBR .0, 0.00200 = C(349) TO C(352) 
+VIBR .0, 0.00500 = C(350) TO C(345) 
+VIBR .0, 0.00500 = C(351) TO C(345) 
+VIBR .0, 0.00500 = C(351) TO C(350) 
+VIBR .0, 0.00500 = C(352) TO C(345) 
+VIBR .0, 0.00500 = C(352) TO C(350) 
+VIBR .0, 0.00500 = C(352) TO C(351) 
+VIBR .0, 0.00200 = C(349) TO C(380) 
+VIBR .0, 0.00200 = C(349) TO C(381) 
+VIBR .0, 0.00200 = C(349) TO C(382) 
+VIBR .0, 0.00500 = C(380) TO C(345) 
+VIBR .0, 0.00500 = C(381) TO C(345) 
+VIBR .0, 0.00500 = C(381) TO C(380) 
+VIBR .0, 0.00500 = C(382) TO C(345) 
+VIBR .0, 0.00500 = C(382) TO C(380) 
+VIBR .0, 0.00500 = C(382) TO C(381) 
+VIBR .0, 0.00200 = C(353) TO C(354) 
+VIBR .0, 0.00200 = C(353) TO C(355) 
+VIBR .0, 0.00200 = C(353) TO C(356) 
+VIBR .0, 0.00500 = C(354) TO C(347) 
+VIBR .0, 0.00500 = C(355) TO C(347) 
+VIBR .0, 0.00500 = C(355) TO C(354) 
+VIBR .0, 0.00500 = C(356) TO C(347) 
+VIBR .0, 0.00500 = C(356) TO C(354) 
+VIBR .0, 0.00500 = C(356) TO C(355) 
+VIBR .0, 0.00200 = C(353) TO C(384) 
+VIBR .0, 0.00200 = C(353) TO C(385) 
+VIBR .0, 0.00200 = C(353) TO C(386) 
+VIBR .0, 0.00500 = C(384) TO C(347) 
+VIBR .0, 0.00500 = C(385) TO C(347) 
+VIBR .0, 0.00500 = C(385) TO C(384) 
+VIBR .0, 0.00500 = C(386) TO C(347) 
+VIBR .0, 0.00500 = C(386) TO C(384) 
+VIBR .0, 0.00500 = C(386) TO C(385) 
+VIBR .0, 0.00200 = N(401) TO C(402) 
+VIBR .0, 0.00200 = N(401) TO C(406) 
+VIBR .0, 0.00500 = C(402) TO ZN(100) 
+VIBR .0, 0.00500 = C(406) TO ZN(100) 
+VIBR .0, 0.00500 = C(406) TO C(402) 
+VIBR .0, 0.00200 = C(402) TO C(403) 
+VIBR .0, 0.00500 = C(403) TO N(401) 
+VIBR .0, 0.00200 = C(403) TO C(404) 
+VIBR .0, 0.00500 = C(404) TO C(402) 
+VIBR .0, 0.00200 = C(404) TO C(405) 
+VIBR .0, 0.00200 = C(404) TO C(407) 
+VIBR .0, 0.00500 = C(405) TO C(403) 
+VIBR .0, 0.00500 = C(407) TO C(403) 
+VIBR .0, 0.00500 = C(407) TO C(405) 
+VIBR .0, 0.00200 = C(405) TO C(406) 
+VIBR .0, 0.00500 = C(406) TO C(404) 
+VIBR .0, 0.00500 = N(401) TO C(405) 
+VIBR .0, 0.00200 = C(407) TO C(408) 
+VIBR .0, 0.00200 = C(407) TO C(412) 
+VIBR .0, 0.00500 = C(408) TO C(404) 
+VIBR .0, 0.00500 = C(412) TO C(404) 
+VIBR .0, 0.00500 = C(412) TO C(408) 
+VIBR .0, 0.00200 = C(407) TO C(414) 
+VIBR .0, 0.00200 = C(407) TO C(417) 
+VIBR .0, 0.00500 = C(414) TO C(404) 
+VIBR .0, 0.00500 = C(417) TO C(404) 
+VIBR .0, 0.00500 = C(417) TO C(414) 
+VIBR .0, 0.00200 = C(408) TO C(409) 
+VIBR .0, 0.00500 = C(409) TO C(407) 
+VIBR .0, 0.00200 = C(409) TO C(410) 
+VIBR .0, 0.00500 = C(410) TO C(408) 
+VIBR .0, 0.00200 = C(410) TO C(411) 
+VIBR .0, 0.00200 = C(410) TO C(413) 
+VIBR .0, 0.00500 = C(411) TO C(409) 
+VIBR .0, 0.00500 = C(413) TO C(409) 
+VIBR .0, 0.00500 = C(413) TO C(411) 
+VIBR .0, 0.00200 = C(410) TO C(413) 
+VIBR .0, 0.00200 = C(410) TO C(415) 
+VIBR .0, 0.00200 = C(410) TO C(416) 
+VIBR .0, 0.00500 = C(415) TO C(413) 
+VIBR .0, 0.00500 = C(416) TO C(413) 
+VIBR .0, 0.00500 = C(416) TO C(415) 
+VIBR .0, 0.00200 = C(411) TO C(412) 
+VIBR .0, 0.00500 = C(412) TO C(410) 
+VIBR .0, 0.00500 = C(407) TO C(411) 
+VIBR .0, 0.00200 = C(413) TO C(613,-1,1,1,0,1) 
+VIBR .0, 0.00200 = C(413) TO C(513) 
+VIBR .0, 0.00500 = C(613,-1,1,1,0,1) TO C(410) 
+VIBR .0, 0.00500 = C(513) TO C(410) 
+VIBR .0, 0.00500 = C(513) TO C(613,-1,1,1,0,1) 
+VIBR .0, 0.00200 = C(414) TO C(415) 
+VIBR .0, 0.00500 = C(415) TO C(407) 
+VIBR .0, 0.00500 = C(414) TO C(410) 
+VIBR .0, 0.00200 = C(416) TO C(417) 
+VIBR .0, 0.00500 = C(417) TO C(410) 
+VIBR .0, 0.00500 = C(407) TO C(416) 
+VIBR .0, 0.00200 = N(501) TO C(502) 
+VIBR .0, 0.00200 = N(501) TO C(506) 
+VIBR .0, 0.00500 = C(502) TO ZN(200) 
+VIBR .0, 0.00500 = C(506) TO ZN(200) 
+VIBR .0, 0.00500 = C(506) TO C(502) 
+VIBR .0, 0.00200 = C(502) TO C(503) 
+VIBR .0, 0.00500 = C(503) TO N(501) 
+VIBR .0, 0.00200 = C(503) TO C(504) 
+VIBR .0, 0.00500 = C(504) TO C(502) 
+VIBR .0, 0.00200 = C(504) TO C(505) 
+VIBR .0, 0.00200 = C(504) TO C(507) 
+VIBR .0, 0.00500 = C(505) TO C(503) 
+VIBR .0, 0.00500 = C(507) TO C(503) 
+VIBR .0, 0.00500 = C(507) TO C(505) 
+VIBR .0, 0.00200 = C(505) TO C(506) 
+VIBR .0, 0.00500 = C(506) TO C(504) 
+VIBR .0, 0.00500 = N(501) TO C(505) 
+VIBR .0, 0.00200 = C(507) TO C(508) 
+VIBR .0, 0.00200 = C(507) TO C(512) 
+VIBR .0, 0.00500 = C(508) TO C(504) 
+VIBR .0, 0.00500 = C(512) TO C(504) 
+VIBR .0, 0.00500 = C(512) TO C(508) 
+VIBR .0, 0.00200 = C(507) TO C(514) 
+VIBR .0, 0.00200 = C(507) TO C(517) 
+VIBR .0, 0.00500 = C(514) TO C(504) 
+VIBR .0, 0.00500 = C(517) TO C(504) 
+VIBR .0, 0.00500 = C(517) TO C(514) 
+VIBR .0, 0.00200 = C(508) TO C(509) 
+VIBR .0, 0.00500 = C(509) TO C(507) 
+VIBR .0, 0.00200 = C(509) TO C(510) 
+VIBR .0, 0.00500 = C(510) TO C(508) 
+VIBR .0, 0.00200 = C(510) TO C(511) 
+VIBR .0, 0.00200 = C(510) TO C(513) 
+VIBR .0, 0.00500 = C(511) TO C(509) 
+VIBR .0, 0.00500 = C(513) TO C(509) 
+VIBR .0, 0.00500 = C(513) TO C(511) 
+VIBR .0, 0.00200 = C(510) TO C(513) 
+VIBR .0, 0.00200 = C(510) TO C(515) 
+VIBR .0, 0.00200 = C(510) TO C(516) 
+VIBR .0, 0.00500 = C(515) TO C(513) 
+VIBR .0, 0.00500 = C(516) TO C(513) 
+VIBR .0, 0.00500 = C(516) TO C(515) 
+VIBR .0, 0.00200 = C(511) TO C(512) 
+VIBR .0, 0.00500 = C(512) TO C(510) 
+VIBR .0, 0.00500 = C(511) TO C(507) 
+VIBR .0, 0.00200 = C(513) TO C(613) 
+VIBR .0, 0.00500 = C(413) TO C(510) 
+VIBR .0, 0.00500 = C(613) TO C(510) 
+VIBR .0, 0.00500 = C(613) TO C(413) 
+VIBR .0, 0.00200 = C(514) TO C(515) 
+VIBR .0, 0.00500 = C(515) TO C(507) 
+VIBR .0, 0.00500 = C(510) TO C(514) 
+VIBR .0, 0.00200 = C(516) TO C(517) 
+VIBR .0, 0.00500 = C(517) TO C(510) 
+VIBR .0, 0.00500 = C(507) TO C(516) 
+VIBR .0, 0.00200 = N(601) TO C(602) 
+VIBR .0, 0.00200 = N(601) TO C(606) 
+VIBR .0, 0.00500 = C(602) TO ZN(300) 
+VIBR .0, 0.00500 = C(606) TO ZN(300) 
+VIBR .0, 0.00500 = C(606) TO C(602) 
+VIBR .0, 0.00200 = C(602) TO C(603) 
+VIBR .0, 0.00500 = C(603) TO N(601) 
+VIBR .0, 0.00200 = C(603) TO C(604) 
+VIBR .0, 0.00500 = C(604) TO C(602) 
+VIBR .0, 0.00200 = C(604) TO C(605) 
+VIBR .0, 0.00200 = C(604) TO C(607) 
+VIBR .0, 0.00500 = C(605) TO C(603) 
+VIBR .0, 0.00500 = C(607) TO C(603) 
+VIBR .0, 0.00500 = C(607) TO C(605) 
+VIBR .0, 0.00200 = C(605) TO C(606) 
+VIBR .0, 0.00500 = C(606) TO C(604) 
+VIBR .0, 0.00500 = N(601) TO C(605) 
+VIBR .0, 0.00200 = C(607) TO C(608) 
+VIBR .0, 0.00200 = C(607) TO C(612) 
+VIBR .0, 0.00500 = C(608) TO C(604) 
+VIBR .0, 0.00500 = C(612) TO C(604) 
+VIBR .0, 0.00500 = C(612) TO C(608) 
+VIBR .0, 0.00200 = C(607) TO C(614) 
+VIBR .0, 0.00200 = C(607) TO C(617) 
+VIBR .0, 0.00500 = C(614) TO C(604) 
+VIBR .0, 0.00500 = C(617) TO C(604) 
+VIBR .0, 0.00500 = C(617) TO C(614) 
+VIBR .0, 0.00200 = C(608) TO C(609) 
+VIBR .0, 0.00500 = C(609) TO C(607) 
+VIBR .0, 0.00200 = C(609) TO C(610) 
+VIBR .0, 0.00500 = C(610) TO C(608) 
+VIBR .0, 0.00200 = C(610) TO C(611) 
+VIBR .0, 0.00200 = C(610) TO C(613) 
+VIBR .0, 0.00500 = C(611) TO C(609) 
+VIBR .0, 0.00500 = C(613) TO C(609) 
+VIBR .0, 0.00500 = C(613) TO C(611) 
+VIBR .0, 0.00200 = C(610) TO C(613) 
+VIBR .0, 0.00200 = C(610) TO C(615) 
+VIBR .0, 0.00200 = C(610) TO C(616) 
+VIBR .0, 0.00500 = C(615) TO C(613) 
+VIBR .0, 0.00500 = C(616) TO C(613) 
+VIBR .0, 0.00500 = C(616) TO C(615) 
+VIBR .0, 0.00200 = C(611) TO C(612) 
+VIBR .0, 0.00500 = C(612) TO C(610) 
+VIBR .0, 0.00500 = C(611) TO C(607) 
+VIBR .0, 0.00500 = C(513) TO C(610) 
+VIBR .0, 0.00500 = C(413,-1,1,1,0,1) TO C(610) 
+VIBR .0, 0.00500 = C(413,-1,1,1,0,1) TO C(513) 
+VIBR .0, 0.00200 = C(614) TO C(615) 
+VIBR .0, 0.00500 = C(615) TO C(607) 
+VIBR .0, 0.00500 = C(610) TO C(614) 
+VIBR .0, 0.00200 = C(616) TO C(617) 
+VIBR .0, 0.00500 = C(617) TO C(610) 
+VIBR .0, 0.00500 = C(607) TO C(616) 
+VIBR .0, 0.00200 = C(701) TO CL(702) 
+VIBR .0, 0.00200 = C(701) TO CL(703) 
+VIBR .0, 0.00200 = C(701) TO CL(704) 
+VIBR .0, 0.00500 = CL(703) TO CL(702) 
+VIBR .0, 0.00500 = CL(704) TO CL(702) 
+VIBR .0, 0.00500 = CL(704) TO CL(703) 
+VIBR .0, 0.00200 = C(705) TO CL(706) 
+VIBR .0, 0.00200 = C(705) TO CL(707) 
+VIBR .0, 0.00200 = C(705) TO CL(708) 
+VIBR .0, 0.00500 = CL(707) TO CL(706) 
+VIBR .0, 0.00500 = CL(708) TO CL(706) 
+VIBR .0, 0.00500 = CL(708) TO CL(707) 
+REM   DELU   END (DO NOT REMOVE THIS LINE) 
+REM   THERMSIM   START (DO NOT REMOVE THIS LINE) 
+U(IJ) .0, 0.04000 = ZN(100) TO N(101) 
+U(IJ) .0, 0.04000 = ZN(100) TO N(106) 
+U(IJ) .0, 0.04000 = ZN(100) TO N(111) 
+U(IJ) .0, 0.04000 = ZN(100) TO N(116) 
+U(IJ) .0, 0.04000 = ZN(100) TO N(401) 
+U(IJ) .0, 0.04000 = N(101) TO C(102) 
+U(IJ) .0, 0.04000 = N(101) TO C(105) 
+U(IJ) .0, 0.04000 = C(102) TO C(103) 
+U(IJ) .0, 0.04000 = C(102) TO C(121) 
+U(IJ) .0, 0.04000 = C(103) TO C(104) 
+U(IJ) .0, 0.04000 = C(104) TO C(105) 
+U(IJ) .0, 0.04000 = C(105) TO C(127) 
+U(IJ) .0, 0.04000 = N(106) TO C(107) 
+U(IJ) .0, 0.04000 = N(106) TO C(258) 
+U(IJ) .0, 0.04000 = C(107) TO C(108) 
+U(IJ) .0, 0.04000 = C(107) TO C(127) 
+U(IJ) .0, 0.04000 = C(108) TO C(109) 
+U(IJ) .0, 0.04000 = C(109) TO C(258) 
+U(IJ) .0, 0.04000 = N(111) TO C(112) 
+U(IJ) .0, 0.04000 = N(111) TO C(115) 
+U(IJ) .0, 0.04000 = C(112) TO C(113) 
+U(IJ) .0, 0.04000 = C(112) TO C(259) 
+U(IJ) .0, 0.04000 = C(113) TO C(114) 
+U(IJ) .0, 0.04000 = C(114) TO C(115) 
+U(IJ) .0, 0.04000 = C(115) TO C(128) 
+U(IJ) .0, 0.04000 = N(116) TO C(117) 
+U(IJ) .0, 0.04000 = N(116) TO C(120) 
+U(IJ) .0, 0.04000 = C(117) TO C(118) 
+U(IJ) .0, 0.04000 = C(117) TO C(128) 
+U(IJ) .0, 0.04000 = C(118) TO C(119) 
+U(IJ) .0, 0.04000 = C(119) TO C(120) 
+U(IJ) .0, 0.04000 = C(120) TO C(121) 
+U(IJ) .0, 0.04000 = C(121) TO C(122) 
+U(IJ) .0, 0.04000 = C(122) TO C(123) 
+U(IJ) .0, 0.04000 = C(123) TO C(326,-1,1,1,0,1) 
+U(IJ) .0, 0.04000 = C(125) TO C(126) 
+U(IJ) .0, 0.04000 = C(125) TO C(259) 
+U(IJ) .0, 0.04000 = C(126) TO C(223) 
+U(IJ) .0, 0.04000 = C(127) TO C(129) 
+U(IJ) .0, 0.04000 = C(128) TO C(143) 
+U(IJ) .0, 0.04000 = C(129) TO C(130) 
+U(IJ) .0, 0.04000 = C(129) TO C(134) 
+U(IJ) .0, 0.04000 = C(130) TO C(131) 
+U(IJ) .0, 0.04000 = C(131) TO C(132) 
+U(IJ) .0, 0.04000 = C(131) TO C(135) 
+U(IJ) .0, 0.04000 = C(132) TO C(133) 
+U(IJ) .0, 0.04000 = C(133) TO C(134) 
+U(IJ) .0, 0.04000 = C(133) TO C(139) 
+U(IJ) .0, 0.08000 = C(135) TO C(136) 
+U(IJ) .0, 0.08000 = C(135) TO C(137) 
+U(IJ) .0, 0.08000 = C(135) TO C(138) 
+U(IJ) .0, 0.08000 = C(135) TO C(166) 
+U(IJ) .0, 0.08000 = C(135) TO C(167) 
+U(IJ) .0, 0.08000 = C(135) TO C(168) 
+U(IJ) .0, 0.08000 = C(139) TO C(140) 
+U(IJ) .0, 0.08000 = C(139) TO C(141) 
+U(IJ) .0, 0.08000 = C(139) TO C(142) 
+U(IJ) .0, 0.08000 = C(139) TO C(170) 
+U(IJ) .0, 0.08000 = C(139) TO C(171) 
+U(IJ) .0, 0.08000 = C(139) TO C(172) 
+U(IJ) .0, 0.04000 = C(143) TO C(144) 
+U(IJ) .0, 0.04000 = C(143) TO C(148) 
+U(IJ) .0, 0.04000 = C(144) TO C(145) 
+U(IJ) .0, 0.04000 = C(145) TO C(146) 
+U(IJ) .0, 0.04000 = C(145) TO C(149) 
+U(IJ) .0, 0.04000 = C(146) TO C(147) 
+U(IJ) .0, 0.04000 = C(147) TO C(148) 
+U(IJ) .0, 0.04000 = C(147) TO C(153) 
+U(IJ) .0, 0.08000 = C(149) TO C(150) 
+U(IJ) .0, 0.08000 = C(149) TO C(151) 
+U(IJ) .0, 0.08000 = C(149) TO C(152) 
+U(IJ) .0, 0.08000 = C(153) TO C(154) 
+U(IJ) .0, 0.08000 = C(153) TO C(155) 
+U(IJ) .0, 0.08000 = C(153) TO C(156) 
+U(IJ) .0, 0.04000 = ZN(200) TO N(201) 
+U(IJ) .0, 0.04000 = ZN(200) TO N(206) 
+U(IJ) .0, 0.04000 = ZN(200) TO N(211) 
+U(IJ) .0, 0.04000 = ZN(200) TO N(216) 
+U(IJ) .0, 0.04000 = ZN(200) TO N(501) 
+U(IJ) .0, 0.04000 = N(201) TO C(202) 
+U(IJ) .0, 0.04000 = N(201) TO C(205) 
+U(IJ) .0, 0.04000 = C(202) TO C(203) 
+U(IJ) .0, 0.04000 = C(202) TO C(221) 
+U(IJ) .0, 0.04000 = C(203) TO C(204) 
+U(IJ) .0, 0.04000 = C(204) TO C(205) 
+U(IJ) .0, 0.04000 = C(205) TO C(227) 
+U(IJ) .0, 0.04000 = N(206) TO C(207) 
+U(IJ) .0, 0.04000 = N(206) TO C(257) 
+U(IJ) .0, 0.04000 = C(207) TO C(208) 
+U(IJ) .0, 0.04000 = C(207) TO C(227) 
+U(IJ) .0, 0.04000 = C(208) TO C(209) 
+U(IJ) .0, 0.04000 = C(209) TO C(257) 
+U(IJ) .0, 0.04000 = N(211) TO C(212) 
+U(IJ) .0, 0.04000 = N(211) TO C(215) 
+U(IJ) .0, 0.04000 = C(212) TO C(213) 
+U(IJ) .0, 0.04000 = C(212) TO C(224) 
+U(IJ) .0, 0.04000 = C(213) TO C(214) 
+U(IJ) .0, 0.04000 = C(214) TO C(215) 
+U(IJ) .0, 0.04000 = C(215) TO C(228) 
+U(IJ) .0, 0.04000 = N(216) TO C(217) 
+U(IJ) .0, 0.04000 = N(216) TO C(220) 
+U(IJ) .0, 0.04000 = C(217) TO C(218) 
+U(IJ) .0, 0.04000 = C(217) TO C(228) 
+U(IJ) .0, 0.04000 = C(218) TO C(219) 
+U(IJ) .0, 0.04000 = C(219) TO C(220) 
+U(IJ) .0, 0.04000 = C(220) TO C(221) 
+U(IJ) .0, 0.04000 = C(221) TO C(222) 
+U(IJ) .0, 0.04000 = C(222) TO C(223) 
+U(IJ) .0, 0.04000 = C(224) TO C(225) 
+U(IJ) .0, 0.04000 = C(224) TO C(257) 
+U(IJ) .0, 0.04000 = C(225) TO C(226) 
+U(IJ) .0, 0.04000 = C(226) TO C(323) 
+U(IJ) .0, 0.04000 = C(227) TO C(229) 
+U(IJ) .0, 0.04000 = C(228) TO C(243) 
+U(IJ) .0, 0.04000 = C(229) TO C(230) 
+U(IJ) .0, 0.04000 = C(229) TO C(234) 
+U(IJ) .0, 0.04000 = C(230) TO C(231) 
+U(IJ) .0, 0.04000 = C(231) TO C(232) 
+U(IJ) .0, 0.04000 = C(231) TO C(235) 
+U(IJ) .0, 0.04000 = C(232) TO C(233) 
+U(IJ) .0, 0.04000 = C(233) TO C(234) 
+U(IJ) .0, 0.04000 = C(233) TO C(239) 
+U(IJ) .0, 0.08000 = C(235) TO C(236) 
+U(IJ) .0, 0.08000 = C(235) TO C(237) 
+U(IJ) .0, 0.08000 = C(235) TO C(238) 
+U(IJ) .0, 0.08000 = C(235) TO C(266) 
+U(IJ) .0, 0.08000 = C(235) TO C(267) 
+U(IJ) .0, 0.08000 = C(235) TO C(268) 
+U(IJ) .0, 0.08000 = C(239) TO C(240) 
+U(IJ) .0, 0.08000 = C(239) TO C(241) 
+U(IJ) .0, 0.08000 = C(239) TO C(242) 
+U(IJ) .0, 0.08000 = C(239) TO C(270) 
+U(IJ) .0, 0.08000 = C(239) TO C(271) 
+U(IJ) .0, 0.08000 = C(239) TO C(272) 
+U(IJ) .0, 0.04000 = C(243) TO C(244) 
+U(IJ) .0, 0.04000 = C(243) TO C(248) 
+U(IJ) .0, 0.04000 = C(244) TO C(245) 
+U(IJ) .0, 0.04000 = C(245) TO C(246) 
+U(IJ) .0, 0.04000 = C(245) TO C(249) 
+U(IJ) .0, 0.04000 = C(246) TO C(247) 
+U(IJ) .0, 0.04000 = C(247) TO C(248) 
+U(IJ) .0, 0.04000 = C(247) TO C(253) 
+U(IJ) .0, 0.08000 = C(249) TO C(250) 
+U(IJ) .0, 0.08000 = C(249) TO C(251) 
+U(IJ) .0, 0.08000 = C(249) TO C(252) 
+U(IJ) .0, 0.08000 = C(249) TO C(280) 
+U(IJ) .0, 0.08000 = C(249) TO C(281) 
+U(IJ) .0, 0.08000 = C(249) TO C(282) 
+U(IJ) .0, 0.08000 = C(253) TO C(254) 
+U(IJ) .0, 0.08000 = C(253) TO C(255) 
+U(IJ) .0, 0.08000 = C(253) TO C(256) 
+U(IJ) .0, 0.08000 = C(253) TO C(284) 
+U(IJ) .0, 0.08000 = C(253) TO C(285) 
+U(IJ) .0, 0.08000 = C(253) TO C(286) 
+U(IJ) .0, 0.04000 = C(258) TO C(259) 
+U(IJ) .0, 0.04000 = ZN(300) TO N(301) 
+U(IJ) .0, 0.04000 = ZN(300) TO N(306) 
+U(IJ) .0, 0.04000 = ZN(300) TO N(311) 
+U(IJ) .0, 0.04000 = ZN(300) TO N(316) 
+U(IJ) .0, 0.04000 = ZN(300) TO N(601) 
+U(IJ) .0, 0.04000 = N(301) TO C(302) 
+U(IJ) .0, 0.04000 = N(301) TO C(305) 
+U(IJ) .0, 0.04000 = C(302) TO C(303) 
+U(IJ) .0, 0.04000 = C(302) TO C(321) 
+U(IJ) .0, 0.04000 = C(303) TO C(304) 
+U(IJ) .0, 0.04000 = C(304) TO C(305) 
+U(IJ) .0, 0.04000 = C(305) TO C(327) 
+U(IJ) .0, 0.04000 = N(306) TO C(307) 
+U(IJ) .0, 0.04000 = N(306) TO C(310) 
+U(IJ) .0, 0.04000 = C(307) TO C(308) 
+U(IJ) .0, 0.04000 = C(307) TO C(327) 
+U(IJ) .0, 0.04000 = C(308) TO C(309) 
+U(IJ) .0, 0.04000 = C(309) TO C(310) 
+U(IJ) .0, 0.04000 = C(310) TO C(324) 
+U(IJ) .0, 0.04000 = N(311) TO C(312) 
+U(IJ) .0, 0.04000 = N(311) TO C(315) 
+U(IJ) .0, 0.04000 = C(312) TO C(313) 
+U(IJ) .0, 0.04000 = C(312) TO C(324) 
+U(IJ) .0, 0.04000 = C(313) TO C(314) 
+U(IJ) .0, 0.04000 = C(314) TO C(315) 
+U(IJ) .0, 0.04000 = C(315) TO C(328) 
+U(IJ) .0, 0.04000 = N(316) TO C(317) 
+U(IJ) .0, 0.04000 = N(316) TO C(320) 
+U(IJ) .0, 0.04000 = C(317) TO C(318) 
+U(IJ) .0, 0.04000 = C(317) TO C(328) 
+U(IJ) .0, 0.04000 = C(318) TO C(319) 
+U(IJ) .0, 0.04000 = C(319) TO C(320) 
+U(IJ) .0, 0.04000 = C(320) TO C(321) 
+U(IJ) .0, 0.04000 = C(321) TO C(322) 
+U(IJ) .0, 0.04000 = C(322) TO C(323) 
+U(IJ) .0, 0.04000 = C(324) TO C(325) 
+U(IJ) .0, 0.04000 = C(325) TO C(326) 
+U(IJ) .0, 0.04000 = C(327) TO C(329) 
+U(IJ) .0, 0.04000 = C(328) TO C(343) 
+U(IJ) .0, 0.04000 = C(329) TO C(330) 
+U(IJ) .0, 0.04000 = C(329) TO C(334) 
+U(IJ) .0, 0.04000 = C(330) TO C(331) 
+U(IJ) .0, 0.04000 = C(331) TO C(332) 
+U(IJ) .0, 0.04000 = C(331) TO C(335) 
+U(IJ) .0, 0.04000 = C(332) TO C(333) 
+U(IJ) .0, 0.04000 = C(333) TO C(334) 
+U(IJ) .0, 0.04000 = C(333) TO C(339) 
+U(IJ) .0, 0.08000 = C(335) TO C(336) 
+U(IJ) .0, 0.08000 = C(335) TO C(337) 
+U(IJ) .0, 0.08000 = C(335) TO C(338) 
+U(IJ) .0, 0.08000 = C(339) TO C(340) 
+U(IJ) .0, 0.08000 = C(339) TO C(341) 
+U(IJ) .0, 0.08000 = C(339) TO C(342) 
+U(IJ) .0, 0.04000 = C(343) TO C(344) 
+U(IJ) .0, 0.04000 = C(343) TO C(348) 
+U(IJ) .0, 0.04000 = C(344) TO C(345) 
+U(IJ) .0, 0.04000 = C(345) TO C(346) 
+U(IJ) .0, 0.04000 = C(345) TO C(349) 
+U(IJ) .0, 0.04000 = C(346) TO C(347) 
+U(IJ) .0, 0.04000 = C(347) TO C(348) 
+U(IJ) .0, 0.04000 = C(347) TO C(353) 
+U(IJ) .0, 0.08000 = C(349) TO C(350) 
+U(IJ) .0, 0.08000 = C(349) TO C(351) 
+U(IJ) .0, 0.08000 = C(349) TO C(352) 
+U(IJ) .0, 0.08000 = C(349) TO C(380) 
+U(IJ) .0, 0.08000 = C(349) TO C(381) 
+U(IJ) .0, 0.08000 = C(349) TO C(382) 
+U(IJ) .0, 0.08000 = C(353) TO C(354) 
+U(IJ) .0, 0.08000 = C(353) TO C(355) 
+U(IJ) .0, 0.08000 = C(353) TO C(356) 
+U(IJ) .0, 0.08000 = C(353) TO C(384) 
+U(IJ) .0, 0.08000 = C(353) TO C(385) 
+U(IJ) .0, 0.08000 = C(353) TO C(386) 
+U(IJ) .0, 0.04000 = N(401) TO C(402) 
+U(IJ) .0, 0.04000 = N(401) TO C(406) 
+U(IJ) .0, 0.04000 = C(402) TO C(403) 
+U(IJ) .0, 0.04000 = C(403) TO C(404) 
+U(IJ) .0, 0.04000 = C(404) TO C(405) 
+U(IJ) .0, 0.04000 = C(404) TO C(407) 
+U(IJ) .0, 0.04000 = C(405) TO C(406) 
+U(IJ) .0, 0.04000 = C(407) TO C(408) 
+U(IJ) .0, 0.04000 = C(407) TO C(412) 
+U(IJ) .0, 0.04000 = C(407) TO C(414) 
+U(IJ) .0, 0.04000 = C(407) TO C(417) 
+U(IJ) .0, 0.04000 = C(408) TO C(409) 
+U(IJ) .0, 0.04000 = C(409) TO C(410) 
+U(IJ) .0, 0.04000 = C(410) TO C(411) 
+U(IJ) .0, 0.04000 = C(410) TO C(413) 
+U(IJ) .0, 0.04000 = C(410) TO C(413) 
+U(IJ) .0, 0.04000 = C(410) TO C(415) 
+U(IJ) .0, 0.04000 = C(410) TO C(416) 
+U(IJ) .0, 0.04000 = C(411) TO C(412) 
+U(IJ) .0, 0.04000 = C(413) TO C(613,-1,1,1,0,1) 
+U(IJ) .0, 0.04000 = C(413) TO C(513) 
+U(IJ) .0, 0.04000 = C(414) TO C(415) 
+U(IJ) .0, 0.04000 = C(416) TO C(417) 
+U(IJ) .0, 0.04000 = N(501) TO C(502) 
+U(IJ) .0, 0.04000 = N(501) TO C(506) 
+U(IJ) .0, 0.04000 = C(502) TO C(503) 
+U(IJ) .0, 0.04000 = C(503) TO C(504) 
+U(IJ) .0, 0.04000 = C(504) TO C(505) 
+U(IJ) .0, 0.04000 = C(504) TO C(507) 
+U(IJ) .0, 0.04000 = C(505) TO C(506) 
+U(IJ) .0, 0.04000 = C(507) TO C(508) 
+U(IJ) .0, 0.04000 = C(507) TO C(512) 
+U(IJ) .0, 0.04000 = C(507) TO C(514) 
+U(IJ) .0, 0.04000 = C(507) TO C(517) 
+U(IJ) .0, 0.04000 = C(508) TO C(509) 
+U(IJ) .0, 0.04000 = C(509) TO C(510) 
+U(IJ) .0, 0.04000 = C(510) TO C(511) 
+U(IJ) .0, 0.04000 = C(510) TO C(513) 
+U(IJ) .0, 0.04000 = C(510) TO C(513) 
+U(IJ) .0, 0.04000 = C(510) TO C(515) 
+U(IJ) .0, 0.04000 = C(510) TO C(516) 
+U(IJ) .0, 0.04000 = C(511) TO C(512) 
+U(IJ) .0, 0.04000 = C(513) TO C(613) 
+U(IJ) .0, 0.04000 = C(514) TO C(515) 
+U(IJ) .0, 0.04000 = C(516) TO C(517) 
+U(IJ) .0, 0.04000 = N(601) TO C(602) 
+U(IJ) .0, 0.04000 = N(601) TO C(606) 
+U(IJ) .0, 0.04000 = C(602) TO C(603) 
+U(IJ) .0, 0.04000 = C(603) TO C(604) 
+U(IJ) .0, 0.04000 = C(604) TO C(605) 
+U(IJ) .0, 0.04000 = C(604) TO C(607) 
+U(IJ) .0, 0.04000 = C(605) TO C(606) 
+U(IJ) .0, 0.04000 = C(607) TO C(608) 
+U(IJ) .0, 0.04000 = C(607) TO C(612) 
+U(IJ) .0, 0.04000 = C(607) TO C(614) 
+U(IJ) .0, 0.04000 = C(607) TO C(617) 
+U(IJ) .0, 0.04000 = C(608) TO C(609) 
+U(IJ) .0, 0.04000 = C(609) TO C(610) 
+U(IJ) .0, 0.04000 = C(610) TO C(611) 
+U(IJ) .0, 0.04000 = C(610) TO C(613) 
+U(IJ) .0, 0.04000 = C(610) TO C(613) 
+U(IJ) .0, 0.04000 = C(610) TO C(615) 
+U(IJ) .0, 0.04000 = C(610) TO C(616) 
+U(IJ) .0, 0.04000 = C(611) TO C(612) 
+U(IJ) .0, 0.04000 = C(614) TO C(615) 
+U(IJ) .0, 0.04000 = C(616) TO C(617) 
+U(IJ) .0, 0.08000 = C(701) TO CL(702) 
+U(IJ) .0, 0.08000 = C(701) TO CL(703) 
+U(IJ) .0, 0.08000 = C(701) TO CL(704) 
+U(IJ) .0, 0.08000 = C(705) TO CL(706) 
+U(IJ) .0, 0.08000 = C(705) TO CL(707) 
+U(IJ) .0, 0.08000 = C(705) TO CL(708) 
+REM   THERMSIM   END (DO NOT REMOVE THIS LINE) 
+RESTRAIN 0,0.01 = C(170,U[12]) - C(170,U[13]) 
+RESTRAIN 0,0.01 = C(170,U[12]) - C(170,U[23]) 
+RESTRAIN 0,0.01 = C(170,U[23]) - C(170,U[13]) 
+RESTRAIN 0,0.01 = C(170,U[11]) - C(170,U[22]) 
+RESTRAIN 0,0.01 = C(170,U[11]) - C(170,U[22]) 
+RESTRAIN 0,0.01 = C(170,U[22]) - C(170,U[33]) 
+RESTRAIN 0,0.01 = C(171,U[12]) - C(171,U[13]) 
+RESTRAIN 0,0.01 = C(171,U[12]) - C(171,U[23]) 
+RESTRAIN 0,0.01 = C(171,U[23]) - C(171,U[13]) 
+RESTRAIN 0,0.01 = C(171,U[11]) - C(171,U[22]) 
+RESTRAIN 0,0.01 = C(171,U[11]) - C(171,U[22]) 
+RESTRAIN 0,0.01 = C(171,U[22]) - C(171,U[33]) 
+RESTRAIN 0,0.01 = C(172,U[12]) - C(171,U[13]) 
+RESTRAIN 0,0.01 = C(172,U[12]) - C(172,U[23]) 
+RESTRAIN 0,0.01 = C(172,U[23]) - C(172,U[13]) 
+RESTRAIN 0,0.01 = C(172,U[11]) - C(172,U[22]) 
+RESTRAIN 0,0.01 = C(172,U[11]) - C(172,U[22]) 
+RESTRAIN 0,0.01 = C(172,U[22]) - C(172,U[33]) 
+RESTRAIN 0,0.01 = C(511,U[12]) - C(511,U[13]) 
+RESTRAIN 0,0.01 = C(511,U[12]) - C(511,U[23]) 
+RESTRAIN 0,0.01 = C(511,U[23]) - C(511,U[13]) 
+RESTRAIN 0,0.01 = C(511,U[11]) - C(511,U[22]) 
+RESTRAIN 0,0.01 = C(511,U[11]) - C(511,U[22]) 
+RESTRAIN 0,0.01 = C(511,U[22]) - C(511,U[33]) 
+RESTRAIN 0,0.01 = C(512,U[12]) - C(512,U[13]) 
+RESTRAIN 0,0.01 = C(512,U[12]) - C(512,U[23]) 
+RESTRAIN 0,0.01 = C(512,U[23]) - C(512,U[13]) 
+RESTRAIN 0,0.01 = C(512,U[11]) - C(512,U[22]) 
+RESTRAIN 0,0.01 = C(512,U[11]) - C(512,U[22]) 
+RESTRAIN 0,0.01 = C(512,U[22]) - C(512,U[33]) 
+RESTRAIN 0,0.01 = C(701,U[12]) - C(701,U[13]) 
+RESTRAIN 0,0.01 = C(701,U[12]) - C(701,U[23]) 
+RESTRAIN 0,0.01 = C(701,U[23]) - C(701,U[13]) 
+RESTRAIN 0,0.01 = C(701,U[11]) - C(701,U[22]) 
+RESTRAIN 0,0.01 = C(701,U[11]) - C(701,U[22]) 
+RESTRAIN 0,0.01 = C(701,U[22]) - C(701,U[33]) 
+REM   HREST   START (DO NOT REMOVE THIS LINE) 
+REM   HREST   END (DO NOT REMOVE THIS LINE) 
+END                                                                             
+;
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,z
+x,-y+1/2,z+1/2
+-x,y+1/2,-z+1/2
+-x+1/2,y,z+1/2
+x+1/2,-y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Zn100 Zn 0.546598(15) -0.37984(4) 0.27588(3) 0.0676 1.0000 Uani . U . . .
+N101 N 0.57441(10) -0.3454(3) 0.2486(2) 0.0680 1.0000 Uani . U . . .
+C102 C 0.59588(12) -0.3448(3) 0.2669(2) 0.0605 1.0000 Uani . U . . .
+C103 C 0.61003(14) -0.3073(3) 0.2427(3) 0.0706 1.0000 Uani . U . . .
+C104 C 0.59748(13) -0.2848(3) 0.2108(3) 0.0671 1.0000 Uani . U . . .
+C105 C 0.57456(13) -0.3094(4) 0.2154(3) 0.0681 1.0000 Uani . U . . .
+N106 N 0.52812(10) -0.3534(3) 0.2239(2) 0.0706 1.0000 Uani . U . . .
+C107 C 0.53475(13) -0.3148(3) 0.1949(3) 0.0709 1.0000 Uani . U . . .
+C108 C 0.51482(13) -0.2957(4) 0.1716(3) 0.0807 1.0000 Uani . U . . .
+C109 C 0.49655(14) -0.3224(3) 0.1876(3) 0.0725 1.0000 Uani . U . . .
+N111 N 0.52057(10) -0.4308(3) 0.2928(2) 0.0722 1.0000 Uani . U . . .
+C112 C 0.49843(12) -0.4252(3) 0.2799(3) 0.0599 1.0000 Uani . U . . .
+C113 C 0.48419(14) -0.4582(4) 0.3043(3) 0.0790 1.0000 Uani . U . . .
+C114 C 0.49718(14) -0.4838(4) 0.3348(3) 0.0864 1.0000 Uani . U . . .
+C115 C 0.52017(13) -0.4641(3) 0.3266(3) 0.0706 1.0000 Uani . U . . .
+N116 N 0.56713(10) -0.4212(3) 0.3168(2) 0.0749 1.0000 Uani . U . . .
+C117 C 0.56074(14) -0.4576(4) 0.3471(3) 0.0814 1.0000 Uani . U . . .
+C118 C 0.58003(14) -0.4722(4) 0.3750(3) 0.0930 1.0000 Uani . U . . .
+C119 C 0.59738(15) -0.4413(4) 0.3600(3) 0.0954 1.0000 Uani . U . . .
+C120 C 0.58985(13) -0.4110(4) 0.3256(3) 0.0731 1.0000 Uani . U . . .
+C121 C 0.60290(13) -0.3738(3) 0.3021(3) 0.0585 1.0000 Uani . U . . .
+C122 C 0.62433(13) -0.3623(3) 0.3185(3) 0.0650 1.0000 Uani . U . . .
+C123 C 0.64144(13) -0.3449(3) 0.3356(3) 0.0674 1.0000 Uani . U . . .
+C125 C 0.46747(14) -0.3856(3) 0.2419(3) 0.0661 1.0000 Uani . U . . .
+C126 C 0.44738(14) -0.3785(3) 0.2439(3) 0.0739 1.0000 Uani . U . . .
+C127 C 0.55626(13) -0.2936(3) 0.1904(3) 0.0662 1.0000 Uani . U . . .
+C128 C 0.53882(13) -0.4792(3) 0.3532(3) 0.0722 1.0000 Uani . U . . .
+C129 C 0.56013(13) -0.2499(3) 0.1566(3) 0.0690 1.0000 Uani . U . . .
+C130 C 0.56074(13) -0.2599(4) 0.1142(3) 0.0727 1.0000 Uani . U . . .
+C131 C 0.56578(13) -0.2196(3) 0.0834(2) 0.0778 1.0000 Uani D U . . .
+C132 C 0.57029(15) -0.1685(4) 0.1002(3) 0.0860 1.0000 Uani . U . . .
+C133 C 0.56987(13) -0.1572(3) 0.1438(3) 0.0799 1.0000 Uani D U . . .
+C134 C 0.56447(14) -0.1990(3) 0.1734(3) 0.0774 1.0000 Uani . U . . .
+C135 C 0.56708(15) -0.2313(3) 0.03463(19) 0.1049 1.0000 Uani D U . . .
+C136 C 0.5611(4) -0.1807(5) 0.0096(3) 0.1327 0.557(19) Uani D U P 4 1
+C137 C 0.5505(4) -0.2741(7) 0.0224(4) 0.2157 0.557(19) Uani D U P 4 1
+C138 C 0.5911(3) -0.2481(10) 0.0225(4) 0.2155 0.557(19) Uani D U P 4 1
+C139 C 0.57582(11) -0.1004(2) 0.1589(2) 0.0924 1.0000 Uani D U . . .
+C140 C 0.5895(3) -0.0725(4) 0.1236(4) 0.1740 0.813(12) Uani D U P 4 3
+C141 C 0.55496(18) -0.0691(4) 0.1668(6) 0.2036 0.813(12) Uani D U P 4 3
+C142 C 0.5902(2) -0.1031(4) 0.2000(4) 0.1362 0.813(12) Uani D U P 4 3
+C143 C 0.53521(13) -0.5163(3) 0.3912(3) 0.0692 1.0000 Uani . U . . .
+C144 C 0.52764(13) -0.5681(3) 0.3829(3) 0.0726 1.0000 Uani . U . . .
+C145 C 0.52534(11) -0.6039(3) 0.4171(3) 0.0737 1.0000 Uani D U . . .
+C146 C 0.52995(13) -0.5848(4) 0.4581(3) 0.0780 1.0000 Uani . U . . .
+C147 C 0.53712(11) -0.5325(3) 0.4673(2) 0.0733 1.0000 Uani D U . . .
+C148 C 0.53951(13) -0.4997(3) 0.4320(3) 0.0666 1.0000 Uani . U . . .
+C149 C 0.51531(8) -0.65966(19) 0.40809(19) 0.0949 1.0000 Uani D U . . .
+C150 C 0.52885(13) -0.6864(3) 0.3717(3) 0.1171 1.0000 Uani D U . . .
+C151 C 0.51683(16) -0.6939(3) 0.4475(3) 0.1369 1.0000 Uani D U . . .
+C152 C 0.49057(11) -0.6543(3) 0.3935(3) 0.1084 1.0000 Uani D U . . .
+C153 C 0.54293(8) -0.5168(2) 0.51374(16) 0.0819 1.0000 Uani D U . . .
+C154 C 0.56420(12) -0.5466(3) 0.5278(2) 0.1061 1.0000 Uani D U . . .
+C155 C 0.52402(13) -0.5318(4) 0.5437(2) 0.1242 1.0000 Uani D U . . .
+C156 C 0.54754(16) -0.4565(3) 0.5162(3) 0.1398 1.0000 Uani D U . . .
+C166 C 0.5448(3) -0.2152(8) 0.0134(4) 0.1565 0.443(19) Uani D U P 4 2
+C167 C 0.5708(3) -0.2897(4) 0.0269(3) 0.0727 0.443(19) Uani D U P 4 2
+C168 C 0.5863(4) -0.1985(7) 0.0142(4) 0.1964 0.443(19) Uani D U P 4 2
+C170 C 0.6012(2) -0.0913(7) 0.1533(12) 0.1000 0.187(12) Uani D U P 4 4
+C171 C 0.5635(5) -0.0599(4) 0.1324(9) 0.0978 0.187(12) Uani D U P 4 4
+C172 C 0.5699(7) -0.0940(7) 0.2068(5) 0.1015 0.187(12) Uani D U P 4 4
+Zn200 Zn 0.348769(15) -0.26705(4) 0.34592(4) 0.0735 1.0000 Uani . U . . .
+N201 N 0.35644(11) -0.2675(3) 0.2816(2) 0.0758 1.0000 Uani . U . . .
+C202 C 0.37368(14) -0.2944(3) 0.2622(3) 0.0729 1.0000 Uani . U . . .
+C203 C 0.37718(16) -0.2783(4) 0.2180(3) 0.0913 1.0000 Uani . U . . .
+C204 C 0.36110(14) -0.2396(4) 0.2093(3) 0.0890 1.0000 Uani . U . . .
+C205 C 0.34905(14) -0.2334(3) 0.2502(3) 0.0755 1.0000 Uani . U . . .
+N206 N 0.32388(10) -0.2118(3) 0.3324(3) 0.0736 1.0000 Uani . U . . .
+C207 C 0.32021(14) -0.1849(3) 0.2947(3) 0.0756 1.0000 Uani . U . . .
+C208 C 0.30212(14) -0.1465(4) 0.2995(4) 0.0884 1.0000 Uani . U . . .
+C209 C 0.29657(17) -0.1486(4) 0.3427(4) 0.1000 1.0000 Uani . U . . .
+N211 N 0.33384(10) -0.2811(3) 0.4049(2) 0.0688 1.0000 Uani . U . . .
+C212 C 0.31902(14) -0.2483(4) 0.4269(3) 0.0773 1.0000 Uani . U . . .
+C213 C 0.31600(14) -0.2646(3) 0.4691(3) 0.0730 1.0000 Uani . U . . .
+C214 C 0.32858(14) -0.3095(4) 0.4753(3) 0.0820 1.0000 Uani . U . . .
+C215 C 0.34034(14) -0.3178(3) 0.4340(3) 0.0740 1.0000 Uani . U . . .
+N216 N 0.36681(10) -0.3371(3) 0.3534(2) 0.0717 1.0000 Uani . U . . .
+C217 C 0.36937(13) -0.3659(4) 0.3913(3) 0.0758 1.0000 Uani . U . . .
+C218 C 0.38791(14) -0.4041(4) 0.3854(3) 0.0765 1.0000 Uani . U . . .
+C219 C 0.39618(15) -0.3966(4) 0.3462(3) 0.0831 1.0000 Uani . U . . .
+C220 C 0.38343(13) -0.3553(3) 0.3243(3) 0.0743 1.0000 Uani . U . . .
+C221 C 0.38628(14) -0.3341(4) 0.2841(3) 0.0754 1.0000 Uani . U . . .
+C222 C 0.40660(14) -0.3534(4) 0.2620(3) 0.0799 1.0000 Uani . U . . .
+C223 C 0.42501(14) -0.3660(4) 0.2507(3) 0.0737 1.0000 Uani . U . . .
+C224 C 0.30830(13) -0.2036(3) 0.4063(3) 0.0736 1.0000 Uani . U . . .
+C225 C 0.29724(14) -0.1667(3) 0.4347(3) 0.0804 1.0000 Uani . U . . .
+C226 C 0.28949(14) -0.1314(4) 0.4561(3) 0.0777 1.0000 Uani . U . . .
+C227 C 0.33134(14) -0.1947(3) 0.2566(3) 0.0771 1.0000 Uani . U . . .
+C228 C 0.35683(14) -0.3576(4) 0.4297(3) 0.0773 1.0000 Uani . U . . .
+C229 C 0.32531(15) -0.1599(4) 0.2200(3) 0.0857 1.0000 Uani . U . . .
+C230 C 0.31152(17) -0.1780(4) 0.1862(3) 0.0988 1.0000 Uani . U . . .
+C231 C 0.30424(15) -0.1461(4) 0.1531(3) 0.1125 1.0000 Uani D U . . .
+C232 C 0.31132(18) -0.0926(5) 0.1543(5) 0.1243 1.0000 Uani . U . . .
+C233 C 0.32534(15) -0.0720(3) 0.1850(4) 0.1078 1.0000 Uani D U . . .
+C234 C 0.33228(17) -0.1064(4) 0.2194(4) 0.0991 1.0000 Uani . U . . .
+C235 C 0.28839(16) -0.1653(4) 0.1172(3) 0.1492 1.0000 Uani D U . . .
+C236 C 0.2701(4) -0.1232(9) 0.1095(9) 0.1556 0.50(3) Uani D U P 5 1
+C237 C 0.2771(5) -0.2165(9) 0.1299(7) 0.1997 0.50(3) Uani D U P 5 1
+C238 C 0.3017(3) -0.1728(15) 0.0754(5) 0.1612 0.50(3) Uani D U P 5 1
+C239 C 0.33272(16) -0.0130(3) 0.1842(3) 0.1424 1.0000 Uani D U . . .
+C240 C 0.3491(4) -0.0042(6) 0.1463(7) 0.3241 0.48(2) Uani D U P 5 3
+C241 C 0.3128(3) 0.0224(4) 0.1781(9) 0.1633 0.48(2) Uani D U P 5 3
+C242 C 0.3450(5) 0.0010(5) 0.2265(6) 0.1653 0.48(2) Uani D U P 5 3
+C243 C 0.36322(13) -0.3905(4) 0.4682(3) 0.0728 1.0000 Uani . U . . .
+C244 C 0.36049(14) -0.4447(4) 0.4684(3) 0.0760 1.0000 Uani . U . . .
+C245 C 0.36642(13) -0.4745(3) 0.5048(3) 0.0797 1.0000 Uani D U . . .
+C246 C 0.37655(14) -0.4495(3) 0.5402(3) 0.0770 1.0000 Uani . U . . .
+C247 C 0.37977(13) -0.3945(3) 0.5399(3) 0.0833 1.0000 Uani D U . . .
+C248 C 0.37334(13) -0.3648(3) 0.5043(3) 0.0764 1.0000 Uani . U . . .
+C249 C 0.36385(13) -0.5357(2) 0.5027(3) 0.1074 1.0000 Uani D U . . .
+C250 C 0.3406(3) -0.5512(5) 0.5202(10) 0.1931 0.348(18) Uani D U P 5 5
+C251 C 0.3814(4) -0.5620(4) 0.5295(9) 0.0989 0.348(18) Uani D U P 5 5
+C252 C 0.3656(6) -0.5545(5) 0.4557(4) 0.2301 0.348(18) Uani D U P 5 5
+C253 C 0.39027(11) -0.3647(2) 0.5786(2) 0.0885 1.0000 Uani D U . . .
+C254 C 0.3815(2) -0.3897(6) 0.6209(3) 0.1039 0.455(17) Uani D U P 5 7
+C255 C 0.41505(16) -0.3695(5) 0.5779(4) 0.0729 0.455(17) Uani D U P 5 7
+C256 C 0.3833(3) -0.3059(4) 0.5775(5) 0.1076 0.455(17) Uani D U P 5 7
+C257 C 0.31008(13) -0.1903(4) 0.3626(3) 0.0790 1.0000 Uani . U . . .
+C258 C 0.50497(13) -0.3578(3) 0.2200(3) 0.0723 1.0000 Uani . U . . .
+C259 C 0.49152(13) -0.3904(3) 0.2465(3) 0.0688 1.0000 Uani . U . . .
+C266 C 0.26389(19) -0.1596(16) 0.1322(7) 0.1976 0.50(3) Uani D U P 5 2
+C267 C 0.2927(5) -0.2229(7) 0.1071(10) 0.2252 0.50(3) Uani D U P 5 2
+C268 C 0.2917(6) -0.1311(13) 0.0767(6) 0.2391 0.50(3) Uani D U P 5 2
+C270 C 0.3340(4) 0.0062(5) 0.1371(4) 0.1187 0.52(2) Uani D U P 5 4
+C271 C 0.3160(3) 0.0208(4) 0.2076(8) 0.1949 0.52(2) Uani D U P 5 4
+C272 C 0.3561(3) -0.0073(5) 0.2046(8) 0.1633 0.52(2) Uani D U P 5 4
+C280 C 0.3414(2) -0.5494(4) 0.4808(6) 0.1221 0.652(18) Uani D U P 5 6
+C281 C 0.3637(4) -0.5588(4) 0.5469(4) 0.2614 0.652(18) Uani D U P 5 6
+C282 C 0.3831(2) -0.5596(5) 0.4760(7) 0.2039 0.652(18) Uani D U P 5 6
+C284 C 0.4031(3) -0.4050(5) 0.6073(4) 0.1356 0.545(17) Uani D U P 5 8
+C285 C 0.4069(3) -0.3230(6) 0.5631(4) 0.1616 0.545(17) Uani D U P 5 8
+C286 C 0.3717(2) -0.3387(7) 0.6055(4) 0.1431 0.545(17) Uani D U P 5 8
+Zn300 Zn 0.303354(14) 0.12059(4) 0.56320(3) 0.0656 1.0000 Uani . U . . .
+N301 N 0.29168(10) 0.0979(3) 0.5032(2) 0.0685 1.0000 Uani . U . . .
+C302 C 0.28456(12) 0.0475(3) 0.4907(3) 0.0650 1.0000 Uani . U . . .
+C303 C 0.27868(14) 0.0474(4) 0.4481(3) 0.0739 1.0000 Uani . U . . .
+C304 C 0.28233(13) 0.0967(4) 0.4309(3) 0.0759 1.0000 Uani . U . . .
+C305 C 0.29113(12) 0.1290(3) 0.4662(3) 0.0650 1.0000 Uani . U . . .
+N306 N 0.30619(9) 0.1991(3) 0.5399(2) 0.0605 1.0000 Uani . U . . .
+C307 C 0.30611(11) 0.2140(3) 0.4973(3) 0.0612 1.0000 Uani . U . . .
+C308 C 0.31688(12) 0.2672(3) 0.4934(3) 0.0659 1.0000 Uani . U . . .
+C309 C 0.32158(12) 0.2810(3) 0.5344(3) 0.0650 1.0000 Uani . U . . .
+C310 C 0.31546(12) 0.2403(3) 0.5643(3) 0.0625 1.0000 Uani . U . . .
+N311 N 0.30505(9) 0.1494(3) 0.6240(2) 0.0660 1.0000 Uani . U . . .
+C312 C 0.31194(12) 0.1992(3) 0.6381(3) 0.0657 1.0000 Uani . U . . .
+C313 C 0.31301(13) 0.2019(4) 0.6829(3) 0.0731 1.0000 Uani . U . . .
+C314 C 0.30714(13) 0.1548(3) 0.6997(3) 0.0736 1.0000 Uani . U . . .
+C315 C 0.30230(13) 0.1205(4) 0.6617(3) 0.0723 1.0000 Uani . U . . .
+N316 N 0.29141(10) 0.0493(3) 0.5878(2) 0.0661 1.0000 Uani . U . . .
+C317 C 0.29165(13) 0.0339(3) 0.6302(3) 0.0691 1.0000 Uani . U . . .
+C318 C 0.28625(14) -0.0233(4) 0.6341(3) 0.0767 1.0000 Uani . U . . .
+C319 C 0.28305(13) -0.0389(4) 0.5929(3) 0.0706 1.0000 Uani . U . . .
+C320 C 0.28607(12) 0.0046(3) 0.5636(3) 0.0635 1.0000 Uani . U . . .
+C321 C 0.28383(12) 0.0041(3) 0.5201(3) 0.0633 1.0000 Uani . U . . .
+C322 C 0.28209(14) -0.0460(4) 0.4981(3) 0.0729 1.0000 Uani . U . . .
+C323 C 0.28434(14) -0.0878(4) 0.4805(3) 0.0792 1.0000 Uani . U . . .
+C324 C 0.31772(12) 0.2397(3) 0.6091(3) 0.0643 1.0000 Uani . U . . .
+C325 C 0.32933(14) 0.2845(3) 0.6267(3) 0.0671 1.0000 Uani . U . . .
+C326 C 0.34143(14) 0.3146(4) 0.6446(3) 0.0741 1.0000 Uani . U . . .
+C327 C 0.29907(12) 0.1833(3) 0.4618(3) 0.0636 1.0000 Uani . U . . .
+C328 C 0.29633(12) 0.0666(3) 0.6660(3) 0.0648 1.0000 Uani . U . . .
+C329 C 0.29956(13) 0.2062(3) 0.4182(3) 0.0670 1.0000 Uani . U . . .
+C330 C 0.28985(13) 0.2559(3) 0.4083(3) 0.0707 1.0000 Uani . U . . .
+C331 C 0.29046(12) 0.2762(3) 0.3664(3) 0.0820 1.0000 Uani D U . . .
+C332 C 0.30048(15) 0.2441(4) 0.3336(3) 0.0860 1.0000 Uani . U . . .
+C333 C 0.31037(13) 0.1954(3) 0.3426(2) 0.0874 1.0000 Uani D U . . .
+C334 C 0.31016(13) 0.1777(3) 0.3848(3) 0.0692 1.0000 Uani . U . . .
+C335 C 0.27957(10) 0.3311(2) 0.3571(2) 0.1042 1.0000 Uani D U . . .
+C336 C 0.25439(13) 0.3235(4) 0.3479(4) 0.1598 1.0000 Uani D U . . .
+C337 C 0.2820(2) 0.3674(4) 0.3955(4) 0.2054 1.0000 Uani D U . . .
+C338 C 0.29059(18) 0.3561(4) 0.3175(4) 0.1844 1.0000 Uani D U . . .
+C339 C 0.31984(9) 0.1585(2) 0.30651(17) 0.0999 1.0000 Uani D U . . .
+C340 C 0.30409(15) 0.1104(3) 0.3011(3) 0.1256 1.0000 Uani D U . . .
+C341 C 0.32092(16) 0.1876(4) 0.2646(2) 0.1267 1.0000 Uani D U . . .
+C342 C 0.34318(13) 0.1384(3) 0.3192(3) 0.1063 1.0000 Uani D U . . .
+C343 C 0.29543(14) 0.0420(4) 0.7101(3) 0.0790 1.0000 Uani . U . . .
+C344 C 0.27528(15) 0.0241(4) 0.7262(3) 0.0860 1.0000 Uani . U . . .
+C345 C 0.27409(12) -0.0007(4) 0.7669(3) 0.0911 1.0000 Uani D U . . .
+C346 C 0.29435(15) -0.0069(3) 0.7899(3) 0.0854 1.0000 Uani . U . . .
+C347 C 0.31483(12) 0.0084(3) 0.7734(3) 0.0806 1.0000 Uani D U . . .
+C348 C 0.31520(15) 0.0345(3) 0.7340(3) 0.0809 1.0000 Uani . U . . .
+C349 C 0.25176(11) -0.0215(4) 0.7865(2) 0.1092 1.0000 Uani D U . . .
+C350 C 0.2430(3) 0.0191(8) 0.8195(8) 0.2243 0.52(2) Uani D U P 6 5
+C351 C 0.2555(2) -0.0735(8) 0.8091(8) 0.1459 0.52(2) Uani D U P 6 5
+C352 C 0.2341(2) -0.0279(12) 0.7510(5) 0.1487 0.52(2) Uani D U P 6 5
+C353 C 0.33722(10) 0.0020(3) 0.7983(2) 0.1008 1.0000 Uani D U . . .
+C354 C 0.3368(3) -0.0506(8) 0.8232(9) 0.1836 0.54(3) Uani D U P 6 7
+C355 C 0.35671(16) 0.0009(14) 0.7678(4) 0.1606 0.54(3) Uani D U P 6 7
+C356 C 0.3399(3) 0.0478(9) 0.8306(9) 0.2614 0.54(3) Uani D U P 6 7
+C380 C 0.2522(3) -0.0130(15) 0.8355(4) 0.1496 0.48(2) Uani D U P 6 6
+C381 C 0.2491(4) -0.0797(6) 0.7778(11) 0.2485 0.48(2) Uani D U P 6 6
+C382 C 0.23189(17) 0.0095(12) 0.7677(10) 0.2116 0.48(2) Uani D U P 6 6
+C384 C 0.3323(2) -0.0217(12) 0.8427(5) 0.1337 0.46(3) Uani D U P 6 8
+C385 C 0.3528(3) -0.0350(10) 0.7747(6) 0.1286 0.46(3) Uani D U P 6 8
+C386 C 0.3484(3) 0.0568(5) 0.8044(10) 0.1202 0.46(3) Uani D U P 6 8
+N401 N 0.53734(9) -0.3158(2) 0.3169(2) 0.0778 1.0000 Uani D U . . .
+C402 C 0.53429(13) -0.2677(3) 0.30005(17) 0.1299 1.0000 Uani D U . . .
+C403 C 0.52867(13) -0.2238(2) 0.3264(2) 0.1279 1.0000 Uani D U . . .
+C404 C 0.52589(10) -0.2289(3) 0.3689(2) 0.0784 1.0000 Uani D U . . .
+C405 C 0.52863(13) -0.2791(3) 0.38648(18) 0.1322 1.0000 Uani D U . . .
+C406 C 0.53434(13) -0.3215(2) 0.3580(2) 0.1279 1.0000 Uani D U . . .
+C407 C 0.52018(8) -0.1825(2) 0.39661(19) 0.0734 1.0000 Uani D U . . .
+C408 C 0.50859(13) -0.1393(3) 0.37861(15) 0.0687 0.497(9) Uani D U P 1 1
+C409 C 0.50357(12) -0.0948(2) 0.4039(2) 0.0712 0.497(9) Uani D U P 1 1
+C410 C 0.51038(8) -0.0932(2) 0.44700(18) 0.0657 1.0000 Uani D U . . .
+C411 C 0.52126(13) -0.1371(3) 0.46537(16) 0.0669 0.497(9) Uani D U P 1 1
+C412 C 0.52605(12) -0.1818(2) 0.4402(2) 0.0642 0.497(9) Uani D U P 1 1
+C413 C 0.50501(9) -0.0441(3) 0.4747(2) 0.0625 1.0000 Uani . U . . .
+C414 C 0.52837(12) -0.1325(3) 0.38456(19) 0.0845 0.503(9) Uani D U P 1 2
+C415 C 0.52349(12) -0.0878(2) 0.4098(2) 0.0716 0.503(9) Uani D U P 1 2
+C416 C 0.50270(12) -0.1433(3) 0.45963(18) 0.0714 0.503(9) Uani D U P 1 2
+C417 C 0.50760(13) -0.1880(2) 0.4344(2) 0.0753 0.503(9) Uani D U P 1 2
+N501 N 0.37460(8) -0.2151(2) 0.3703(2) 0.0731 1.0000 Uani D U . . .
+C502 C 0.38556(11) -0.1801(3) 0.34608(17) 0.1114 1.0000 Uani D U . . .
+C503 C 0.40312(11) -0.1487(3) 0.3633(2) 0.1114 1.0000 Uani D U . . .
+C504 C 0.40956(9) -0.1531(3) 0.4047(2) 0.0822 1.0000 Uani D U . . .
+C505 C 0.39836(12) -0.1896(3) 0.42989(19) 0.1304 1.0000 Uani D U . . .
+C506 C 0.38050(11) -0.2194(3) 0.4104(2) 0.1378 1.0000 Uani D U . . .
+C507 C 0.42846(7) -0.1207(2) 0.4245(2) 0.0736 1.0000 Uani D U . . .
+C508 C 0.43192(11) -0.0680(3) 0.4120(2) 0.0798 0.504(8) Uani D U P 2 1
+C509 C 0.44935(12) -0.0383(2) 0.4304(2) 0.0739 0.504(8) Uani D U P 2 1
+C510 C 0.46342(8) -0.0615(2) 0.46126(19) 0.0666 1.0000 Uani D U . . .
+C511 C 0.45991(11) -0.1143(3) 0.4740(2) 0.0741 0.504(8) Uani D U P 2 1
+C512 C 0.44254(12) -0.1440(2) 0.4554(2) 0.0720 0.504(8) Uani D U P 2 1
+C513 C 0.48226(11) -0.0290(3) 0.4816(2) 0.0658 1.0000 Uani . U . . .
+C514 C 0.44422(12) -0.0954(3) 0.39811(15) 0.0681 0.496(8) Uani D U P 2 2
+C515 C 0.46172(10) -0.0658(3) 0.4165(2) 0.0598 0.496(8) Uani D U P 2 2
+C516 C 0.44734(12) -0.0858(3) 0.48762(15) 0.0781 0.496(8) Uani D U P 2 2
+C517 C 0.42988(10) -0.1155(3) 0.4693(2) 0.0652 0.496(8) Uani D U P 2 2
+N601 N 0.33841(7) 0.0990(2) 0.55289(18) 0.0677 1.0000 Uani D U . . .
+C602 C 0.35059(10) 0.1246(2) 0.5231(2) 0.0942 1.0000 Uani D U . . .
+C603 C 0.37319(9) 0.1115(2) 0.5157(2) 0.0879 1.0000 Uani D U . . .
+C604 C 0.38355(8) 0.0727(3) 0.5379(2) 0.0713 1.0000 Uani D U . . .
+C605 C 0.37101(10) 0.0460(2) 0.5688(2) 0.0921 1.0000 Uani D U . . .
+C606 C 0.34820(9) 0.0616(2) 0.5746(2) 0.0929 1.0000 Uani D U . . .
+C607 C 0.40805(7) 0.0575(2) 0.53021(18) 0.0683 1.0000 Uani D U . . .
+C608 C 0.42252(10) 0.0935(2) 0.5100(2) 0.0687 0.481(9) Uani D U P 3 1
+C609 C 0.44506(9) 0.0796(2) 0.5024(2) 0.0761 0.481(9) Uani D U P 3 1
+C610 C 0.45310(7) 0.0300(2) 0.51551(19) 0.0704 1.0000 Uani D U . . .
+C611 C 0.43839(10) -0.00690(19) 0.5343(2) 0.0570 0.481(9) Uani D U P 3 1
+C612 C 0.41590(10) 0.0070(2) 0.5419(2) 0.0665 0.481(9) Uani D U P 3 1
+C613 C 0.47750(12) 0.0150(3) 0.5071(2) 0.0679 1.0000 Uani . U . . .
+C614 C 0.41716(9) 0.0619(3) 0.48881(18) 0.0635 0.519(9) Uani D U P 3 2
+C615 C 0.43969(10) 0.0480(3) 0.48142(16) 0.0695 0.519(9) Uani D U P 3 2
+C616 C 0.44432(10) 0.0283(3) 0.55731(18) 0.0748 0.519(9) Uani D U P 3 2
+C617 C 0.42178(10) 0.0421(3) 0.56467(15) 0.0756 0.519(9) Uani D U P 3 2
+C701 C 0.50103(12) 0.0787(3) 0.4125(2) 0.1399 0.357(7) Uani D U P . .
+Cl702 Cl 0.50384(15) 0.1476(3) 0.4275(2) 0.1365 0.357(7) Uani D U P . .
+Cl703 Cl 0.52377(13) 0.0684(3) 0.3751(3) 0.1566 0.357(7) Uani D U P . .
+Cl704 Cl 0.47642(12) 0.0779(3) 0.3791(3) 0.1336 0.357(7) Uani D U P . .
+C705 C 0.34799(3) 0.28037(9) 0.37835(7) 0.1040 0.737(6) Uani D U P . .
+Cl706 Cl 0.35200(3) 0.34007(9) 0.41012(7) 0.1211 0.737(6) Uani D U P . .
+Cl707 Cl 0.35617(3) 0.30061(9) 0.32432(7) 0.0925 0.737(6) Uani D U P . .
+Cl708 Cl 0.37106(3) 0.23716(9) 0.39551(7) 0.1224 0.737(6) Uani D U P . .
+H1031 H 0.6255 -0.3000 0.2484 0.0848 1.0000 Uiso R . . . .
+H1041 H 0.6022 -0.2591 0.1901 0.0807 1.0000 Uiso R . . . .
+H1081 H 0.5146 -0.2696 0.1496 0.0970 1.0000 Uiso R . . . .
+H1091 H 0.4813 -0.3183 0.1789 0.0870 1.0000 Uiso R . . . .
+H1131 H 0.4684 -0.4622 0.3005 0.0946 1.0000 Uiso R . . . .
+H1141 H 0.4924 -0.5084 0.3561 0.1038 1.0000 Uiso R . . . .
+H1181 H 0.5803 -0.4971 0.3979 0.1121 1.0000 Uiso R . . . .
+H1191 H 0.6122 -0.4407 0.3714 0.1145 1.0000 Uiso R . . . .
+H1301 H 0.5577 -0.2950 0.1043 0.0874 1.0000 Uiso R . . . .
+H1321 H 0.5738 -0.1405 0.0807 0.1032 1.0000 Uiso R . . . .
+H1341 H 0.5638 -0.1924 0.2035 0.0929 1.0000 Uiso R . . . .
+H1361 H 0.5619 -0.1874 -0.0204 0.1592 0.557(19) Uiso R . P 4 1
+H1362 H 0.5715 -0.1533 0.0170 0.1592 0.557(19) Uiso R . P 4 1
+H1363 H 0.5463 -0.1699 0.0171 0.1592 0.557(19) Uiso R . P 4 1
+H1371 H 0.5514 -0.2810 -0.0076 0.2541 0.557(19) Uiso R . P 4 1
+H1372 H 0.5538 -0.3058 0.0380 0.2541 0.557(19) Uiso R . P 4 1
+H1373 H 0.5357 -0.2624 0.0294 0.2541 0.557(19) Uiso R . P 4 1
+H1381 H 0.5919 -0.2553 -0.0075 0.2565 0.557(19) Uiso R . P 4 1
+H1382 H 0.6015 -0.2207 0.0297 0.2565 0.557(19) Uiso R . P 4 1
+H1383 H 0.5948 -0.2794 0.0382 0.2565 0.557(19) Uiso R . P 4 1
+H1401 H 0.5933 -0.0374 0.1325 0.2123 0.813(12) Uiso R . P 4 3
+H1402 H 0.6029 -0.0920 0.1181 0.2123 0.813(12) Uiso R . P 4 3
+H1403 H 0.5806 -0.0709 0.0982 0.2123 0.813(12) Uiso R . P 4 3
+H1411 H 0.5588 -0.0343 0.1761 0.2455 0.813(12) Uiso R . P 4 3
+H1412 H 0.5462 -0.0862 0.1884 0.2455 0.813(12) Uiso R . P 4 3
+H1413 H 0.5465 -0.0671 0.1409 0.2455 0.813(12) Uiso R . P 4 3
+H1421 H 0.5939 -0.0681 0.2093 0.1662 0.813(12) Uiso R . P 4 3
+H1422 H 0.6037 -0.1223 0.1944 0.1662 0.813(12) Uiso R . P 4 3
+H1423 H 0.5818 -0.1206 0.2218 0.1662 0.813(12) Uiso R . P 4 3
+H1441 H 0.5241 -0.5787 0.3543 0.0872 1.0000 Uiso R . . . .
+H1461 H 0.5281 -0.6086 0.4817 0.0934 1.0000 Uiso R . . . .
+H1481 H 0.5443 -0.4640 0.4364 0.0800 1.0000 Uiso R . . . .
+H1501 H 0.5228 -0.7207 0.3659 0.1407 1.0000 Uiso R . . . .
+H1502 H 0.5441 -0.6897 0.3806 0.1407 1.0000 Uiso R . . . .
+H1503 H 0.5281 -0.6653 0.3465 0.1407 1.0000 Uiso R . . . .
+H1511 H 0.5106 -0.7279 0.4416 0.1640 1.0000 Uiso R . . . .
+H1512 H 0.5322 -0.6976 0.4555 0.1640 1.0000 Uiso R . . . .
+H1513 H 0.5087 -0.6776 0.4703 0.1640 1.0000 Uiso R . . . .
+H1521 H 0.4844 -0.6884 0.3880 0.1298 1.0000 Uiso R . . . .
+H1522 H 0.4822 -0.6374 0.4158 0.1298 1.0000 Uiso R . . . .
+H1523 H 0.4898 -0.6333 0.3681 0.1298 1.0000 Uiso R . . . .
+H1541 H 0.5680 -0.5372 0.5565 0.1276 1.0000 Uiso R . . . .
+H1542 H 0.5763 -0.5377 0.5091 0.1276 1.0000 Uiso R . . . .
+H1543 H 0.5614 -0.5837 0.5262 0.1276 1.0000 Uiso R . . . .
+H1551 H 0.5278 -0.5219 0.5724 0.1485 1.0000 Uiso R . . . .
+H1552 H 0.5217 -0.5692 0.5425 0.1485 1.0000 Uiso R . . . .
+H1553 H 0.5106 -0.5140 0.5352 0.1485 1.0000 Uiso R . . . .
+H1561 H 0.5511 -0.4467 0.5449 0.1680 1.0000 Uiso R . . . .
+H1562 H 0.5598 -0.4476 0.4978 0.1680 1.0000 Uiso R . . . .
+H1563 H 0.5344 -0.4379 0.5072 0.1680 1.0000 Uiso R . . . .
+H1661 H 0.5454 -0.2222 -0.0166 0.1929 0.443(19) Uiso R . P 4 2
+H1662 H 0.5421 -0.1784 0.0180 0.1929 0.443(19) Uiso R . P 4 2
+H1663 H 0.5329 -0.2353 0.0261 0.1929 0.443(19) Uiso R . P 4 2
+H1671 H 0.5716 -0.2964 -0.0032 0.0873 0.443(19) Uiso R . P 4 2
+H1672 H 0.5846 -0.3003 0.0401 0.0873 0.443(19) Uiso R . P 4 2
+H1673 H 0.5587 -0.3092 0.0390 0.0873 0.443(19) Uiso R . P 4 2
+H1681 H 0.5871 -0.2056 -0.0158 0.2401 0.443(19) Uiso R . P 4 2
+H1682 H 0.6001 -0.2081 0.0275 0.2401 0.443(19) Uiso R . P 4 2
+H1683 H 0.5835 -0.1616 0.0186 0.2401 0.443(19) Uiso R . P 4 2
+H1701 H 0.6051 -0.0565 0.1625 0.1198 0.187(12) Uiso R . P 4 4
+H1702 H 0.6093 -0.1167 0.1698 0.1198 0.187(12) Uiso R . P 4 4
+H1703 H 0.6048 -0.0954 0.1237 0.1198 0.187(12) Uiso R . P 4 4
+H1711 H 0.5673 -0.0251 0.1419 0.1182 0.187(12) Uiso R . P 4 4
+H1712 H 0.5676 -0.0638 0.1029 0.1182 0.187(12) Uiso R . P 4 4
+H1713 H 0.5477 -0.0653 0.1354 0.1182 0.187(12) Uiso R . P 4 4
+H1721 H 0.5735 -0.0591 0.2161 0.1221 0.187(12) Uiso R . P 4 4
+H1722 H 0.5781 -0.1192 0.2233 0.1221 0.187(12) Uiso R . P 4 4
+H1723 H 0.5542 -0.0999 0.2105 0.1221 0.187(12) Uiso R . P 4 4
+H2031 H 0.3883 -0.2917 0.1987 0.1094 1.0000 Uiso R . . . .
+H2041 H 0.3585 -0.2212 0.1830 0.1068 1.0000 Uiso R . . . .
+H2081 H 0.2956 -0.1248 0.2778 0.1062 1.0000 Uiso R . . . .
+H2091 H 0.2858 -0.1267 0.3569 0.1200 1.0000 Uiso R . . . .
+H2131 H 0.3068 -0.2476 0.4901 0.0876 1.0000 Uiso R . . . .
+H2141 H 0.3295 -0.3307 0.5006 0.0984 1.0000 Uiso R . . . .
+H2181 H 0.3930 -0.4294 0.4059 0.0917 1.0000 Uiso R . . . .
+H2191 H 0.4086 -0.4155 0.3342 0.0997 1.0000 Uiso R . . . .
+H2301 H 0.3070 -0.2142 0.1863 0.1184 1.0000 Uiso R . . . .
+H2321 H 0.3060 -0.0694 0.1324 0.1493 1.0000 Uiso R . . . .
+H2341 H 0.3416 -0.0931 0.2418 0.1187 1.0000 Uiso R . . . .
+H2361 H 0.2602 -0.1347 0.0873 0.1860 0.50(3) Uiso R . P 5 1
+H2362 H 0.2769 -0.0905 0.1015 0.1860 0.50(3) Uiso R . P 5 1
+H2363 H 0.2618 -0.1184 0.1354 0.1860 0.50(3) Uiso R . P 5 1
+H2371 H 0.2674 -0.2280 0.1074 0.2368 0.50(3) Uiso R . P 5 1
+H2372 H 0.2883 -0.2428 0.1351 0.2368 0.50(3) Uiso R . P 5 1
+H2373 H 0.2686 -0.2108 0.1554 0.2368 0.50(3) Uiso R . P 5 1
+H2381 H 0.2920 -0.1847 0.0531 0.1947 0.50(3) Uiso R . P 5 1
+H2382 H 0.3131 -0.1986 0.0801 0.1947 0.50(3) Uiso R . P 5 1
+H2383 H 0.3084 -0.1401 0.0671 0.1947 0.50(3) Uiso R . P 5 1
+H2401 H 0.3537 0.0320 0.1455 0.3816 0.48(2) Uiso R . P 5 3
+H2402 H 0.3619 -0.0264 0.1495 0.3816 0.48(2) Uiso R . P 5 3
+H2403 H 0.3415 -0.0128 0.1203 0.3816 0.48(2) Uiso R . P 5 3
+H2411 H 0.3175 0.0585 0.1776 0.1906 0.48(2) Uiso R . P 5 3
+H2412 H 0.3025 0.0171 0.2011 0.1906 0.48(2) Uiso R . P 5 3
+H2413 H 0.3056 0.0139 0.1516 0.1906 0.48(2) Uiso R . P 5 3
+H2421 H 0.3495 0.0373 0.2260 0.1971 0.48(2) Uiso R . P 5 3
+H2422 H 0.3579 -0.0210 0.2296 0.1971 0.48(2) Uiso R . P 5 3
+H2423 H 0.3350 -0.0047 0.2500 0.1971 0.48(2) Uiso R . P 5 3
+H2441 H 0.3545 -0.4620 0.4437 0.0913 1.0000 Uiso R . . . .
+H2461 H 0.3812 -0.4700 0.5643 0.0925 1.0000 Uiso R . . . .
+H2481 H 0.3757 -0.3274 0.5040 0.0918 1.0000 Uiso R . . . .
+H2501 H 0.3389 -0.5888 0.5192 0.2309 0.348(18) Uiso R . P 5 5
+H2502 H 0.3395 -0.5395 0.5492 0.2309 0.348(18) Uiso R . P 5 5
+H2503 H 0.3292 -0.5348 0.5035 0.2309 0.348(18) Uiso R . P 5 5
+H2511 H 0.3797 -0.5995 0.5281 0.1176 0.348(18) Uiso R . P 5 5
+H2512 H 0.3959 -0.5524 0.5193 0.1176 0.348(18) Uiso R . P 5 5
+H2513 H 0.3798 -0.5507 0.5586 0.1176 0.348(18) Uiso R . P 5 5
+H2521 H 0.3640 -0.5921 0.4544 0.2727 0.348(18) Uiso R . P 5 5
+H2522 H 0.3799 -0.5445 0.4447 0.2727 0.348(18) Uiso R . P 5 5
+H2523 H 0.3541 -0.5383 0.4389 0.2727 0.348(18) Uiso R . P 5 5
+H2541 H 0.3878 -0.3717 0.6450 0.1255 0.455(17) Uiso R . P 5 7
+H2542 H 0.3857 -0.4261 0.6217 0.1255 0.455(17) Uiso R . P 5 7
+H2543 H 0.3655 -0.3870 0.6219 0.1255 0.455(17) Uiso R . P 5 7
+H2551 H 0.4213 -0.3510 0.6018 0.0893 0.455(17) Uiso R . P 5 7
+H2552 H 0.4191 -0.4060 0.5795 0.0893 0.455(17) Uiso R . P 5 7
+H2553 H 0.4207 -0.3547 0.5519 0.0893 0.455(17) Uiso R . P 5 7
+H2561 H 0.3897 -0.2876 0.6012 0.1315 0.455(17) Uiso R . P 5 7
+H2562 H 0.3885 -0.2906 0.5514 0.1315 0.455(17) Uiso R . P 5 7
+H2563 H 0.3673 -0.3032 0.5787 0.1315 0.455(17) Uiso R . P 5 7
+H2661 H 0.2539 -0.1714 0.1103 0.2390 0.50(3) Uiso R . P 5 2
+H2662 H 0.2617 -0.1805 0.1574 0.2390 0.50(3) Uiso R . P 5 2
+H2663 H 0.2609 -0.1233 0.1387 0.2390 0.50(3) Uiso R . P 5 2
+H2671 H 0.2829 -0.2344 0.0848 0.2698 0.50(3) Uiso R . P 5 2
+H2672 H 0.3079 -0.2273 0.0981 0.2698 0.50(3) Uiso R . P 5 2
+H2673 H 0.2901 -0.2434 0.1323 0.2698 0.50(3) Uiso R . P 5 2
+H2681 H 0.2820 -0.1430 0.0544 0.2880 0.50(3) Uiso R . P 5 2
+H2682 H 0.3070 -0.1345 0.0675 0.2880 0.50(3) Uiso R . P 5 2
+H2683 H 0.2886 -0.0949 0.0830 0.2880 0.50(3) Uiso R . P 5 2
+H2701 H 0.3385 0.0424 0.1361 0.1468 0.52(2) Uiso R . P 5 4
+H2702 H 0.3445 -0.0149 0.1216 0.1468 0.52(2) Uiso R . P 5 4
+H2703 H 0.3195 0.0026 0.1244 0.1468 0.52(2) Uiso R . P 5 4
+H2711 H 0.3207 0.0569 0.2069 0.2357 0.52(2) Uiso R . P 5 4
+H2712 H 0.3150 0.0092 0.2367 0.2357 0.52(2) Uiso R . P 5 4
+H2713 H 0.3017 0.0176 0.1941 0.2357 0.52(2) Uiso R . P 5 4
+H2721 H 0.3606 0.0290 0.2041 0.1992 0.52(2) Uiso R . P 5 4
+H2722 H 0.3667 -0.0281 0.1890 0.1992 0.52(2) Uiso R . P 5 4
+H2723 H 0.3554 -0.0194 0.2335 0.1992 0.52(2) Uiso R . P 5 4
+H2801 H 0.3397 -0.5869 0.4794 0.1486 0.652(18) Uiso R . P 5 6
+H2802 H 0.3294 -0.5345 0.4971 0.1486 0.652(18) Uiso R . P 5 6
+H2803 H 0.3412 -0.5350 0.4526 0.1486 0.652(18) Uiso R . P 5 6
+H2811 H 0.3622 -0.5964 0.5453 0.3184 0.652(18) Uiso R . P 5 6
+H2812 H 0.3774 -0.5502 0.5612 0.3184 0.652(18) Uiso R . P 5 6
+H2813 H 0.3514 -0.5443 0.5625 0.3184 0.652(18) Uiso R . P 5 6
+H2821 H 0.3816 -0.5972 0.4747 0.2517 0.652(18) Uiso R . P 5 6
+H2822 H 0.3970 -0.5508 0.4895 0.2517 0.652(18) Uiso R . P 5 6
+H2823 H 0.3829 -0.5454 0.4477 0.2517 0.652(18) Uiso R . P 5 6
+H2841 H 0.4096 -0.3871 0.6313 0.1611 0.545(17) Uiso R . P 5 8
+H2842 H 0.4146 -0.4212 0.5907 0.1611 0.545(17) Uiso R . P 5 8
+H2843 H 0.3929 -0.4315 0.6174 0.1611 0.545(17) Uiso R . P 5 8
+H2851 H 0.4133 -0.3049 0.5871 0.1949 0.545(17) Uiso R . P 5 8
+H2852 H 0.4186 -0.3400 0.5472 0.1949 0.545(17) Uiso R . P 5 8
+H2853 H 0.3993 -0.2982 0.5451 0.1949 0.545(17) Uiso R . P 5 8
+H2861 H 0.3781 -0.3204 0.6292 0.1720 0.545(17) Uiso R . P 5 8
+H2862 H 0.3615 -0.3651 0.6157 0.1720 0.545(17) Uiso R . P 5 8
+H2863 H 0.3637 -0.3142 0.5878 0.1720 0.545(17) Uiso R . P 5 8
+H3031 H 0.2729 0.0176 0.4328 0.0887 1.0000 Uiso R . . . .
+H3041 H 0.2797 0.1077 0.4021 0.0912 1.0000 Uiso R . . . .
+H3081 H 0.3198 0.2869 0.4679 0.0791 1.0000 Uiso R . . . .
+H3091 H 0.3282 0.3139 0.5424 0.0782 1.0000 Uiso R . . . .
+H3131 H 0.3172 0.2324 0.6990 0.0877 1.0000 Uiso R . . . .
+H3141 H 0.3063 0.1454 0.7292 0.0882 1.0000 Uiso R . . . .
+H3181 H 0.2853 -0.0441 0.6595 0.0920 1.0000 Uiso R . . . .
+H3191 H 0.2793 -0.0741 0.5845 0.0847 1.0000 Uiso R . . . .
+H3301 H 0.2828 0.2760 0.4304 0.0849 1.0000 Uiso R . . . .
+H3321 H 0.3004 0.2566 0.3048 0.1032 1.0000 Uiso R . . . .
+H3341 H 0.3174 0.1451 0.3916 0.0828 1.0000 Uiso R . . . .
+H3361 H 0.2475 0.3568 0.3421 0.1926 1.0000 Uiso R . . . .
+H3362 H 0.2475 0.3079 0.3725 0.1926 1.0000 Uiso R . . . .
+H3363 H 0.2525 0.3006 0.3238 0.1926 1.0000 Uiso R . . . .
+H3371 H 0.2753 0.4008 0.3894 0.2459 1.0000 Uiso R . . . .
+H3372 H 0.2975 0.3722 0.4018 0.2459 1.0000 Uiso R . . . .
+H3373 H 0.2747 0.3517 0.4196 0.2459 1.0000 Uiso R . . . .
+H3381 H 0.2839 0.3898 0.3117 0.2230 1.0000 Uiso R . . . .
+H3382 H 0.3062 0.3606 0.3230 0.2230 1.0000 Uiso R . . . .
+H3383 H 0.2886 0.3335 0.2933 0.2230 1.0000 Uiso R . . . .
+H3401 H 0.3097 0.0876 0.2791 0.1507 1.0000 Uiso R . . . .
+H3402 H 0.3031 0.0914 0.3274 0.1507 1.0000 Uiso R . . . .
+H3403 H 0.2895 0.1229 0.2932 0.1507 1.0000 Uiso R . . . .
+H3411 H 0.3267 0.1648 0.2428 0.1515 1.0000 Uiso R . . . .
+H3412 H 0.3305 0.2177 0.2676 0.1515 1.0000 Uiso R . . . .
+H3413 H 0.3062 0.1990 0.2568 0.1515 1.0000 Uiso R . . . .
+H3421 H 0.3490 0.1159 0.2972 0.1281 1.0000 Uiso R . . . .
+H3422 H 0.3529 0.1681 0.3228 0.1281 1.0000 Uiso R . . . .
+H3423 H 0.3422 0.1191 0.3454 0.1281 1.0000 Uiso R . . . .
+H3441 H 0.2619 0.0283 0.7096 0.1042 1.0000 Uiso R . . . .
+H3461 H 0.2939 -0.0225 0.8178 0.1024 1.0000 Uiso R . . . .
+H3481 H 0.3291 0.0476 0.7231 0.0972 1.0000 Uiso R . . . .
+H3501 H 0.2293 0.0067 0.8318 0.2501 0.52(2) Uiso R . P 6 5
+H3502 H 0.2540 0.0229 0.8416 0.2501 0.52(2) Uiso R . P 6 5
+H3503 H 0.2405 0.0525 0.8061 0.2501 0.52(2) Uiso R . P 6 5
+H3511 H 0.2417 -0.0860 0.8210 0.1624 0.52(2) Uiso R . P 6 5
+H3512 H 0.2663 -0.0689 0.8315 0.1624 0.52(2) Uiso R . P 6 5
+H3513 H 0.2611 -0.0988 0.7889 0.1624 0.52(2) Uiso R . P 6 5
+H3521 H 0.2204 -0.0407 0.7630 0.1780 0.52(2) Uiso R . P 6 5
+H3522 H 0.2395 -0.0525 0.7302 0.1780 0.52(2) Uiso R . P 6 5
+H3523 H 0.2315 0.0056 0.7376 0.1780 0.52(2) Uiso R . P 6 5
+H3541 H 0.3505 -0.0550 0.8386 0.2221 0.54(3) Uiso R . P 6 7
+H3542 H 0.3245 -0.0507 0.8428 0.2221 0.54(3) Uiso R . P 6 7
+H3543 H 0.3351 -0.0790 0.8033 0.2221 0.54(3) Uiso R . P 6 7
+H3551 H 0.3704 -0.0030 0.7834 0.1915 0.54(3) Uiso R . P 6 7
+H3552 H 0.3571 0.0331 0.7518 0.1915 0.54(3) Uiso R . P 6 7
+H3553 H 0.3550 -0.0283 0.7486 0.1915 0.54(3) Uiso R . P 6 7
+H3561 H 0.3537 0.0439 0.8459 0.3150 0.54(3) Uiso R . P 6 7
+H3562 H 0.3277 0.0476 0.8504 0.3150 0.54(3) Uiso R . P 6 7
+H3563 H 0.3400 0.0804 0.8153 0.3150 0.54(3) Uiso R . P 6 7
+H3801 H 0.2386 -0.0257 0.8479 0.1734 0.48(2) Uiso R . P 6 6
+H3802 H 0.2646 -0.0322 0.8471 0.1734 0.48(2) Uiso R . P 6 6
+H3803 H 0.2539 0.0238 0.8418 0.1734 0.48(2) Uiso R . P 6 6
+H3811 H 0.2354 -0.0921 0.7899 0.2965 0.48(2) Uiso R . P 6 6
+H3812 H 0.2614 -0.0985 0.7902 0.2965 0.48(2) Uiso R . P 6 6
+H3813 H 0.2489 -0.0854 0.7476 0.2965 0.48(2) Uiso R . P 6 6
+H3821 H 0.2182 -0.0033 0.7797 0.2695 0.48(2) Uiso R . P 6 6
+H3822 H 0.2335 0.0462 0.7742 0.2695 0.48(2) Uiso R . P 6 6
+H3823 H 0.2317 0.0047 0.7374 0.2695 0.48(2) Uiso R . P 6 6
+H3841 H 0.3460 -0.0258 0.8584 0.1632 0.46(3) Uiso R . P 6 8
+H3842 H 0.3224 0.0010 0.8582 0.1632 0.46(3) Uiso R . P 6 8
+H3843 H 0.3254 -0.0554 0.8390 0.1632 0.46(3) Uiso R . P 6 8
+H3851 H 0.3665 -0.0386 0.7902 0.1541 0.46(3) Uiso R . P 6 8
+H3852 H 0.3459 -0.0688 0.7718 0.1541 0.46(3) Uiso R . P 6 8
+H3853 H 0.3559 -0.0208 0.7469 0.1541 0.46(3) Uiso R . P 6 8
+H3861 H 0.3622 0.0529 0.8197 0.1477 0.46(3) Uiso R . P 6 8
+H3862 H 0.3386 0.0794 0.8201 0.1477 0.46(3) Uiso R . P 6 8
+H3863 H 0.3513 0.0718 0.7769 0.1477 0.46(3) Uiso R . P 6 8
+H4021 H 0.5359 -0.2629 0.2699 0.1555 1.0000 Uiso R . . . .
+H4031 H 0.5268 -0.1898 0.3136 0.1537 1.0000 Uiso R . . . .
+H4051 H 0.5267 -0.2850 0.4165 0.1582 1.0000 Uiso R . . . .
+H4061 H 0.5361 -0.3561 0.3698 0.1535 1.0000 Uiso R . . . .
+H4081 H 0.5041 -0.1403 0.3492 0.0824 0.497(9) Uiso R . P 1 1
+H4091 H 0.4955 -0.0658 0.3918 0.0857 0.497(9) Uiso R . P 1 1
+H4111 H 0.5254 -0.1365 0.4949 0.0806 0.497(9) Uiso R . P 1 1
+H4121 H 0.5333 -0.2118 0.4527 0.0771 0.497(9) Uiso R . P 1 1
+H4141 H 0.5372 -0.1288 0.3592 0.1015 0.503(9) Uiso R . P 1 2
+H4151 H 0.5291 -0.0539 0.4017 0.0860 0.503(9) Uiso R . P 1 2
+H4161 H 0.4942 -0.1471 0.4853 0.0857 0.503(9) Uiso R . P 1 2
+H4171 H 0.5024 -0.2222 0.4430 0.0900 0.503(9) Uiso R . P 1 2
+H5021 H 0.3815 -0.1762 0.3167 0.1340 1.0000 Uiso R . . . .
+H5031 H 0.4106 -0.1238 0.3454 0.1334 1.0000 Uiso R . . . .
+H5051 H 0.4024 -0.1947 0.4592 0.1562 1.0000 Uiso R . . . .
+H5061 H 0.3724 -0.2440 0.4278 0.1654 1.0000 Uiso R . . . .
+H5081 H 0.4224 -0.0523 0.3908 0.0957 0.504(8) Uiso R . P 2 1
+H5091 H 0.4516 -0.0024 0.4220 0.0893 0.504(8) Uiso R . P 2 1
+H5111 H 0.4693 -0.1299 0.4952 0.0889 0.504(8) Uiso R . P 2 1
+H5121 H 0.4403 -0.1799 0.4638 0.0862 0.504(8) Uiso R . P 2 1
+H5141 H 0.4431 -0.0982 0.3677 0.0817 0.496(8) Uiso R . P 2 2
+H5151 H 0.4724 -0.0486 0.3985 0.0719 0.496(8) Uiso R . P 2 2
+H5161 H 0.4482 -0.0820 0.5180 0.0939 0.496(8) Uiso R . P 2 2
+H5171 H 0.4190 -0.1322 0.4872 0.0780 0.496(8) Uiso R . P 2 2
+H6021 H 0.3437 0.1521 0.5067 0.1128 1.0000 Uiso R . . . .
+H6031 H 0.3815 0.1305 0.4945 0.1051 1.0000 Uiso R . . . .
+H6051 H 0.3775 0.0183 0.5854 0.1102 1.0000 Uiso R . . . .
+H6061 H 0.3395 0.0435 0.5957 0.1115 1.0000 Uiso R . . . .
+H6081 H 0.4171 0.1274 0.5013 0.0824 0.481(9) Uiso R . P 3 1
+H6091 H 0.4549 0.1040 0.4885 0.0913 0.481(9) Uiso R . P 3 1
+H6111 H 0.4437 -0.0413 0.5419 0.0680 0.481(9) Uiso R . P 3 1
+H6121 H 0.4060 -0.0179 0.5549 0.0794 0.481(9) Uiso R . P 3 1
+H6141 H 0.4081 0.0743 0.4657 0.0766 0.519(9) Uiso R . P 3 2
+H6151 H 0.4459 0.0507 0.4533 0.0837 0.519(9) Uiso R . P 3 2
+H6161 H 0.4536 0.0178 0.5807 0.0904 0.519(9) Uiso R . P 3 2
+H6171 H 0.4158 0.0410 0.5930 0.0913 0.519(9) Uiso R . P 3 2
+H7011 H 0.5007 0.0545 0.4360 0.1682 0.357(7) Uiso R . P . .
+H7051 H 0.3334 0.2650 0.3804 0.1252 0.737(6) Uiso R . P . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Zn100 0.0428(6) 0.0710(7) 0.0889(8) -0.0033(5) -0.0011(5) 0.0046(5)
+N101 0.047(2) 0.083(5) 0.074(4) -0.004(3) 0.003(2) 0.004(3)
+C102 0.047(3) 0.080(5) 0.054(4) -0.009(3) 0.007(3) 0.001(3)
+C103 0.050(4) 0.083(6) 0.079(5) 0.007(4) 0.002(3) 0.001(4)
+C104 0.049(3) 0.088(6) 0.064(5) -0.002(3) 0.003(3) 0.000(3)
+C105 0.048(3) 0.088(6) 0.069(5) -0.006(3) 0.000(3) 0.002(3)
+N106 0.049(2) 0.072(4) 0.091(3) -0.004(2) -0.003(3) 0.009(3)
+C107 0.049(3) 0.059(5) 0.104(6) -0.004(3) -0.004(3) 0.011(3)
+C108 0.047(3) 0.096(6) 0.099(6) 0.009(4) -0.003(4) 0.007(4)
+C109 0.050(3) 0.077(6) 0.090(6) 0.000(3) -0.007(4) 0.004(4)
+N111 0.041(2) 0.083(4) 0.092(5) 0.004(3) 0.001(3) 0.006(2)
+C112 0.042(3) 0.064(5) 0.074(5) -0.016(3) 0.003(3) 0.007(3)
+C113 0.048(3) 0.094(6) 0.095(6) 0.004(4) 0.006(4) 0.002(4)
+C114 0.053(3) 0.079(6) 0.128(7) 0.018(4) -0.001(4) 0.000(4)
+C115 0.050(3) 0.059(5) 0.102(6) 0.001(3) 0.000(3) 0.007(3)
+N116 0.043(3) 0.077(4) 0.105(5) 0.011(3) -0.001(3) 0.004(2)
+C117 0.046(3) 0.080(6) 0.119(7) 0.019(4) 0.006(3) 0.011(4)
+C118 0.058(4) 0.109(7) 0.111(7) 0.036(5) -0.005(4) -0.008(4)
+C119 0.052(4) 0.134(8) 0.100(7) 0.041(5) 0.000(4) -0.006(4)
+C120 0.040(3) 0.084(6) 0.095(6) 0.017(4) 0.004(3) 0.004(3)
+C121 0.049(3) 0.062(5) 0.064(5) -0.010(3) 0.002(3) -0.001(3)
+C122 0.049(4) 0.067(5) 0.078(5) 0.005(4) -0.005(3) -0.003(3)
+C123 0.054(4) 0.073(5) 0.075(6) -0.012(4) -0.014(4) 0.010(4)
+C125 0.052(2) 0.070(5) 0.076(5) 0.005(4) -0.001(4) 0.003(4)
+C126 0.051(2) 0.081(6) 0.090(6) -0.008(5) 0.001(5) -0.001(4)
+C127 0.050(3) 0.070(4) 0.079(4) -0.014(3) -0.005(3) 0.007(3)
+C128 0.048(3) 0.081(5) 0.088(4) 0.004(4) 0.009(3) 0.010(3)
+C129 0.057(5) 0.064(3) 0.086(3) -0.014(2) 0.004(4) 0.011(4)
+C130 0.061(5) 0.071(4) 0.087(3) -0.014(3) 0.017(5) 0.007(4)
+C131 0.071(5) 0.072(4) 0.091(3) -0.005(3) -0.004(4) 0.006(4)
+C132 0.082(6) 0.074(4) 0.102(4) -0.008(4) 0.001(6) -0.003(5)
+C133 0.065(5) 0.074(3) 0.101(4) -0.009(3) -0.018(5) 0.003(4)
+C134 0.070(6) 0.071(4) 0.091(5) -0.015(3) -0.016(5) 0.002(5)
+C135 0.136(7) 0.088(5) 0.091(3) -0.004(4) 0.010(5) -0.001(5)
+C136 0.20(2) 0.102(10) 0.093(9) -0.012(10) -0.059(16) 0.013(12)
+C137 0.36(3) 0.15(2) 0.139(19) 0.008(15) -0.11(3) -0.10(2)
+C138 0.213(14) 0.31(4) 0.121(17) -0.02(3) 0.033(17) 0.14(2)
+C139 0.097(4) 0.072(3) 0.109(4) -0.010(3) -0.018(4) 0.005(4)
+C140 0.216(17) 0.107(11) 0.199(12) 0.101(12) -0.015(10) -0.018(9)
+C141 0.097(8) 0.123(11) 0.39(3) -0.142(15) -0.057(9) 0.016(7)
+C142 0.156(14) 0.120(11) 0.133(9) -0.003(8) -0.058(9) -0.055(9)
+C143 0.049(5) 0.073(4) 0.086(3) 0.000(3) 0.004(4) 0.008(4)
+C144 0.044(5) 0.078(4) 0.096(5) -0.005(3) -0.008(4) 0.005(4)
+C145 0.041(4) 0.074(4) 0.107(4) -0.002(3) 0.004(5) 0.002(4)
+C146 0.055(5) 0.082(4) 0.097(4) 0.010(4) 0.004(5) -0.008(4)
+C147 0.050(5) 0.085(4) 0.085(3) 0.002(3) 0.002(4) -0.003(4)
+C148 0.046(5) 0.067(5) 0.088(3) -0.003(3) 0.006(4) 0.009(4)
+C149 0.074(4) 0.059(4) 0.151(6) 0.000(3) -0.035(4) 0.016(4)
+C150 0.073(6) 0.088(7) 0.190(8) -0.044(6) -0.032(6) 0.007(5)
+C151 0.152(10) 0.086(7) 0.173(8) 0.026(6) -0.066(7) -0.043(7)
+C152 0.062(4) 0.060(6) 0.203(11) -0.009(6) -0.031(5) -0.003(4)
+C153 0.059(4) 0.099(4) 0.087(3) -0.003(4) -0.004(3) 0.017(4)
+C154 0.070(5) 0.150(8) 0.099(7) -0.006(7) -0.008(4) 0.039(6)
+C155 0.076(5) 0.209(11) 0.087(5) -0.010(8) 0.017(5) 0.019(7)
+C156 0.151(11) 0.102(4) 0.167(11) -0.040(6) -0.031(8) 0.012(6)
+C166 0.258(19) 0.09(2) 0.123(18) -0.039(18) -0.084(19) 0.079(17)
+C167 0.050(13) 0.094(7) 0.074(12) -0.006(8) 0.003(11) 0.009(9)
+C168 0.30(3) 0.13(2) 0.16(2) 0.04(2) 0.09(3) -0.05(3)
+C170 0.099(4) 0.098(6) 0.103(10) -0.027(7) -0.033(6) -0.021(5)
+C171 0.099(8) 0.089(7) 0.105(9) 0.013(10) 0.014(10) 0.015(10)
+C172 0.103(9) 0.100(8) 0.102(5) -0.016(5) -0.031(7) -0.002(8)
+Zn200 0.0408(6) 0.0773(7) 0.1023(8) -0.0107(6) -0.0105(5) 0.0016(5)
+N201 0.049(4) 0.081(5) 0.098(2) -0.011(3) -0.015(3) 0.003(3)
+C202 0.052(5) 0.069(5) 0.097(4) -0.014(4) -0.016(3) 0.000(3)
+C203 0.072(6) 0.103(7) 0.099(4) -0.007(5) -0.008(4) 0.018(4)
+C204 0.057(5) 0.108(7) 0.102(4) 0.003(5) -0.006(4) 0.010(4)
+C205 0.063(5) 0.059(5) 0.105(4) -0.006(4) -0.003(4) -0.003(3)
+N206 0.043(3) 0.068(4) 0.109(4) 0.001(3) -0.001(3) -0.002(2)
+C207 0.052(5) 0.063(5) 0.111(4) 0.001(4) -0.003(4) 0.000(3)
+C208 0.051(5) 0.097(6) 0.117(5) 0.002(5) -0.006(5) 0.015(4)
+C209 0.079(6) 0.099(7) 0.122(5) 0.008(5) 0.008(5) 0.030(4)
+N211 0.050(4) 0.057(4) 0.099(3) -0.015(2) -0.011(2) -0.002(2)
+C212 0.062(5) 0.075(5) 0.095(4) -0.021(3) -0.017(4) 0.011(3)
+C213 0.072(5) 0.052(5) 0.095(4) -0.030(4) -0.013(4) -0.001(3)
+C214 0.069(6) 0.080(5) 0.097(4) -0.010(4) -0.009(4) 0.015(4)
+C215 0.059(5) 0.055(5) 0.109(4) -0.007(3) 0.002(4) -0.001(3)
+N216 0.045(4) 0.074(3) 0.096(3) -0.013(3) -0.012(3) 0.002(2)
+C217 0.040(4) 0.087(5) 0.100(4) -0.005(4) -0.010(4) 0.005(3)
+C218 0.054(5) 0.076(5) 0.100(5) -0.009(4) -0.008(4) 0.006(3)
+C219 0.070(6) 0.074(6) 0.105(5) -0.003(4) 0.001(4) 0.018(4)
+C220 0.037(4) 0.076(5) 0.110(5) 0.003(4) -0.002(3) 0.001(3)
+C221 0.051(4) 0.074(5) 0.101(5) -0.006(4) -0.008(4) 0.002(3)
+C222 0.051(4) 0.094(6) 0.095(5) 0.007(5) -0.008(4) 0.009(4)
+C223 0.048(3) 0.097(6) 0.076(6) 0.019(5) -0.006(4) 0.004(4)
+C224 0.047(5) 0.066(5) 0.107(4) -0.012(3) -0.003(4) 0.000(3)
+C225 0.058(5) 0.061(5) 0.122(6) -0.028(4) -0.005(5) -0.010(4)
+C226 0.054(5) 0.069(5) 0.110(7) -0.020(4) 0.005(5) -0.006(4)
+C227 0.058(5) 0.065(4) 0.108(4) -0.010(4) -0.007(3) -0.002(3)
+C228 0.052(5) 0.075(5) 0.106(3) -0.003(4) -0.002(3) 0.006(3)
+C229 0.063(6) 0.077(4) 0.118(4) 0.002(4) 0.003(4) 0.006(4)
+C230 0.087(7) 0.099(6) 0.110(7) 0.011(4) -0.006(5) -0.003(5)
+C231 0.087(6) 0.130(6) 0.120(6) 0.031(5) 0.003(5) 0.006(6)
+C232 0.074(7) 0.126(6) 0.173(9) 0.053(7) 0.006(6) 0.010(6)
+C233 0.068(7) 0.098(4) 0.158(8) 0.031(4) 0.038(5) 0.008(4)
+C234 0.087(7) 0.084(4) 0.126(7) 0.008(4) 0.025(5) -0.010(5)
+C235 0.138(9) 0.167(8) 0.143(7) 0.032(7) -0.038(6) 0.009(7)
+C236 0.107(19) 0.19(2) 0.17(3) -0.02(2) -0.041(15) 0.016(15)
+C237 0.17(3) 0.23(2) 0.19(2) 0.10(2) -0.16(2) -0.065(19)
+C238 0.124(19) 0.19(3) 0.173(13) -0.06(2) -0.037(11) -0.001(17)
+C239 0.157(9) 0.110(5) 0.161(8) 0.044(5) 0.061(6) -0.023(5)
+C240 0.38(4) 0.27(4) 0.32(3) 0.04(4) 0.23(3) -0.13(3)
+C241 0.25(2) 0.083(10) 0.15(3) 0.035(18) -0.058(17) 0.006(15)
+C242 0.15(2) 0.069(14) 0.28(2) 0.004(17) -0.038(17) 0.042(14)
+C243 0.051(5) 0.074(3) 0.094(4) -0.013(3) 0.004(3) 0.014(4)
+C244 0.067(5) 0.074(3) 0.087(5) -0.016(3) -0.011(5) 0.012(5)
+C245 0.073(6) 0.078(3) 0.088(5) -0.011(3) -0.007(4) 0.009(4)
+C246 0.069(6) 0.070(3) 0.092(5) -0.006(4) -0.014(4) 0.011(4)
+C247 0.076(6) 0.070(3) 0.105(5) -0.009(3) -0.015(4) 0.013(4)
+C248 0.056(5) 0.062(4) 0.111(5) -0.005(3) -0.012(4) 0.002(4)
+C249 0.122(6) 0.080(3) 0.120(7) -0.012(4) -0.039(6) 0.001(5)
+C250 0.095(12) 0.060(17) 0.42(5) 0.03(3) -0.02(2) 0.009(13)
+C251 0.104(17) 0.050(10) 0.14(2) -0.065(14) -0.043(17) 0.026(15)
+C252 0.42(5) 0.13(3) 0.136(13) -0.06(2) -0.10(2) 0.01(4)
+C253 0.084(5) 0.071(4) 0.110(5) -0.008(4) -0.018(4) 0.004(4)
+C254 0.051(12) 0.159(19) 0.102(6) 0.012(10) -0.010(9) 0.055(14)
+C255 0.083(5) 0.028(12) 0.108(15) -0.019(11) -0.009(7) -0.004(7)
+C256 0.100(19) 0.084(7) 0.14(2) -0.037(8) -0.026(16) 0.032(11)
+C257 0.041(5) 0.083(6) 0.112(4) 0.001(4) -0.001(4) 0.004(3)
+C258 0.047(2) 0.076(5) 0.094(6) 0.001(3) 0.000(3) 0.010(4)
+C259 0.052(2) 0.070(5) 0.084(5) -0.007(3) -0.001(3) 0.005(3)
+C266 0.108(8) 0.16(3) 0.32(4) 0.04(3) -0.040(12) -0.042(17)
+C267 0.26(4) 0.197(15) 0.22(4) -0.038(17) -0.13(3) 0.05(2)
+C268 0.32(4) 0.28(3) 0.115(17) 0.05(2) -0.02(2) -0.01(4)
+C270 0.14(2) 0.073(13) 0.139(10) 0.011(10) 0.018(11) -0.014(13)
+C271 0.29(2) 0.120(12) 0.18(3) -0.03(2) 0.08(2) -0.01(2)
+C272 0.255(17) 0.096(19) 0.14(2) -0.015(16) -0.030(17) -0.052(12)
+C280 0.088(8) 0.136(14) 0.142(15) -0.004(12) 0.009(8) -0.051(10)
+C281 0.46(4) 0.154(17) 0.172(12) 0.065(14) -0.138(15) -0.19(2)
+C282 0.101(10) 0.112(14) 0.40(3) -0.11(2) -0.019(16) 0.032(12)
+C284 0.18(3) 0.084(12) 0.142(17) -0.026(9) -0.080(17) 0.032(11)
+C285 0.122(18) 0.084(17) 0.28(3) 0.001(12) -0.016(13) -0.034(12)
+C286 0.117(14) 0.19(3) 0.124(18) -0.065(16) -0.030(10) 0.045(12)
+Zn300 0.0349(6) 0.0705(7) 0.0913(7) -0.0017(5) -0.0002(5) 0.0053(5)
+N301 0.040(3) 0.074(3) 0.092(2) -0.002(2) 0.000(3) 0.006(3)
+C302 0.034(4) 0.080(3) 0.081(3) -0.001(2) 0.004(4) -0.001(4)
+C303 0.057(5) 0.082(4) 0.083(4) 0.002(3) -0.001(4) -0.003(4)
+C304 0.054(5) 0.083(4) 0.091(4) 0.006(3) -0.004(4) -0.002(4)
+C305 0.025(4) 0.076(3) 0.094(3) 0.000(3) 0.003(4) 0.013(3)
+N306 0.031(3) 0.073(2) 0.078(3) -0.001(2) 0.000(3) 0.009(2)
+C307 0.028(4) 0.079(4) 0.076(3) -0.005(2) 0.011(4) 0.008(3)
+C308 0.041(4) 0.078(4) 0.078(3) 0.003(3) -0.002(4) 0.006(3)
+C309 0.047(5) 0.069(4) 0.079(4) 0.000(3) -0.001(4) 0.009(4)
+C310 0.036(4) 0.071(4) 0.081(3) 0.004(3) -0.011(4) 0.009(3)
+N311 0.033(3) 0.075(3) 0.0901(19) 0.0023(19) 0.001(3) -0.006(3)
+C312 0.036(4) 0.079(4) 0.082(3) 0.001(2) -0.010(4) -0.006(4)
+C313 0.059(5) 0.078(4) 0.082(3) 0.010(3) -0.014(5) -0.005(4)
+C314 0.060(5) 0.073(4) 0.088(3) 0.005(3) -0.004(5) -0.001(4)
+C315 0.052(5) 0.076(3) 0.089(3) 0.001(2) 0.007(5) -0.004(4)
+N316 0.039(3) 0.071(3) 0.089(3) -0.003(2) -0.008(3) 0.001(3)
+C317 0.047(5) 0.074(3) 0.086(3) -0.007(2) 0.005(4) 0.008(4)
+C318 0.063(5) 0.079(3) 0.088(4) 0.005(3) -0.020(5) -0.003(5)
+C319 0.053(5) 0.072(4) 0.087(4) 0.003(3) -0.006(5) -0.002(4)
+C320 0.039(4) 0.073(3) 0.079(3) -0.001(2) -0.005(4) -0.003(4)
+C321 0.039(4) 0.073(3) 0.078(3) -0.007(2) 0.002(4) 0.003(4)
+C322 0.061(5) 0.074(4) 0.085(5) -0.012(3) 0.007(5) 0.008(5)
+C323 0.053(5) 0.068(5) 0.117(7) -0.017(4) 0.006(5) 0.004(5)
+C324 0.029(4) 0.083(4) 0.081(3) 0.002(3) -0.007(4) -0.005(3)
+C325 0.051(5) 0.067(5) 0.083(5) 0.000(4) -0.008(4) 0.001(3)
+C326 0.061(5) 0.081(6) 0.080(6) 0.007(5) -0.018(4) -0.008(4)
+C327 0.039(4) 0.073(3) 0.079(3) -0.006(2) 0.006(4) 0.014(3)
+C328 0.041(4) 0.073(3) 0.081(3) 0.002(2) -0.001(3) 0.003(4)
+C329 0.044(5) 0.076(4) 0.081(3) -0.003(3) -0.003(3) -0.005(3)
+C330 0.052(5) 0.076(5) 0.084(4) -0.002(3) 0.000(4) -0.002(4)
+C331 0.056(5) 0.102(5) 0.088(4) 0.009(3) -0.015(4) 0.005(4)
+C332 0.070(6) 0.114(6) 0.074(5) 0.014(4) -0.005(4) 0.000(5)
+C333 0.069(5) 0.117(5) 0.077(3) 0.002(3) -0.001(5) 0.009(4)
+C334 0.052(5) 0.074(5) 0.081(3) 0.002(3) 0.002(4) 0.003(4)
+C335 0.085(5) 0.096(6) 0.132(7) 0.028(4) -0.004(5) 0.001(5)
+C336 0.072(5) 0.127(10) 0.280(16) 0.058(10) -0.010(7) 0.029(5)
+C337 0.33(2) 0.103(9) 0.185(10) -0.007(7) -0.083(12) 0.065(11)
+C338 0.184(12) 0.123(10) 0.246(12) 0.078(8) 0.103(12) 0.030(9)
+C339 0.093(5) 0.126(6) 0.081(4) -0.003(4) 0.010(5) 0.005(4)
+C340 0.116(7) 0.134(8) 0.127(9) -0.023(6) 0.019(7) -0.008(6)
+C341 0.141(10) 0.149(9) 0.090(5) 0.012(6) 0.031(6) 0.029(7)
+C342 0.095(5) 0.122(8) 0.102(7) -0.006(6) 0.023(5) 0.017(5)
+C343 0.056(3) 0.094(6) 0.087(4) 0.014(4) -0.003(3) -0.008(4)
+C344 0.062(4) 0.086(6) 0.110(6) 0.028(5) -0.003(4) -0.014(5)
+C345 0.063(3) 0.100(6) 0.111(6) 0.030(5) 0.011(3) -0.006(5)
+C346 0.078(3) 0.071(6) 0.108(6) 0.024(5) 0.000(4) 0.001(5)
+C347 0.069(3) 0.058(5) 0.115(6) 0.028(4) -0.011(3) -0.001(4)
+C348 0.062(4) 0.076(6) 0.104(6) 0.024(5) -0.011(4) -0.005(5)
+C349 0.088(4) 0.131(7) 0.108(6) 0.005(5) 0.020(4) -0.043(6)
+C350 0.14(3) 0.27(2) 0.26(3) -0.10(2) 0.11(2) -0.04(3)
+C351 0.129(19) 0.171(15) 0.14(2) 0.059(14) -0.046(14) -0.104(13)
+C352 0.090(13) 0.20(3) 0.160(18) 0.075(15) -0.016(13) -0.063(16)
+C353 0.081(4) 0.094(6) 0.127(7) 0.038(5) -0.021(4) 0.017(4)
+C354 0.14(2) 0.203(16) 0.20(3) 0.154(17) 0.058(17) 0.095(19)
+C355 0.070(6) 0.21(3) 0.20(2) 0.115(17) 0.005(10) 0.003(16)
+C356 0.21(3) 0.26(2) 0.31(4) -0.13(2) -0.15(2) 0.06(3)
+C380 0.097(18) 0.24(3) 0.108(7) -0.003(15) 0.033(9) -0.03(2)
+C381 0.23(3) 0.176(13) 0.34(4) -0.08(2) 0.04(3) -0.146(16)
+C382 0.065(7) 0.41(4) 0.16(2) 0.11(3) 0.057(14) 0.02(2)
+C384 0.067(15) 0.18(3) 0.150(12) 0.082(17) -0.013(8) 0.028(16)
+C385 0.122(15) 0.138(19) 0.126(16) 0.044(14) -0.035(13) 0.074(16)
+C386 0.048(13) 0.124(11) 0.19(3) 0.026(12) -0.031(14) -0.003(10)
+N401 0.068(4) 0.082(3) 0.083(3) 0.002(2) 0.011(3) 0.015(3)
+C402 0.219(12) 0.091(5) 0.080(5) 0.001(3) 0.018(8) 0.055(8)
+C403 0.202(11) 0.108(5) 0.073(4) -0.003(4) 0.016(7) 0.064(8)
+C404 0.064(5) 0.097(4) 0.075(4) -0.007(3) 0.014(4) 0.017(4)
+C405 0.201(11) 0.114(5) 0.081(5) 0.001(4) -0.003(7) 0.064(9)
+C406 0.194(11) 0.107(5) 0.082(4) 0.006(4) 0.016(8) 0.050(8)
+C407 0.041(5) 0.099(4) 0.081(4) -0.016(3) 0.004(3) 0.009(3)
+C408 0.054(11) 0.077(8) 0.075(7) -0.013(5) 0.004(8) -0.007(7)
+C409 0.048(10) 0.113(9) 0.053(5) -0.013(5) 0.024(7) 0.026(9)
+C410 0.038(4) 0.090(3) 0.069(4) -0.016(3) -0.001(3) 0.009(3)
+C411 0.047(10) 0.073(8) 0.081(7) -0.012(5) -0.009(8) -0.007(7)
+C412 0.048(10) 0.065(7) 0.080(5) -0.007(5) 0.005(8) -0.018(7)
+C413 0.040(2) 0.082(4) 0.066(4) -0.011(3) -0.001(3) 0.002(3)
+C414 0.036(10) 0.106(6) 0.112(11) -0.026(7) 0.037(8) 0.000(9)
+C415 0.022(9) 0.101(6) 0.092(9) -0.021(6) 0.011(6) 0.001(8)
+C416 0.053(10) 0.093(5) 0.068(9) -0.023(6) -0.002(7) -0.007(8)
+C417 0.076(12) 0.088(6) 0.062(9) -0.013(6) 0.000(7) 0.006(9)
+N501 0.052(3) 0.078(4) 0.089(4) -0.004(3) -0.010(3) -0.006(2)
+C502 0.092(7) 0.136(9) 0.107(6) 0.020(6) -0.023(5) -0.051(5)
+C503 0.099(7) 0.143(9) 0.092(5) 0.006(6) -0.007(5) -0.060(6)
+C504 0.048(4) 0.106(6) 0.093(4) -0.007(4) 0.001(4) -0.008(3)
+C505 0.118(9) 0.185(11) 0.088(6) 0.014(6) -0.025(6) -0.082(7)
+C506 0.113(8) 0.208(12) 0.092(5) 0.018(7) -0.025(6) -0.091(7)
+C507 0.043(4) 0.090(5) 0.088(4) -0.003(4) 0.001(3) 0.001(3)
+C508 0.062(10) 0.078(7) 0.099(12) -0.008(8) -0.025(7) 0.014(7)
+C509 0.058(10) 0.060(7) 0.104(12) -0.020(7) -0.017(7) 0.022(6)
+C510 0.040(3) 0.068(4) 0.092(4) -0.009(3) -0.005(3) 0.007(3)
+C511 0.065(6) 0.074(4) 0.083(7) -0.003(4) -0.006(4) -0.003(4)
+C512 0.063(6) 0.072(4) 0.081(7) 0.000(4) -0.002(4) -0.005(4)
+C513 0.041(2) 0.068(4) 0.089(5) -0.009(3) -0.003(3) 0.006(2)
+C514 0.073(10) 0.048(10) 0.083(6) -0.014(8) 0.005(6) -0.007(6)
+C515 0.035(8) 0.053(10) 0.092(4) -0.019(8) 0.006(6) 0.018(5)
+C516 0.031(8) 0.107(13) 0.096(6) -0.025(8) 0.010(6) 0.004(6)
+C517 0.022(7) 0.086(11) 0.088(4) -0.010(8) 0.006(6) 0.015(5)
+N601 0.038(2) 0.070(4) 0.095(5) 0.005(3) -0.001(2) 0.009(2)
+C602 0.047(4) 0.096(7) 0.140(8) 0.040(5) 0.016(4) 0.019(4)
+C603 0.042(3) 0.093(6) 0.130(8) 0.037(5) 0.011(4) 0.009(4)
+C604 0.043(3) 0.089(6) 0.082(6) 0.008(4) -0.003(3) 0.011(3)
+C605 0.046(4) 0.084(6) 0.146(8) 0.041(5) 0.012(4) 0.017(4)
+C606 0.042(4) 0.086(6) 0.151(8) 0.041(5) 0.009(4) 0.012(4)
+C607 0.043(3) 0.066(4) 0.096(5) -0.013(4) -0.002(3) 0.008(3)
+C608 0.056(6) 0.057(8) 0.094(13) -0.015(8) 0.017(8) 0.017(5)
+C609 0.042(6) 0.043(8) 0.143(15) -0.013(8) 0.005(9) -0.002(5)
+C610 0.038(2) 0.069(4) 0.105(5) 0.004(4) 0.001(3) 0.009(2)
+C611 0.048(5) 0.044(7) 0.079(11) -0.020(7) -0.001(7) 0.005(4)
+C612 0.046(5) 0.058(7) 0.095(12) -0.013(8) 0.008(8) 0.001(5)
+C613 0.037(2) 0.075(5) 0.092(6) -0.015(3) -0.008(3) 0.009(2)
+C614 0.043(5) 0.037(9) 0.111(7) 0.019(9) 0.009(5) 0.015(7)
+C615 0.037(5) 0.050(10) 0.122(7) 0.044(9) 0.013(5) 0.007(7)
+C616 0.046(6) 0.081(11) 0.098(6) -0.017(9) -0.004(5) 0.017(8)
+C617 0.038(6) 0.094(12) 0.094(7) -0.023(9) -0.007(4) 0.007(8)
+C701 0.140(7) 0.141(6) 0.139(8) 0.029(7) 0.019(4) 0.019(7)
+Cl702 0.159(9) 0.140(6) 0.111(7) 0.046(5) -0.001(5) 0.000(5)
+Cl703 0.151(7) 0.146(8) 0.173(9) 0.083(6) 0.042(7) 0.055(7)
+Cl704 0.139(6) 0.108(6) 0.154(8) 0.058(5) 0.015(5) -0.019(5)
+C705 0.138(11) 0.080(8) 0.094(6) -0.026(5) 0.013(7) 0.033(7)
+Cl706 0.125(3) 0.109(3) 0.130(3) -0.043(2) 0.043(3) -0.051(2)
+Cl707 0.061(2) 0.100(3) 0.116(3) -0.0193(19) 0.0267(18) 0.0046(17)
+Cl708 0.079(3) 0.181(4) 0.107(3) -0.024(3) -0.005(2) 0.028(2)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+C 0.0020 0.0020 2.3100 20.8439 1.0200 10.2075 1.5886 0.5687 0.8650 51.6512
+0.2156
+;
+ International Tables Vol C 4.2.6.8 and 6.1.1.4 and 
+ D. T. Cromer, J. Appl. Cryst. (1983), 16, 433.
+;
+H 0.0000 0.0000 0.4930 10.5109 0.3229 26.1257 0.1402 3.1424 0.0408 57.7998
+0.0030 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+N 0.0040 0.0030 12.2126 0.0057 3.1322 9.8933 2.0125 28.9975 1.1663 0.5826
+-11.5290
+;
+ International Tables Vol C 4.2.6.8 and 6.1.1.4 and 
+ D. T. Cromer, J. Appl. Cryst. (1983), 16, 433.
+;
+Zn 0.2340 1.3590 14.0743 3.2655 7.0318 0.2333 5.1652 10.3163 2.4100 58.7097
+1.3041
+;
+ International Tables Vol C 4.2.6.8 and 6.1.1.4 and 
+ D. T. Cromer, J. Appl. Cryst. (1983), 16, 433.
+;
+Cl 0.1250 0.1500 11.4604 0.0104 7.1964 1.1662 6.2556 18.5194 1.6455 47.7784
+-9.5574
+;
+ International Tables Vol C 4.2.6.8 and 6.1.1.4 and 
+ D. T. Cromer, J. Appl. Cryst. (1983), 16, 433.
+;
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_site_symmetry_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+N101 . Zn100 N106 . 88.2(3) yes
+N101 . Zn100 N111 . 165.1(3) yes
+N106 . Zn100 N111 . 90.1(3) yes
+N101 . Zn100 N116 . 89.5(3) yes
+N106 . Zn100 N116 . 165.4(3) yes
+N111 . Zn100 N116 . 88.4(3) yes
+N101 . Zn100 N401 . 97.8(2) yes
+N106 . Zn100 N401 . 95.0(3) yes
+N111 . Zn100 N401 . 97.1(3) yes
+N116 . Zn100 N401 . 99.6(3) yes
+Zn100 . N101 C102 . 125.0(5) yes
+Zn100 . N101 C105 . 126.5(5) yes
+C102 . N101 C105 . 107.0(6) yes
+N101 . C102 C103 . 108.7(7) yes
+N101 . C102 C121 . 126.3(7) yes
+C103 . C102 C121 . 124.9(7) yes
+C102 . C103 C104 . 109.1(7) yes
+C102 . C103 H1031 . 125.5 no
+C104 . C103 H1031 . 125.5 no
+C103 . C104 C105 . 104.6(7) yes
+C103 . C104 H1041 . 127.7 no
+C105 . C104 H1041 . 127.7 no
+C104 . C105 N101 . 110.5(7) yes
+C104 . C105 C127 . 122.3(8) yes
+N101 . C105 C127 . 127.0(7) yes
+Zn100 . N106 C107 . 125.9(5) yes
+Zn100 . N106 C258 . 124.9(6) yes
+C107 . N106 C258 . 106.3(7) yes
+N106 . C107 C108 . 108.8(7) yes
+N106 . C107 C127 . 126.5(8) yes
+C108 . C107 C127 . 124.5(8) yes
+C107 . C108 C109 . 107.5(8) yes
+C107 . C108 H1081 . 126.3 no
+C109 . C108 H1081 . 126.2 no
+C108 . C109 C258 . 106.4(7) yes
+C108 . C109 H1091 . 126.8 no
+C258 . C109 H1091 . 126.8 no
+Zn100 . N111 C112 . 124.8(6) yes
+Zn100 . N111 C115 . 126.6(5) yes
+C112 . N111 C115 . 105.9(7) yes
+N111 . C112 C113 . 110.8(7) yes
+N111 . C112 C259 . 123.4(7) yes
+C113 . C112 C259 . 125.8(7) yes
+C112 . C113 C114 . 108.0(8) yes
+C112 . C113 H1131 . 126.0 no
+C114 . C113 H1131 . 126.0 no
+C113 . C114 C115 . 104.0(8) yes
+C113 . C114 H1141 . 128.0 no
+C115 . C114 H1141 . 128.0 no
+C114 . C115 N111 . 111.1(7) yes
+C114 . C115 C128 . 121.8(8) yes
+N111 . C115 C128 . 127.1(7) yes
+Zn100 . N116 C117 . 127.1(5) yes
+Zn100 . N116 C120 . 127.1(6) yes
+C117 . N116 C120 . 104.8(7) yes
+N116 . C117 C118 . 110.7(7) yes
+N116 . C117 C128 . 127.0(8) yes
+C118 . C117 C128 . 122.3(8) yes
+C117 . C118 C119 . 104.0(8) yes
+C117 . C118 H1181 . 128.0 no
+C119 . C118 H1181 . 128.0 no
+C118 . C119 C120 . 109.3(8) yes
+C118 . C119 H1191 . 125.3 no
+C120 . C119 H1191 . 125.4 no
+N116 . C120 C119 . 111.2(7) yes
+N116 . C120 C121 . 123.2(8) yes
+C119 . C120 C121 . 125.6(8) yes
+C120 . C121 C102 . 126.3(7) yes
+C120 . C121 C122 . 116.6(7) yes
+C102 . C121 C122 . 116.9(7) yes
+C121 . C122 C123 . 169.5(9) yes
+C326 2_656 C123 C122 . 167.9(9) yes
+C126 . C125 C259 . 170.7(9) yes
+C125 . C126 C223 . 172.3(10) yes
+C105 . C127 C107 . 123.4(8) yes
+C105 . C127 C129 . 117.9(7) yes
+C107 . C127 C129 . 118.6(7) yes
+C115 . C128 C117 . 121.9(8) yes
+C115 . C128 C143 . 120.1(7) yes
+C117 . C128 C143 . 117.8(7) yes
+C127 . C129 C130 . 122.7(8) yes
+C127 . C129 C134 . 115.2(8) yes
+C130 . C129 C134 . 122.0(9) yes
+C129 . C130 C131 . 122.1(8) yes
+C129 . C130 H1301 . 119.0 no
+C131 . C130 H1301 . 118.9 no
+C130 . C131 C132 . 116.0(7) yes
+C130 . C131 C135 . 122.2(6) yes
+C132 . C131 C135 . 121.7(7) yes
+C131 . C132 C133 . 123.0(8) yes
+C131 . C132 H1321 . 118.5 no
+C133 . C132 H1321 . 118.5 no
+C132 . C133 C134 . 118.9(7) yes
+C132 . C133 C139 . 118.8(7) yes
+C134 . C133 C139 . 122.2(6) yes
+C133 . C134 C129 . 118.0(8) yes
+C133 . C134 H1341 . 121.0 no
+C129 . C134 H1341 . 121.0 no
+C131 . C135 C136 . 109.15(8) yes
+C131 . C135 C137 . 110.44(8) yes
+C136 . C135 C137 . 108.38(9) yes
+C131 . C135 C138 . 109.83(8) yes
+C136 . C135 C138 . 108.65(9) yes
+C137 . C135 C138 . 110.34(9) yes
+C131 . C135 C166 . 109.14(9) yes
+C131 . C135 C167 . 110.45(8) yes
+C166 . C135 C167 . 108.43(9) yes
+C131 . C135 C168 . 109.80(8) yes
+C166 . C135 C168 . 108.63(9) yes
+C167 . C135 C168 . 110.34(8) yes
+C135 . C136 H1361 . 110.0 no
+C135 . C136 H1362 . 109.3 no
+H1361 . C136 H1362 . 109.5 no
+C135 . C136 H1363 . 109.1 no
+H1361 . C136 H1363 . 109.5 no
+H1362 . C136 H1363 . 109.5 no
+C135 . C137 H1371 . 109.8 no
+C135 . C137 H1372 . 109.7 no
+H1371 . C137 H1372 . 109.5 no
+C135 . C137 H1373 . 108.9 no
+H1371 . C137 H1373 . 109.5 no
+H1372 . C137 H1373 . 109.5 no
+C135 . C138 H1381 . 109.9 no
+C135 . C138 H1382 . 110.1 no
+H1381 . C138 H1382 . 109.5 no
+C135 . C138 H1383 . 108.4 no
+H1381 . C138 H1383 . 109.5 no
+H1382 . C138 H1383 . 109.5 no
+C133 . C139 C140 . 109.13(8) yes
+C133 . C139 C141 . 110.44(8) yes
+C140 . C139 C141 . 108.41(9) yes
+C133 . C139 C142 . 109.83(8) yes
+C140 . C139 C142 . 108.61(9) yes
+C141 . C139 C142 . 110.38(8) yes
+C133 . C139 C170 . 109.15(9) yes
+C133 . C139 C171 . 110.45(8) yes
+C170 . C139 C171 . 108.40(9) yes
+C133 . C139 C172 . 109.82(8) yes
+C170 . C139 C172 . 108.65(9) yes
+C171 . C139 C172 . 110.34(9) yes
+C139 . C140 H1401 . 110.1 no
+C139 . C140 H1402 . 109.6 no
+H1401 . C140 H1402 . 109.5 no
+C139 . C140 H1403 . 108.7 no
+H1401 . C140 H1403 . 109.5 no
+H1402 . C140 H1403 . 109.5 no
+C139 . C141 H1411 . 109.7 no
+C139 . C141 H1412 . 109.4 no
+H1411 . C141 H1412 . 109.5 no
+C139 . C141 H1413 . 109.3 no
+H1411 . C141 H1413 . 109.5 no
+H1412 . C141 H1413 . 109.5 no
+C139 . C142 H1421 . 109.9 no
+C139 . C142 H1422 . 109.7 no
+H1421 . C142 H1422 . 109.5 no
+C139 . C142 H1423 . 108.8 no
+H1421 . C142 H1423 . 109.5 no
+H1422 . C142 H1423 . 109.5 no
+C128 . C143 C144 . 118.1(8) yes
+C128 . C143 C148 . 120.7(8) yes
+C144 . C143 C148 . 121.3(9) yes
+C143 . C144 C145 . 119.3(8) yes
+C143 . C144 H1441 . 120.3 no
+C145 . C144 H1441 . 120.5 no
+C144 . C145 C146 . 117.0(7) yes
+C144 . C145 C149 . 118.9(6) yes
+C146 . C145 C149 . 123.7(6) yes
+C145 . C146 C147 . 124.5(8) yes
+C145 . C146 H1461 . 117.7 no
+C147 . C146 H1461 . 117.7 no
+C146 . C147 C148 . 115.4(7) yes
+C146 . C147 C153 . 119.8(6) yes
+C148 . C147 C153 . 124.7(6) yes
+C147 . C148 C143 . 122.5(8) yes
+C147 . C148 H1481 . 118.8 no
+C143 . C148 H1481 . 118.7 no
+C145 . C149 C150 . 109.14(8) yes
+C145 . C149 C151 . 110.46(8) yes
+C150 . C149 C151 . 108.40(9) yes
+C145 . C149 C152 . 109.81(8) yes
+C150 . C149 C152 . 108.65(9) yes
+C151 . C149 C152 . 110.34(8) yes
+C149 . C150 H1501 . 110.0 no
+C149 . C150 H1502 . 108.8 no
+H1501 . C150 H1502 . 109.5 no
+C149 . C150 H1503 . 109.7 no
+H1501 . C150 H1503 . 109.5 no
+H1502 . C150 H1503 . 109.5 no
+C149 . C151 H1511 . 109.8 no
+C149 . C151 H1512 . 109.2 no
+H1511 . C151 H1512 . 109.5 no
+C149 . C151 H1513 . 109.4 no
+H1511 . C151 H1513 . 109.5 no
+H1512 . C151 H1513 . 109.5 no
+C149 . C152 H1521 . 109.9 no
+C149 . C152 H1522 . 108.8 no
+H1521 . C152 H1522 . 109.5 no
+C149 . C152 H1523 . 109.7 no
+H1521 . C152 H1523 . 109.5 no
+H1522 . C152 H1523 . 109.5 no
+C147 . C153 C154 . 109.10(8) yes
+C147 . C153 C155 . 110.48(8) yes
+C154 . C153 C155 . 108.40(8) yes
+C147 . C153 C156 . 109.82(8) yes
+C154 . C153 C156 . 108.65(9) yes
+C155 . C153 C156 . 110.34(8) yes
+C153 . C154 H1541 . 110.0 no
+C153 . C154 H1542 . 109.7 no
+H1541 . C154 H1542 . 109.5 no
+C153 . C154 H1543 . 108.8 no
+H1541 . C154 H1543 . 109.5 no
+H1542 . C154 H1543 . 109.5 no
+C153 . C155 H1551 . 109.7 no
+C153 . C155 H1552 . 109.3 no
+H1551 . C155 H1552 . 109.5 no
+C153 . C155 H1553 . 109.4 no
+H1551 . C155 H1553 . 109.5 no
+H1552 . C155 H1553 . 109.5 no
+C153 . C156 H1561 . 110.0 no
+C153 . C156 H1562 . 109.7 no
+H1561 . C156 H1562 . 109.5 no
+C153 . C156 H1563 . 108.8 no
+H1561 . C156 H1563 . 109.5 no
+H1562 . C156 H1563 . 109.5 no
+C135 . C166 H1661 . 110.0 no
+C135 . C166 H1662 . 109.6 no
+H1661 . C166 H1662 . 109.5 no
+C135 . C166 H1663 . 108.7 no
+H1661 . C166 H1663 . 109.5 no
+H1662 . C166 H1663 . 109.5 no
+C135 . C167 H1671 . 109.8 no
+C135 . C167 H1672 . 109.4 no
+H1671 . C167 H1672 . 109.5 no
+C135 . C167 H1673 . 109.2 no
+H1671 . C167 H1673 . 109.5 no
+H1672 . C167 H1673 . 109.5 no
+C135 . C168 H1681 . 109.9 no
+C135 . C168 H1682 . 108.8 no
+H1681 . C168 H1682 . 109.5 no
+C135 . C168 H1683 . 109.8 no
+H1681 . C168 H1683 . 109.5 no
+H1682 . C168 H1683 . 109.5 no
+C139 . C170 H1701 . 110.1 no
+C139 . C170 H1702 . 109.8 no
+H1701 . C170 H1702 . 109.5 no
+C139 . C170 H1703 . 108.5 no
+H1701 . C170 H1703 . 109.5 no
+H1702 . C170 H1703 . 109.5 no
+C139 . C171 H1711 . 109.8 no
+C139 . C171 H1712 . 109.4 no
+H1711 . C171 H1712 . 109.5 no
+C139 . C171 H1713 . 109.2 no
+H1711 . C171 H1713 . 109.5 no
+H1712 . C171 H1713 . 109.5 no
+C139 . C172 H1721 . 109.8 no
+C139 . C172 H1722 . 109.6 no
+H1721 . C172 H1722 . 109.5 no
+C139 . C172 H1723 . 109.0 no
+H1721 . C172 H1723 . 109.5 no
+H1722 . C172 H1723 . 109.5 no
+N201 . Zn200 N206 . 87.9(3) yes
+N201 . Zn200 N211 . 163.6(3) yes
+N206 . Zn200 N211 . 89.4(3) yes
+N201 . Zn200 N216 . 89.4(3) yes
+N206 . Zn200 N216 . 163.8(3) yes
+N211 . Zn200 N216 . 88.7(3) yes
+N201 . Zn200 N501 . 100.9(3) yes
+N206 . Zn200 N501 . 99.9(2) yes
+N211 . Zn200 N501 . 95.6(2) yes
+N216 . Zn200 N501 . 96.2(2) yes
+Zn200 . N201 C202 . 126.8(6) yes
+Zn200 . N201 C205 . 128.3(6) yes
+C202 . N201 C205 . 103.5(7) yes
+N201 . C202 C203 . 112.9(8) yes
+N201 . C202 C221 . 121.9(9) yes
+C203 . C202 C221 . 125.1(8) yes
+C202 . C203 C204 . 106.3(9) yes
+C202 . C203 H2031 . 126.9 no
+C204 . C203 H2031 . 126.8 no
+C203 . C204 C205 . 104.0(9) yes
+C203 . C204 H2041 . 128.0 no
+C205 . C204 H2041 . 128.0 no
+C204 . C205 N201 . 113.3(8) yes
+C204 . C205 C227 . 123.0(9) yes
+N201 . C205 C227 . 123.7(9) yes
+Zn200 . N206 C207 . 128.2(6) yes
+Zn200 . N206 C257 . 123.8(6) yes
+C207 . N206 C257 . 107.4(7) yes
+N206 . C207 C208 . 111.0(8) yes
+N206 . C207 C227 . 124.6(8) yes
+C208 . C207 C227 . 124.3(9) yes
+C207 . C208 C209 . 104.6(9) yes
+C207 . C208 H2081 . 127.7 no
+C209 . C208 H2081 . 127.7 no
+C208 . C209 C257 . 107.9(9) yes
+C208 . C209 H2091 . 126.1 no
+C257 . C209 H2091 . 126.0 no
+Zn200 . N211 C212 . 127.5(6) yes
+Zn200 . N211 C215 . 126.0(6) yes
+C212 . N211 C215 . 104.9(7) yes
+N211 . C212 C213 . 111.9(8) yes
+N211 . C212 C224 . 121.5(9) yes
+C213 . C212 C224 . 126.5(8) yes
+C212 . C213 C214 . 107.9(8) yes
+C212 . C213 H2131 . 126.0 no
+C214 . C213 H2131 . 126.0 no
+C213 . C214 C215 . 104.6(9) yes
+C213 . C214 H2141 . 127.7 no
+C215 . C214 H2141 . 127.6 no
+C214 . C215 N211 . 110.5(7) yes
+C214 . C215 C228 . 120.8(9) yes
+N211 . C215 C228 . 128.6(9) yes
+Zn200 . N216 C217 . 126.4(6) yes
+Zn200 . N216 C220 . 124.2(6) yes
+C217 . N216 C220 . 107.3(7) yes
+N216 . C217 C218 . 108.5(8) yes
+N216 . C217 C228 . 125.2(8) yes
+C218 . C217 C228 . 126.2(9) yes
+C217 . C218 C219 . 107.3(9) yes
+C217 . C218 H2181 . 126.4 no
+C219 . C218 H2181 . 126.3 no
+C218 . C219 C220 . 109.8(8) yes
+C218 . C219 H2191 . 125.1 no
+C220 . C219 H2191 . 125.1 no
+C219 . C220 N216 . 107.0(8) yes
+C219 . C220 C221 . 130.0(8) yes
+N216 . C220 C221 . 122.9(8) yes
+C202 . C221 C220 . 130.3(8) yes
+C202 . C221 C222 . 116.0(8) yes
+C220 . C221 C222 . 113.5(8) yes
+C221 . C222 C223 . 168.1(10) yes
+C126 . C223 C222 . 171.2(10) yes
+C212 . C224 C225 . 115.6(9) yes
+C212 . C224 C257 . 125.7(8) yes
+C225 . C224 C257 . 118.2(8) yes
+C224 . C225 C226 . 172.5(10) yes
+C225 . C226 C323 . 170.1(9) yes
+C205 . C227 C207 . 126.0(9) yes
+C205 . C227 C229 . 117.8(9) yes
+C207 . C227 C229 . 116.0(8) yes
+C217 . C228 C215 . 123.2(9) yes
+C217 . C228 C243 . 117.0(7) yes
+C215 . C228 C243 . 119.5(8) yes
+C227 . C229 C230 . 121.6(9) yes
+C227 . C229 C234 . 120.3(9) yes
+C230 . C229 C234 . 118.1(10) yes
+C229 . C230 C231 . 123.5(10) yes
+C229 . C230 H2301 . 118.2 no
+C231 . C230 H2301 . 118.2 no
+C230 . C231 C232 . 116.4(10) yes
+C230 . C231 C235 . 123.5(8) yes
+C232 . C231 C235 . 120.0(9) yes
+C231 . C232 C233 . 124.0(10) yes
+C231 . C232 H2321 . 118.1 no
+C233 . C232 H2321 . 117.9 no
+C232 . C233 C234 . 117.7(9) yes
+C232 . C233 C239 . 121.6(8) yes
+C234 . C233 C239 . 120.7(8) yes
+C233 . C234 C229 . 120.2(10) yes
+C233 . C234 H2341 . 119.9 no
+C229 . C234 H2341 . 119.9 no
+C231 . C235 C236 . 109.14(9) yes
+C231 . C235 C237 . 110.45(8) yes
+C236 . C235 C237 . 108.40(9) yes
+C231 . C235 C238 . 109.81(9) yes
+C236 . C235 C238 . 108.65(9) yes
+C237 . C235 C238 . 110.34(9) yes
+C231 . C235 C266 . 109.13(9) yes
+C231 . C235 C267 . 110.45(8) yes
+C266 . C235 C267 . 108.41(9) yes
+C231 . C235 C268 . 109.82(8) yes
+C266 . C235 C268 . 108.64(9) yes
+C267 . C235 C268 . 110.35(8) yes
+C235 . C236 H2361 . 109.9 no
+C235 . C236 H2362 . 109.6 no
+H2361 . C236 H2362 . 109.5 no
+C235 . C236 H2363 . 108.9 no
+H2361 . C236 H2363 . 109.5 no
+H2362 . C236 H2363 . 109.5 no
+C235 . C237 H2371 . 109.8 no
+C235 . C237 H2372 . 109.4 no
+H2371 . C237 H2372 . 109.5 no
+C235 . C237 H2373 . 109.2 no
+H2371 . C237 H2373 . 109.5 no
+H2372 . C237 H2373 . 109.5 no
+C235 . C238 H2381 . 110.0 no
+C235 . C238 H2382 . 108.7 no
+H2381 . C238 H2382 . 109.5 no
+C235 . C238 H2383 . 109.8 no
+H2381 . C238 H2383 . 109.5 no
+H2382 . C238 H2383 . 109.5 no
+C233 . C239 C240 . 109.14(9) yes
+C233 . C239 C241 . 110.44(8) yes
+C240 . C239 C241 . 108.41(9) yes
+C233 . C239 C242 . 109.81(8) yes
+C240 . C239 C242 . 108.65(9) yes
+C241 . C239 C242 . 110.33(8) yes
+C233 . C239 C270 . 109.14(9) yes
+C233 . C239 C271 . 110.45(8) yes
+C270 . C239 C271 . 108.40(9) yes
+C233 . C239 C272 . 109.82(8) yes
+C270 . C239 C272 . 108.63(9) yes
+C271 . C239 C272 . 110.36(9) yes
+C239 . C240 H2401 . 109.9 no
+C239 . C240 H2402 . 109.9 no
+H2401 . C240 H2402 . 109.5 no
+C239 . C240 H2403 . 108.5 no
+H2401 . C240 H2403 . 109.5 no
+H2402 . C240 H2403 . 109.5 no
+C239 . C241 H2411 . 109.8 no
+C239 . C241 H2412 . 109.2 no
+H2411 . C241 H2412 . 109.5 no
+C239 . C241 H2413 . 109.4 no
+H2411 . C241 H2413 . 109.5 no
+H2412 . C241 H2413 . 109.5 no
+C239 . C242 H2421 . 109.9 no
+C239 . C242 H2422 . 109.5 no
+H2421 . C242 H2422 . 109.5 no
+C239 . C242 H2423 . 109.0 no
+H2421 . C242 H2423 . 109.5 no
+H2422 . C242 H2423 . 109.5 no
+C228 . C243 C244 . 121.4(8) yes
+C228 . C243 C248 . 118.8(8) yes
+C244 . C243 C248 . 119.8(9) yes
+C243 . C244 C245 . 120.3(8) yes
+C243 . C244 H2441 . 119.8 no
+C245 . C244 H2441 . 119.8 no
+C244 . C245 C246 . 120.0(7) yes
+C244 . C245 C249 . 118.3(6) yes
+C246 . C245 C249 . 121.4(6) yes
+C245 . C246 C247 . 119.9(8) yes
+C245 . C246 H2461 . 120.0 no
+C247 . C246 H2461 . 120.1 no
+C246 . C247 C248 . 120.0(7) yes
+C246 . C247 C253 . 122.1(7) yes
+C248 . C247 C253 . 118.0(6) yes
+C243 . C248 C247 . 119.9(8) yes
+C243 . C248 H2481 . 120.1 no
+C247 . C248 H2481 . 120.0 no
+C245 . C249 C250 . 109.14(9) yes
+C245 . C249 C251 . 110.46(8) yes
+C250 . C249 C251 . 108.39(9) yes
+C245 . C249 C252 . 109.82(8) yes
+C250 . C249 C252 . 108.65(9) yes
+C251 . C249 C252 . 110.34(9) yes
+C245 . C249 C280 . 109.14(9) yes
+C245 . C249 C281 . 110.46(8) yes
+C280 . C249 C281 . 108.40(9) yes
+C245 . C249 C282 . 109.81(8) yes
+C280 . C249 C282 . 108.64(9) yes
+C281 . C249 C282 . 110.34(8) yes
+C249 . C250 H2501 . 109.9 no
+C249 . C250 H2502 . 108.8 no
+H2501 . C250 H2502 . 109.5 no
+C249 . C250 H2503 . 109.7 no
+H2501 . C250 H2503 . 109.5 no
+H2502 . C250 H2503 . 109.5 no
+C249 . C251 H2511 . 109.9 no
+C249 . C251 H2512 . 109.4 no
+H2511 . C251 H2512 . 109.5 no
+C249 . C251 H2513 . 109.1 no
+H2511 . C251 H2513 . 109.5 no
+H2512 . C251 H2513 . 109.5 no
+C249 . C252 H2521 . 109.8 no
+C249 . C252 H2522 . 108.7 no
+H2521 . C252 H2522 . 109.5 no
+C249 . C252 H2523 . 109.9 no
+H2521 . C252 H2523 . 109.5 no
+H2522 . C252 H2523 . 109.5 no
+C247 . C253 C254 . 109.11(9) yes
+C247 . C253 C255 . 110.46(8) yes
+C254 . C253 C255 . 108.41(9) yes
+C247 . C253 C256 . 109.82(8) yes
+C254 . C253 C256 . 108.62(9) yes
+C255 . C253 C256 . 110.37(8) yes
+C247 . C253 C284 . 109.15(8) yes
+C247 . C253 C285 . 110.43(8) yes
+C284 . C253 C285 . 108.37(9) yes
+C247 . C253 C286 . 109.85(8) yes
+C284 . C253 C286 . 108.67(9) yes
+C285 . C253 C286 . 110.34(9) yes
+C253 . C254 H2541 . 110.0 no
+C253 . C254 H2542 . 108.9 no
+H2541 . C254 H2542 . 109.5 no
+C253 . C254 H2543 . 109.5 no
+H2541 . C254 H2543 . 109.5 no
+H2542 . C254 H2543 . 109.5 no
+C253 . C255 H2551 . 109.7 no
+C253 . C255 H2552 . 109.1 no
+H2551 . C255 H2552 . 109.5 no
+C253 . C255 H2553 . 109.5 no
+H2551 . C255 H2553 . 109.5 no
+H2552 . C255 H2553 . 109.5 no
+C253 . C256 H2561 . 109.9 no
+C253 . C256 H2562 . 108.6 no
+H2561 . C256 H2562 . 109.5 no
+C253 . C256 H2563 . 109.8 no
+H2561 . C256 H2563 . 109.5 no
+H2562 . C256 H2563 . 109.5 no
+C209 . C257 C224 . 122.8(9) yes
+C209 . C257 N206 . 108.9(9) yes
+C224 . C257 N206 . 128.3(8) yes
+C109 . C258 N106 . 111.0(7) yes
+C109 . C258 C259 . 125.1(7) yes
+N106 . C258 C259 . 123.8(8) yes
+C125 . C259 C112 . 114.3(7) yes
+C125 . C259 C258 . 117.0(8) yes
+C112 . C259 C258 . 128.5(7) yes
+C235 . C266 H2661 . 109.9 no
+C235 . C266 H2662 . 109.0 no
+H2661 . C266 H2662 . 109.5 no
+C235 . C266 H2663 . 109.5 no
+H2661 . C266 H2663 . 109.5 no
+H2662 . C266 H2663 . 109.5 no
+C235 . C267 H2671 . 109.9 no
+C235 . C267 H2672 . 109.6 no
+H2671 . C267 H2672 . 109.5 no
+C235 . C267 H2673 . 109.0 no
+H2671 . C267 H2673 . 109.5 no
+H2672 . C267 H2673 . 109.5 no
+C235 . C268 H2681 . 109.9 no
+C235 . C268 H2682 . 108.5 no
+H2681 . C268 H2682 . 109.5 no
+C235 . C268 H2683 . 110.0 no
+H2681 . C268 H2683 . 109.5 no
+H2682 . C268 H2683 . 109.5 no
+C239 . C270 H2701 . 110.0 no
+C239 . C270 H2702 . 109.7 no
+H2701 . C270 H2702 . 109.5 no
+C239 . C270 H2703 . 108.7 no
+H2701 . C270 H2703 . 109.5 no
+H2702 . C270 H2703 . 109.5 no
+C239 . C271 H2711 . 109.8 no
+C239 . C271 H2712 . 109.3 no
+H2711 . C271 H2712 . 109.5 no
+C239 . C271 H2713 . 109.2 no
+H2711 . C271 H2713 . 109.5 no
+H2712 . C271 H2713 . 109.5 no
+C239 . C272 H2721 . 109.9 no
+C239 . C272 H2722 . 109.7 no
+H2721 . C272 H2722 . 109.5 no
+C239 . C272 H2723 . 108.8 no
+H2721 . C272 H2723 . 109.5 no
+H2722 . C272 H2723 . 109.5 no
+C249 . C280 H2801 . 109.9 no
+C249 . C280 H2802 . 109.1 no
+H2801 . C280 H2802 . 109.5 no
+C249 . C280 H2803 . 109.4 no
+H2801 . C280 H2803 . 109.5 no
+H2802 . C280 H2803 . 109.5 no
+C249 . C281 H2811 . 109.8 no
+C249 . C281 H2812 . 109.6 no
+H2811 . C281 H2812 . 109.5 no
+C249 . C281 H2813 . 108.9 no
+H2811 . C281 H2813 . 109.5 no
+H2812 . C281 H2813 . 109.5 no
+C249 . C282 H2821 . 109.9 no
+C249 . C282 H2822 . 108.4 no
+H2821 . C282 H2822 . 109.5 no
+C249 . C282 H2823 . 110.1 no
+H2821 . C282 H2823 . 109.5 no
+H2822 . C282 H2823 . 109.5 no
+C253 . C284 H2841 . 110.0 no
+C253 . C284 H2842 . 108.8 no
+H2841 . C284 H2842 . 109.5 no
+C253 . C284 H2843 . 109.7 no
+H2841 . C284 H2843 . 109.5 no
+H2842 . C284 H2843 . 109.5 no
+C253 . C285 H2851 . 109.8 no
+C253 . C285 H2852 . 109.2 no
+H2851 . C285 H2852 . 109.5 no
+C253 . C285 H2853 . 109.4 no
+H2851 . C285 H2853 . 109.5 no
+H2852 . C285 H2853 . 109.5 no
+C253 . C286 H2861 . 109.9 no
+C253 . C286 H2862 . 109.7 no
+H2861 . C286 H2862 . 109.5 no
+C253 . C286 H2863 . 108.7 no
+H2861 . C286 H2863 . 109.5 no
+H2862 . C286 H2863 . 109.5 no
+N301 . Zn300 N306 . 88.7(3) yes
+N301 . Zn300 N311 . 162.9(2) yes
+N306 . Zn300 N311 . 88.9(3) yes
+N301 . Zn300 N316 . 88.8(3) yes
+N306 . Zn300 N316 . 164.3(2) yes
+N311 . Zn300 N316 . 89.0(3) yes
+N301 . Zn300 N601 . 96.8(2) yes
+N306 . Zn300 N601 . 96.2(2) yes
+N311 . Zn300 N601 . 100.3(2) yes
+N316 . Zn300 N601 . 99.5(2) yes
+Zn300 . N301 C302 . 127.2(6) yes
+Zn300 . N301 C305 . 126.7(6) yes
+C302 . N301 C305 . 105.9(7) yes
+N301 . C302 C303 . 110.4(8) yes
+N301 . C302 C321 . 122.0(8) yes
+C303 . C302 C321 . 127.6(8) yes
+C302 . C303 C304 . 109.5(9) yes
+C302 . C303 H3031 . 125.2 no
+C304 . C303 H3031 . 125.3 no
+C303 . C304 C305 . 105.6(8) yes
+C303 . C304 H3041 . 127.2 no
+C305 . C304 H3041 . 127.2 no
+C304 . C305 N301 . 108.4(7) yes
+C304 . C305 C327 . 124.8(8) yes
+N301 . C305 C327 . 126.7(8) yes
+Zn300 . N306 C307 . 125.7(5) yes
+Zn300 . N306 C310 . 122.8(5) yes
+C307 . N306 C310 . 108.7(7) yes
+N306 . C307 C308 . 108.7(7) yes
+N306 . C307 C327 . 127.2(8) yes
+C308 . C307 C327 . 123.8(8) yes
+C307 . C308 C309 . 104.0(8) yes
+C307 . C308 H3081 . 128.0 no
+C309 . C308 H3081 . 128.0 no
+C308 . C309 C310 . 112.1(8) yes
+C308 . C309 H3091 . 123.9 no
+C310 . C309 H3091 . 124.0 no
+C309 . C310 N306 . 106.3(7) yes
+C309 . C310 C324 . 129.0(8) yes
+N306 . C310 C324 . 124.7(8) yes
+Zn300 . N311 C312 . 129.1(6) yes
+Zn300 . N311 C315 . 126.5(6) yes
+C312 . N311 C315 . 103.9(7) yes
+N311 . C312 C313 . 111.8(8) yes
+N311 . C312 C324 . 121.6(8) yes
+C313 . C312 C324 . 126.5(8) yes
+C312 . C313 C314 . 109.5(9) yes
+C312 . C313 H3131 . 125.3 no
+C314 . C313 H3131 . 125.2 no
+C313 . C314 C315 . 104.8(8) yes
+C313 . C314 H3141 . 127.6 no
+C315 . C314 H3141 . 127.6 no
+C314 . C315 N311 . 110.0(7) yes
+C314 . C315 C328 . 122.2(8) yes
+N311 . C315 C328 . 127.8(8) yes
+Zn300 . N316 C317 . 126.4(6) yes
+Zn300 . N316 C320 . 125.3(6) yes
+C317 . N316 C320 . 107.1(7) yes
+N316 . C317 C318 . 110.5(8) yes
+N316 . C317 C328 . 126.5(8) yes
+C318 . C317 C328 . 123.1(8) yes
+C317 . C318 C319 . 103.6(8) yes
+C317 . C318 H3181 . 128.2 no
+C319 . C318 H3181 . 128.2 no
+C318 . C319 C320 . 111.3(8) yes
+C318 . C319 H3191 . 124.4 no
+C320 . C319 H3191 . 124.3 no
+C319 . C320 N316 . 107.5(7) yes
+C319 . C320 C321 . 127.9(8) yes
+N316 . C320 C321 . 124.7(8) yes
+C302 . C321 C320 . 128.8(8) yes
+C302 . C321 C322 . 111.8(8) yes
+C320 . C321 C322 . 119.1(8) yes
+C321 . C322 C323 . 169.4(9) yes
+C226 . C323 C322 . 170.4(10) yes
+C312 . C324 C310 . 128.6(8) yes
+C312 . C324 C325 . 116.4(8) yes
+C310 . C324 C325 . 114.7(8) yes
+C324 . C325 C326 . 167.8(9) yes
+C123 2_656 C326 C325 . 171.0(10) yes
+C305 . C327 C307 . 122.7(8) yes
+C305 . C327 C329 . 117.3(8) yes
+C307 . C327 C329 . 119.9(8) yes
+C317 . C328 C315 . 122.5(8) yes
+C317 . C328 C343 . 118.1(8) yes
+C315 . C328 C343 . 119.4(8) yes
+C327 . C329 C330 . 122.6(8) yes
+C327 . C329 C334 . 119.1(7) yes
+C330 . C329 C334 . 118.2(8) yes
+C329 . C330 C331 . 121.1(8) yes
+C329 . C330 H3301 . 119.5 no
+C331 . C330 H3301 . 119.5 no
+C330 . C331 C332 . 117.9(8) yes
+C330 . C331 C335 . 119.2(6) yes
+C332 . C331 C335 . 122.8(6) yes
+C331 . C332 C333 . 122.1(8) yes
+C331 . C332 H3321 . 119.0 no
+C333 . C332 H3321 . 118.9 no
+C332 . C333 C334 . 118.0(8) yes
+C332 . C333 C339 . 122.3(6) yes
+C334 . C333 C339 . 119.5(6) yes
+C329 . C334 C333 . 122.5(8) yes
+C329 . C334 H3341 . 118.6 no
+C333 . C334 H3341 . 118.8 no
+C331 . C335 C336 . 109.15(9) yes
+C331 . C335 C337 . 110.45(8) yes
+C336 . C335 C337 . 108.39(9) yes
+C331 . C335 C338 . 109.82(8) yes
+C336 . C335 C338 . 108.64(9) yes
+C337 . C335 C338 . 110.35(8) yes
+C335 . C336 H3361 . 110.0 no
+C335 . C336 H3362 . 108.7 no
+H3361 . C336 H3362 . 109.5 no
+C335 . C336 H3363 . 109.7 no
+H3361 . C336 H3363 . 109.5 no
+H3362 . C336 H3363 . 109.5 no
+C335 . C337 H3371 . 109.7 no
+C335 . C337 H3372 . 109.4 no
+H3371 . C337 H3372 . 109.5 no
+C335 . C337 H3373 . 109.3 no
+H3371 . C337 H3373 . 109.5 no
+H3372 . C337 H3373 . 109.5 no
+C335 . C338 H3381 . 109.9 no
+C335 . C338 H3382 . 108.8 no
+H3381 . C338 H3382 . 109.5 no
+C335 . C338 H3383 . 109.7 no
+H3381 . C338 H3383 . 109.5 no
+H3382 . C338 H3383 . 109.5 no
+C333 . C339 C340 . 109.14(8) yes
+C333 . C339 C341 . 110.46(8) yes
+C340 . C339 C341 . 108.39(8) yes
+C333 . C339 C342 . 109.82(8) yes
+C340 . C339 C342 . 108.64(9) yes
+C341 . C339 C342 . 110.35(8) yes
+C339 . C340 H3401 . 110.0 no
+C339 . C340 H3402 . 109.7 no
+H3401 . C340 H3402 . 109.5 no
+C339 . C340 H3403 . 108.7 no
+H3401 . C340 H3403 . 109.5 no
+H3402 . C340 H3403 . 109.5 no
+C339 . C341 H3411 . 109.8 no
+C339 . C341 H3412 . 109.3 no
+H3411 . C341 H3412 . 109.5 no
+C339 . C341 H3413 . 109.3 no
+H3411 . C341 H3413 . 109.5 no
+H3412 . C341 H3413 . 109.5 no
+C339 . C342 H3421 . 109.9 no
+C339 . C342 H3422 . 108.8 no
+H3421 . C342 H3422 . 109.5 no
+C339 . C342 H3423 . 109.6 no
+H3421 . C342 H3423 . 109.5 no
+H3422 . C342 H3423 . 109.5 no
+C328 . C343 C344 . 119.9(8) yes
+C328 . C343 C348 . 120.6(8) yes
+C344 . C343 C348 . 119.4(8) yes
+C343 . C344 C345 . 121.0(8) yes
+C343 . C344 H3441 . 119.5 no
+C345 . C344 H3441 . 119.5 no
+C344 . C345 C346 . 117.4(7) yes
+C344 . C345 C349 . 122.9(6) yes
+C346 . C345 C349 . 119.7(7) yes
+C345 . C346 C347 . 122.5(8) yes
+C345 . C346 H3461 . 118.8 no
+C347 . C346 H3461 . 118.7 no
+C346 . C347 C348 . 118.3(7) yes
+C346 . C347 C353 . 123.1(7) yes
+C348 . C347 C353 . 118.4(6) yes
+C343 . C348 C347 . 121.2(8) yes
+C343 . C348 H3481 . 119.4 no
+C347 . C348 H3481 . 119.4 no
+C345 . C349 C350 . 109.14(9) yes
+C345 . C349 C351 . 110.45(8) yes
+C350 . C349 C351 . 108.39(9) yes
+C345 . C349 C352 . 109.83(8) yes
+C350 . C349 C352 . 108.64(9) yes
+C351 . C349 C352 . 110.33(9) yes
+C345 . C349 C380 . 109.15(9) yes
+C345 . C349 C381 . 110.45(8) yes
+C380 . C349 C381 . 108.40(9) yes
+C345 . C349 C382 . 109.82(8) yes
+C380 . C349 C382 . 108.63(9) yes
+C381 . C349 C382 . 110.35(8) yes
+C349 . C350 H3501 . 109.8 no
+C349 . C350 H3502 . 108.4 no
+H3501 . C350 H3502 . 109.5 no
+C349 . C350 H3503 . 110.1 no
+H3501 . C350 H3503 . 109.5 no
+H3502 . C350 H3503 . 109.5 no
+C349 . C351 H3511 . 109.9 no
+C349 . C351 H3512 . 109.6 no
+H3511 . C351 H3512 . 109.5 no
+C349 . C351 H3513 . 108.9 no
+H3511 . C351 H3513 . 109.5 no
+H3512 . C351 H3513 . 109.5 no
+C349 . C352 H3521 . 109.9 no
+C349 . C352 H3522 . 109.1 no
+H3521 . C352 H3522 . 109.5 no
+C349 . C352 H3523 . 109.4 no
+H3521 . C352 H3523 . 109.5 no
+H3522 . C352 H3523 . 109.5 no
+C347 . C353 C354 . 109.12(9) yes
+C347 . C353 C355 . 110.46(8) yes
+C354 . C353 C355 . 108.39(9) yes
+C347 . C353 C356 . 109.82(8) yes
+C354 . C353 C356 . 108.65(9) yes
+C355 . C353 C356 . 110.36(9) yes
+C347 . C353 C384 . 109.15(9) yes
+C347 . C353 C385 . 110.44(8) yes
+C384 . C353 C385 . 108.42(9) yes
+C347 . C353 C386 . 109.80(8) yes
+C384 . C353 C386 . 108.64(9) yes
+C385 . C353 C386 . 110.34(9) yes
+C353 . C354 H3541 . 109.9 no
+C353 . C354 H3542 . 109.6 no
+H3541 . C354 H3542 . 109.5 no
+C353 . C354 H3543 . 108.8 no
+H3541 . C354 H3543 . 109.5 no
+H3542 . C354 H3543 . 109.5 no
+C353 . C355 H3551 . 109.8 no
+C353 . C355 H3552 . 109.4 no
+H3551 . C355 H3552 . 109.5 no
+C353 . C355 H3553 . 109.1 no
+H3551 . C355 H3553 . 109.5 no
+H3552 . C355 H3553 . 109.5 no
+C353 . C356 H3561 . 109.9 no
+C353 . C356 H3562 . 109.8 no
+H3561 . C356 H3562 . 109.5 no
+C353 . C356 H3563 . 108.7 no
+H3561 . C356 H3563 . 109.5 no
+H3562 . C356 H3563 . 109.5 no
+C349 . C380 H3801 . 109.9 no
+C349 . C380 H3802 . 108.5 no
+H3801 . C380 H3802 . 109.5 no
+C349 . C380 H3803 . 109.9 no
+H3801 . C380 H3803 . 109.5 no
+H3802 . C380 H3803 . 109.5 no
+C349 . C381 H3811 . 109.9 no
+C349 . C381 H3812 . 109.3 no
+H3811 . C381 H3812 . 109.5 no
+C349 . C381 H3813 . 109.1 no
+H3811 . C381 H3813 . 109.5 no
+H3812 . C381 H3813 . 109.5 no
+C349 . C382 H3821 . 109.8 no
+C349 . C382 H3822 . 109.6 no
+H3821 . C382 H3822 . 109.5 no
+C349 . C382 H3823 . 109.0 no
+H3821 . C382 H3823 . 109.5 no
+H3822 . C382 H3823 . 109.5 no
+C353 . C384 H3841 . 109.9 no
+C353 . C384 H3842 . 109.9 no
+H3841 . C384 H3842 . 109.5 no
+C353 . C384 H3843 . 108.6 no
+H3841 . C384 H3843 . 109.5 no
+H3842 . C384 H3843 . 109.5 no
+C353 . C385 H3851 . 109.8 no
+C353 . C385 H3852 . 109.5 no
+H3851 . C385 H3852 . 109.5 no
+C353 . C385 H3853 . 109.2 no
+H3851 . C385 H3853 . 109.5 no
+H3852 . C385 H3853 . 109.5 no
+C353 . C386 H3861 . 109.9 no
+C353 . C386 H3862 . 109.5 no
+H3861 . C386 H3862 . 109.5 no
+C353 . C386 H3863 . 108.9 no
+H3861 . C386 H3863 . 109.5 no
+H3862 . C386 H3863 . 109.5 no
+Zn100 . N401 C402 . 119.3(3) yes
+Zn100 . N401 C406 . 122.9(3) yes
+C402 . N401 C406 . 117.85(8) yes
+N401 . C402 C403 . 121.02(8) yes
+N401 . C402 H4021 . 119.3 no
+C403 . C402 H4021 . 119.7 no
+C402 . C403 C404 . 121.76(8) yes
+C402 . C403 H4031 . 119.4 no
+C404 . C403 H4031 . 118.9 no
+C403 . C404 C405 . 117.44(8) yes
+C403 . C404 C407 . 121.7(5) yes
+C405 . C404 C407 . 120.9(5) yes
+C404 . C405 C406 . 117.75(8) yes
+C404 . C405 H4051 . 121.0 no
+C406 . C405 H4051 . 121.3 no
+C405 . C406 N401 . 124.16(8) yes
+C405 . C406 H4061 . 118.2 no
+N401 . C406 H4061 . 117.6 no
+C404 . C407 C408 . 119.2(5) yes
+C404 . C407 C412 . 120.8(5) yes
+C408 . C407 C412 . 119.99(4) yes
+C404 . C407 C414 . 118.1(5) yes
+C404 . C407 C417 . 121.9(5) yes
+C414 . C407 C417 . 119.99(3) yes
+C407 . C408 C409 . 119.98(4) yes
+C407 . C408 H4081 . 120.0 no
+C409 . C408 H4081 . 120.0 no
+C408 . C409 C410 . 119.98(4) yes
+C408 . C409 H4091 . 120.0 no
+C410 . C409 H4091 . 120.0 no
+C409 . C410 C411 . 119.98(3) yes
+C409 . C410 C413 . 120.0(4) yes
+C411 . C410 C413 . 120.0(4) yes
+C413 . C410 C415 . 120.0(4) yes
+C413 . C410 C416 . 120.0(5) yes
+C415 . C410 C416 . 120.00(3) yes
+C410 . C411 C412 . 119.98(4) yes
+C410 . C411 H4111 . 120.0 no
+C412 . C411 H4111 . 120.0 no
+C411 . C412 C407 . 119.98(4) yes
+C411 . C412 H4121 . 120.0 no
+C407 . C412 H4121 . 120.0 no
+C410 . C413 C613 2_656 119.7(5) yes
+C410 . C413 C513 . 119.7(5) yes
+C613 2_656 C413 C513 . 120.6(7) yes
+C407 . C414 C415 . 119.99(3) yes
+C407 . C414 H4141 . 120.0 no
+C415 . C414 H4141 . 120.0 no
+C410 . C415 C414 . 119.99(3) yes
+C410 . C415 H4151 . 120.0 no
+C414 . C415 H4151 . 120.0 no
+C410 . C416 C417 . 120.00(3) yes
+C410 . C416 H4161 . 120.0 no
+C417 . C416 H4161 . 120.0 no
+C416 . C417 C407 . 120.00(4) yes
+C416 . C417 H4171 . 120.0 no
+C407 . C417 H4171 . 120.0 no
+Zn200 . N501 C502 . 123.5(3) yes
+Zn200 . N501 C506 . 118.6(3) yes
+C502 . N501 C506 . 117.87(8) yes
+N501 . C502 C503 . 121.06(8) yes
+N501 . C502 H5021 . 119.3 no
+C503 . C502 H5021 . 119.7 no
+C502 . C503 C504 . 121.75(8) yes
+C502 . C503 H5031 . 119.4 no
+C504 . C503 H5031 . 118.9 no
+C503 . C504 C505 . 117.43(8) yes
+C503 . C504 C507 . 123.6(5) yes
+C505 . C504 C507 . 119.0(5) yes
+C504 . C505 C506 . 117.74(8) yes
+C504 . C505 H5051 . 121.0 no
+C506 . C505 H5051 . 121.3 no
+C505 . C506 N501 . 124.14(8) yes
+C505 . C506 H5061 . 118.2 no
+N501 . C506 H5061 . 117.7 no
+C504 . C507 C508 . 120.3(5) yes
+C504 . C507 C512 . 119.7(5) yes
+C508 . C507 C512 . 120.00(3) yes
+C504 . C507 C514 . 120.1(5) yes
+C504 . C507 C517 . 119.9(5) yes
+C514 . C507 C517 . 119.99(4) yes
+C507 . C508 C509 . 120.00(3) yes
+C507 . C508 H5081 . 120.0 no
+C509 . C508 H5081 . 120.0 no
+C508 . C509 C510 . 120.00(3) yes
+C508 . C509 H5091 . 120.0 no
+C510 . C509 H5091 . 120.0 no
+C509 . C510 C511 . 119.99(3) yes
+C509 . C510 C513 . 119.9(5) yes
+C511 . C510 C513 . 120.1(5) yes
+C513 . C510 C515 . 120.5(5) yes
+C513 . C510 C516 . 119.5(5) yes
+C515 . C510 C516 . 120.00(3) yes
+C510 . C511 C512 . 119.99(3) yes
+C510 . C511 H5111 . 120.0 no
+C512 . C511 H5111 . 120.0 no
+C507 . C512 C511 . 120.00(3) yes
+C507 . C512 H5121 . 120.0 no
+C511 . C512 H5121 . 120.0 no
+C510 . C513 C413 . 119.5(6) yes
+C510 . C513 C613 . 121.0(5) yes
+C413 . C513 C613 . 119.4(7) yes
+C507 . C514 C515 . 119.99(4) yes
+C507 . C514 H5141 . 120.0 no
+C515 . C514 H5141 . 120.0 no
+C514 . C515 C510 . 119.99(4) yes
+C514 . C515 H5151 . 120.0 no
+C510 . C515 H5151 . 120.0 no
+C510 . C516 C517 . 120.00(4) yes
+C510 . C516 H5161 . 120.0 no
+C517 . C516 H5161 . 120.0 no
+C516 . C517 C507 . 119.99(3) yes
+C516 . C517 H5171 . 120.0 no
+C507 . C517 H5171 . 120.0 no
+Zn300 . N601 C602 . 119.8(3) yes
+Zn300 . N601 C606 . 122.3(3) yes
+C602 . N601 C606 . 117.89(8) yes
+N601 . C602 C603 . 121.05(8) yes
+N601 . C602 H6021 . 119.3 no
+C603 . C602 H6021 . 119.7 no
+C602 . C603 C604 . 121.73(8) yes
+C602 . C603 H6031 . 119.4 no
+C604 . C603 H6031 . 118.9 no
+C603 . C604 C605 . 117.44(8) yes
+C603 . C604 C607 . 122.7(4) yes
+C605 . C604 C607 . 119.9(4) yes
+C604 . C605 C606 . 117.75(8) yes
+C604 . C605 H6051 . 121.0 no
+C606 . C605 H6051 . 121.3 no
+C605 . C606 N601 . 124.14(8) yes
+C605 . C606 H6061 . 118.2 no
+N601 . C606 H6061 . 117.6 no
+C604 . C607 C608 . 119.6(4) yes
+C604 . C607 C612 . 120.4(4) yes
+C608 . C607 C612 . 119.98(4) yes
+C604 . C607 C614 . 119.5(4) yes
+C604 . C607 C617 . 120.4(4) yes
+C614 . C607 C617 . 119.97(4) yes
+C607 . C608 C609 . 119.99(4) yes
+C607 . C608 H6081 . 120.0 no
+C609 . C608 H6081 . 120.0 no
+C608 . C609 C610 . 119.99(4) yes
+C608 . C609 H6091 . 120.0 no
+C610 . C609 H6091 . 120.0 no
+C609 . C610 C611 . 119.98(4) yes
+C609 . C610 C613 . 119.8(5) yes
+C611 . C610 C613 . 120.2(4) yes
+C613 . C610 C615 . 119.5(5) yes
+C613 . C610 C616 . 120.5(5) yes
+C615 . C610 C616 . 119.97(4) yes
+C610 . C611 C612 . 119.98(4) yes
+C610 . C611 H6111 . 120.0 no
+C612 . C611 H6111 . 120.0 no
+C607 . C612 C611 . 119.98(4) yes
+C607 . C612 H6121 . 120.0 no
+C611 . C612 H6121 . 120.0 no
+C610 . C613 C513 . 119.2(5) yes
+C610 . C613 C413 2_656 120.8(6) yes
+C513 . C613 C413 2_656 119.9(7) yes
+C607 . C614 C615 . 119.97(4) yes
+C607 . C614 H6141 . 120.0 no
+C615 . C614 H6141 . 120.0 no
+C614 . C615 C610 . 119.97(4) yes
+C614 . C615 H6151 . 120.0 no
+C610 . C615 H6151 . 120.0 no
+C610 . C616 C617 . 119.97(4) yes
+C610 . C616 H6161 . 120.0 no
+C617 . C616 H6161 . 120.0 no
+C616 . C617 C607 . 119.97(4) yes
+C616 . C617 H6171 . 120.0 no
+C607 . C617 H6171 . 120.0 no
+Cl702 . C701 Cl703 . 103.63(5) yes
+Cl702 . C701 Cl704 . 103.61(5) yes
+Cl703 . C701 Cl704 . 103.60(5) yes
+Cl702 . C701 H7011 . 114.9 no
+Cl703 . C701 H7011 . 114.8 no
+Cl704 . C701 H7011 . 114.8 no
+Cl706 . C705 Cl707 . 103.615(11) yes
+Cl706 . C705 Cl708 . 103.631(5) yes
+Cl707 . C705 Cl708 . 103.640(3) yes
+Cl706 . C705 H7051 . 114.8 no
+Cl707 . C705 H7051 . 114.8 no
+Cl708 . C705 H7051 . 114.8 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn100 N101 . 2.046(6) yes
+Zn100 N106 . 2.060(7) yes
+Zn100 N111 . 2.074(7) yes
+Zn100 N116 . 2.043(7) yes
+Zn100 N401 . 2.124(5) yes
+N101 C102 . 1.394(9) yes
+N101 C105 . 1.372(10) yes
+C102 C103 . 1.468(11) yes
+C102 C121 . 1.379(10) yes
+C103 C104 . 1.364(11) yes
+C103 H1031 . 0.950 no
+C104 C105 . 1.501(11) yes
+C104 H1041 . 0.950 no
+C105 C127 . 1.393(11) yes
+N106 C107 . 1.383(10) yes
+N106 C258 . 1.383(10) yes
+C107 C108 . 1.465(11) yes
+C107 C127 . 1.389(11) yes
+C108 C109 . 1.367(12) yes
+C108 H1081 . 0.950 no
+C109 C258 . 1.434(11) yes
+C109 H1091 . 0.950 no
+N111 C112 . 1.379(9) yes
+N111 C115 . 1.343(10) yes
+C112 C113 . 1.406(11) yes
+C112 C259 . 1.416(11) yes
+C113 C114 . 1.379(12) yes
+C113 H1131 . 0.950 no
+C114 C115 . 1.472(12) yes
+C114 H1141 . 0.950 no
+C115 C128 . 1.431(11) yes
+N116 C117 . 1.366(10) yes
+N116 C120 . 1.398(10) yes
+C117 C118 . 1.481(12) yes
+C117 C128 . 1.422(12) yes
+C118 C119 . 1.371(12) yes
+C118 H1181 . 0.950 no
+C119 C120 . 1.385(12) yes
+C119 H1191 . 0.950 no
+C120 C121 . 1.416(11) yes
+C121 C122 . 1.400(11) yes
+C122 C123 . 1.227(10) yes
+C123 C326 2_656 1.410(12) yes
+C125 C126 . 1.206(10) yes
+C125 C259 . 1.439(11) yes
+C126 C223 . 1.380(12) yes
+C127 C129 . 1.537(12) yes
+C128 C143 . 1.520(12) yes
+C129 C130 . 1.343(11) yes
+C129 C134 . 1.405(11) yes
+C130 C131 . 1.424(11) yes
+C130 H1301 . 0.950 no
+C131 C132 . 1.413(11) yes
+C131 C135 . 1.543(6) yes
+C132 C133 . 1.382(11) yes
+C132 H1321 . 0.950 no
+C133 C134 . 1.431(11) yes
+C133 C139 . 1.545(6) yes
+C134 H1341 . 0.950 no
+C135 C136 . 1.530(8) yes
+C135 C137 . 1.508(9) yes
+C135 C138 . 1.535(9) yes
+C135 C166 . 1.531(9) yes
+C135 C167 . 1.504(8) yes
+C135 C168 . 1.541(9) yes
+C136 H1361 . 0.950 no
+C136 H1362 . 0.950 no
+C136 H1363 . 0.950 no
+C137 H1371 . 0.950 no
+C137 H1372 . 0.950 no
+C137 H1373 . 0.950 no
+C138 H1381 . 0.950 no
+C138 H1382 . 0.950 no
+C138 H1383 . 0.950 no
+C139 C140 . 1.533(8) yes
+C139 C141 . 1.486(8) yes
+C139 C142 . 1.536(8) yes
+C139 C170 . 1.531(9) yes
+C139 C171 . 1.502(9) yes
+C139 C172 . 1.537(9) yes
+C140 H1401 . 0.950 no
+C140 H1402 . 0.950 no
+C140 H1403 . 0.950 no
+C141 H1411 . 0.950 no
+C141 H1412 . 0.950 no
+C141 H1413 . 0.950 no
+C142 H1421 . 0.950 no
+C142 H1422 . 0.950 no
+C142 H1423 . 0.950 no
+C143 C144 . 1.401(11) yes
+C143 C148 . 1.358(11) yes
+C144 C145 . 1.400(11) yes
+C144 H1441 . 0.950 no
+C145 C146 . 1.389(11) yes
+C145 C149 . 1.548(7) yes
+C146 C147 . 1.409(11) yes
+C146 H1461 . 0.950 no
+C147 C148 . 1.379(10) yes
+C147 C153 . 1.534(7) yes
+C148 H1481 . 0.950 no
+C149 C150 . 1.540(7) yes
+C149 C151 . 1.497(7) yes
+C149 C152 . 1.541(7) yes
+C150 H1501 . 0.950 no
+C150 H1502 . 0.950 no
+C150 H1503 . 0.950 no
+C151 H1511 . 0.950 no
+C151 H1512 . 0.950 no
+C151 H1513 . 0.950 no
+C152 H1521 . 0.950 no
+C152 H1522 . 0.950 no
+C152 H1523 . 0.950 no
+C153 C154 . 1.530(7) yes
+C153 C155 . 1.506(7) yes
+C153 C156 . 1.545(7) yes
+C154 H1541 . 0.950 no
+C154 H1542 . 0.950 no
+C154 H1543 . 0.950 no
+C155 H1551 . 0.950 no
+C155 H1552 . 0.950 no
+C155 H1553 . 0.950 no
+C156 H1561 . 0.950 no
+C156 H1562 . 0.950 no
+C156 H1563 . 0.950 no
+C166 H1661 . 0.950 no
+C166 H1662 . 0.950 no
+C166 H1663 . 0.950 no
+C167 H1671 . 0.950 no
+C167 H1672 . 0.950 no
+C167 H1673 . 0.950 no
+C168 H1681 . 0.950 no
+C168 H1682 . 0.950 no
+C168 H1683 . 0.950 no
+C170 H1701 . 0.950 no
+C170 H1702 . 0.950 no
+C170 H1703 . 0.950 no
+C171 H1711 . 0.950 no
+C171 H1712 . 0.950 no
+C171 H1713 . 0.950 no
+C172 H1721 . 0.950 no
+C172 H1722 . 0.950 no
+C172 H1723 . 0.950 no
+Zn200 N201 . 2.048(8) yes
+Zn200 N206 . 2.070(7) yes
+Zn200 N211 . 2.064(7) yes
+Zn200 N216 . 2.075(7) yes
+Zn200 N501 . 2.151(5) yes
+N201 C202 . 1.366(10) yes
+N201 C205 . 1.370(10) yes
+C202 C203 . 1.445(13) yes
+C202 C221 . 1.422(12) yes
+C203 C204 . 1.390(12) yes
+C203 H2031 . 0.950 no
+C204 C205 . 1.464(13) yes
+C204 H2041 . 0.950 no
+C205 C227 . 1.446(12) yes
+N206 C207 . 1.370(11) yes
+N206 C257 . 1.359(11) yes
+C207 C208 . 1.450(12) yes
+C207 C227 . 1.375(12) yes
+C208 C209 . 1.381(13) yes
+C208 H2081 . 0.950 no
+C209 C257 . 1.459(13) yes
+C209 H2091 . 0.950 no
+N211 C212 . 1.386(10) yes
+N211 C215 . 1.348(10) yes
+C212 C213 . 1.384(12) yes
+C212 C224 . 1.441(12) yes
+C213 C214 . 1.366(11) yes
+C213 H2131 . 0.950 no
+C214 C215 . 1.476(12) yes
+C214 H2141 . 0.950 no
+C215 C228 . 1.404(12) yes
+N216 C217 . 1.387(11) yes
+N216 C220 . 1.415(11) yes
+C217 C218 . 1.472(12) yes
+C217 C228 . 1.422(12) yes
+C218 C219 . 1.325(12) yes
+C218 H2181 . 0.950 no
+C219 C220 . 1.454(12) yes
+C219 H2191 . 0.950 no
+C220 C221 . 1.366(12) yes
+C221 C222 . 1.469(12) yes
+C222 C223 . 1.190(10) yes
+C224 C225 . 1.439(12) yes
+C224 C257 . 1.400(12) yes
+C225 C226 . 1.201(11) yes
+C226 C323 . 1.368(12) yes
+C227 C229 . 1.480(13) yes
+C228 C243 . 1.503(12) yes
+C229 C230 . 1.405(13) yes
+C229 C234 . 1.407(13) yes
+C230 C231 . 1.372(13) yes
+C230 H2301 . 0.950 no
+C231 C232 . 1.410(15) yes
+C231 C235 . 1.538(6) yes
+C232 C233 . 1.369(15) yes
+C232 H2321 . 0.950 no
+C233 C234 . 1.434(14) yes
+C233 C239 . 1.547(6) yes
+C234 H2341 . 0.950 no
+C235 C236 . 1.536(9) yes
+C235 C237 . 1.501(9) yes
+C235 C238 . 1.530(9) yes
+C235 C266 . 1.534(9) yes
+C235 C267 . 1.502(9) yes
+C235 C268 . 1.537(9) yes
+C236 H2361 . 0.950 no
+C236 H2362 . 0.950 no
+C236 H2363 . 0.950 no
+C237 H2371 . 0.950 no
+C237 H2372 . 0.950 no
+C237 H2373 . 0.950 no
+C238 H2381 . 0.950 no
+C238 H2382 . 0.950 no
+C238 H2383 . 0.950 no
+C239 C240 . 1.541(9) yes
+C239 C241 . 1.492(9) yes
+C239 C242 . 1.541(9) yes
+C239 C270 . 1.542(9) yes
+C239 C271 . 1.493(9) yes
+C239 C272 . 1.531(9) yes
+C240 H2401 . 0.950 no
+C240 H2402 . 0.950 no
+C240 H2403 . 0.950 no
+C241 H2411 . 0.950 no
+C241 H2412 . 0.950 no
+C241 H2413 . 0.950 no
+C242 H2421 . 0.950 no
+C242 H2422 . 0.950 no
+C242 H2423 . 0.950 no
+C243 C244 . 1.371(12) yes
+C243 C248 . 1.426(12) yes
+C244 C245 . 1.400(11) yes
+C244 H2441 . 0.950 no
+C245 C246 . 1.401(11) yes
+C245 C249 . 1.547(6) yes
+C246 C247 . 1.396(11) yes
+C246 H2461 . 0.950 no
+C247 C248 . 1.388(11) yes
+C247 C253 . 1.547(6) yes
+C248 H2481 . 0.950 no
+C249 C250 . 1.531(9) yes
+C249 C251 . 1.490(9) yes
+C249 C252 . 1.537(9) yes
+C249 C280 . 1.533(8) yes
+C249 C281 . 1.492(9) yes
+C249 C282 . 1.533(9) yes
+C250 H2501 . 0.950 no
+C250 H2502 . 0.950 no
+C250 H2503 . 0.950 no
+C251 H2511 . 0.950 no
+C251 H2512 . 0.950 no
+C251 H2513 . 0.950 no
+C252 H2521 . 0.950 no
+C252 H2522 . 0.950 no
+C252 H2523 . 0.950 no
+C253 C254 . 1.546(9) yes
+C253 C255 . 1.475(8) yes
+C253 C256 . 1.536(9) yes
+C253 C284 . 1.548(8) yes
+C253 C285 . 1.519(9) yes
+C253 C286 . 1.530(9) yes
+C254 H2541 . 0.950 no
+C254 H2542 . 0.950 no
+C254 H2543 . 0.950 no
+C255 H2551 . 0.950 no
+C255 H2552 . 0.950 no
+C255 H2553 . 0.950 no
+C256 H2561 . 0.950 no
+C256 H2562 . 0.950 no
+C256 H2563 . 0.950 no
+C258 C259 . 1.409(12) yes
+C266 H2661 . 0.950 no
+C266 H2662 . 0.950 no
+C266 H2663 . 0.950 no
+C267 H2671 . 0.950 no
+C267 H2672 . 0.950 no
+C267 H2673 . 0.950 no
+C268 H2681 . 0.950 no
+C268 H2682 . 0.950 no
+C268 H2683 . 0.950 no
+C270 H2701 . 0.950 no
+C270 H2702 . 0.950 no
+C270 H2703 . 0.950 no
+C271 H2711 . 0.950 no
+C271 H2712 . 0.950 no
+C271 H2713 . 0.950 no
+C272 H2721 . 0.950 no
+C272 H2722 . 0.950 no
+C272 H2723 . 0.950 no
+C280 H2801 . 0.950 no
+C280 H2802 . 0.950 no
+C280 H2803 . 0.950 no
+C281 H2811 . 0.950 no
+C281 H2812 . 0.950 no
+C281 H2813 . 0.950 no
+C282 H2821 . 0.950 no
+C282 H2822 . 0.950 no
+C282 H2823 . 0.950 no
+C284 H2841 . 0.950 no
+C284 H2842 . 0.950 no
+C284 H2843 . 0.950 no
+C285 H2851 . 0.950 no
+C285 H2852 . 0.950 no
+C285 H2853 . 0.950 no
+C286 H2861 . 0.950 no
+C286 H2862 . 0.950 no
+C286 H2863 . 0.950 no
+Zn300 N301 . 2.068(7) yes
+Zn300 N306 . 2.109(7) yes
+Zn300 N311 . 2.025(7) yes
+Zn300 N316 . 2.073(7) yes
+Zn300 N601 . 2.173(4) yes
+N301 C302 . 1.391(10) yes
+N301 C305 . 1.391(10) yes
+C302 C303 . 1.369(11) yes
+C302 C321 . 1.423(11) yes
+C303 C304 . 1.367(12) yes
+C303 H3031 . 0.950 no
+C304 C305 . 1.458(12) yes
+C304 H3041 . 0.950 no
+C305 C327 . 1.450(11) yes
+N306 C307 . 1.377(10) yes
+N306 C310 . 1.394(10) yes
+C307 C308 . 1.487(11) yes
+C307 C327 . 1.407(11) yes
+C308 C309 . 1.349(11) yes
+C308 H3081 . 0.950 no
+C309 C310 . 1.428(11) yes
+C309 H3091 . 0.950 no
+C310 C324 . 1.399(11) yes
+N311 C312 . 1.390(10) yes
+N311 C315 . 1.387(10) yes
+C312 C313 . 1.393(11) yes
+C312 C324 . 1.403(11) yes
+C313 C314 . 1.339(11) yes
+C313 H3131 . 0.950 no
+C314 C315 . 1.488(12) yes
+C314 H3141 . 0.950 no
+C315 C328 . 1.406(11) yes
+N316 C317 . 1.373(10) yes
+N316 C320 . 1.389(10) yes
+C317 C318 . 1.478(12) yes
+C317 C328 . 1.409(11) yes
+C318 C319 . 1.350(11) yes
+C318 H3181 . 0.950 no
+C319 C320 . 1.435(11) yes
+C319 H3191 . 0.950 no
+C320 C321 . 1.357(11) yes
+C321 C322 . 1.435(12) yes
+C322 C323 . 1.191(10) yes
+C324 C325 . 1.427(11) yes
+C325 C326 . 1.183(10) yes
+C327 C329 . 1.473(11) yes
+C328 C343 . 1.503(12) yes
+C329 C330 . 1.411(11) yes
+C329 C334 . 1.408(11) yes
+C330 C331 . 1.395(11) yes
+C330 H3301 . 0.950 no
+C331 C332 . 1.429(12) yes
+C331 C335 . 1.552(7) yes
+C332 C333 . 1.387(12) yes
+C332 H3321 . 0.950 no
+C333 C334 . 1.384(11) yes
+C333 C339 . 1.559(7) yes
+C334 H3341 . 0.950 no
+C335 C336 . 1.532(7) yes
+C335 C337 . 1.508(8) yes
+C335 C338 . 1.528(8) yes
+C336 H3361 . 0.950 no
+C336 H3362 . 0.950 no
+C336 H3363 . 0.950 no
+C337 H3371 . 0.950 no
+C337 H3372 . 0.950 no
+C337 H3373 . 0.950 no
+C338 H3381 . 0.950 no
+C338 H3382 . 0.950 no
+C338 H3383 . 0.950 no
+C339 C340 . 1.537(7) yes
+C339 C341 . 1.496(7) yes
+C339 C342 . 1.525(7) yes
+C340 H3401 . 0.950 no
+C340 H3402 . 0.950 no
+C340 H3403 . 0.950 no
+C341 H3411 . 0.950 no
+C341 H3412 . 0.950 no
+C341 H3413 . 0.950 no
+C342 H3421 . 0.950 no
+C342 H3422 . 0.950 no
+C342 H3423 . 0.950 no
+C343 C344 . 1.372(12) yes
+C343 C348 . 1.401(12) yes
+C344 C345 . 1.412(12) yes
+C344 H3441 . 0.950 no
+C345 C346 . 1.406(12) yes
+C345 C349 . 1.548(6) yes
+C346 C347 . 1.373(11) yes
+C346 H3461 . 0.950 no
+C347 C348 . 1.390(11) yes
+C347 C353 . 1.545(6) yes
+C348 H3481 . 0.950 no
+C349 C350 . 1.537(9) yes
+C349 C351 . 1.503(9) yes
+C349 C352 . 1.528(9) yes
+C349 C380 . 1.537(9) yes
+C349 C381 . 1.497(9) yes
+C349 C382 . 1.528(9) yes
+C350 H3501 . 0.950 no
+C350 H3502 . 0.950 no
+C350 H3503 . 0.950 no
+C351 H3511 . 0.950 no
+C351 H3512 . 0.950 no
+C351 H3513 . 0.950 no
+C352 H3521 . 0.950 no
+C352 H3522 . 0.950 no
+C352 H3523 . 0.950 no
+C353 C354 . 1.532(9) yes
+C353 C355 . 1.495(9) yes
+C353 C356 . 1.534(9) yes
+C353 C384 . 1.530(9) yes
+C353 C385 . 1.503(9) yes
+C353 C386 . 1.539(9) yes
+C354 H3541 . 0.950 no
+C354 H3542 . 0.950 no
+C354 H3543 . 0.950 no
+C355 H3551 . 0.950 no
+C355 H3552 . 0.950 no
+C355 H3553 . 0.950 no
+C356 H3561 . 0.950 no
+C356 H3562 . 0.950 no
+C356 H3563 . 0.950 no
+C380 H3801 . 0.950 no
+C380 H3802 . 0.950 no
+C380 H3803 . 0.950 no
+C381 H3811 . 0.950 no
+C381 H3812 . 0.950 no
+C381 H3813 . 0.950 no
+C382 H3821 . 0.950 no
+C382 H3822 . 0.950 no
+C382 H3823 . 0.950 no
+C384 H3841 . 0.950 no
+C384 H3842 . 0.950 no
+C384 H3843 . 0.950 no
+C385 H3851 . 0.950 no
+C385 H3852 . 0.950 no
+C385 H3853 . 0.950 no
+C386 H3861 . 0.950 no
+C386 H3862 . 0.950 no
+C386 H3863 . 0.950 no
+N401 C402 . 1.330(6) yes
+N401 C406 . 1.298(6) yes
+C402 C403 . 1.413(6) yes
+C402 H4021 . 0.950 no
+C403 C404 . 1.337(6) yes
+C403 H4031 . 0.950 no
+C404 C405 . 1.385(6) yes
+C404 C407 . 1.488(7) yes
+C405 C406 . 1.424(6) yes
+C405 H4051 . 0.950 no
+C406 H4061 . 0.950 no
+C407 C408 . 1.400(3) yes
+C407 C412 . 1.397(3) yes
+C407 C414 . 1.399(3) yes
+C407 C417 . 1.398(3) yes
+C408 C409 . 1.399(3) yes
+C408 H4081 . 0.950 no
+C409 C410 . 1.398(3) yes
+C409 H4091 . 0.950 no
+C410 C411 . 1.399(3) yes
+C410 C413 . 1.538(9) yes
+C410 C413 . 1.538(9) yes
+C410 C415 . 1.399(3) yes
+C410 C416 . 1.397(3) yes
+C411 C412 . 1.400(3) yes
+C411 H4111 . 0.950 no
+C412 H4121 . 0.950 no
+C413 C613 2_656 1.388(8) yes
+C413 C513 . 1.418(8) yes
+C414 C415 . 1.399(3) yes
+C414 H4141 . 0.950 no
+C415 H4151 . 0.950 no
+C416 C417 . 1.400(3) yes
+C416 H4161 . 0.950 no
+C417 H4171 . 0.950 no
+N501 C502 . 1.328(6) yes
+N501 C506 . 1.296(6) yes
+C502 C503 . 1.412(6) yes
+C502 H5021 . 0.950 no
+C503 C504 . 1.344(6) yes
+C503 H5031 . 0.950 no
+C504 C505 . 1.376(6) yes
+C504 C507 . 1.516(7) yes
+C505 C506 . 1.432(6) yes
+C505 H5051 . 0.950 no
+C506 H5061 . 0.950 no
+C507 C508 . 1.397(3) yes
+C507 C512 . 1.399(3) yes
+C507 C514 . 1.398(3) yes
+C507 C517 . 1.398(3) yes
+C508 C509 . 1.398(3) yes
+C508 H5081 . 0.950 no
+C509 C510 . 1.398(3) yes
+C509 H5091 . 0.950 no
+C510 C511 . 1.399(3) yes
+C510 C513 . 1.522(9) yes
+C510 C513 . 1.522(9) yes
+C510 C515 . 1.398(3) yes
+C510 C516 . 1.397(3) yes
+C511 C512 . 1.397(3) yes
+C511 H5111 . 0.950 no
+C512 H5121 . 0.950 no
+C513 C613 . 1.391(8) yes
+C514 C515 . 1.398(3) yes
+C514 H5141 . 0.950 no
+C515 H5151 . 0.950 no
+C516 C517 . 1.399(3) yes
+C516 H5161 . 0.950 no
+C517 H5171 . 0.950 no
+N601 C602 . 1.340(6) yes
+N601 C606 . 1.294(6) yes
+C602 C603 . 1.399(6) yes
+C602 H6021 . 0.950 no
+C603 C604 . 1.343(6) yes
+C603 H6031 . 0.950 no
+C604 C605 . 1.387(6) yes
+C604 C607 . 1.521(6) yes
+C605 C606 . 1.420(6) yes
+C605 H6051 . 0.950 no
+C606 H6061 . 0.950 no
+C607 C608 . 1.397(3) yes
+C607 C612 . 1.401(3) yes
+C607 C614 . 1.399(3) yes
+C607 C617 . 1.399(3) yes
+C608 C609 . 1.401(3) yes
+C608 H6081 . 0.950 no
+C609 C610 . 1.397(3) yes
+C609 H6091 . 0.950 no
+C610 C611 . 1.401(3) yes
+C610 C613 . 1.517(9) yes
+C610 C613 . 1.517(9) yes
+C610 C615 . 1.399(3) yes
+C610 C616 . 1.399(3) yes
+C611 C612 . 1.398(3) yes
+C611 H6111 . 0.950 no
+C612 H6121 . 0.950 no
+C614 C615 . 1.400(3) yes
+C614 H6141 . 0.950 no
+C615 H6151 . 0.950 no
+C616 C617 . 1.400(3) yes
+C616 H6161 . 0.950 no
+C617 H6171 . 0.950 no
+C701 Cl702 . 1.800(5) yes
+C701 Cl703 . 1.799(5) yes
+C701 Cl704 . 1.791(5) yes
+C701 H7011 . 0.950 no
+C705 Cl706 . 1.81176(14) yes
+C705 Cl707 . 1.81897(19) yes
+C705 Cl708 . 1.82620(11) yes
+C705 H7051 . 0.950 no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_angle_DHA
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_publ_flag
+C137 H1371 C412 5_544 134.2(4) 0.950 2.402 3.139(14) yes
+C240 H2402 C254 5_544 144.2(8) 0.950 2.565 3.381(14) yes
+C386 H3861 C170 2_656 150.4(8) 0.950 2.522 3.380(14) yes
+C412 H4121 C137 5_545 132.3(4) 0.950 2.420 3.139(14) yes
+C506 H5061 N211 . 121.8(2) 0.950 2.572 3.176(14) yes
+C608 H6081 C167 6_655 142.2(5) 0.950 2.372 3.177(14) yes
+C705 H7051 C331 . 146.80(18) 0.950 2.599 3.434(14) yes
+C705 H7051 C332 . 139.5(2) 0.950 2.490 3.271(14) yes
+C705 H7051 C333 . 138.36(17) 0.950 2.512 3.283(14) yes
+C705 H7051 C334 . 146.31(19) 0.950 2.595 3.426(14) yes
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+_platon_squeeze_void_content
+1 0.107 0.841 0.008 17435 4542 ' '
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_oxford_refln_omitted_index_h
+_oxford_refln_omitted_index_k
+_oxford_refln_omitted_index_l
+_oxford_refln_omitted_flag
+42 0 0 x
+3 13 1 x
+40 0 0 x
+10 4 0 x
+#END Loops that were not found in dictionaries

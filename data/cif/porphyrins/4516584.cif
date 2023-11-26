@@ -1,0 +1,314 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-23 00:16:20 +0200 (Sat, 23 Nov 2019) $
+#$Revision: 231636 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/51/65/4516584.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4516584
+loop_
+_publ_author_name
+'Feng, Xuenan'
+'Wang, Xiqian'
+'Wang, Hailong'
+'Wu, Hui'
+'Liu, Zhanning'
+'Zhou, Wei'
+'Lin, Qipu'
+'Jiang, Jianzhuang'
+_publ_section_title
+;
+ Elucidating J-Aggregation Effect in Boosting Singlet Oxygen Evolution
+ Using Zirconium-Porphyrin Frameworks: A Comprehensive Structural,
+ Catalytic, and Spectroscopic Study.
+;
+_journal_name_full               'ACS applied materials &amp; interfaces'
+_journal_paper_doi               10.1021/acsami.9b17569
+_journal_year                    2019
+_chemical_formula_sum            'C32 H16 N4 O8 Zr'
+_chemical_formula_weight         675.72
+_space_group_IT_number           66
+_space_group_name_Hall           '-C 2 2c'
+_space_group_name_H-M_alt        'C c c m'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'C c c m'
+_audit_creation_date             2019-09-04T14:42
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   38.058(12)
+_cell_length_b                   10.009(4)
+_cell_length_c                   7.2953(20)
+_cell_measurement_temperature    298
+_cell_volume                     2778.9(16)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type
+'a TTR III multi-function X-ray diffractometer'
+_diffrn_radiation_polarisn_ratio 0.99
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_crystal_description       block
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.013
+_pd_meas_2theta_range_max        49.992
+_pd_meas_2theta_range_min        3.998
+_pd_meas_number_of_points        3539
+_pd_phase_name                   ZrMOF
+_pd_proc_2theta_range_inc        0.013
+_pd_proc_2theta_range_max        49.99596
+_pd_proc_2theta_range_min        4.00195
+_pd_proc_info_datetime           2019-09-04T14:42:48
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_prof_R_factor        0.0433
+_pd_proc_ls_prof_wR_expected     0.0059
+_pd_proc_ls_prof_wR_factor       0.0628
+_pd_proc_number_of_points        3539
+_refine_ls_goodness_of_fit_all   10.58
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     8
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.39113
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.02
+_reflns_d_resolution_high        2.258
+_reflns_d_resolution_low         9.688
+_reflns_limit_h_max              17
+_reflns_limit_h_min              0
+_reflns_limit_k_max              4
+_reflns_limit_k_min              0
+_reflns_limit_l_max              3
+_reflns_limit_l_min              0
+_reflns_number_total             161
+_cod_data_source_file            am9b17569_si_001.cif
+_cod_data_source_block           ZrMOF_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (51 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (46 times).
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        2779.0(22)
+_cod_database_code               4516584
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z+1/2
+3 +x,-y,+z+1/2
+4 -x,-y,+z
+-1 -x,-y,-z
+-2 +x,-y,-z+1/2
+-3 -x,+y,-z+1/2
+-4 +x,+y,-z
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,+z+1/2
+103 +x+1/2,-y+1/2,+z+1/2
+104 -x+1/2,-y+1/2,+z
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,-z+1/2
+-103 -x+1/2,+y+1/2,-z+1/2
+-104 +x+1/2,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C8 0.15380(32) 0.2005(8) 0.0 1.0 Uiso 0.03935 8
+C C3 0.11514(32) 0.1846(8) 0.0 1.0 Uiso 0.03935 8
+C C16 0.16661(30) 0.3304(9) 0.0 1.0 Uiso 0.03935 8
+O O2 0.04180(33) 0.1245(10) 0.3135(8) 1.0 Uiso 0.02426 16
+C C5 0.09826(32) 0.1764(8) 0.1703(8) 1.0 Uiso 0.03935 16
+C C6 0.06193(33) 0.1505(9) 0.1733(8) 1.0 Uiso 0.03935 16
+H H7 0.11354(32) 0.1826(8) 0.2955(23) 1.0 Uiso 0.055 16
+O O1 0.01177(34) 0.1055(12) 0.0 1.0 Uiso 0.02426 8
+C C4 0.04526(33) 0.1402(10) 0.0 1.0 Uiso 0.03935 8
+C C9 0.31751(30) 0.3832(16) 0.0 1.0 Uiso 0.03935 8
+C C10 0.33007(30) 0.5188(17) 0.0 1.0 Uiso 0.03935 8
+C C11 0.30075(31) 0.5971(15) 0.0 1.0 Uiso 0.03935 8
+C C12 0.27040(30) 0.5116(13) 0.0 1.0 Uiso 0.03935 8
+C C13 0.23627(31) 0.5632(11) 0.0 1.0 Uiso 0.03935 8
+C C14 0.16880(31) 0.5542(9) 0.0 1.0 Uiso 0.03935 8
+C C15 0.14569(30) 0.4501(8) 0.0 1.0 Uiso 0.03935 8
+C C17 0.20407(30) 0.4975(10) 0.0 1.0 Uiso 0.03935 8
+N N18 0.28135(30) 0.3813(14) 0.0 1.0 Uiso 0.03935 8
+N N19 0.20154(30) 0.3614(10) 0.0 1.0 Uiso 0.03935 8
+H H20 0.35775(31) 0.5461(19) 0.0 1.0 Uiso 0.055 8
+H H21 0.16119(32) 0.6584(8) 0.0 1.0 Uiso 0.055 8
+H H22 0.11708(30) 0.4533(8) 0.0 1.0 Uiso 0.055 8
+H H23 0.29910(33) 0.7040(15) 0.0 1.0 Uiso 0.055 8
+H H24 0.23513(33) 0.6708(11) 0.0 1.0 Uiso 0.055 8
+H H25 0.22558(31) 0.2959(11) 0.0 1.0 Uiso 0.055 8
+O O 0.4928(95) 0.0089(25) 0.0 1.0 Uiso 0.10759 8
+Zr Zr26 0.0 0.0 0.25 1.0 Uiso 0.00805 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+C 128.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+O 32.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+H 64.0 0.000 0.000 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081
+57.7997 0.00304 International_Tables_Vol_C
+N 16.0 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+Zr 4.0 0.000 0.000 17.8765 1.27618 10.9480 11.9160 5.41732 0.11762 3.65721
+87.6627 2.06929 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540600 1.000 CuK\a~1~ 1
+1.544400 0.500 CuK\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C3 C8 C16 116.730(6) 1_555 1_555 n
+C3 C8 C9 136.3(12) 1_555 104_555 n
+C16 C8 C9 106.9(12) 1_555 104_555 n
+C8 C3 C5 117.521(10) 1_555 1_555 n
+C8 C3 C5 117.521(10) 1_555 -4_555 n
+C5 C3 C5 124.947(20) 1_555 -4_555 n
+C8 C16 C15 125.824(22) 1_555 1_555 n
+C8 C16 N19 123.6839(30) 1_555 1_555 n
+C15 C16 N19 110.492(19) 1_555 1_555 n
+C3 C5 C6 118.365(10) 1_555 1_555 n
+C3 C5 H7 119.833(21) 1_555 1_555 n
+C6 C5 H7 121.639(11) 1_555 1_555 n
+O2 C6 C5 128.774(11) 1_555 1_555 n
+O2 C6 C4 114.965(21) 1_555 1_555 n
+C5 C6 C4 116.038(10) 1_555 1_555 n
+C6 C4 C6 126.124(20) 1_555 -4_555 n
+C6 C4 O1 116.776(10) 1_555 1_555 n
+C6 C4 O1 116.776(10) -4_555 1_555 n
+C8 C9 C10 108.1(12) 104_555 1_555 n
+C8 C9 N18 141.7(12) 104_555 1_555 n
+C10 C9 N18 110.174(8) 1_555 1_555 n
+C9 C10 C11 105.680(22) 1_555 1_555 n
+C9 C10 H20 123.9760(19) 1_555 1_555 n
+C11 C10 H20 130.344(20) 1_555 1_555 n
+C10 C11 C12 108.395(26) 1_555 1_555 n
+C10 C11 H23 128.428(11) 1_555 1_555 n
+C12 C11 H23 123.177(15) 1_555 1_555 n
+C11 C12 C13 121.794(23) 1_555 1_555 n
+C11 C12 N18 108.799(21) 1_555 1_555 n
+C13 C12 N18 129.4071(15) 1_555 1_555 n
+C12 C13 C17 130.108(21) 1_555 1_555 n
+C12 C13 H24 113.983(8) 1_555 1_555 n
+C17 C13 H24 115.909(13) 1_555 1_555 n
+C15 C14 C17 107.218(24) 1_555 1_555 n
+C15 C14 H21 124.315(21) 1_555 1_555 n
+C17 C14 H21 128.4668(28) 1_555 1_555 n
+C16 C15 C14 106.217(26) 1_555 1_555 n
+C16 C15 H22 125.325(12) 1_555 1_555 n
+C14 C15 H22 128.458(14) 1_555 1_555 n
+C13 C17 C14 128.839(22) 1_555 1_555 n
+C13 C17 N19 122.254(10) 1_555 1_555 n
+C14 C17 N19 108.907(12) 1_555 1_555 n
+C9 N18 C12 106.952(8) 1_555 1_555 n
+C16 N19 C17 107.165(4) 1_555 1_555 n
+C16 N19 H25 131.262(19) 1_555 1_555 n
+C17 N19 H25 121.573(15) 1_555 1_555 n
+O2 Zr26 O2 154.14(15) 1_555 4_555 n
+O2 Zr26 O1 74.65(35) 1_555 1_555 n
+O2 Zr26 O1 71.1(5) 1_555 2_555 n
+O2 Zr26 O1 86.9(5) 1_555 3_555 n
+O2 Zr26 O1 130.05(21) 1_555 4_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C3 C8 1.4796(5) 1_555 n
+C3 C5 1.40169(32) 1_555 n
+O2 C6 1.30404(27) 1_555 n
+O2 Zr26 2.073(12) 1_555 n
+C5 C6 1.4070(4) 1_555 n
+C5 H7 1.08418(24) 1_555 n
+C6 C4 1.41885(33) 1_555 n
+O1 C4 1.3209(4) 1_555 n
+O1 Zr26 2.155(6) 1_555 n
+O1 Zr26 2.155(6) 2_554 n
+C4 C6 1.41885(33) 1_555 n
+C8 C16 1.3887(4) 1_555 n
+C8 C9 1.376(18) 104_555 n
+C9 C10 1.4388(5) 1_555 n
+C9 N18 1.3765(4) 1_555 n
+C10 C9 1.4388(5) 1_555 n
+C10 C11 1.36365(34) 1_555 n
+C10 H20 1.08865(33) 1_555 n
+C11 C10 1.36365(34) 1_555 n
+C11 C12 1.43740(35) 1_555 n
+C11 H23 1.0718(4) 1_555 n
+C12 C13 1.3976(4) 1_555 n
+C12 N18 1.3689(4) 1_555 n
+C13 C17 1.3909(4) 1_555 n
+C13 H24 1.0788(4) 1_555 n
+C14 C15 1.36388(34) 1_555 n
+C14 C17 1.4575(4) 1_555 n
+C14 H21 1.0824(4) 1_555 n
+C15 C16 1.4383(4) 1_555 n
+C15 H22 1.08905(35) 1_555 n
+C16 C8 1.3887(4) 1_555 n
+C16 N19 1.3650(4) 1_555 n
+C17 N19 1.3652(5) 1_555 n
+N19 H25 1.12513(28) 1_555 n
+Zr26 O2 2.073(12) 1_555 n
+Zr26 O2 2.073(12) 4_555 n
+Zr26 O2 2.073(12) -2_555 n
+Zr26 O2 2.073(12) -3_555 n
+Zr26 C6 2.852(12) 1_555 n
+Zr26 C6 2.852(12) 4_555 n
+Zr26 C6 2.852(12) -2_555 n
+Zr26 C6 2.852(12) -3_555 n
+Zr26 O1 2.155(6) 1_555 n
+Zr26 O1 2.155(6) 2_555 n
+Zr26 O1 2.155(6) 3_555 n
+Zr26 O1 2.155(6) 4_555 n

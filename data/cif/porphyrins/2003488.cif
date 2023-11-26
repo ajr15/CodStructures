@@ -1,0 +1,383 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/34/2003488.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003488
+loop_
+_publ_author_name
+'Licoccia, S.'
+'Paolesse, R.'
+'Boschi, T.'
+'Bandoli, G.'
+'Dolmella, A.'
+_publ_section_title
+;
+ Trichlorotin(II)--(<i>meso</i>-Tetraphenylporphyrinato)rhodium(III), a
+ Porphyrin Derivative with an Rh---Sn Bond
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              833
+_journal_page_last               835
+_journal_paper_doi               10.1107/S0108270194012424
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'C44 H28 Cl3 N4 Rh1 Sn1'
+_chemical_formula_sum            'C44 H28 Cl3 N4 Rh Sn'
+_chemical_formula_weight         940.7
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                68.20(2)
+_cell_angle_beta                 68.23(2)
+_cell_angle_gamma                64.08(2)
+_cell_formula_units_Z            2
+_cell_length_a                   12.719(2)
+_cell_length_b                   12.906(2)
+_cell_length_c                   16.930(3)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      13
+_cell_measurement_theta_min      8
+_cell_volume                     2247.2(8)
+_diffrn_measurement_device       'Siemens R3m/V'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.027
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            8311
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    1.13
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.86
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            violet
+_exptl_crystal_density_diffrn    1.390
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.15
+_refine_diff_density_max         1.37
+_refine_diff_density_min         -1.08
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.72
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     479
+_refine_ls_number_reflns         4754
+_refine_ls_R_factor_obs          0.057
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F) + 0.0016F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.080
+_reflns_number_observed          4754
+_reflns_number_total             7926
+_reflns_observed_criterion       F>4\s(F)
+_cod_data_source_file            na1113.cif
+_cod_data_source_block           na1113a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F) + 0.0016F^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(F) +
+0.0016F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        2247.5(7)
+_cod_original_formula_sum        'C44 H28 Cl3 N4 Rh1 Sn1'
+_cod_database_code               2003488
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sn .2054(1) .1974(1) .2390(1) .041(1)
+Cl(1) .1036(4) .3935(3) .1775(3) .110(2)
+Cl(2) .3199(4) .2204(5) .3064(3) .130(3)
+Cl(3) .3440(4) .1330(4) .1181(3) .127(3)
+Rh .0825(1) .0739(1) .3355(1) .049(1)
+N(1) -.0611(6) .2204(6) .3619(4) .038(3)
+N(2) .0260(6) .0855(6) .2345(4) .040(3)
+N(3) .2253(6) -.0719(6) .3097(4) .040(3)
+N(4) .1287(6) .0504(6) .4433(5) .041(3)
+C(1) -.0801(7) .2770(8) .4232(6) .041(4)
+C(2) -.1763(8) .3922(8) .4077(6) .050(5)
+C(3) -.2148(8) .3973(9) .3423(7) .052(5)
+C(4) -.1432(7) .2921(7) .3114(6) .041(4)
+C(5) -.1542(7) .2661(8) .2428(6) .044(4)
+C(6) -.0765(8) .1691(8) .2088(6) .045(4)
+C(7) -.0869(9) .1424(9) .1365(6) .055(5)
+C(8) .0079(9) .0477(9) .1199(6) .053(5)
+C(9) .0809(8) .0097(8) .1792(6) .045(5)
+C(10) .1901(7) -.0819(8) .1796(6) .044(4)
+C(11) .2591(7) -.1173(8) .2380(5) .040(4)
+C(12) .3779(8) -.2086(9) .2358(6) .052(5)
+C(13) .4143(8) -.2160(9) .3043(7) .053(5)
+C(14) .3188(7) -.1338(8) .3520(5) .041(4)
+C(15) .3180(8) -.1200(7) .4296(6) .042(4)
+C(16) .2248(7) -.0378(7) .4746(5) .038(4)
+C(17) .2212(8) -.0295(8) .5579(6) .049(5)
+C(18) .1224(8) .0677(8) .5766(6) .047(5)
+C(19) .0694(7) .1228(7) .5031(5) .038(4)
+C(20) -.0242(7) .2321(7) .4908(5) .038(4)
+C(21) -.2574(9) .3531(8) .2020(7) .052(5)
+C(22) -.3710(8) .3435(11) .2443(7) .067(6)
+C(23) -.4701(10) .4270(16) .2071(11) .095(9)
+C(24) -.4553(13) .5128(12) .1377(11) .082(8)
+C(25) -.3422(17) .5191(12) .0968(11) .105(11)
+C(26) -.2446(12) .4407(11) .1300(9) .079(8)
+C(27) .2368(8) -.1524(8) .1116(6) .046(4)
+C(28) .1850(10) -.2335(9) .1222(7) .059(6)
+C(29) .2304(11) -.2973(11) .0588(9) .076(7)
+C(30) .3223(11) -.2802(13) -.0114(9) .082(8)
+C(31) .3759(12) -.2001(13) -.0226(8) .085(8)
+C(32) .3316(10) -.1374(12) .0414(8) .075(7)
+C(33) .4256(8) -.1942(8) .4672(6) .044(4)
+C(34) .4595(8) -.3177(9) .4989(7) .054(5)
+C(35) .5581(9) -.3795(9) .5317(6) .056(5)
+C(36) .6258(9) -.3265(10) .5343(7) .065(6)
+C(37) .5923(10) -.2044(11) .5058(8) .071(7)
+C(38) .4942(9) -.1400(9) .4720(7) .061(6)
+C(39) -.0576(8) .3055(8) .5530(6) .044(4)
+C(40) .0301(11) .3373(10) .5592(7) .064(6)
+C(41) -.0056(17) .4076(11) .6181(10) .089(10)
+C(42) -.1104(15) .4368(11) .6693(9) .079(8)
+C(43) -.2003(15) .4048(11) .6654(8) .091(8)
+C(44) -.1708(9) .3393(8) .6052(6) .054(5)
+H(2A) -.2060 .4513 .4396 ?
+H(3A) -.2787 .4621 .3186 ?
+H(7A) -.1509 .1867 .1069 ?
+H(8A) .0252 .0093 .0754 ?
+H(12A) .4224 -.2545 .1929 ?
+H(13A) .4904 -.2673 .3179 ?
+H(17A) .2763 -.0826 .5941 ?
+H(18A) .0949 .0954 .6286 ?
+H(22A) -.3814 .2806 .2959 ?
+H(23A) -.5475 .4176 .2339 ?
+H(24A) -.5247 .5709 .1169 ?
+H(25A) -.3345 .5820 .0447 ?
+H(26A) -.1657 .4455 .1003 ?
+H(28A) .1185 -.2441 .1714 ?
+H(29A) .1966 -.3542 .0648 ?
+H(30A) .3527 -.3246 -.0546 ?
+H(31A) .4422 -.1907 -.0722 ?
+H(32A) .3667 -.0811 .0346 ?
+H(34A) .4129 -.3572 .4958 ?
+H(35A) .5785 -.4641 .5545 ?
+H(36A) .6959 -.3721 .5573 ?
+H(37A) .6392 -.1644 .5080 ?
+H(38A) .4721 -.0551 .4511 ?
+H(40A) .1109 .3144 .5230 ?
+H(41A) .0523 .4319 .6234 ?
+H(42A) -.1311 .4832 .7095 ?
+H(43A) -.2804 .4283 .7025 ?
+H(44A) -.2308 .3165 .6013 ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Cl(1) Sn Rh 116.90(10) yes
+Cl(3) Sn Rh 116.0(2) yes
+Sn Rh N(2) 91.7(2) yes
+Sn Rh N(4) 94.4(2) yes
+N(2) Rh N(3) 89.9(3) yes
+N(1) Rh N(4) 90.2(3) yes
+N(2) Rh N(4) 173.8(3) yes
+Cl(2) Sn Rh 114.80(10) yes
+Sn Rh N(1) 90.8(2) yes
+Sn Rh N(3) 89.3(2) yes
+N(1) Rh N(2) 90.3(3) yes
+N(3) Rh N(4) 89.6(3) yes
+N(1) Rh N(3) 179.7(4) yes
+Cl(1) Sn Cl(2) 101.1(2) no
+C(1) N(1) C(4) 108.1(7) no
+C(6) N(2) C(9) 106.7(9) no
+C(11) N(3) C(14) 106.9(6) no
+C(16) N(4) C(19) 105.2(8) no
+C(2) C(1) C(20) 125.1(10) no
+N(1) C(4) C(3) 107.9(10) no
+C(4) C(5) C(6) 124.9(8) no
+N(2) C(6) C(5) 126.0(11) no
+C(6) C(7) C(8) 106.7(10) no
+N(2) C(9) C(10) 125.0(10) no
+C(9) C(10) C(27) 116.9(10) no
+N(3) C(11) C(12) 108.2(9) no
+C(12) C(13) C(14) 107.5(8) no
+C(13) C(14) C(15) 125.2(8) no
+C(16) C(15) C(33) 116.7(10) no
+C(15) C(16) C(17) 124.0(8) no
+N(4) C(19) C(18) 109.3(6) no
+C(1) C(20) C(19) 124.0(9) no
+C(5) C(21) C(22) 117.7(8) no
+C(21) C(22) C(23) 118.3(10) no
+C(24) C(25) C(26) 121.5(13) no
+C(10) C(27) C(32) 119.4(12) no
+C(28) C(29) C(30) 120.6(16) no
+C(27) C(32) C(31) 120.8(6) no
+C(34) C(33) C(38) 117.7(9) no
+C(35) C(36) C(37) 119.3(11) no
+C(20) C(39) C(40) 119.5(8) no
+C(39) C(40) C(41) 117.6(12) no
+C(42) C(43) C(44) 118.6(12) no
+Cl(1) Sn Cl(3) 102.3(2) no
+Rh N(1) C(1) 125.3(6) no
+Rh N(2) C(6) 126.4(7) no
+Rh N(3) C(11) 126.2(6) no
+Rh N(4) C(16) 128.0(6) no
+N(1) C(1) C(2) 107.9(9) no
+C(1) C(2) C(3) 106.9(10) no
+N(1) C(4) C(5) 125.9(8) no
+C(4) C(5) C(21) 116.6(8) no
+N(2) C(6) C(7) 108.8(8) no
+C(7) C(8) C(9) 109.6(11) no
+C(8) C(9) C(10) 126.9(10) no
+C(11) C(10) C(27) 117.3(7) no
+C(10) C(11) C(12) 126.3(10) no
+N(3) C(14) C(13) 109.5(9) no
+C(14) C(15) C(16) 124.4(8) no
+N(4) C(16) C(15) 125.0(9) no
+C(16) C(17) C(18) 106.5(8) no
+N(4) C(19) C(20) 124.8(8) no
+C(1) C(20) C(39) 119.9(7) no
+C(5) C(21) C(26) 122.6(11) no
+C(22) C(23) C(24) 120.7(13) no
+C(21) C(26) C(25) 120.1(14) no
+C(28) C(27) C(32) 120.7(12) no
+C(29) C(30) C(31) 121.7(15) no
+C(15) C(33) C(34) 122.8(11) no
+C(33) C(34) C(35) 119.7(12) no
+C(36) C(37) C(38) 119.9(15) no
+C(20) C(39) C(44) 121.4(11) no
+C(40) C(41) C(42) 124.(2) no
+C(39) C(44) C(43) 121.0(14) no
+Cl(2) Sn Cl(3) 103.6(2) no
+Rh N(1) C(4) 125.6(7) no
+Rh N(2) C(9) 126.9(5) no
+Rh N(3) C(14) 126.2(7) no
+Rh N(4) C(19) 126.8(5) no
+N(1) C(1) C(20) 126.9(7) no
+C(2) C(3) C(4) 109.1(8) no
+C(3) C(4) C(5) 126.1(8) no
+C(6) C(5) C(21) 118.5(11) no
+C(5) C(6) C(7) 125.1(8) no
+N(2) C(9) C(8) 108.1(7) no
+C(9) C(10) C(11) 125.8(10) no
+N(3) C(11) C(10) 125.4(7) no
+C(11) C(12) C(13) 107.9(9) no
+N(3) C(14) C(15) 125.3(7) no
+C(14) C(15) C(33) 118.8(7) no
+N(4) C(16) C(17) 111.0(7) no
+C(17) C(18) C(19) 107.6(9) no
+C(18) C(19) C(20) 125.9(9) no
+C(19) C(20) C(39) 116.0(9) no
+C(22) C(21) C(26) 119.6(10) no
+C(23) C(24) C(25) 119.6(14) no
+C(10) C(27) C(28) 119.9(8) no
+C(27) C(28) C(29) 118.5(10) no
+C(30) C(31) C(32) 117.8(12) no
+C(15) C(33) C(38) 119.5(8) no
+C(34) C(35) C(36) 122.2(10) no
+C(33) C(38) C(37) 121.2(11) no
+C(40) C(39) C(44) 119.1(11) no
+C(41) C(42) C(43) 119.7(17) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sn Rh 2.4500(10) yes
+Sn Cl(2) 2.318(7) yes
+Rh N(1) 2.028(6) yes
+Rh N(3) 2.017(6) yes
+Sn Cl(1) 2.313(3) yes
+Sn Cl(3) 2.301(4) yes
+Rh N(2) 2.022(9) yes
+Rh N(4) 2.000(9) yes
+N(1) C(1) 1.380(10) no
+N(2) C(6) 1.380(10) no
+N(3) C(11) 1.390(10) no
+N(4) C(16) 1.370(10) no
+C(1) C(2) 1.460(10) no
+C(2) C(3) 1.34(2) no
+C(4) C(5) 1.39(2) no
+C(5) C(21) 1.510(10) no
+C(7) C(8) 1.320(10) no
+C(9) C(10) 1.380(10) no
+C(10) C(27) 1.52(2) no
+C(12) C(13) 1.36(2) no
+C(14) C(15) 1.39(2) no
+C(15) C(33) 1.500(10) no
+C(17) C(18) 1.370(10) no
+C(19) C(20) 1.400(10) no
+C(21) C(22) 1.390(10) no
+C(22) C(23) 1.43(2) no
+C(24) C(25) 1.37(3) no
+C(27) C(28) 1.39(2) no
+C(28) C(29) 1.39(2) no
+C(30) C(31) 1.39(3) no
+C(33) C(34) 1.400(10) no
+C(34) C(35) 1.350(10) no
+C(36) C(37) 1.38(2) no
+C(39) C(40) 1.39(2) no
+C(40) C(41) 1.41(2) no
+C(42) C(43) 1.40(3) no
+N(1) C(4) 1.380(10) no
+N(2) C(9) 1.390(10) no
+N(3) C(14) 1.390(10) no
+N(4) C(19) 1.410(10) no
+C(1) C(20) 1.380(10) no
+C(3) C(4) 1.430(10) no
+C(5) C(6) 1.380(10) no
+C(6) C(7) 1.45(2) no
+C(8) C(9) 1.43(2) no
+C(10) C(11) 1.380(10) no
+C(11) C(12) 1.450(10) no
+C(13) C(14) 1.430(10) no
+C(15) C(16) 1.390(10) no
+C(16) C(17) 1.44(2) no
+C(18) C(19) 1.430(10) no
+C(20) C(39) 1.500(10) no
+C(21) C(26) 1.330(10) no
+C(23) C(24) 1.30(2) no
+C(25) C(26) 1.37(2) no
+C(27) C(32) 1.370(10) no
+C(29) C(30) 1.35(2) no
+C(31) C(32) 1.40(2) no
+C(33) C(38) 1.37(2) no
+C(35) C(36) 1.33(2) no
+C(37) C(38) 1.36(2) no
+C(39) C(44) 1.360(10) no
+C(41) C(42) 1.27(2) no
+C(43) C(44) 1.40(2) no

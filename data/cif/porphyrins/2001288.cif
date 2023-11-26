@@ -1,0 +1,305 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/12/2001288.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001288
+loop_
+_publ_author_name
+'Henling, L. M.'
+'Schaefer, W. P.'
+'Hodge, J. A.'
+'Hughes, M. E.'
+'Gray, H. B.'
+'Lyons, J. E.'
+'Ellis, Jnr, P. E.'
+_publ_section_title
+;
+ Copper(II) and nickel(II)
+ octabromo-tetrakis(pentafluorophenyl)porphyrin complexes
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1743
+_journal_page_last               1747
+_journal_paper_doi               10.1107/S0108270193003051
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_moiety         'C44 Br8 F20 N4 Ni,0.5(C H2 Cl2)'
+_chemical_formula_sum            'C44.5 H Br8 Cl F20 N4 Ni'
+_chemical_formula_weight         1704.88
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           'Cromer & Waber (1974)'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.64(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   18.178(7)
+_cell_length_b                   22.160(11)
+_cell_length_c                   24.421(8)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      18
+_cell_measurement_theta_min      13
+_cell_volume                     9818(7)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.046
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       26
+_diffrn_reflns_limit_k_min       -23
+_diffrn_reflns_limit_l_max       29
+_diffrn_reflns_limit_l_min       -29
+_diffrn_reflns_number            16471
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        within_counting_statistics
+_diffrn_standards_interval_time  167
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.02
+_exptl_absorpt_correction_T_max  0.58
+_exptl_absorpt_correction_T_min  0.04
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            'Dark purple'
+_exptl_crystal_density_diffrn    2.31
+_exptl_crystal_description       'Thin parallelepiped'
+_exptl_crystal_size_max          0.55
+_exptl_crystal_size_mid          0.55
+_exptl_crystal_size_min          0.07
+_refine_diff_density_max         -1.55
+_refine_diff_density_min         1.68
+_refine_ls_goodness_of_fit_obs   1.22
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     570
+_refine_ls_number_reflns         8602
+_refine_ls_R_factor_obs
+'0.042 (on F) for 4055 reflections with F~o~^2^>3\s(F~o~^2^)'
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef
+Fsqd_(all_F^2^,_positive_and_negative,_used_in_refinement)
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.005_(on_F^2^)
+_reflns_number_observed          8602
+_reflns_number_total             8602
+_reflns_observed_criterion       all_reflections_used
+_cod_data_source_file            hh1023.cif
+_cod_data_source_block           hh1023_structure_1_of_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F~o~^2^)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F~o~^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2001288
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ni .32110(4) .09900(3) .97460(3) .0287(2)
+Br1 .29730(4) .35540(3) .93000(3) .0567(2)
+Br2 .43380(4) .33560(3) 1.03330(3) .0536(2)
+Br3 .62430(4) .09180(3) 1.05940(3) .0609(2)
+Br4 .54010(4) -.03720(3) 1.10320(3) .0590(2)
+Br5 .19620(4) -.06110(4) 1.12960(3) .0650(2)
+Br6 .08080(4) -.06570(4) 1.01190(3) .0640(2)
+Br7 .16680(4) .01180(3) .77550(3) .0601(3)
+Br8 .21810(4) .15760(3) .75030(3) .0528(2)
+N1 .3549(2) .1787(2) .9617(2) ?
+N2 .3991(2) .0873(2) 1.0293(2) ?
+N3 .2747(2) .0273(2) .9974(2) ?
+N4 .2559(2) .1028(2) .9104(2) ?
+C1 .3167(3) .2217(2) .9299(2) ?
+C2 .3385(3) .2813(3) .9503(3) ?
+C3 .3935(3) .2737(3) .9887(3) ?
+C4 .4074(3) .2092(3) .9951(3) ?
+C5 .4666(3) .1807(3) 1.0223(2) ?
+C6 .4653(3) .1191(3) 1.0316(2) ?
+C7 .5226(3) .0802(3) 1.0556(3) ?
+C8 .4900(3) .0301(3) 1.0733(3) ?
+C9 .4119(3) .0349(3) 1.0592(2) ?
+C10 .3544(3) .0003(3) 1.0766(2) ?
+C11 .2855(3) .0015(2) 1.0493(2) ?
+C12 .2197(3) -.0305(3) 1.0610(3) ?
+C13 .1743(3) -.0312(3) 1.0155(3) ?
+C14 .2093(3) .0035(2) .9745(2) ?
+C15 .1884(3) .0093(2) .9196(2) ?
+C16 .2171(3) .0541(3) .8872(2) ?
+C17 .2022(3) .0657(3) .8299(3) ?
+C18 .2234(3) .1226(3) .8202(3) ?
+C19 .2547(3) .1472(3) .8710(2) ?
+C20 .2753(3) .2066(3) .8827(2) ?
+C21 .5338(4) .2151(3) 1.0405(3) ?
+C22 .5765(4) .2426(3) 1.0036(3) .050(2)
+C23 .6423(5) .2704(3) 1.0183(4) .068(3)
+C24 .6656(5) .2723(4) 1.0728(5) .084(4)
+C25 .6248(5) .2467(4) 1.1116(4) .066(3)
+C26 .5584(4) .2192(3) 1.0962(3) .052(2)
+F22 .5560(2) .2422(2) .9501(2) .0733(14)
+F23 .6836(3) .2961(2) .9827(2) .1156(19)
+F24 .7303(3) .2971(2) 1.0892(2) .129(2)
+F25 .6467(3) .2475(2) 1.1648(2) .1088(17)
+F26 .5192(2) .1931(2) 1.1333(2) .0695(15)
+C31 .3695(3) -.0375(3) 1.1268(3) ?
+C32 .3740(4) -.0996(3) 1.1268(3) .052(2)
+C33 .3900(4) -.1321(4) 1.1740(4) .064(3)
+C34 .3985(4) -.1025(4) 1.2224(4) .073(3)
+C35 .3911(5) -.0413(4) 1.2244(3) .080(4)
+C36 .3771(4) -.0102(3) 1.1763(3) .061(3)
+F32 .3666(3) -.1281(2) 1.0790(2) .0863(18)
+F33 .3950(3) -.1909(2) 1.1730(2) .125(2)
+F34 .4126(3) -.1332(2) 1.2687(2) .1182(19)
+F35 .3980(4) -.0130(2) 1.2728(2) .150(3)
+F36 .3706(3) .0498(2) 1.1794(2) .107(2)
+C41 .1325(3) -.0336(3) .8942(2) ?
+C42 .1487(4) -.0930(3) .8867(3) .044(2)
+C43 .0965(6) -.1336(3) .8644(3) .069(3)
+C44 .0277(5) -.1126(5) .8495(4) .084(3)
+C45 .0107(5) -.0551(5) .8564(4) .082(3)
+C46 .0621(4) -.0155(3) .8791(3) .054(2)
+F42 .2173(2) -.1130(2) .8996(2) .0669(13)
+F43 .1171(3) -.1908(2) .8566(2) .111(2)
+F44 -.0206(3) -.1521(3) .8279(3) .162(2)
+F45 -.0584(3) -.0360(3) .8429(2) .138(2)
+F46 .0422(2) .0418(2) .8877(2) .0795(14)
+C51 .2545(4) .2546(3) .8414(3) ?
+C52 .3047(4) .2812(3) .8107(3) .043(2)
+C53 .2870(5) .3247(3) .7725(4) .067(3)
+C54 .2144(6) .3404(3) .7637(3) .069(3)
+C55 .1624(4) .3146(3) .7931(3) .054(2)
+C56 .1824(4) .2730(3) .8317(3) .044(2)
+F52 .3759(2) .2645(2) .8178(2) .0676(13)
+F53 .3375(3) .3512(2) .7442(2) .1040(17)
+F54 .1945(3) .3816(2) .7248(2) .1050(18)
+F55 .0903(3) .3300(2) .7837(2) .0927(15)
+F56 .1300(2) .2488(2) .8612(2) .0715(13)
+C(S) .0 .1890(6) .7500 .134(6)
+Cl(S) .0038(2) .1464(2) .69250(10) .1750(14)
+H(S1) -.0427 .2140 .7464 ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N2 Ni N1 90.5(2) yes
+N3 Ni N1 168.4(2) yes
+N4 Ni N1 90.8(2) yes
+N3 Ni N2 90.3(2) yes
+N4 Ni N2 168.5(2) yes
+N4 Ni N3 90.8(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ni N1 1.902(4) yes
+Ni N2 1.904(4) yes
+Ni N3 1.898(4) yes
+Ni N4 1.906(4) yes
+Br1 C2 1.858(6) yes
+Br2 C3 1.872(6) yes
+Br3 C7 1.863(6) yes
+Br4 C8 1.871(6) yes
+Br5 C12 1.880(6) yes
+Br6 C13 1.861(6) yes
+Br7 C17 1.870(6) yes
+Br8 C18 1.871(6) yes
+N1 C1 1.387(7) yes
+N1 C4 1.392(7) yes
+N2 C6 1.391(7) yes
+N2 C9 1.383(7) yes
+N3 C11 1.395(7) yes
+N3 C14 1.385(7) yes
+N4 C16 1.390(7) yes
+N4 C19 1.376(7) yes
+C1 C2 1.458(8) yes
+C1 C20 1.378(8) yes
+C2 C3 1.337(8) yes
+C3 C4 1.457(8) yes
+C4 C5 1.381(8) yes
+C5 C6 1.384(8) yes
+C5 C21 1.485(9) yes
+C6 C7 1.446(8) yes
+C7 C8 1.344(8) yes
+C8 C9 1.443(8) yes
+C9 C10 1.385(8) yes
+C10 C11 1.380(8) yes
+C10 C31 1.495(9) yes
+C11 C12 1.436(8) yes
+C12 C13 1.342(8) yes
+C13 C14 1.441(8) yes
+C14 C15 1.377(8) yes
+C15 C16 1.392(8) yes
+C15 C41 1.496(8) yes
+C16 C17 1.432(8) yes
+C17 C18 1.343(8) yes
+C18 C19 1.439(8) yes
+C19 C20 1.393(8) yes
+C20 C51 1.497(8) yes
+C21 C22 1.367(10) yes
+C21 C26 1.407(10) yes
+C22 C23 1.373(11) yes
+C22 F22 1.338(8) yes
+C23 C24 1.373(13) yes
+C23 F23 1.313(10) yes
+C24 C25 1.363(13) yes
+C24 F24 1.336(11) yes
+C25 C26 1.382(11) yes
+C25 F25 1.334(10) yes
+C26 F26 1.322(8) yes
+C31 C32 1.380(9) yes
+C31 C36 1.351(10) yes
+C32 C33 1.374(11) yes
+C32 F32 1.325(8) yes
+C33 C34 1.353(12) yes
+C33 F33 1.305(10) yes
+C34 C35 1.365(12) yes
+C34 F34 1.330(10) yes
+C35 C36 1.372(11) yes
+C35 F35 1.338(10) yes
+C36 F36 1.338(9) yes
+C41 C42 1.364(9) yes
+C41 C46 1.369(9) yes
+C42 C43 1.392(11) yes
+C42 F42 1.342(8) yes
+C43 C44 1.362(13) yes
+C43 F43 1.339(10) yes
+C44 C45 1.325(13) yes
+C44 F44 1.325(11) yes
+C45 C46 1.373(12) yes
+C45 F45 1.347(11) yes
+C46 F46 1.340(8) yes
+C51 C52 1.351(9) yes
+C51 C56 1.378(9) yes
+C52 C53 1.366(11) yes
+C52 F52 1.348(8) yes
+C53 C54 1.369(12) yes
+C53 F53 1.323(10) yes
+C54 C55 1.350(12) yes
+C54 F54 1.351(10) yes
+C55 C56 1.352(10) yes
+C55 F55 1.360(9) yes
+C56 F56 1.342(8) yes
+C(S) Cl(S) 1.696(14) yes
+C(S) H(S1) 0.953 yes

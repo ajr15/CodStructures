@@ -1,0 +1,261 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/16/2001619.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001619
+loop_
+_publ_author_name
+'Prince, S.'
+'K\"orber, F.'
+'Cooke, P. R.'
+'Lindsay Smith, J. R.'
+'Mazid, M. A.'
+_publ_section_title
+;
+ Structure of monomeric hydrated manganese(III)
+ tetra(4-<i>N</i>-methylpyridyl)porphyrin pentachloride
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1158
+_journal_page_last               1160
+_journal_paper_doi               10.1107/S0108270193000447
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_moiety         'C44 H36 Mn1 N8,Cl5,9(H2 O1)'
+_chemical_formula_sum            'C44 H54 Cl5 Mn N8 O9'
+_chemical_formula_weight         1071.2
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 108.26(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   13.630(6)
+_cell_length_b                   11.775(2)
+_cell_length_c                   16.316(8)
+_cell_measurement_reflns_used    250
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      26
+_cell_measurement_theta_min      4.5
+_cell_volume                     2486.7(17)
+_computing_data_collection
+'Enraf-Nonius FAST software MADNES (Pflugrath & Messerschmidt, 1986)'
+_computing_data_reduction        MADNES
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_structure_refinement  'SHELX76 (Sheldrick, 1976)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1990)'
+_diffrn_measurement_device       'Enraf-Nonius FAST'
+_diffrn_measurement_method       'On-line box integration'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.105
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            10116
+_diffrn_reflns_theta_max         26
+_diffrn_standards_number
+'standard reflections not applicable for FAST data collection'
+_exptl_absorpt_coefficient_mu    0.538
+_exptl_absorpt_correction_T_max  1.211
+_exptl_absorpt_correction_T_min  0.699
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            'Greenish brown'
+_exptl_crystal_density_diffrn    1.430(10)
+_exptl_crystal_description       Plate
+_exptl_crystal_F_000             1112
+_exptl_crystal_size_max          0.6
+_exptl_crystal_size_mid          0.5
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         0.41
+_refine_diff_density_min         -0.39
+_refine_ls_number_parameters     305
+_refine_ls_number_reflns         2088
+_refine_ls_R_factor_obs          0.047
+_refine_ls_shift/esd_max         0.051
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.053
+_reflns_number_observed          4215
+_reflns_number_total             4215
+_reflns_observed_criterion
+'criterion for observation not applicable for FAST data collection'
+_cod_data_source_file            he1001.cif
+_cod_data_source_block           he1001_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        2486.7(18)
+_cod_original_formula_sum        'C44 H54 Cl5 Mn1 N8 O9'
+_cod_database_code               2001619
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Mn .5000 .0000 .0000 .0250(10)
+N1 .4291(3) .1360(4) -.0676(3) .028(3)
+N2 .3618(3) -.0727(4) -.0154(3) .027(3)
+C1 .5804(4) .2546(5) -.0589(4) .029(4)
+C2 .4755(5) .2343(5) -.0844(4) .030(4)
+C3 .3982(5) .3138(6) -.1299(4) .036(4)
+C4 .3051(5) .2647(5) -.1398(4) .035(4)
+C5 .3244(4) .1545(5) -.1011(4) .029(4)
+C6 .2465(4) .0789(5) -.0950(4) .028(4)
+C7 .2648(4) -.0274(5) -.0567(4) .028(4)
+C8 .1858(5) -.1073(6) -.0553(4) .038(4)
+C9 .2350(5) -.2007(6) -.0121(4) .038(4)
+C10 .3424(4) -.1790(5) .0115(4) .030(4)
+C11 .1377(4) .1149(5) -.1319(4) .030(4)
+C12 .0918(5) .1333(6) -.2195(4) .046(5)
+C13 -.0087(5) .1657(7) -.2509(5) .048(5)
+C14 -.0243(5) .1609(6) -.1130(5) .046(5)
+C15 .0759(5) .1303(6) -.0787(4) .040(4)
+C16 .6155(4) .3677(5) -.0793(4) .029(4)
+C17 .6568(6) .4466(6) -.0150(5) .051(5)
+C18 .6873(6) .5510(6) -.0348(5) .058(6)
+C19 .6368(5) .5036(6) -.1803(4) .042(4)
+C20 .6077(5) .3971(6) -.1626(4) .039(4)
+N11 .6750(4) .5787(5) -.1171(4) .040(4)
+N12 -.0662(4) .1784(5) -.1984(4) .042(4)
+C110 .7015(7) .6942(6) -.1372(6) .066(6)
+C120 -.1783(5) .2096(8) -.2354(6) .073(7)
+O1 .5039(3) -.0830(4) -.1212(3) .041(3)
+O2 .6542(4) -.0129(5) -.1842(3) .072(4)
+O3 .1152(5) .0569(6) .3494(5) .114(6)
+O4 -.0152(8) .6689(8) .9413(5) .155(9)
+Cl1 .4318(2) -.1687(2) .3344(2) .0540(10)
+Cl2 .1122(2) .1048(2) .15280(10) .0580(10)
+Cl3 .0990(3) -.0598(3) -.3953(3) .097(3)
+H3 .4114 .3971 -.1521 ?
+H4 .2303 .3020 -.1710 ?
+H8 .1034 -.0957 -.0831 ?
+H9 .1989 -.2769 .0015 ?
+H12 .1364 .1218 -.2632 ?
+H13 -.0428 .1814 -.3192 ?
+H14 -.0714 .1714 -.0713 ?
+H15 .1083 .1178 -.0099 ?
+H17 .6651 .4257 .0513 ?
+H18 .7214 .6112 .0160 ?
+H19 .6286 .5269 -.2462 ?
+H20 .5786 .3364 -.2142 ?
+H111 .6960 .6847 -.2043 ?
+H112 .7800 .7149 -.1001 ?
+H113 .6506 .7615 -.1307 ?
+H121 -.2219 .2235 -.1912 ?
+H122 -.2121 .1402 -.2782 ?
+H123 -.1799 .2857 -.2728 ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+N1 Mn N2 90.2(19)
+N1 Mn O1 90.20(18)
+N2 Mn O1 89.10(18)
+Mn N1 C2 127.1(4)
+Mn N1 C5 127.1(4)
+C2 N1 C5 105.6(5)
+Mn N2 C7 127.5(4)
+Mn N2 C10 127.7(4)
+C7 N2 C10 104.8(5)
+C2 C1 C16 117.7(5)
+N1 C2 C1 125.4(6)
+N1 C2 C3 110.0(5)
+C1 C2 C3 124.6(6)
+C2 C3 C4 107.0(6)
+C3 C4 C5 107.3(6)
+N1 C5 C4 110.1(5)
+N1 C5 C6 125.6(5)
+C4 C5 C6 124.3(6)
+C5 C6 C7 124.5(6)
+C5 C6 C11 118.1(5)
+C7 C6 C11 117.3(5)
+N2 C7 C6 125.2(5)
+N2 C7 C8 110.2(5)
+C6 C7 C8 124.6(6)
+C7 C8 C9 106.7(6)
+C8 C9 C10 107.1(6)
+N2 C10 C9 111.3(5)
+C6 C11 C12 122.4(6)
+C6 C11 C15 120.6(6)
+C12 C11 C15 117.1(6)
+C11 C12 C13 120.5(6)
+C12 C13 N12 120.9(7)
+C15 C14 N12 121.1(7)
+C11 C15 C14 120.3(6)
+C1 C16 C17 121.0(6)
+C1 C16 C20 121.0(6)
+C17 C16 C20 118.0(6)
+C16 C17 C18 120.4(7)
+C17 C18 N11 120.2(7)
+C2O C19 N11 120.8(6)
+C16 C20 C19 120.0(6)
+C18 N11 C19 120.6(6)
+C18 N11 C110 119.1(6)
+C19 N11 C110 120.3(6)
+C13 N12 C14 120.1(6)
+C13 N12 C120 119.7(6)
+C14 N12 C120 120.2(6)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Mn N1 2.012(5)
+Mn N1 2.013(5)
+Mn O1 2.221(4)
+N1 C2 1.386(8)
+N1 C5 1.376(8)
+N2 C7 1.388(8)
+N2 C10 1.379(8)
+C1 C2 1.379(9)
+C1 C16 1.488(9)
+C2 C3 1.431(9)
+C3 C4 1.356(9)
+C4 C5 1.431(9)
+C5 C6 1.414(9)
+C6 C7 1.386(9)
+C6 C11 1.477(9)
+C7 C8 1.435(9)
+C8 C9 1.364(9)
+C9 C10 1.414(9)
+C11 C12 1.387(9)
+C11 C15 1.397(9)
+C12 C13 1.359(10)
+C13 N12 1.338(9)
+C14 C15 1.352(10)
+C14 N12 1.346(9)
+C16 C17 1.382(10)
+C16 C20 1.374(9)
+C17 C18 1.368(11)
+C18 N11 1.341(10)
+C19 C20 1.374(10)
+C19 N11 1.333(9)
+N11 C110 1.471(11)
+N12 C120 1.502(11)

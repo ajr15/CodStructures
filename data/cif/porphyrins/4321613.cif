@@ -1,0 +1,370 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/16/4321613.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4321613
+loop_
+_publ_author_name
+'Hiroyuki Furuta'
+'Naoko Kubo'
+'Hiromitsu Maeda'
+'Tomoya Ishizuka'
+'Atsuhiro Osuka'
+'Hideki Nanami'
+'Takuji Ogawa'
+_publ_section_title
+;
+ N-Confused Double-Decker Porphyrins
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5424
+_journal_page_last               5425
+_journal_paper_doi               10.1021/ic0010048
+_journal_volume                  39
+_journal_year                    2000
+_chemical_formula_sum            'C96 H72 N8 Pd2'
+_chemical_formula_weight         1550.48
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                95.559(3)
+_cell_angle_beta                 103.133(5)
+_cell_angle_gamma                70.950(6)
+_cell_formula_units_Z            2
+_cell_length_a                   16.929(1)
+_cell_length_b                   22.7847(9)
+_cell_length_c                   14.5877(5)
+_cell_measurement_reflns_used    15008
+_cell_measurement_temperature    296.2
+_cell_measurement_theta_max      27.4
+_cell_measurement_theta_min      2.1
+_cell_volume                     5178.0(5)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control'
+_computing_data_collection       'MSC/AFC Diffractometer Control'
+_computing_data_reduction
+'teXsan for Windows version 1.06 (MSC, 1997-1999)'
+_computing_publication_material
+'teXsan for Windows version 1.06 (MSC, 1997-1999)'
+_computing_structure_refinement
+'teXsan for Windows version 1.06 (MSC, 1997-1999)'
+_computing_structure_solution
+;
+DIRDIF92 PATTY (Beurskens, 1992)
+;
+_diffrn_ambient_temperature      296.2
+_diffrn_measurement_device       'Rigaku RAXIS-RAPID'
+_diffrn_orient_matrix_UB_11      0.06073
+_diffrn_orient_matrix_UB_12      -0.01064
+_diffrn_orient_matrix_UB_13      -0.00629
+_diffrn_orient_matrix_UB_21      -0.01887
+_diffrn_orient_matrix_UB_22      0.00038
+_diffrn_orient_matrix_UB_23      -0.07013
+_diffrn_orient_matrix_UB_31      -0.00617
+_diffrn_orient_matrix_UB_32      0.04521
+_diffrn_orient_matrix_UB_33      0.00089
+_diffrn_radiation_detector       'Imaging Plate'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.08812
+_diffrn_reflns_av_sigmaI/netI    0.269
+_diffrn_reflns_limit_h_max       21
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       29
+_diffrn_reflns_limit_k_min       -27
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            20461
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         27.48
+_diffrn_reflns_theta_min         1.30
+_diffrn_standards_decay_%        0.00
+_diffrn_standards_interval_count 0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.387
+_exptl_absorpt_correction_T_max  1.271
+_exptl_absorpt_correction_T_min  0.762
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    0.994
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             1592.00
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.31
+_refine_diff_density_min         -0.67
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.636
+_refine_ls_goodness_of_fit_ref   2.640
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     418
+_refine_ls_number_reflns         4500
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.1041
+_refine_ls_R_factor_gt           0.1040
+_refine_ls_shift/su_max          0.0000
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     unit
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.1520
+_refine_ls_wR_factor_ref         0.1520
+_reflns_number_gt                4500
+_reflns_number_total             20461
+_reflns_threshold_expression     I>3.00s(I)
+_cod_data_source_file            ic0010048_1.cif
+_cod_data_source_block           '_PdTTP(1)__________________'
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        5178.1(6)
+_cod_original_sg_symbol_H-M      'P -1 '
+_cod_original_formula_sum        'C96 H72 N8 Pd2 '
+_cod_database_code               4321613
+loop_
+_symmetry_equiv_pos_as_xyz
+'   +x,   +y,   +z'
+'   -x,   -y,   -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_refinement_flags
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+Pd(1) 0.0729(1) 0.26969(8) 0.0004(1) 0.0423(6) 1.000 . Uani d ?
+Pd(2) -0.0941(1) 0.13630(8) 0.1533(1) 0.0409(6) 1.000 . Uani d ?
+N(1) 0.077(1) 0.1815(7) 0.009(1) 0.039(4) 1.000 . Uiso d ?
+N(2) -0.172(1) 0.1724(7) -0.083(1) 0.000(4) 1.000 . Uiso d ?
+N(3) -0.206(1) 0.1070(8) 0.064(1) 0.000(5) 1.000 . Uiso d ?
+N(4) -0.034(1) 0.0434(7) 0.148(1) 0.000(4) 1.000 . Uiso d ?
+N(5) -0.127(1) 0.2308(7) 0.146(1) 0.000(4) 1.000 . Uiso d ?
+N(6) 0.103(1) 0.2792(7) 0.149(1) 0.000(4) 1.000 . Uiso d ?
+N(7) 0.0861(9) 0.3573(7) -0.002(1) 0.000(4) 1.000 . Uiso d ?
+N(8) -0.116(1) 0.3836(7) -0.060(1) 0.000(4) 1.000 . Uiso d ?
+C(1) 0.087(1) 0.091(1) 0.078(1) 0.000(6) 1.000 . Uiso d ?
+C(2) 0.123(1) 0.1393(9) 0.074(1) 0.000(5) 1.000 . Uiso d ?
+C(3) 0.010(1) 0.1098(9) 0.002(1) 0.000(5) 1.000 . Uiso d ?
+C(4) 0.005(1) 0.1621(9) -0.040(1) 0.000(5) 1.000 . Uiso d ?
+C(5) -0.050(1) 0.1980(9) -0.116(1) 0.000(6) 1.000 . Uiso d ?
+C(6) -0.138(1) 0.2016(9) -0.134(1) 0.000(6) 1.000 . Uiso d ?
+C(7) -0.208(1) 0.2426(9) -0.197(1) 0.000(5) 1.000 . Uiso d ?
+C(8) -0.280(1) 0.237(1) -0.180(1) 0.000(6) 1.000 . Uiso d ?
+C(9) -0.259(1) 0.194(1) -0.106(1) 0.000(6) 1.000 . Uiso d ?
+C(10) -0.313(1) 0.1769(9) -0.059(1) 0.000(5) 1.000 . Uiso d ?
+C(11) -0.288(1) 0.137(1) 0.011(1) 0.000(6) 1.000 . Uiso d ?
+C(12) -0.346(1) 0.113(1) 0.041(2) 0.000(7) 1.000 . Uiso d ?
+C(13) -0.301(1) 0.066(1) 0.103(2) 0.000(7) 1.000 . Uiso d ?
+C(14) -0.212(1) 0.062(1) 0.120(1) 0.000(6) 1.000 . Uiso d ?
+C(15) -0.152(1) 0.0154(9) 0.174(1) 0.000(5) 1.000 . Uiso d ?
+C(16) -0.065(1) 0.0041(9) 0.183(1) 0.000(5) 1.000 . Uiso d ?
+C(17) 0.005(1) -0.0474(9) 0.224(1) 0.000(6) 1.000 . Uiso d ?
+C(18) 0.079(1) -0.038(1) 0.219(1) 0.000(6) 1.000 . Uiso d ?
+C(19) 0.055(1) 0.0182(9) 0.170(1) 0.000(6) 1.000 . Uiso d ?
+C(20) 0.112(1) 0.0447(9) 0.145(1) 0.000(5) 1.000 . Uiso d ?
+C(21) -0.017(1) 0.2288(8) -0.178(1) 0.000(5) 1.000 . Uiso d ?
+C(22) 0.040(1) 0.2597(9) -0.139(1) 0.000(5) 1.000 . Uiso d ?
+C(23) 0.078(1) 0.2827(9) -0.201(1) 0.000(6) 1.000 . Uiso d ?
+C(24) 0.047(1) 0.2795(9) -0.298(1) 0.000(6) 1.000 . Uiso d ?
+C(25) -0.010(1) 0.2502(9) -0.336(1) 0.000(5) 1.000 . Uiso d ?
+C(26) -0.044(1) 0.226(1) -0.276(2) 0.000(6) 1.000 . Uiso d ?
+C(27) 0.090(2) 0.303(1) -0.365(2) 0.000(8) 1.000 . Uiso d ?
+C(28) -0.408(1) 0.206(1) -0.096(1) 0.000(6) 1.000 . Uiso d ?
+C(29) -0.447(2) 0.188(1) -0.183(2) 0.000(8) 1.000 . Uiso d ?
+C(30) -0.538(2) 0.212(1) -0.215(2) 0.000(9) 1.000 . Uiso d ?
+C(31) -0.584(2) 0.257(1) -0.159(2) 0.000(8) 1.000 . Uiso d ?
+C(32) -0.548(2) 0.275(1) -0.079(2) 0.000(8) 1.000 . Uiso d ?
+C(33) -0.458(2) 0.252(1) -0.043(2) 0.000(8) 1.000 . Uiso d ?
+C(34) -0.683(3) 0.280(2) -0.196(3) 0.00(1) 1.000 . Uiso d ?
+C(35) -0.181(1) -0.0216(9) 0.228(1) 0.000(5) 1.000 . Uiso d ?
+C(36) -0.217(1) 0.003(1) 0.304(2) 0.000(6) 1.000 . Uiso d ?
+C(37) -0.254(2) -0.027(1) 0.355(2) 0.000(7) 1.000 . Uiso d ?
+C(38) -0.239(2) -0.090(1) 0.331(2) 0.000(7) 1.000 . Uiso d ?
+C(39) -0.196(2) -0.117(1) 0.261(2) 0.000(8) 1.000 . Uiso d ?
+C(40) -0.168(1) -0.083(1) 0.209(1) 0.000(6) 1.000 . Uiso d ?
+C(41) -0.275(2) -0.124(1) 0.392(2) 0.00(1) 1.000 . Uiso d ?
+C(42) 0.201(1) 0.027(1) 0.195(1) 0.000(6) 1.000 . Uiso d ?
+C(43) 0.223(2) 0.030(1) 0.293(2) 0.000(8) 1.000 . Uiso d ?
+C(44) 0.311(2) 0.012(1) 0.342(2) 0.000(9) 1.000 . Uiso d ?
+C(45) 0.373(2) -0.010(1) 0.292(2) 0.000(9) 1.000 . Uiso d ?
+C(46) 0.354(2) -0.014(1) 0.196(2) 0.000(8) 1.000 . Uiso d ?
+C(47) 0.266(1) 0.005(1) 0.143(1) 0.000(6) 1.000 . Uiso d ?
+C(48) 0.469(3) -0.036(2) 0.342(3) 0.00(1) 1.000 . Uiso d ?
+C(49) -0.174(1) 0.3209(8) 0.064(1) 0.000(5) 1.000 . Uiso d ?
+C(50) -0.189(1) 0.2681(9) 0.092(1) 0.000(5) 1.000 . Uiso d ?
+C(51) -0.087(1) 0.3109(9) 0.106(1) 0.000(5) 1.000 . Uiso d ?
+C(52) -0.058(1) 0.2563(9) 0.159(1) 0.000(6) 1.000 . Uiso d ?
+C(53) 0.023(1) 0.231(1) 0.225(1) 0.000(6) 1.000 . Uiso d ?
+C(54) 0.096(1) 0.2465(9) 0.218(1) 0.000(6) 1.000 . Uiso d ?
+C(55) 0.178(1) 0.229(1) 0.289(2) 0.000(7) 1.000 . Uiso d ?
+C(56) 0.229(1) 0.258(1) 0.263(2) 0.000(7) 1.000 . Uiso d ?
+C(57) 0.181(1) 0.289(1) 0.175(1) 0.051(6) 1.000 . Uiso d ?
+C(58) 0.209(1) 0.325(1) 0.126(2) 0.000(7) 1.000 . Uiso d ?
+C(59) 0.164(1) 0.358(1) 0.047(2) 0.000(6) 1.000 . Uiso d ?
+C(60) 0.190(2) 0.402(1) 0.005(2) 0.000(7) 1.000 . Uiso d ?
+C(61) 0.128(1) 0.428(1) -0.066(2) 0.000(7) 1.000 . Uiso d ?
+C(62) 0.060(1) 0.402(1) -0.072(1) 0.000(6) 1.000 . Uiso d ?
+C(63) -0.023(1) 0.4298(9) -0.130(1) 0.000(5) 1.000 . Uiso d ?
+C(64) -0.105(2) 0.424(1) -0.121(2) 0.000(7) 1.000 . Uiso d ?
+C(65) -0.188(2) 0.461(1) -0.158(2) 0.000(7) 1.000 . Uiso d ?
+C(66) -0.242(1) 0.446(1) -0.118(1) 0.000(6) 1.000 . Uiso d ?
+C(67) -0.201(1) 0.398(1) -0.057(2) 0.000(6) 1.000 . Uiso d ?
+C(68) -0.227(1) 0.365(1) -0.001(1) 0.000(6) 1.000 . Uiso d ?
+C(69) 0.022(1) 0.1900(9) 0.300(1) 0.000(6) 1.000 . Uiso d ?
+C(70) -0.017(1) 0.1448(9) 0.275(1) 0.000(5) 1.000 . Uiso d ?
+C(71) -0.014(1) 0.1083(9) 0.347(1) 0.000(5) 1.000 . Uiso d ?
+C(72) 0.021(1) 0.118(1) 0.441(1) 0.000(6) 1.000 . Uiso d ?
+C(73) 0.056(1) 0.165(1) 0.462(1) 0.000(6) 1.000 . Uiso d ?
+C(74) 0.056(1) 0.201(1) 0.393(2) 0.000(7) 1.000 . Uiso d ?
+C(75) 0.023(2) 0.075(1) 0.520(2) 0.000(9) 1.000 . Uiso d ?
+C(76) 0.292(2) 0.334(2) 0.177(3) 0.000(9) 1.000 G Uiso d ?
+C(77) 0.291(2) 0.377(2) 0.252(3) 0.00(1) 1.000 G Uiso d ?
+C(78) 0.365(3) 0.391(1) 0.295(2) 0.00(1) 1.000 G Uiso d ?
+C(79) 0.441(2) 0.362(2) 0.263(3) 0.00(1) 1.000 G Uiso d ?
+C(80) 0.442(2) 0.318(2) 0.188(3) 0.000 1.000 G Uiso d ?
+C(81) 0.367(3) 0.304(1) 0.146(2) 0.00(1) 1.000 G Uiso d ?
+C(82) 0.518(3) 0.389(3) 0.309(4) 0.00(1) 1.000 . Uiso d ?
+C(83) -0.031(1) 0.471(1) -0.204(2) 0.000(6) 1.000 . Uiso d ?
+C(84) -0.028(1) 0.530(1) -0.185(2) 0.000(7) 1.000 . Uiso d ?
+C(85) -0.040(2) 0.572(1) -0.257(2) 0.000(7) 1.000 . Uiso d ?
+C(86) -0.061(1) 0.555(1) -0.347(2) 0.000(7) 1.000 . Uiso d ?
+C(87) -0.067(2) 0.496(1) -0.369(2) 0.000(8) 1.000 . Uiso d ?
+C(88) -0.052(1) 0.454(1) -0.298(2) 0.000(7) 1.000 . Uiso d ?
+C(89) -0.078(2) 0.600(2) -0.428(2) 0.00(1) 1.000 . Uiso d ?
+C(90) -0.325(1) 0.382(1) -0.014(2) 0.000(6) 1.000 . Uiso d ?
+C(91) -0.383(1) 0.389(1) -0.096(2) 0.000(6) 1.000 . Uiso d ?
+C(92) -0.466(2) 0.407(1) -0.100(2) 0.000(7) 1.000 . Uiso d ?
+C(93) -0.497(2) 0.416(1) -0.022(2) 0.000(7) 1.000 . Uiso d ?
+C(94) -0.448(2) 0.411(1) 0.062(2) 0.000(8) 1.000 . Uiso d ?
+C(95) -0.356(1) 0.390(1) 0.071(2) 0.000(7) 1.000 . Uiso d ?
+C(96) -0.597(2) 0.439(1) -0.023(2) 0.00(1) 1.000 . Uiso d ?
+H(1) 0.1754 0.1408 0.1138 0.000 1.000 . Uiso c ?
+H(2) -0.0303 0.0880 -0.0147 0.000 1.000 . Uiso c ?
+H(3) -0.2044 0.2683 -0.2419 0.000 1.000 . Uiso c ?
+H(4) -0.3362 0.2590 -0.2118 0.000 1.000 . Uiso c ?
+H(5) -0.4061 0.1265 0.0196 0.000 1.000 . Uiso c ?
+H(6) -0.3250 0.0417 0.1309 0.000 1.000 . Uiso c ?
+H(7) 0.0010 -0.0823 0.2506 0.000 1.000 . Uiso c ?
+H(8) 0.1351 -0.0637 0.2429 0.000 1.000 . Uiso c ?
+H(9) -0.1395 0.1416 -0.0374 0.000 1.000 . Uiso c ?
+H(10) 0.1228 0.3000 -0.1760 0.000 1.000 . Uiso c ?
+H(11) -0.0265 0.2460 -0.4022 0.000 1.000 . Uiso c ?
+H(12) -0.0870 0.2068 -0.3025 0.000 1.000 . Uiso c ?
+H(13) 0.1291 0.3224 -0.3277 0.000 1.000 . Uiso c ?
+H(14) 0.1207 0.2684 -0.3986 0.000 1.000 . Uiso c ?
+H(15) 0.0480 0.3315 -0.4070 0.000 1.000 . Uiso c ?
+H(16) -0.4129 0.1604 -0.2227 0.000 1.000 . Uiso c ?
+H(17) -0.5658 0.1984 -0.2735 0.000 1.000 . Uiso c ?
+H(18) -0.5832 0.3050 -0.0431 0.000 1.000 . Uiso c ?
+H(19) -0.4328 0.2675 0.0151 0.000 1.000 . Uiso c ?
+H(20) -0.7094 0.2864 -0.1430 0.000 1.000 . Uiso c ?
+H(21) -0.6981 0.3169 -0.2277 0.000 1.000 . Uiso c ?
+H(22) -0.6987 0.2487 -0.2363 0.000 1.000 . Uiso c ?
+H(23) -0.2179 0.0446 0.3234 0.000 1.000 . Uiso c ?
+H(24) -0.2859 -0.0066 0.4011 0.000 1.000 . Uiso c ?
+H(25) -0.1862 -0.1602 0.2463 0.000 1.000 . Uiso c ?
+H(26) -0.1388 -0.1026 0.1605 0.000 1.000 . Uiso c ?
+H(27) -0.2623 -0.1108 0.4560 0.000 1.000 . Uiso c ?
+H(28) -0.3349 -0.1136 0.3706 0.000 1.000 . Uiso c ?
+H(29) -0.2490 -0.1674 0.3864 0.000 1.000 . Uiso c ?
+H(30) 0.1787 0.0441 0.3285 0.000 1.000 . Uiso c ?
+H(31) 0.3247 0.0147 0.4092 0.000 1.000 . Uiso c ?
+H(32) 0.3999 -0.0283 0.1627 0.000 1.000 . Uiso c ?
+H(33) 0.2527 0.0013 0.0758 0.000 1.000 . Uiso c ?
+H(34) 0.4724 -0.0369 0.4081 0.000 1.000 . Uiso c ?
+H(35) 0.4935 -0.0756 0.3183 0.000 1.000 . Uiso c ?
+H(36) 0.4976 -0.0082 0.3313 0.000 1.000 . Uiso c ?
+H(37) -0.2427 0.2609 0.0715 0.000 1.000 . Uiso c ?
+H(38) -0.0544 0.3364 0.1003 0.000 1.000 . Uiso c ?
+H(39) 0.1916 0.2026 0.3408 0.000 1.000 . Uiso c ?
+H(40) 0.2846 0.2569 0.2954 0.000 1.000 . Uiso c ?
+H(41) 0.2424 0.4101 0.0257 0.000 1.000 . Uiso c ?
+H(42) 0.1284 0.4584 -0.1065 0.000 1.000 . Uiso c ?
+H(43) -0.2042 0.4902 -0.2063 0.000 1.000 . Uiso c ?
+H(44) -0.3022 0.4676 -0.1274 0.000 1.000 . Uiso c ?
+H(45) -0.0704 0.3513 -0.0255 0.000 1.000 . Uiso c ?
+H(46) -0.0374 0.0750 0.3321 0.000 1.000 . Uiso c ?
+H(47) 0.0811 0.1720 0.5251 0.000 1.000 . Uiso c ?
+H(48) 0.0792 0.2341 0.4086 0.000 1.000 . Uiso c ?
+H(49) 0.0213 0.0977 0.5782 0.000 1.000 . Uiso c ?
+H(50) -0.0238 0.0595 0.5033 0.000 1.000 . Uiso c ?
+H(51) 0.0752 0.0407 0.5277 0.000 1.000 . Uiso c ?
+H(52) 0.2397 0.3972 0.2741 0.000 1.000 . Uiso c ?
+H(53) 0.3652 0.4205 0.3456 0.000 1.000 . Uiso c ?
+H(54) 0.4930 0.2981 0.1665 0.000 1.000 . Uiso c ?
+H(55) 0.3675 0.2749 0.0950 0.000 1.000 . Uiso c ?
+H(56) 0.5207 0.3944 0.3779 0.000 1.000 . Uiso c ?
+H(57) 0.5675 0.3686 0.2955 0.000 1.000 . Uiso c ?
+H(58) 0.4992 0.4337 0.2892 0.000 1.000 . Uiso c ?
+H(59) -0.0181 0.5439 -0.1213 0.000 1.000 . Uiso c ?
+H(60) -0.0336 0.6116 -0.2408 0.000 1.000 . Uiso c ?
+H(61) -0.0815 0.4834 -0.4337 0.000 1.000 . Uiso c ?
+H(62) -0.0568 0.4134 -0.3144 0.000 1.000 . Uiso c ?
+H(63) -0.0912 0.6412 -0.4035 0.000 1.000 . Uiso c ?
+H(64) -0.0272 0.5900 -0.4524 0.000 1.000 . Uiso c ?
+H(65) -0.1233 0.5951 -0.4758 0.000 1.000 . Uiso c ?
+H(66) -0.3629 0.3803 -0.1537 0.000 1.000 . Uiso c ?
+H(67) -0.5050 0.4145 -0.1593 0.000 1.000 . Uiso c ?
+H(68) -0.4722 0.4213 0.1163 0.000 1.000 . Uiso c ?
+H(69) -0.3180 0.3817 0.1305 0.000 1.000 . Uiso c ?
+H(70) -0.6044 0.4421 0.0408 0.000 1.000 . Uiso c ?
+H(71) -0.6217 0.4793 -0.0491 0.000 1.000 . Uiso c ?
+H(72) -0.6226 0.4111 -0.0579 0.000 1.000 . Uiso c ?
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pd(1) 0.036(1) 0.055(1) 0.039(1) -0.017(1) 0.0072(9) 0.008(1)
+Pd(2) 0.034(1) 0.042(1) 0.045(1) -0.011(1) 0.0046(9) 0.006(1)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 0 192 0.002 0.002
+;International Tables for Crystallography
+(1992, Vol. C, Table 6.1.1.2)
+;
+H 0 144 0.000 0.000
+;International Tables for Crystallography
+(1992, Vol. C, Table 6.1.1.2)
+;
+N 0 16 0.004 0.003
+;International Tables for Crystallography
+(1992, Vol. C, Table 6.1.1.2)
+;
+Pd 0 4 -1.177 1.007
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;

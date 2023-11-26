@@ -1,0 +1,309 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/04/2010438.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010438
+loop_
+_publ_author_name
+'Huhmann, Jean L.'
+'Corey, Joyce Y.'
+'Rath, Nigam P.'
+_publ_section_title
+;
+ (Tetraphenylporphyrinato)zirconium(IV) Diacetate
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              195
+_journal_page_last               197
+_journal_paper_doi               10.1107/S0108270194008553
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'C49 H36 Cl2 N4 O4 Zr1'
+_chemical_formula_sum            'C49 H36 Cl2 N4 O4 Zr'
+_chemical_formula_weight         906.9
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 104.23(4)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   17.985(7)
+_cell_length_b                   15.900(7)
+_cell_length_c                   15.042(5)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      13.5
+_cell_measurement_theta_min      9
+_cell_volume                     4169(3)
+_diffrn_measurement_device       'Siemens R3m/V'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0292
+_diffrn_reflns_limit_h_max       21
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            6492
+_diffrn_reflns_theta_max         25.0
+_diffrn_standards_decay_%        <4
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.443
+_exptl_absorpt_correction_T_max  0.6809
+_exptl_absorpt_correction_T_min  0.6480
+_exptl_absorpt_correction_type   'empirical, \y-scan'
+_exptl_crystal_colour            purple
+_exptl_crystal_density_diffrn    1.444
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.69
+_refine_diff_density_min         -0.72
+_refine_ls_goodness_of_fit_obs   1.07
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     269
+_refine_ls_number_reflns         3689
+_refine_ls_R_factor_obs          0.0763
+_refine_ls_shift/esd_max         0.2
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F) + 0.0022F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0822
+_reflns_number_observed          2191
+_reflns_number_total             3689
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            bk1042.cif
+_cod_data_source_block           bk1042_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F) + 0.0022F^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(F) +
+0.0022F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        4172(2)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'C49 H36 Cl2 N4 O4 Zr1'
+_cod_database_code               2010438
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Zr .0 .31010(10) .2500 .0290(10)
+O(1) .0411(3) .2111(3) .1671(4) .047(2)
+O(2) .1035(3) .2268(4) .3087(4) .046(2)
+N(1) -.0508(4) .3714(4) .1141(4) .035(2)
+N(2) .1007(4) .3792(4) .2181(4) .035(2)
+C(1) -.1293(5) .3822(5) .0764(5) .035(3)
+C(2) -.1421(5) .3808(6) -.0215(6) .045(3)
+C(3) -.0757(5) .3704(5) -.0444(6) .046(3)
+C(4) -.0169(5) .3675(5) .0415(5) .036(3)
+C(5) .0613(5) .3692(5) .0487(5) .036(3)
+C(6) .1160(5) .3827(5) .1332(5) .037(3)
+C(7) .1942(5) .4045(6) .1414(6) .046(4)
+C(8) .2276(5) .4136(6) .2306(6) .042(3)
+C(9) .1705(5) .3961(5) .2803(5) .038(3)
+C(10) .1835(5) .3965(5) .3736(5) .035(3)
+C(11) .2646(5) .4135(6) .4293(5) .040(3)
+C(12) .3148(6) .3480(7) .4533(7) .068(4)
+C(13) .3895(5) .3655(9) .5047(8) .075(5)
+C(14) .4113(6) .4428(10) .5317(7) .081(5)
+C(15) .3611(6) .5094(8) .5083(7) .071(5)
+C(16) .2876(5) .4935(7) .4559(6) .057(4)
+C(17) .0913(5) .3579(6) -.0349(6) .041(3)
+C(18) .0741(5) .4135(6) -.1077(6) .048(4)
+C(19) .1021(6) .4009(7) -.1849(6) .057(4)
+C(20) .1472(6) .3331(9) -.1892(7) .071(5)
+C(21) .1659(6) .2778(8) -.1170(8) .075(5)
+C(22) .1382(5) .2898(6) -.0401(7) .062(4)
+C(23) .0952(5) .1877(6) .2344(7) .048(3)
+C(24) .1471(6) .1173(7) .2272(8) .085(5)
+C(25) .0 .8234(19) .2500 .175(11)
+Cl .0478(8) .9169(10) .2176(10) .224(6)
+Cl' .0433(6) .8531(8) .1762(7) .161(4)
+H(2A) -.1914 .3860 -.0639 .080
+H(3A) -.0678 .3662 -.1050 .080
+H(7A) .2185 .4108 .0916 .080
+H(8A) .2799 .4295 .2570 .080
+H(12A) .2992 .2916 .4348 .080
+H(13A) .4258 .3204 .5211 .080
+H(14A) .4626 .4526 .5676 .080
+H(15A) .3767 .5652 .5290 .080
+H(16A) .2523 .5392 .4372 .080
+H(18A) .0423 .4613 -.1043 .080
+H(19A) .0897 .4398 -.2351 .080
+H(20A) .1659 .3241 -.2431 .080
+H(21A) .1983 .2304 -.1201 .080
+H(22A) .1513 .2516 .0108 .080
+H(24A) .1846 .1356 .1957 .080
+H(24B) .1726 .0984 .2876 .080
+H(24C) .1177 .0719 .1938 .080
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Zr O(2) 57.2(2) yes
+O(1) Zr O(2A) 74.1(2) yes
+O(1) Zr O(1A) 90.9(3) yes
+O(2) Zr O(2A) 108.9(3) yes
+N(1) Zr N(2) 76.4(2) yes
+O(1) Zr N(1) 85.1(2) yes
+O(1) Zr N(2) 80.4(2) yes
+O(2A) Zr N(1) 77.8(2) yes
+O(2) Zr N(2) 75.2(2) yes
+N(2) Zr N(1A) 79.3(2) yes
+N(2) Zr N(2A) 122.1(3) yes
+C(23) Zr C(23A) 85.1(4) yes
+(2) Zr N(1) 135.7(2) no
+O(1) Zr C(23) 28.8(2) no
+N(1) Zr C(23) 111.5(3) no
+N(2) Zr O(1A) 147.9(2) no
+N(2) Zr O(2A) 144.9(2) no
+N(1) Zr N(1A) 128.6(3) no
+C(23) Zr N(1A) 105.8(3) no
+C(23) Zr N(2A) 160.9(3) no
+O(2) Zr C(23A) 91.4(2) no
+N(2) Zr C(23A) 16.9(3) no
+Zr O(1) C(23) 93.2(6) no
+Zr N(1) C(1) 124.6(5) no
+C(1) N(1) C(4) 106.5(6) no
+Zr N(2) C(9) 125.8(5) no
+N(1) C(1) C(2) 107.8(8) no
+C(2) C(1) C(10A) 127.1(7) no
+C(2) C(3) C(4) 106.1(8) no
+N(1) C(4) C(5) 125.2(7) no
+C(4) C(5) C(6) 122.7(8) no
+C(6) C(5) C(17) 117.3(7) no
+N(2) C(6) C(7) 110.5(7) no
+C(6) C(7) C(8) 107.6(8) no
+N(2) C(9) C(8) 109.2(7) no
+C(8) C(9) C(10) 124.7(7) no
+C(9) C(10) C(1A) 126.2(7) no
+C(10) C(11) C(12) 119.5(8) no
+C(12) C(11) C(16) 120.0(8) no
+C(12) C(13) C(14) 121.7(11) no
+C(14) C(15) C(16) 118.6(11) no
+C(5) C(17) C(18) 122.2(8) no
+C(18) C(17) C(22) 118.4(9) no
+C(18) C(19) C(20) 119.8(9) no
+C(20) C(21) C(22) 120.4(11) no
+Zr C(23) O(1) 58.0(5) no
+O(1) C(23) O(2) 117.6(8) no
+O(1) C(23) C(24) 122.3(9) no
+Cl C(25) Cl' 39.5(8) no
+O(2) Zr C(23) 28.3(2) no
+N(2) Zr C(23) 76.6(3) no
+N(1) Zr O(1A) 134.0(2) no
+C(23) Zr O(1A) 80.9(3) no
+C(23) Zr O(2A) 91.4(2) no
+O(1) Zr C(23A) 80.9(3) no
+N(1) Zr C(23A) 105.8(3) no
+Zr O(2) C(23) 92.1(5) no
+Zr N(1) C(4) 122.8(5) no
+Zr N(2) C(6) 124.8(5) no
+C(6) N(2) C(9) 105.3(7) no
+N(1) C(1) C(10A) 125.0(7) no
+C(1) C(2) C(3) 109.9(7) no
+N(1) C(4) C(3) 109.6(7) no
+C(3) C(4) C(5) 124.9(8) no
+C(4) C(5) C(17) 120.0(7) no
+N(2) C(6) C(5) 125.1(8) no
+C(5) C(6) C(7) 124.4(8) no
+C(7) C(8) C(9) 107.4(7) no
+N(2) C(9) C(10) 126.1(8) no
+C(9) C(10) C(11) 117.8(8) no
+C(11) C(10) C(1A) 116.0(7) no
+C(10) C(11) C(16) 120.6(8) no
+C(11) C(12) C(13) 118.3(10) no
+C(13) C(14) C(15) 120.5(10) no
+C(11) C(16) C(15) 120.9(9) no
+C(5) C(17) C(22) 119.4(8) no
+C(17) C(18) C(19) 120.9(9) no
+C(19) C(20) C(21) 120.1(11) no
+C(17) C(22) C(21) 120.3(9) no
+Zr C(23) O(2) 59.6(5) no
+Zr C(23) C(24) 178.1(8) no
+O(2) C(23) C(24) 120.1(8) no
+Cl C(25) Cl'A 106.7(17) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zr O(1) . . 2.243(6) yes
+Zr N(1) . . 2.246(6) yes
+Zr C(23) . . 2.640(10) yes
+Zr O(2) . . 2.278(6) yes
+Zr N(2) . . 2.268(7) yes
+O(1) C(23) . . 1.274(10) yes
+N(1) C(1) . . 1.397(10) yes
+N(2) C(6) . . 1.372(11) yes
+C(1) C(2) . . 1.434(12) yes
+C(3) C(4) . . 1.456(11) yes
+C(5) C(6) . . 1.418(10) yes
+C(7) C(8) . . 1.337(11) yes
+C(9) C(10) . . 1.365(11) yes
+O(2) C(23) . . 1.254(11) yes
+N(1) C(4) . . 1.377(12) yes
+N(2) C(9) . . 1.395(9) yes
+C(2) C(3) . . 1.330(14) yes
+C(4) C(5) . . 1.385(12) yes
+C(6) C(7) . . 1.424(12) yes
+C(8) C(9) . . 1.438(13) yes
+C(23) C(24) . . 1.480(15) yes
+C(1) C(10A) . . 1.389(13) no
+C(10) C(11) . . 1.517(10) no
+C(11) C(16) . . 1.367(13) no
+C(13) C(14) . . 1.32(2) no
+C(15) C(16) . . 1.385(13) no
+C(17) C(22) . . 1.387(14) no
+C(19) C(20) . . 1.361(17) no
+C(21) C(22) . . 1.381(17) no
+C(25) Cl . . 1.84(3) no
+C(5) C(17) . . 1.496(13) no
+C(11) C(12) . . 1.367(13) no
+C(12) C(13) . . 1.404(14) no
+C(14) C(15) . . 1.380(18) no
+C(17) C(18) . . 1.381(12) no
+C(18) C(19) . . 1.390(14) no
+C(20) C(21) . . 1.374(16) no
+C(25) Cl' . . 1.577(15) no

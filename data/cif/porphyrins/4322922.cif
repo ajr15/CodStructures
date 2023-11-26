@@ -1,0 +1,501 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/29/4322922.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4322922
+loop_
+_publ_author_name
+'James P. Collman'
+'Steven T. Harford'
+_publ_contact_author
+;
+J.P. Collman
+Stanford University
+;
+_publ_contact_author_email       harford@leland.stanford.edu
+_publ_contact_author_fax         ' 650 725-0259'
+_publ_contact_author_phone       ' 650 723-2505'
+_publ_section_title
+;
+ Structural and Spectroscopic Characterization of a Metal-Metal Bonded
+ Ruthenium Porphyrin Dimer Cation
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              4152
+_journal_page_last               4153
+_journal_paper_doi               10.1021/ic9714798
+_journal_volume                  37
+_journal_year                    1998
+_chemical_formula_sum            'C88 H56 F6 N8 O2 P Ru2'
+_chemical_formula_weight         1604.57
+_space_group_IT_number           126
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      126
+_symmetry_space_group_name_Hall  '-P 4a 2bc'
+_symmetry_space_group_name_H-M   'P 4/n n c :2'
+_audit_creation_date             'Tue Dec 16 16:13:18 1997'
+_audit_creation_method           'from TEXRAY.INF file'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   18.5148(4)
+_cell_length_b                   18.5148(4)
+_cell_length_c                   26.4410(4)
+_cell_measurement_reflns_used    7481
+_cell_measurement_temperature    130
+_cell_measurement_theta_max      26.07
+_cell_measurement_theta_min      1.10
+_cell_volume                     9063.9(3)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control'
+_computing_data_collection       'MSC/AFC Diffractometer Control'
+_computing_data_reduction        teXsan
+_computing_publication_material  teXsan
+_computing_structure_refinement  teXsan
+_computing_structure_solution    SHELXS86
+_diffrn_ambient_temperature      130
+_diffrn_measurement_device       'Siemens SMART'
+_diffrn_measurement_method       'omega scans with profile analysis'
+_diffrn_orient_matrix_UB_11      0.0446549
+_diffrn_orient_matrix_UB_12      -0.0108749
+_diffrn_orient_matrix_UB_13      -0.0198655
+_diffrn_orient_matrix_UB_21      0.0241138
+_diffrn_orient_matrix_UB_22      0.0433662
+_diffrn_orient_matrix_UB_23      0.0149376
+_diffrn_orient_matrix_UB_31      0.0184835
+_diffrn_orient_matrix_UB_32      -0.0303032
+_diffrn_orient_matrix_UB_33      0.0285059
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           MoKalpha
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  7.35
+_diffrn_reflns_limit_h_max       21
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       22
+_diffrn_reflns_limit_k_min       -22
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       -30
+_diffrn_reflns_number            43012
+_diffrn_reflns_theta_max         26.07
+_diffrn_standards_decay_%        0.00
+_diffrn_standards_interval_count 0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    0.409
+_exptl_absorpt_correction_T_max  0.90
+_exptl_absorpt_correction_T_min  0.79
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   'ellipsoidal model'
+_exptl_crystal_colour            lustrous_black
+_exptl_crystal_density_diffrn    1.176
+_exptl_crystal_density_meas      0.000
+_exptl_crystal_description       'MeCl2 + Benzene'
+_exptl_crystal_F_000             3252.00
+_exptl_crystal_size_max          0.40
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.110
+_refine_diff_density_max         -0.98
+_refine_diff_density_min         2.21
+_refine_ls_extinction_coef       0.00000
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   3.150
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     160
+_refine_ls_number_reflns         2039
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_obs          0.0800
+_refine_ls_shift/esd_max         4.1570
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_obs         0.1050
+_reflns_number_observed          2039
+_reflns_number_total             43012
+_reflns_observed_criterion       3.00
+_cod_data_source_file            ic9714798.cif
+_cod_data_source_block           C88H56N8O2PF6Ru2
+_cod_original_sg_symbol_H-M      'P 4/n n c '
+_cod_original_formula_sum        'C88 H56 N8 O2 P F6 Ru2'
+_cod_database_code               4322922
+loop_
+_symmetry_equiv_pos_as_xyz
+'   +x,   +y,   +z'
+'1/2-x,1/2-y,   +z'
+'   +x,1/2-y,1/2-z'
+'1/2-x,   +y,1/2-z'
+'   +y,   +x,1/2-z'
+1/2-y,1/2-x,1/2-z
+'   +y,1/2-x,   +z'
+'1/2-y,   +x,   +z'
+'   -x,   -y,   -z'
+'1/2+x,1/2+y,   -z'
+'   -x,1/2+y,1/2+z'
+'1/2+x,   -y,1/2+z'
+'   -y,   -x,1/2+z'
+1/2+y,1/2+x,1/2+z
+'   -y,1/2+x,   -z'
+'1/2+y,   -x,   -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ru 0.0171(7) 0.0169(7) 0.0115(5) 0.0000 0.0000(9) 0.0005
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+Ru 0.1881 -0.25000(6) 0.2500 0.0126 Uij ? ?
+P(1) 0.2500 0.2500 -0.2500 0.060(5) Uij ? ?
+P(2) 0.2500 0.2500 0.2500 0.046(6) Uij ? ?
+P(3) 0.2500 0.2500 0.0076(7) 0.055(5) Uij ? ?
+F(1) 0.312(2) 0.1876 -0.2500 0.26(2) Uij ? ?
+F(2) 0.2500 0.2500 -0.192(2) 0.16(2) Uij ? ?
+F(3) 0.2500 0.2500 0.305(1) 0.041(9) Uij ? ?
+F(4) 0.195(1) 0.3046 0.2500 0.008(8) Uij ? ?
+F(5) 0.2500 0.329(1) 0.2500 0.001(6) Uij ? ?
+F(6) 0.2500 0.2500 -0.055(1) 0.053(9) Uij ? ?
+F(7) 0.241(1) 0.163(1) 0.0063(7) 0.065(5) Uij ? ?
+F(8) 0.2500 0.2500 0.062(1) 0.048(9) Uij ? ?
+O(1) 0.365(2) 0.128(2) -0.068(1) 0.38(2) Uij ? ?
+O(2) 0.4805(7) 0.2045(7) -0.1223(5) 0.067(4) Uij ? ?
+O(3) 0.479(1) 0.213(1) -0.1504(7) 0.138(8) Uij ? ?
+O(4) 0.454(1) 0.045(1) -0.2353(6) 0.135(6) Uij ? ?
+N(1) 0.1680(5) -0.1433(5) 0.2304(3) 0.014(2) Uij ? ?
+N(2) 0.1673(5) -0.2225(5) 0.3235(3) 0.017(2) Uij ? ?
+C(1) 0.1559(7) -0.1170(6) 0.1822(4) 0.020(3) Uij ? ?
+C(2) 0.1383(6) -0.0418(6) 0.1859(4) 0.020(3) Uij ? ?
+C(3) 0.1405(7) -0.0212(6) 0.2351(4) 0.024(3) Uij ? ?
+C(4) 0.1607(6) -0.0874(6) 0.2632(4) 0.021(3) Uij ? ?
+C(5) 0.1595(6) -0.0897(6) 0.3157(4) 0.015(3) Uij ? ?
+C(6) 0.1651(6) -0.1528(6) 0.3436(4) 0.019(3) Uij ? ?
+C(7) 0.1627(6) -0.1561(6) 0.3977(4) 0.016(2) Uij ? ?
+C(8) 0.1620(6) -0.2279(6) 0.4102(4) 0.022(3) Uij ? ?
+C(9) 0.1631(5) -0.2698(6) 0.3644(4) 0.016(2) Uij ? ?
+C(10) 0.1551(6) -0.1565(6) 0.1379(4) 0.018(3) Uij ? ?
+C(11) 0.1396(6) -0.1162(6) 0.0888(4) 0.019(3) Uij ? ?
+C(12) 0.0773(7) -0.1322(7) 0.0617(4) 0.027(3) Uij ? ?
+C(13) 0.0631(7) -0.0964(7) 0.0154(5) 0.029(3) Uij ? ?
+C(14) 0.1100(7) -0.0480(7) -0.0020(5) 0.029(3) Uij ? ?
+C(15) 0.1711(7) -0.0301(7) 0.0242(4) 0.028(3) Uij ? ?
+C(16) 0.1857(6) -0.0640(6) 0.0702(4) 0.023(3) Uij ? ?
+C(17) 0.1459(7) -0.0213(6) 0.3456(4) 0.020(3) Uij ? ?
+C(18) 0.1945(7) 0.0361(7) 0.3424(4) 0.028(3) Uij ? ?
+C(19) 0.1846(8) 0.0987(8) 0.3727(5) 0.043(4) Uij ? ?
+C(20) 0.1214(7) 0.1027(7) 0.4024(4) 0.027(3) Uij ? ?
+C(21) 0.0734(6) 0.0470(7) 0.4039(4) 0.026(3) Uij ? ?
+C(22) 0.0842(6) -0.0160(6) 0.3750(4) 0.022(3) Uij ? ?
+C(23) 0.1019(8) 0.1124(8) -0.0985(5) 0.038(3) Uij ? ?
+C(24) 0.179(2) 0.102(2) -0.118(1) 0.21(2) Uij ? ?
+C(25) 0.123(2) 0.041(2) -0.329(1) 0.16(1) Uij ? ?
+C(26) 0.157(2) 0.027(2) -0.262(2) 0.27(2) Uij ? ?
+C(27) 0.2500 -0.004(1) -0.2500 0.089(8) Uij ? ?
+C(28) 0.157(5) 0.191(6) -0.019(2) 0.51(2) Uij ? ?
+H(1) 0.1273 -0.0113 0.1574 0.0243 Uij ? ?
+H(2) 0.1290 0.0267 0.2486 0.0319 Uij ? ?
+H(3) 0.1617 -0.1150 0.4208 0.0197 Uij ? ?
+H(4) 0.1603 -0.2476 0.4447 0.0280 Uij ? ?
+H(5) 0.0441 -0.1675 0.0741 0.0313 Uij ? ?
+H(6) 0.0196 -0.1086 -0.0025 0.0313 Uij ? ?
+H(7) 0.1002 -0.0218 -0.0337 0.0313 Uij ? ?
+H(8) 0.2054 0.0063 0.0117 0.0313 Uij ? ?
+H(9) 0.2298 -0.0526 0.0883 0.0313 Uij ? ?
+H(10) 0.2368 0.0329 0.3225 0.0315 Uij ? ?
+H(11) 0.2169 0.1370 0.3711 0.0315 Uij ? ?
+H(12) 0.1141 0.1455 0.4225 0.0315 Uij ? ?
+H(13) 0.0312 0.0499 0.4254 0.0315 Uij ? ?
+H(14) 0.0510 -0.0542 0.3768 0.0315 Uij ? ?
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ru 0 8 -1.259 0.836 'International Tables'
+N 0 32 0.006 0.003 'International Tables'
+P 0 4 0.102 0.094 'International Tables'
+F 0 24 0.017 0.010 'International Tables'
+C 0 352 0.003 0.002 'International Tables'
+H 0 224 0.000 0.000 'International Tables'
+O 0 8 0.011 0.006 'International Tables'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Ru Ru N(1) 100.3(2) ? ? ? yes
+Ru Ru N(1) 100.3(2) ? ? ? yes
+Ru Ru N(2) 100.8(3) ? ? ? yes
+Ru Ru N(2) 100.8(3) ? ? ? yes
+N(1) Ru N(1) 159.4(5) ? ? ? yes
+N(1) Ru N(2) 88.1(3) ? ? ? yes
+N(1) Ru N(2) 88.0(3) ? ? ? yes
+N(1) Ru N(2) 88.0(3) ? ? ? yes
+N(1) Ru N(2) 88.1(3) ? ? ? yes
+N(2) Ru N(2) 158.3(5) ? ? ? yes
+F(1) P(1) F(1) 180.0000 ? ? ? yes
+F(1) P(1) F(1) 90.000(2) ? ? ? yes
+F(1) P(1) F(1) 90.000(2) ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(1) 90.000(2) ? ? ? yes
+F(1) P(1) F(1) 90.000(2) ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(1) 180.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(1) P(1) F(2) 90.0000 ? ? ? yes
+F(2) P(1) F(2) 180.0000 ? ? ? yes
+F(3) P(2) F(3) 180.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(4) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(3) P(2) F(5) 90.0000 ? ? ? yes
+F(4) P(2) F(4) 180.0000(1) ? ? ? yes
+F(4) P(2) F(4) 90.000(2) ? ? ? yes
+F(4) P(2) F(4) 90.000(2) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(4) 90.000(2) ? ? ? yes
+F(4) P(2) F(4) 90.000(2) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(4) 180.0000 ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 135.0000(9) ? ? ? yes
+F(4) P(2) F(5) 45.0000(9) ? ? ? yes
+F(5) P(2) F(5) 180.0000 ? ? ? yes
+F(5) P(2) F(5) 90.0000 ? ? ? yes
+F(5) P(2) F(5) 90.0000 ? ? ? yes
+F(5) P(2) F(5) 90.0000 ? ? ? yes
+F(5) P(2) F(5) 90.0000 ? ? ? yes
+F(5) P(2) F(5) 180.0000 ? ? ? yes
+F(6) P(3) F(7) 88.8(10) ? ? ? yes
+F(6) P(3) F(7) 88.8(10) ? ? ? yes
+F(6) P(3) F(7) 88.8(10) ? ? ? yes
+F(6) P(3) F(7) 88.8(10) ? ? ? yes
+F(6) P(3) F(8) 180.0000 ? ? ? yes
+F(6) P(3) C(28) 70(1) ? ? ? yes
+F(6) P(3) C(28) 70(1) ? ? ? yes
+F(6) P(3) C(28) 70(1) ? ? ? yes
+F(6) P(3) C(28) 70(1) ? ? ? yes
+F(7) P(3) F(7) 177(1) ? ? ? yes
+F(7) P(3) F(7) 89.97(4) ? ? ? yes
+F(7) P(3) F(7) 89.97(4) ? ? ? yes
+F(7) P(3) F(8) 91.2(10) ? ? ? yes
+F(7) P(3) C(28) 54(2) ? ? ? yes
+F(7) P(3) C(28) 124(2) ? ? ? yes
+F(7) P(3) C(28) 137(2) ? ? ? yes
+F(7) P(3) C(28) 41(2) ? ? ? yes
+F(7) P(3) F(7) 89.97(4) ? ? ? yes
+F(7) P(3) F(7) 89.97(4) ? ? ? yes
+F(7) P(3) F(8) 91.2(10) ? ? ? yes
+F(7) P(3) C(28) 124(2) ? ? ? yes
+F(7) P(3) C(28) 54(2) ? ? ? yes
+F(7) P(3) C(28) 41(2) ? ? ? yes
+F(7) P(3) C(28) 137(2) ? ? ? yes
+F(7) P(3) F(7) 177(1) ? ? ? yes
+F(7) P(3) F(8) 91.2(10) ? ? ? yes
+F(7) P(3) C(28) 41(2) ? ? ? yes
+F(7) P(3) C(28) 137(2) ? ? ? yes
+F(7) P(3) C(28) 54(2) ? ? ? yes
+F(7) P(3) C(28) 124(2) ? ? ? yes
+F(7) P(3) F(8) 91.2(10) ? ? ? yes
+F(7) P(3) C(28) 137(2) ? ? ? yes
+F(7) P(3) C(28) 41(2) ? ? ? yes
+F(7) P(3) C(28) 124(2) ? ? ? yes
+F(7) P(3) C(28) 54(2) ? ? ? yes
+F(8) P(3) C(28) 109(1) ? ? ? yes
+F(8) P(3) C(28) 109(1) ? ? ? yes
+F(8) P(3) C(28) 109(1) ? ? ? yes
+F(8) P(3) C(28) 109(1) ? ? ? yes
+C(28) P(3) C(28) 141(3) ? ? ? yes
+C(28) P(3) C(28) 83(1) ? ? ? yes
+C(28) P(3) C(28) 83(1) ? ? ? yes
+C(28) P(3) C(28) 83(1) ? ? ? yes
+C(28) P(3) C(28) 83(1) ? ? ? yes
+C(28) P(3) C(28) 141(3) ? ? ? yes
+P(2) F(4) F(5) 68(2) ? ? ? yes
+P(2) F(4) F(5) 68(2) ? ? ? yes
+F(5) F(4) F(5) 137(4) ? ? ? yes
+P(2) F(5) F(4) 66(2) ? ? ? yes
+P(2) F(5) F(4) 66(2) ? ? ? yes
+F(4) F(5) F(4) 132(4) ? ? ? yes
+P(3) F(7) C(28) 90(3) ? ? ? yes
+C(23) O(1) C(24) 60(2) ? ? ? yes
+C(23) O(1) C(28) 164(6) ? ? ? yes
+C(24) O(1) C(28) 128(4) ? ? ? yes
+O(3) O(2) C(24) 94(2) ? ? ? yes
+Ru N(1) C(1) 126.5(7) ? ? ? yes
+Ru N(1) C(4) 125.7(7) ? ? ? yes
+C(1) N(1) C(4) 107.7(9) ? ? ? yes
+Ru N(2) C(6) 126.6(7) ? ? ? yes
+Ru N(2) C(9) 126.2(7) ? ? ? yes
+C(6) N(2) C(9) 106.6(9) ? ? ? yes
+N(1) C(1) C(2) 108.5(10) ? ? ? yes
+N(1) C(1) C(10) 126(1) ? ? ? yes
+C(2) C(1) C(10) 124(1) ? ? ? yes
+C(1) C(2) C(3) 109(1) ? ? ? yes
+C(2) C(3) C(4) 104(1) ? ? ? yes
+N(1) C(4) C(3) 109.5(8) ? ? ? yes
+N(1) C(4) C(5) 128(1) ? ? ? yes
+C(3) C(4) C(5) 121.6(10) ? ? ? yes
+C(4) C(5) C(6) 123(1) ? ? ? yes
+C(4) C(5) C(17) 119(1) ? ? ? yes
+C(6) C(5) C(17) 116.0(10) ? ? ? yes
+N(2) C(6) C(5) 125.4(10) ? ? ? yes
+N(2) C(6) C(7) 109(1) ? ? ? yes
+C(5) C(6) C(7) 124(1) ? ? ? yes
+C(6) C(7) C(8) 106.5(10) ? ? ? yes
+C(7) C(8) C(9) 108.6(9) ? ? ? yes
+N(2) C(9) C(8) 108.3(8) ? ? ? yes
+N(2) C(9) C(10) 126.6(10) ? ? ? yes
+C(8) C(9) C(10) 124.9(10) ? ? ? yes
+C(1) C(10) C(9) 124(1) ? ? ? yes
+C(1) C(10) C(11) 117.7(10) ? ? ? yes
+C(9) C(10) C(11) 118.0(10) ? ? ? yes
+C(10) C(11) C(12) 119(1) ? ? ? yes
+C(10) C(11) C(16) 122(1) ? ? ? yes
+C(12) C(11) C(16) 118(1) ? ? ? yes
+C(11) C(12) C(13) 120(1) ? ? ? yes
+C(12) C(13) C(14) 119(1) ? ? ? yes
+C(13) C(14) C(15) 121(1) ? ? ? yes
+C(14) C(15) C(16) 119(1) ? ? ? yes
+C(11) C(16) C(15) 120(1) ? ? ? yes
+C(5) C(17) C(18) 119(1) ? ? ? yes
+C(5) C(17) C(22) 119(1) ? ? ? yes
+C(18) C(17) C(22) 120(1) ? ? ? yes
+C(17) C(18) C(19) 120(1) ? ? ? yes
+C(18) C(19) C(20) 117(1) ? ? ? yes
+C(19) C(20) C(21) 121(1) ? ? ? yes
+C(20) C(21) C(22) 121(1) ? ? ? yes
+C(17) C(22) C(21) 118(1) ? ? ? yes
+O(1) C(23) C(24) 82(2) ? ? ? yes
+O(1) C(24) O(2) 123(2) ? ? ? yes
+O(1) C(24) C(23) 36(1) ? ? ? yes
+O(2) C(24) C(23) 114(2) ? ? ? yes
+C(26) C(27) C(26) 143(3) ? ? ? yes
+P(3) C(28) F(7) 48(2) ? ? ? yes
+P(3) C(28) O(1) 141(5) ? ? ? yes
+F(7) C(28) O(1) 154(7) ? ? ? yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ru Ru 2.293(2) ? ? yes
+Ru N(1) 2.076(9) ? ? yes
+Ru N(1) 2.076(9) ? ? yes
+Ru N(2) 2.047(8) ? ? yes
+Ru N(2) 2.047(8) ? ? yes
+P(1) F(1) 1.63(4) ? ? yes
+P(1) F(1) 1.63(4) ? ? yes
+P(1) F(1) 1.63(4) ? ? yes
+P(1) F(1) 1.63(4) ? ? yes
+P(1) F(2) 1.53(4) ? ? yes
+P(1) F(2) 1.53(4) ? ? yes
+P(2) F(3) 1.47(3) ? ? yes
+P(2) F(3) 1.47(3) ? ? yes
+P(2) F(4) 1.43(4) ? ? yes
+P(2) F(4) 1.43(4) ? ? yes
+P(2) F(4) 1.43(4) ? ? yes
+P(2) F(4) 1.43(4) ? ? yes
+P(2) F(5) 1.46(3) ? ? yes
+P(2) F(5) 1.46(3) ? ? yes
+P(2) F(5) 1.46(3) ? ? yes
+P(2) F(5) 1.46(3) ? ? yes
+P(3) F(6) 1.65(4) ? ? yes
+P(3) F(7) 1.62(2) ? ? yes
+P(3) F(7) 1.62(2) ? ? yes
+P(3) F(7) 1.62(2) ? ? yes
+P(3) F(7) 1.62(2) ? ? yes
+P(3) F(8) 1.44(4) ? ? yes
+P(3) C(28) 2.16(8) ? ? yes
+P(3) C(28) 2.16(8) ? ? yes
+P(3) C(28) 2.16(8) ? ? yes
+P(3) C(28) 2.16(8) ? ? yes
+F(4) F(5) 1.11(2) ? ? yes
+F(4) F(5) 1.11(2) ? ? yes
+F(7) C(28) 1.42(9) ? ? yes
+O(1) C(23) 1.04(4) ? ? yes
+O(1) C(24) 1.73(5) ? ? yes
+O(1) C(28) 1.73(7) ? ? yes
+O(2) O(3) 0.76(2) ? ? yes
+O(2) C(24) 1.61(4) ? ? yes
+O(4) O(4) 0.78(3) ? ? yes
+N(1) C(1) 1.38(1) ? ? yes
+N(1) C(4) 1.36(1) ? ? yes
+N(2) C(6) 1.40(1) ? ? yes
+N(2) C(9) 1.39(1) ? ? yes
+C(1) C(2) 1.43(2) ? ? yes
+C(1) C(10) 1.38(1) ? ? yes
+C(2) C(3) 1.36(1) ? ? yes
+C(3) C(4) 1.48(2) ? ? yes
+C(4) C(5) 1.39(1) ? ? yes
+C(5) C(6) 1.38(1) ? ? yes
+C(5) C(17) 1.51(2) ? ? yes
+C(6) C(7) 1.43(1) ? ? yes
+C(7) C(8) 1.37(1) ? ? yes
+C(8) C(9) 1.44(1) ? ? yes
+C(9) C(10) 1.37(1) ? ? yes
+C(10) C(11) 1.52(1) ? ? yes
+C(11) C(12) 1.39(2) ? ? yes
+C(11) C(16) 1.38(1) ? ? yes
+C(12) C(13) 1.42(2) ? ? yes
+C(13) C(14) 1.33(2) ? ? yes
+C(14) C(15) 1.37(2) ? ? yes
+C(15) C(16) 1.39(2) ? ? yes
+C(17) C(18) 1.39(2) ? ? yes
+C(17) C(22) 1.39(1) ? ? yes
+C(18) C(19) 1.42(2) ? ? yes
+C(19) C(20) 1.41(2) ? ? yes
+C(20) C(21) 1.36(2) ? ? yes
+C(21) C(22) 1.41(2) ? ? yes
+C(23) C(24) 1.52(4) ? ? yes
+C(26) C(27) 1.84(4) ? ? yes

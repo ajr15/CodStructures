@@ -1,0 +1,1399 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-04 05:56:27 +0200 (Sat, 04 Feb 2017) $
+#$Revision: 191422 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/02/06/2020698.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2020698
+loop_
+_publ_author_name
+'Andreev, Sergey V.'
+'Zverev, Sergey A.'
+'Zamilatskov, Ilya A.'
+'Kurochkina, Nadezhda M.'
+'Ponomarev, Gelii V.'
+'Fitch, Andrew N.'
+'Chernyshev, Vladimir V.'
+_publ_section_title
+;
+ Polymeric structure of a coproporphyrin I ruthenium(II) complex: a powder
+ diffraction study
+;
+_journal_coeditor_code           FA3396
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              47
+_journal_page_last               51
+_journal_paper_doi               10.1107/S2053229616019422
+_journal_volume                  73
+_journal_year                    2017
+_chemical_formula_iupac          '[Ru (C44 H52 N4 O8) (C O)]'
+_chemical_formula_moiety         'C45 H52 N4 O9 Ru'
+_chemical_formula_sum            'C45 H52 N4 O9 Ru'
+_chemical_formula_weight         893.98
+_chemical_name_systematic
+<i>catena</i>-Poly[[carbonylruthenium(II)]-\m-2,7,12,17-tetrakis[2-(ethoxycarbonyl)ethyl]-3,8,13,18-tetramethylporphyrinato-\k^5^<i>N</i>,<i>N</i>',<i>N</i>'',<i>N</i>''':<i>O</i>]
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           'SHELXL-97, MRIA'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 130.719(7)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   39.3876(19)
+_cell_length_b                   9.6153(8)
+_cell_length_c                   29.5299(16)
+_cell_measurement_reflns_used    2772
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      10.00
+_cell_measurement_theta_min      0.77
+_cell_volume                     8476.3(13)
+_computing_cell_refinement
+;
+<i>MRIA</i> (Zlokazov & Chernyshev, 1992)
+;
+_computing_molecular_graphics
+;
+PLATON (Spek, 2009) and Mercury (Macrae <i>et al.</i>,  2008)
+;
+_computing_publication_material
+;
+SHELXL97 (Sheldrick, 2008) and publCIF (Westrip, 2010)
+;
+_computing_structure_refinement
+;
+<i>MRIA</i> (Zlokazov & Chernyshev, 1992)
+;
+_computing_structure_solution
+;
+<i>MRIA</i> (Zlokazov & Chernyshev, 1992) and
+<i>FOX</i> (Favre-Nicolin & Cern\'y, 2004)
+;
+_diffrn_ambient_temperature      295(2)
+_diffrn_measurement_device_type  'ESRF powder diffractometer ID22'
+_diffrn_radiation_monochromator  'Si 111 double crystal'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.399927(2)
+_exptl_absorpt_coefficient_mu    0.086
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    1.401
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             3728
+_pd_block_diffractogram_id       CPI-Ru_pattern
+_pd_char_colour                  colorless
+_pd_char_particle_morphology     'no specific habit'
+_pd_instr_location
+;
+ID31 beam line, ESRF, Grenoble, France
+;
+_pd_meas_2theta_range_inc        0.002
+_pd_meas_2theta_range_max        20.000
+_pd_meas_2theta_range_min        1.000
+_pd_meas_number_of_points        9501
+_pd_meas_scan_method             cont
+_pd_prep_pressure                101
+_pd_prep_temperature             295(2)
+_pd_proc_2theta_range_inc        0.002
+_pd_proc_2theta_range_max        20.000
+_pd_proc_2theta_range_min        1.000
+_pd_proc_ls_background_function  'Chebyshev polynomial up to the 5th order'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function
+;
+split-type pseudo-Voigt
+;
+_pd_proc_ls_prof_R_factor        0.0312
+_pd_proc_ls_prof_wR_expected     0.0130
+_pd_proc_ls_prof_wR_factor       0.0402
+_pd_proc_wavelength              0.399927(2)
+_pd_spec_mounting
+;
+Specimen was sealed in a 1.0 mm diameter borosilicate glass capillary
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              15
+_pd_spec_size_equat              1.0
+_pd_spec_size_thick              1.0
+_refine_diff_density_max         0.61
+_refine_diff_density_min         -0.89
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   3.0929
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    21
+_refine_ls_number_parameters     247
+_refine_ls_number_restraints     193
+_refine_ls_shift/su_max          0.003
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_iucr_refine_instructions_details
+;
+************************************************************************
+*****                           MRIA - PC                          *****
+*****                   Version 3.1, January 2006                  *****
+*****                Multi-phase RIetveld Analysis                 *****
+************************************************************************
+                              Start   14:48:11
+     Title of the problem:
+  Andreev CPI-Ru-niz, ESRF, July-2016
+          List of parameters
+   nn   NPAR     NAME                   NVAR
+           1  DISPt                 .0
+           2  TRANSPt               .0
+           3  ZERO-shift      -.000251     1
+                    Background parameters
+     Division # 1. Limits (low,high):     1, 1500
+                    Polynomial expression
+           4     b0            325.362     2
+           5     b1         -53.359230     3
+           6     b2          20.496520     4
+           7     b3         -21.752420     5
+           8     b4          -1.391625     6
+           9     b5            .340470     7
+     Division # 2. Limits (low,high):  1501, 3500
+                    Polynomial expression
+          10     b0            326.385     8
+          11     b1         -52.711700     9
+          12     b2         -49.871030    10
+          13     b3          28.336850    11
+          14     b4           5.019279    12
+          15     b5                 .0
+     Division # 3. Limits (low,high):  3501, 9501
+                    Polynomial expression
+          16     b0            179.919    13
+          17     b1         -25.861400    14
+          18     b2           5.596912    15
+          19     b3          -3.168344    16
+          20     b4            .681080    17
+          21     b5          -0.003710    18
+                    Phase No = 1
+                    Number of atoms= 59
+ The symmetry is   monoclinic. Space group =  15.
+          22    Scale          .000996    19
+                    Unit cell parameters
+          23     a(A)        39.387611    20
+          24     b(A)         9.615308    21
+          25     c(A)        29.529910    22
+          26    alpha        90.000000
+          27     beta          130.719    23
+          28    gamma        90.000000
+               Unit cell volume =   8476.30 A**3.
+     Profile function: split-type pseudo-Voigt.
+     Diffraction with constant wavelength
+          29     rl1           .290211    24
+          30     rl2          5.481125    25
+          31     rl3           .005563    26
+          32     rh1           .320215    27
+          33     rh2          7.644530    28
+          34     rh3           .016362    29
+          35      a1          1.148515    30
+          36      a2           .014383    31
+          37      a3          -.000380    32
+          Halfwidth parameters:
+     Isotropic line-broadening.
+          38     U                  .0
+          39     V            -.004561    33
+          40     W             .000128    34
+          41    P_size              .0
+     Anisotropic STRAIN line-broadening.
+          42     E1            .055878    35
+          43     E2           9.696786    36
+          44     E3            .116470    37
+          45     E4            .378474    38
+          46     E5           1.034534    39
+          47     E6            .167158    40
+          48     E7            .043735    41
+          49     E8            .062067    42
+          50     E9            .321543    43
+               Atom No=  1     Ru1       ntable=  1
+               Multiplicity=  1.000
+          52  Occupancy       1.000000
+          53     x             .885181    44
+          54     y             .524901    45
+          55     z             .820782    46
+          56     Uiso         0.016984    47
+               Atom No=  2     N1        ntable=  3
+               Multiplicity=  1.000
+          62  Occupancy       1.000000
+          63     x             .937094    48
+          64     y             .388698    49
+          65     z             .858444    50
+          66     Uiso         0.034107    51
+               Atom No=  3     N4        ntable=  3
+               Multiplicity=  1.000
+          72  Occupancy       1.000000
+          73     x             .873225    52
+          74     y             .511888    53
+          75     z             .742785    54
+   66     76     Uiso         0.034107
+               Atom No=  4     C4        ntable=  4
+               Multiplicity=  1.000
+          82  Occupancy       1.000000
+          83     x             .965195    55
+          84     y             .337361    56
+          85     z             .917826    57
+   66     86     Uiso         0.034107
+               Atom No=  5     C3        ntable=  4
+               Multiplicity=  1.000
+          92  Occupancy       1.000000
+          93     x             .999011    58
+          94     y             .254941    59
+          95     z             .928966    60
+   66     96     Uiso         0.034107
+               Atom No=  6     C2        ntable=  4
+               Multiplicity=  1.000
+         102  Occupancy       1.000000
+         103     x             .992776    61
+         104     y             .250319    62
+         105     z             .876848    63
+   66    106     Uiso         0.034107
+               Atom No=  7     C1        ntable=  4
+               Multiplicity=  1.000
+         112  Occupancy       1.000000
+         113     x             .954924    64
+         114     y             .334104    65
+         115     z             .834249    66
+   66    116     Uiso         0.034107
+               Atom No=  8     C20       ntable=  4
+               Multiplicity=  1.000
+         122  Occupancy       1.000000
+         123     x             .935630    67
+         124     y             .360370    68
+         125     z             .775334    69
+   66    126     Uiso         0.034107
+               Atom No=  9     C19       ntable=  4
+               Multiplicity=  1.000
+         132  Occupancy       1.000000
+         133     x             .898003    70
+         134     y             .439460    71
+         135     z             .733052    72
+   66    136     Uiso         0.034107
+               Atom No= 10     C18       ntable=  4
+               Multiplicity=  1.000
+         142  Occupancy       1.000000
+         143     x             .880029    73
+         144     y             .462755    74
+         145     z             .672285    75
+   66    146     Uiso         0.034107
+               Atom No= 11     C17       ntable=  4
+               Multiplicity=  1.000
+         152  Occupancy       1.000000
+         153     x             .844154    76
+         154     y             .550296    77
+         155     z             .646831    78
+   66    156     Uiso         0.034107
+               Atom No= 12     C16       ntable=  4
+               Multiplicity=  1.000
+         162  Occupancy       1.000000
+         163     x             .839654    79
+         164     y             .577844    80
+         165     z             .690584    81
+   66    166     Uiso         0.034107
+               Atom No= 13     C5        ntable=  4
+               Multiplicity=  1.000
+         172  Occupancy       1.000000
+         173     x             .957468    82
+         174     y             .372467    83
+         175     z             .955948    84
+   66    176     Uiso         0.034107
+               Atom No= 14     C26       ntable=  4
+               Multiplicity=  1.000
+         182  Occupancy       1.000000
+         183     x            1.036082    85
+         184     y             .173744    86
+         185     z             .984105    87
+   66    186     Uiso         0.034107
+               Atom No= 15     C21       ntable=  4
+               Multiplicity=  1.000
+         192  Occupancy       1.000000
+         193     x            1.022168    88
+         194     y             .170837    89
+         195     z             .874357    90
+   66    196     Uiso         0.034107
+               Atom No= 16     C22       ntable=  4
+               Multiplicity=  1.000
+         202  Occupancy       1.000000
+         203     x            1.009862    91
+         204     y             .126252    92
+         205     z             .818349    93
+         206     Uiso         0.048804    94
+               Atom No= 17     C44       ntable=  4
+               Multiplicity=  1.000
+         212  Occupancy       1.000000
+         213     x             .893232    95
+         214     y             .417473    96
+         215     z             .636244    97
+   66    216     Uiso         0.034107
+               Atom No= 18     C39       ntable=  4
+               Multiplicity=  1.000
+         222  Occupancy       1.000000
+         223     x             .813737    98
+         224     y             .601155    99
+         225     z             .581157   100
+   66    226     Uiso         0.034107
+               Atom No= 19     C40       ntable=  4
+               Multiplicity=  1.000
+         232  Occupancy       1.000000
+         233     x             .777692   101
+         234     y             .489729   102
+         235     z             .541383   103
+         236     Uiso         0.052206   104
+               Atom No= 20     N3        ntable=  3
+               Multiplicity=  1.000
+         242  Occupancy       1.000000
+         243     x             .828951   105
+         244     y             .645602   106
+         245     z             .780313   107
+   66    246     Uiso         0.034107
+               Atom No= 21     N2        ntable=  3
+               Multiplicity=  1.000
+         252  Occupancy       1.000000
+         253     x             .891700   108
+         254     y             .522961   109
+         255     z             .894668   110
+   66    256     Uiso         0.034107
+               Atom No= 22     C14       ntable=  4
+               Multiplicity=  1.000
+         262  Occupancy       1.000000
+         263     x             .800462   111
+         264     y             .694540   112
+         265     z             .721194   113
+   66    266     Uiso         0.034107
+               Atom No= 23     C13       ntable=  4
+               Multiplicity=  1.000
+         272  Occupancy       1.000000
+         273     x             .767166   114
+         274     y             .784533   115
+         275     z             .712069   116
+   66    276     Uiso         0.034107
+               Atom No= 24     C12       ntable=  4
+               Multiplicity=  1.000
+         282  Occupancy       1.000000
+         283     x             .773377   117
+         284     y             .784808   118
+         285     z             .763011   119
+   66    286     Uiso          .034107
+               Atom No= 25     C11       ntable=  4
+               Multiplicity=  1.000
+         292  Occupancy       1.000000
+         293     x             .812906   120
+         294     y             .697446   121
+         295     z             .805278   122
+   66    296     Uiso         0.034107
+               Atom No= 26     C15       ntable=  4
+               Multiplicity=  1.000
+         302  Occupancy       1.000000
+         303     x             .806957   123
+         304     y             .661494   124
+         305     z             .682086   125
+   66    306     Uiso         0.034107
+               Atom No= 27     C9        ntable=  4
+               Multiplicity=  1.000
+         312  Occupancy       1.000000
+         313     x             .867506   126
+         314     y             .596347   127
+         315     z             .905771   128
+   66    316     Uiso         0.034107
+               Atom No= 28     C8        ntable=  4
+               Multiplicity=  1.000
+         322  Occupancy       1.000000
+         323     x             .885684   129
+         324     y             .568236   130
+         325     z             .966280   131
+   66    326     Uiso         0.034107
+               Atom No= 29     C7        ntable=  4
+               Multiplicity=  1.000
+         332  Occupancy       1.000000
+         333     x             .920870   132
+         334     y             .484893   133
+         335     z             .991382   134
+   66    336     Uiso         0.034107
+               Atom No= 30     C6        ntable=  4
+               Multiplicity=  1.000
+         342  Occupancy       1.000000
+         343     x             .925445   135
+         344     y             .454937   136
+         345     z             .947314   137
+   66    346     Uiso         0.034107
+               Atom No= 31     C10       ntable=  4
+               Multiplicity=  1.000
+         352  Occupancy       1.000000
+         353     x             .830696   138
+         354     y             .677529   139
+         355     z             .863830   140
+   66    356     Uiso         0.034107
+               Atom No= 32     C38       ntable=  4
+               Multiplicity=  1.000
+         362  Occupancy       1.000000
+         363     x             .727814   141
+         364     y             .862386   142
+         365     z             .657965   143
+   66    366     Uiso         0.034107
+               Atom No= 33     C33       ntable=  4
+               Multiplicity=  1.000
+         372  Occupancy       1.000000
+         373     x             .750787   144
+         374     y             .859080   145
+         375     z             .779446   146
+   66    376     Uiso         0.034107
+               Atom No= 34     C34       ntable=  4
+               Multiplicity=  1.000
+         382  Occupancy       1.000000
+         383     x             .724392   147
+         384     y             .783558   148
+         385     z             .789816   149
+         386     Uiso         0.045975   150
+               Atom No= 35     C32       ntable=  4
+               Multiplicity=  1.000
+         392  Occupancy       1.000000
+         393     x             .866694   151
+         394     y             .628284   152
+         395     z             .991976   153
+   66    396     Uiso         0.034107
+               Atom No= 36     C27       ntable=  4
+               Multiplicity=  1.000
+         402  Occupancy       1.000000
+         403     x             .951597   154
+         404     y             .425608   155
+         405     z            1.053460   156
+   66    406     Uiso         0.034107
+               Atom No= 37     C28       ntable=  4
+               Multiplicity=  1.000
+         412  Occupancy       1.000000
+         413     x             .942893   157
+         414     y             .270409   158
+         415     z            1.053291   159
+         416     Uiso         0.051143   160
+               Atom No= 38     C23       ntable=  4
+               Multiplicity=  1.000
+         422  Occupancy       1.000000
+         423     x            1.046157   161
+         424     y             .034676   162
+         425     z             .827264   163
+         426     Uiso         0.054880   164
+               Atom No= 39     O1        ntable=  2
+               Multiplicity=  1.000
+         432  Occupancy       1.000000
+         433     x            1.078057   165
+         434     y             .086758   166
+         435     z             .840030   167
+         436     Uiso         0.058200   168
+               Atom No= 40     O2        ntable=  2
+               Multiplicity=  1.000
+         442  Occupancy       1.000000
+         443     x            1.041132   169
+         444     y            -.105004   170
+         445     z             .828618   171
+         446     Uiso         0.062820   172
+               Atom No= 41     C24       ntable=  4
+               Multiplicity=  1.000
+         452  Occupancy       1.000000
+         453     x            1.056371   173
+         454     y            -.213840   174
+         455     z             .812325   175
+         456     Uiso         0.069173   176
+               Atom No= 42     C25       ntable=  4
+               Multiplicity=  1.000
+         462  Occupancy       1.000000
+         463     x            1.059592   177
+         464     y            -.168455   178
+         465     z             .766742   179
+         466     Uiso         0.088780   180
+               Atom No= 43     C41       ntable=  4
+               Multiplicity=  1.000
+         472  Occupancy       1.000000
+         473     x             .750896   181
+         474     y             .515708   182
+         475     z             .476166   183
+         476     Uiso         0.058304   184
+               Atom No= 44     O7        ntable=  2
+               Multiplicity=  1.000
+         482  Occupancy       1.000000
+         483     x             .755931   185
+         484     y             .628114   186
+         485     z             .463063   187
+         486     Uiso         0.054017   188
+               Atom No= 45     O8        ntable=  2
+               Multiplicity=  1.000
+         492  Occupancy       1.000000
+         493     x             .726041   189
+         494     y             .423636   190
+         495     z             .434571   191
+         496     Uiso          .059815   192
+               Atom No= 46     C42       ntable=  4
+               Multiplicity=  1.000
+         502  Occupancy       1.000000
+         503     x             .697369   193
+         504     y             .444860   194
+         505     z             .369450   195
+         506     Uiso         0.071287   196
+               Atom No= 47     C43       ntable=  4
+               Multiplicity=  1.000
+         512  Occupancy       1.000000
+         513     x             .652435   197
+         514     y             .384058   198
+         515     z             .337113   199
+         516     Uiso         0.093770   200
+               Atom No= 48     C35       ntable=  4
+               Multiplicity=  1.000
+         522  Occupancy       1.000000
+         523     x             .678122   201
+         524     y             .743706   202
+         525     z             .728944   203
+         526     Uiso         0.050339   204
+               Atom No= 49     O5        ntable=  2
+               Multiplicity=  1.000
+         532  Occupancy       1.000000
+         533     x             .650908   205
+         534     y             .827297   206
+         535     z             .703781   207
+         536     Uiso         0.042272   208
+               Atom No= 50     O6        ntable=  2
+               Multiplicity=  1.000
+         542  Occupancy       1.000000
+         543     x             .672428   209
+         544     y             .607133   210
+         545     z             .714815   211
+         546     Uiso         0.053042   212
+               Atom No= 51     C36       ntable=  4
+               Multiplicity=  1.000
+         552  Occupancy       1.000000
+         553     x             .642073   213
+         554     y             .575707   214
+         555     z             .648658   215
+         556     Uiso         0.057885   216
+               Atom No= 52     C37       ntable=  4
+               Multiplicity=  1.000
+         562  Occupancy       1.000000
+         563     x             .600752   217
+         564     y             .510139   218
+         565     z             .631252   219
+         566     Uiso         0.068030   220
+               Atom No= 53     C29       ntable=  4
+               Multiplicity=  1.000
+         572  Occupancy       1.000000
+         573     x             .899231   221
+         574     y             .231109   222
+         575     z            1.036875   223
+         576     Uiso         0.058926   224
+               Atom No= 54     O3        ntable=  2
+               Multiplicity=  1.000
+         582  Occupancy       1.000000
+         583     x             .877473   225
+         584     y             .314323   226
+         585     z            1.040877   227
+         586     Uiso         0.054340   228
+               Atom No= 55     O4        ntable=  2
+               Multiplicity=  1.000
+         592  Occupancy       1.000000
+         593     x             .881783   229
+         594     y             .103754   230
+         595     z            1.015690   231
+         596     Uiso         0.057990   232
+               Atom No= 56     C30       ntable=  4
+               Multiplicity=  1.000
+         602  Occupancy       1.000000
+         603     x             .842741   233
+         604     y             .044442   234
+         605     z            1.006755   235
+         606     Uiso         0.071209   236
+               Atom No= 57     C31       ntable=  4
+               Multiplicity=  1.000
+         612  Occupancy       1.000000
+         613     x             .812840   237
+         614     y            -.027521   238
+         615     z             .945358   239
+         616     Uiso         0.090833   240
+               Atom No= 58     C45       ntable=  4
+               Multiplicity=  1.000
+         622  Occupancy       1.000000
+         623     x             .919215   241
+         624     y             .685913   242
+         625     z             .841169   243
+         626     Uiso         0.074138   244
+               Atom No= 59     O9        ntable=  2
+               Multiplicity=  1.000
+         632  Occupancy       1.000000
+         633     x             .943152   245
+         634     y             .781235   246
+         635     z             .858958   247
+   626   636     Uiso         0.074138
+           X-ray atomic form-factors:
+     ntable=  1
+  44.000  43.065  40.770  37.955  35.091  32.359  29.863  27.659
+  25.751  24.109  22.698  21.476  20.401  19.437  18.551  17.718
+  16.921  16.151  15.402  14.673  13.965  13.281  12.623  11.993
+  11.393  10.826  10.292   9.793   9.329   8.899   8.503   8.141
+   -.105   3.296
+     ntable=  2
+   8.000   7.798   7.246   6.472   5.623   4.808   4.089   3.489
+   3.006   2.628   2.337   2.115   1.946   1.816   1.715   1.634
+   1.568   1.512   1.463   1.419   1.377   1.337   1.298   1.260
+   1.221   1.183   1.145   1.108   1.070   1.033    .997    .961
+    .047    .032
+     ntable=  3
+   7.000   6.775   6.185   5.388   4.560   3.820   3.218   2.751
+   2.398   2.134   1.940   1.798   1.693   1.614   1.551   1.497
+   1.448   1.401   1.356   1.311   1.266   1.221   1.176   1.132
+   1.088   1.045   1.002    .961    .920    .881    .842    .805
+    .029    .018
+     ntable=  4
+   6.000   5.749   5.108   4.310   3.560   2.950   2.494   2.171
+   1.948   1.794   1.686   1.604   1.537   1.479   1.425   1.373
+   1.321   1.270   1.218   1.167   1.115   1.064   1.014    .964
+    .916    .869    .823    .779    .737    .696    .657    .621
+    .017    .009
+     Number of parameters =  325
+     Number of variables  =  247
+                        Restraints:
+     DISTANCE refinement.  148 distances were inputed.
+    # Phase  Atom1 Atom2 Bonds:(limit)  (current)  Error  STATUS
+    1    1       1   58     1.8500     1.8717      .050      OK
+    2    1       1   59     3.0000     3.0333      .090      OK
+    3    1      58   59     1.1400     1.1656      .010      OK
+    4    1      39   42     3.0300     3.0300      .030      OK
+    5    1      52   60     3.7000     3.7149      .040      OK
+    6    1      43   44     1.1971     1.2072      .012      OK
+    7    1      38   39     1.2107     1.1634      .012      OK
+    8    1      48   49     1.2165     1.1436      .012      OK
+    9    1      53   54     1.2299     1.2332      .012      OK
+   10    1      43   45     1.3248     1.2969      .013      OK
+   11    1      48   50     1.3359     1.3516      .013      OK
+   12    1       5    6     1.3402     1.3920      .013      OK
+   13    1      23   24     1.3412     1.3575      .013      OK
+   14    1      53   55     1.3548     1.3425      .013      OK
+   15    1      10   11     1.3559     1.3727      .014      OK
+   16    1      28   29     1.3569     1.3312      .014      OK
+   17    1      38   40     1.3625     1.3620      .014      OK
+   18    1       4   13     1.3711     1.3860      .014      OK
+   19    1      25   31     1.3714     1.3916      .014      OK
+   20    1       2    7     1.3729     1.3907      .014      OK
+   21    1      20   25     1.3732     1.3414      .014      OK
+   22    1       2    4     1.3747     1.4182      .014      OK
+   23    1      21   27     1.3748     1.3861      .014      OK
+   24    1       3    9     1.3748     1.3733      .014      OK
+   25    1       8    9     1.3752     1.3854      .014      OK
+   26    1      20   22     1.3757     1.4044      .014      OK
+   27    1       3   12     1.3771     1.3666      .014      OK
+   28    1      21   30     1.3775     1.3840      .014      OK
+   29    1      12   26     1.3788     1.3953      .014      OK
+   30    1      13   30     1.3796     1.3657      .014      OK
+   31    1       7    8     1.3798     1.3939      .014      OK
+   32    1      22   26     1.3808     1.3732      .014      OK
+   33    1      27   31     1.3857     1.3793      .014      OK
+   34    1      11   12     1.4343     1.4386      .014      OK
+   35    1      29   30     1.4369     1.4542      .014      OK
+   36    1      22   23     1.4462     1.4423      .014      OK
+   37    1       9   10     1.4468     1.4540      .014      OK
+   38    1      24   25     1.4473     1.4670      .014      OK
+   39    1       6    7     1.4479     1.4168      .014      OK
+   40    1       4    5     1.4499     1.3923      .014      OK
+   41    1      27   28     1.4505     1.4523      .014      OK
+   42    1      24   33     1.4791     1.4494      .015      OK
+   43    1      23   32     1.4795     1.5114      .015      OK
+   44    1       6   15     1.4804     1.4286      .015      OK
+   45    1      33   34     1.4846     1.4551      .015      OK
+   46    1      18   19     1.4864     1.5386      .015      OK
+   47    1      10   17     1.4883     1.5215      .015      OK
+   48    1      29   36     1.4920     1.5018      .015      OK
+   49    1      36   37     1.5010     1.5304      .015      OK
+   50    1      19   43     1.5024     1.4944      .015      OK
+   51    1      16   38     1.5082     1.5483      .015      OK
+   52    1       5   14     1.5087     1.5136      .015      OK
+   53    1      37   53     1.5105     1.4992      .015      OK
+   54    1      28   35     1.5146     1.4863      .015      OK
+   55    1      15   16     1.5155     1.4520      .015      OK
+   56    1      40   41     1.4700     1.4366      .015      OK
+   57    1      45   46     1.4700     1.4770      .015      OK
+   58    1      50   51     1.4700     1.5133      .015      OK
+   59    1      55   56     1.4700     1.4934      .015      OK
+   60    1      41   42     1.5000     1.4971      .015      OK
+   61    1      46   47     1.5000     1.4768      .016      OK
+   62    1      51   52     1.5000     1.4897      .016      OK
+   63    1      56   57     1.5000     1.5385      .015      OK
+   64    1      45   47     2.4500     2.4386      .026      OK
+   65    1      50   52     2.4500     2.4166      .026      OK
+   66    1      55   57     2.4500     2.4336      .027      OK
+   67    1      40   42     2.4500     2.4439      .027      OK
+   68    1      34   48     1.5200     1.5573      .015      OK
+   69    1      11   18     1.5202     1.5505      .015      OK
+   70    1       1   21     2.0106     2.0238      .020      OK
+   71    1       1    3     2.0126     2.0315      .020      OK
+   72    1       1   20     2.0158     2.0560      .020      OK
+   73    1       1    2     2.0180     2.0411      .020      OK
+   74    1      44   45     2.1476     2.1604      .021      OK
+   75    1       9   12     2.1938     2.2056      .022      OK
+   76    1      22   25     2.1940     2.1951      .022      OK
+   77    1      27   30     2.1944     2.2156      .022      OK
+   78    1       4    7     2.1950     2.2255      .022      OK
+   79    1      54   55     2.2165     2.2014      .022      OK
+   80    1      39   40     2.2294     2.2336      .022      OK
+   81    1      23   25     2.2398     2.2479      .022      OK
+   82    1       5    7     2.2410     2.2541      .022      OK
+   83    1      10   12     2.2446     2.2730      .022      OK
+   84    1      49   50     2.2473     2.2239      .022      OK
+   85    1      22   24     2.2482     2.2660      .022      OK
+   86    1      27   29     2.2491     2.2416      .022      OK
+   87    1       4    6     2.2494     2.2494      .022      OK
+   88    1       9   11     2.2496     2.2520      .022      OK
+   89    1      28   30     2.2506     2.2577      .022      OK
+   90    1      19   44     2.2981     2.2952      .023      OK
+   91    1      20   23     2.3076     2.3172      .023      OK
+   92    1       2    5     2.3085     2.3048      .023      OK
+   93    1       3   11     2.3087     2.2898      .023      OK
+   94    1      21   29     2.3099     2.3086      .023      OK
+   95    1       2    6     2.3117     2.3067      .023      OK
+   96    1      20   24     2.3124     2.3205      .023      OK
+   97    1       3   10     2.3126     2.3145      .023      OK
+   98    1      21   28     2.3181     2.3176      .023      OK
+   99    1      34   49     2.3208     2.3270      .023      OK
+  100    1      16   39     2.3549     2.3506      .023      OK
+  101    1      37   54     2.4069     2.3916      .024      OK
+  102    1      20   31     2.4265     2.4413      .024      OK
+  103    1       2   13     2.4287     2.4380      .024      OK
+  104    1       3    8     2.4325     2.4507      .024      OK
+  105    1       2    8     2.4326     2.4323      .024      OK
+  106    1      13   21     2.4329     2.4419      .024      OK
+  107    1       3   26     2.4345     2.4476      .024      OK
+  108    1      20   26     2.4377     2.4309      .024      OK
+  109    1      21   31     2.4408     2.4407      .024      OK
+  110    1      48   51     2.4513     2.4196      .024      OK
+  111    1      37   55     2.4563     2.4713      .025      OK
+  112    1      19   45     2.4641     2.4737      .025      OK
+  113    1      24   34     2.4645     2.5183      .025      OK
+  114    1       7    9     2.4681     2.4983      .025      OK
+  115    1      25   27     2.4681     2.4596      .025      OK
+  116    1       4   30     2.4690     2.5033      .025      OK
+  117    1      12   22     2.4730     2.5059      .025      OK
+  118    1      43   46     2.4764     2.4842      .025      OK
+  119    1      34   50     2.4856     2.4612      .025      OK
+  120    1      24   32     2.4886     2.4772      .025      OK
+  121    1      16   40     2.4915     2.4629      .025      OK
+  122    1      38   41     2.4945     2.5096      .025      OK
+  123    1       6   16     2.5006     2.5253      .025      OK
+  124    1      11   26     2.5009     2.5226      .025      OK
+  125    1      24   31     2.5071     2.5010      .025      OK
+  126    1      13   29     2.5078     2.5118      .025      OK
+  127    1      11   17     2.5080     2.5008      .025      OK
+  128    1       8   10     2.5092     2.5161      .025      OK
+  129    1       5   13     2.5136     2.5081      .025      OK
+  130    1       6    8     2.5171     2.5237      .025      OK
+  131    1      23   26     2.5177     2.5397      .025      OK
+  132    1      28   31     2.5202     2.5296      .025      OK
+  133    1       5   15     2.5214     2.4506      .025      OK
+  134    1      53   56     2.5224     2.5261      .025      OK
+  135    1      29   35     2.5250     2.5502      .025      OK
+  136    1      18   43     2.5292     2.5301      .025      OK
+  137    1      29   37     2.5301     2.5058      .025      OK
+  138    1      11   19     2.5360     2.5006      .025      OK
+  139    1      28   36     2.5373     2.5551      .025      OK
+  140    1      23   33     2.5424     2.5619      .025      OK
+  141    1       6   14     2.5549     2.5367      .025      OK
+  142    1      36   53     2.5599     2.5833      .026      OK
+  143    1      33   48     2.5713     2.4653      .026      OK
+  144    1      15   38     2.5716     2.5010      .026      OK
+  145    1       7   15     2.5764     2.6057      .026      OK
+  146    1      25   33     2.5852     2.5590      .026      OK
+  147    1      10   18     2.5928     2.5812      .026      OK
+  148    1       4   14     2.5947     2.6404      .026      OK
+     148 of   148 conditions are accepted.
+          Average experimental SIGMA**2 =   .30803E+02
+          Multiplyer for bond weights   =   .90000E+03
+          FLAT option is requested.  Scale_FLAT=   .55000E+02
+     Base system for the PLANE # 1 is accepted.
+       Atoms:       2     3    20 (PHASE # 1).
+          Atomic #     Weight
+         1         .7000
+         4         .0300
+         5         .0300
+         6         .0300
+         7         .0300
+         8         .0300
+         9         .0300
+        10         .0300
+        11         .0300
+        12         .0300
+        13         .0300
+        14         .0300
+        15         .0300
+        17         .0300
+        18         .0300
+        21         .0300
+        22         .0300
+        23         .0300
+        24         .0300
+        25         .0300
+        26         .0300
+        27         .0300
+        28         .0300
+        29         .0300
+        30         .0300
+        31         .0300
+        32         .0300
+        33         .0300
+        35         .0300
+        36         .0300
+     Base system for the PLANE # 2 is accepted.
+       Atoms:      16    38    39 (PHASE # 1).
+          Atomic #     Weight
+        40         .0300
+        41         .1000
+     Base system for the PLANE # 3 is accepted.
+       Atoms:      19    43    44 (PHASE # 1).
+          Atomic #     Weight
+        45         .0300
+        46         .1000
+     Base system for the PLANE # 4 is accepted.
+       Atoms:      34    48    49 (PHASE # 1).
+          Atomic #     Weight
+        50         .0300
+        51         .1000
+     Base system for the PLANE # 5 is accepted.
+       Atoms:      37    53    54 (PHASE # 1).
+          Atomic #     Weight
+        55         .0300
+        56         .1000
+   Numbers of accepted PLANES & ATOMS are     5   38
+                    Before refinement:
+ Ch2/df=  10.19  eps=  .105E+04    7 + 0 iter.  RF= .00  Chdev= .01  Ch+= .50
+                    Short info:
+     Diffraction Type:   X-RAY, lambda(1)=    .39993
+               Sample:   POWDER
+                  Job:   REFINEMENT
+   Channels:     1 -   9501.  # of phases =  1.
+       # of reflections:    nINDEP=   2779     nTOTL=   2779
+;
+_cod_data_source_file            fa3396sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments          'Adding full bibliography for 2020698.cif.'
+_cod_original_cell_volume        8476.3(9)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2020698
+_cod_database_fobs_code          2020698
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y, z+1/2'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z+1/2'
+'-x, -y, -z'
+'-x, y, -z-1/2'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Ru Ru1 0.88520(4) 0.5249(2) 0.82080(6) 0.0170(12) Uiso d . 1 1
+N N1 0.9371(3) 0.3887(14) 0.8584(5) 0.034(10) Uiso d . 1 1
+N N2 0.8917(3) 0.5230(13) 0.8947(5) 0.034(10) Uiso d . 1 1
+N N3 0.8290(3) 0.6456(15) 0.7803(5) 0.034(10) Uiso d . 1 1
+N N4 0.8732(3) 0.5119(13) 0.7428(5) 0.034(10) Uiso d . 1 1
+C C1 0.9549(4) 0.3341(19) 0.8342(6) 0.034(10) Uiso d . 1 1
+C C2 0.9928(4) 0.2503(19) 0.8768(6) 0.034(10) Uiso d . 1 1
+C C3 0.9990(4) 0.2549(18) 0.9290(7) 0.034(10) Uiso d . 1 1
+C C4 0.9652(4) 0.3374(19) 0.9178(6) 0.034(10) Uiso d . 1 1
+C C5 0.9575(4) 0.3725(18) 0.9559(5) 0.034(10) Uiso d . 1 1
+H H5 0.9776 0.3334 0.9938 0.041 Uiso calc . 1 1
+C C6 0.9254(4) 0.4549(18) 0.9473(6) 0.034(10) Uiso d . 1 1
+C C7 0.9209(4) 0.4849(18) 0.9914(6) 0.034(10) Uiso d . 1 1
+C C8 0.8857(4) 0.5682(17) 0.9663(6) 0.034(10) Uiso d . 1 1
+C C9 0.8675(4) 0.5963(19) 0.9058(6) 0.034(10) Uiso d . 1 1
+C C10 0.8307(4) 0.6775(19) 0.8638(6) 0.034(10) Uiso d . 1 1
+H H10 0.8167 0.7226 0.8756 0.041 Uiso calc . 1 1
+C C11 0.8129(4) 0.6974(17) 0.8053(6) 0.034(10) Uiso d . 1 1
+C C12 0.7734(4) 0.7848(19) 0.7630(6) 0.034(10) Uiso d . 1 1
+C C13 0.7672(4) 0.7845(18) 0.7121(6) 0.034(10) Uiso d . 1 1
+C C14 0.8005(4) 0.6945(18) 0.7212(6) 0.034(10) Uiso d . 1 1
+C C15 0.8070(4) 0.6615(19) 0.6821(5) 0.034(10) Uiso d . 1 1
+H H15 0.7866 0.7008 0.6443 0.041 Uiso calc . 1 1
+C C16 0.8397(4) 0.5778(19) 0.6906(6) 0.034(10) Uiso d . 1 1
+C C17 0.8442(4) 0.5503(17) 0.6468(6) 0.034(10) Uiso d . 1 1
+C C18 0.8800(4) 0.4628(17) 0.6723(6) 0.034(10) Uiso d . 1 1
+C C19 0.8980(4) 0.4395(19) 0.7331(6) 0.034(10) Uiso d . 1 1
+C C20 0.9356(4) 0.3604(19) 0.7753(6) 0.034(10) Uiso d . 1 1
+H H20 0.9497 0.3198 0.7628 0.041 Uiso calc . 1 1
+C C21 1.0222(5) 0.1708(18) 0.8744(7) 0.034(10) Uiso d . 1 1
+H H21A 1.0297 0.0874 0.8978 0.041 Uiso calc . 1 1
+H H21B 1.0497 0.2240 0.8954 0.041 Uiso calc . 1 1
+C C22 1.0099(4) 0.126(2) 0.8183(6) 0.049(10) Uiso d . 1 1
+H H22A 1.0048 0.2078 0.7952 0.059 Uiso calc . 1 1
+H H22B 0.9821 0.0744 0.7956 0.059 Uiso calc . 1 1
+C C23 1.0462(4) 0.0347(18) 0.8273(7) 0.055(11) Uiso d . 1 1
+C C24 1.0564(5) -0.214(2) 0.8123(6) 0.069(10) Uiso d . 1 1
+H H24A 1.0360 -0.2920 0.7966 0.083 Uiso calc . 1 1
+H H24B 1.0856 -0.2452 0.8478 0.083 Uiso calc . 1 1
+C C25 1.0596(5) -0.168(2) 0.7667(7) 0.089(11) Uiso d . 1 1
+H H25A 1.0699 -0.2447 0.7575 0.134 Uiso calc . 1 1
+H H25B 1.0803 -0.0925 0.7823 0.134 Uiso calc . 1 1
+H H25C 1.0306 -0.1392 0.7311 0.134 Uiso calc . 1 1
+C C26 1.0361(4) 0.1737(18) 0.9841(6) 0.034(10) Uiso d . 1 1
+H H26A 1.0538 0.1275 0.9770 0.051 Uiso calc . 1 1
+H H26B 1.0233 0.1058 0.9930 0.051 Uiso calc . 1 1
+H H26C 1.0547 0.2362 1.0173 0.051 Uiso calc . 1 1
+C C27 0.9516(4) 0.4256(18) 1.0535(6) 0.034(10) Uiso d . 1 1
+H H27A 0.9472 0.4749 1.0780 0.041 Uiso calc . 1 1
+H H27B 0.9825 0.4390 1.0710 0.041 Uiso calc . 1 1
+C C28 0.9429(4) 0.2704(18) 1.0533(6) 0.051(10) Uiso d . 1 1
+H H28A 0.9447 0.2243 1.0257 0.061 Uiso calc . 1 1
+H H28B 0.9669 0.2337 1.0928 0.061 Uiso calc . 1 1
+C C29 0.8992(4) 0.2311(19) 1.0369(6) 0.059(11) Uiso d . 1 1
+C C30 0.8427(5) 0.0444(18) 1.0068(7) 0.071(11) Uiso d . 1 1
+H H30A 0.8262 0.1176 1.0078 0.085 Uiso calc . 1 1
+H H30B 0.8528 -0.0222 1.0381 0.085 Uiso calc . 1 1
+C C31 0.8128(4) -0.0275(16) 0.9454(5) 0.091(12) Uiso d . 1 1
+H H31A 0.7895 0.0350 0.9158 0.136 Uiso calc R 1 1
+H H31B 0.7997 -0.1095 0.9470 0.136 Uiso calc R 1 1
+H H31C 0.8306 -0.0529 0.9350 0.136 Uiso calc R 1 1
+C C32 0.8667(4) 0.6283(19) 0.9920(6) 0.034(10) Uiso d . 1 1
+H H32A 0.8411 0.6845 0.9624 0.051 Uiso calc . 1 1
+H H32B 0.8889 0.6848 1.0260 0.051 Uiso calc . 1 1
+H H32C 0.8578 0.5545 1.0042 0.051 Uiso calc . 1 1
+C C33 0.7508(4) 0.859(2) 0.7794(6) 0.034(10) Uiso d . 1 1
+H H33A 0.7311 0.9267 0.7482 0.041 Uiso calc . 1 1
+H H33B 0.7734 0.9112 0.8155 0.041 Uiso calc . 1 1
+C C34 0.7244(5) 0.7836(17) 0.7898(7) 0.046(10) Uiso d . 1 1
+H H34A 0.7200 0.8411 0.8126 0.055 Uiso calc . 1 1
+H H34B 0.7402 0.7001 0.8127 0.055 Uiso calc . 1 1
+C C35 0.6781(4) 0.7437(17) 0.7289(6) 0.050(10) Uiso d . 1 1
+C C36 0.6421(4) 0.5757(18) 0.6487(7) 0.058(10) Uiso d . 1 1
+H H36A 0.6347 0.6607 0.6262 0.070 Uiso calc . 1 1
+H H36B 0.6569 0.5129 0.6406 0.070 Uiso calc . 1 1
+C C37 0.6008(4) 0.5101(18) 0.6313(7) 0.068(12) Uiso d . 1 1
+H H37A 0.5807 0.4886 0.5894 0.102 Uiso calc . 1 1
+H H37B 0.5865 0.5733 0.6395 0.102 Uiso calc . 1 1
+H H37C 0.6086 0.4261 0.6538 0.102 Uiso calc . 1 1
+C C38 0.7278(4) 0.8624(18) 0.6580(6) 0.034(10) Uiso d . 1 1
+H H38A 0.7279 0.8526 0.6258 0.051 Uiso calc . 1 1
+H H38B 0.7300 0.9591 0.6677 0.051 Uiso calc . 1 1
+H H38C 0.7004 0.8250 0.6462 0.051 Uiso calc . 1 1
+C C39 0.8137(4) 0.6012(19) 0.5812(6) 0.034(10) Uiso d . 1 1
+H H39A 0.7997 0.6887 0.5771 0.041 Uiso calc . 1 1
+H H39B 0.8313 0.6155 0.5693 0.041 Uiso calc . 1 1
+C C40 0.7777(4) 0.4897(18) 0.5414(6) 0.052(12) Uiso d . 1 1
+H H40A 0.7921 0.3996 0.5515 0.062 Uiso calc . 1 1
+H H40B 0.7576 0.4866 0.5498 0.062 Uiso calc . 1 1
+C C41 0.7509(5) 0.5157(17) 0.4762(7) 0.058(11) Uiso d . 1 1
+C C42 0.6974(4) 0.4449(19) 0.3694(7) 0.071(11) Uiso d . 1 1
+H H42A 0.6946 0.5437 0.3609 0.085 Uiso calc . 1 1
+H H42B 0.7114 0.4020 0.3555 0.085 Uiso calc . 1 1
+C C43 0.6524(4) 0.384(2) 0.3371(6) 0.094(11) Uiso d . 1 1
+H H43A 0.6345 0.3992 0.2950 0.141 Uiso calc . 1 1
+H H43B 0.6383 0.4276 0.3504 0.141 Uiso calc . 1 1
+H H43C 0.6552 0.2860 0.3449 0.141 Uiso calc . 1 1
+C C44 0.8932(4) 0.4175(19) 0.6362(6) 0.034(10) Uiso d . 1 1
+H H44A 0.9187 0.3568 0.6600 0.051 Uiso calc . 1 1
+H H44B 0.9006 0.4979 0.6249 0.051 Uiso calc . 1 1
+H H44C 0.8686 0.3692 0.6010 0.051 Uiso calc . 1 1
+O O1 1.0781(3) 0.0868(13) 0.8400(4) 0.058(7) Uiso d . 1 1
+O O2 1.0411(3) -0.1050(14) 0.8286(4) 0.063(7) Uiso d . 1 1
+O O3 0.8775(3) 0.3143(12) 1.0409(4) 0.054(7) Uiso d . 1 1
+O O4 0.8818(3) 0.1038(13) 1.0157(4) 0.058(7) Uiso d . 1 1
+O O5 0.6509(3) 0.8273(12) 0.7038(4) 0.042(6) Uiso d . 1 1
+O O6 0.6724(3) 0.6071(13) 0.7148(4) 0.053(6) Uiso d . 1 1
+O O7 0.7559(3) 0.6281(14) 0.4631(4) 0.054(6) Uiso d . 1 1
+O O8 0.7260(3) 0.4236(13) 0.4346(4) 0.060(7) Uiso d . 1 1
+O O9 0.9432(3) 0.7812(12) 0.8590(4) 0.074(7) Uiso d . 1 1
+C C45 0.9192(5) 0.6859(19) 0.8412(6) 0.074(10) Uiso d . 1 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ru Ru 0.0552 3.2960 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0181 0.0091 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+C45 Ru1 N2 . 95.7(7)
+C45 Ru1 N4 . 90.2(7)
+N2 Ru1 N4 . 173.8(5)
+C45 Ru1 N1 . 95.9(7)
+N2 Ru1 N1 . 91.7(6)
+N4 Ru1 N1 . 89.3(5)
+C45 Ru1 N3 . 89.6(7)
+N2 Ru1 N3 . 87.9(6)
+N4 Ru1 N3 . 90.5(5)
+N1 Ru1 N3 . 174.5(5)
+C45 Ru1 O5 8_647 175.2(8)
+N2 Ru1 O5 8_647 87.0(5)
+N4 Ru1 O5 8_647 87.1(5)
+N1 Ru1 O5 8_647 80.0(5)
+N3 Ru1 O5 8_647 94.4(5)
+C1 N1 C4 . 104.8(12)
+C1 N1 Ru1 . 128.7(10)
+C4 N1 Ru1 . 126.3(13)
+C6 N2 C9 . 106.2(15)
+C6 N2 Ru1 . 124.7(14)
+C9 N2 Ru1 . 128.9(9)
+C11 N3 C14 . 106.1(13)
+C11 N3 Ru1 . 127.2(9)
+C14 N3 Ru1 . 126.6(13)
+C16 N4 C19 . 107.1(15)
+C16 N4 Ru1 . 126.2(13)
+C19 N4 Ru1 . 126.6(8)
+N1 C1 C20 . 121.7(13)
+N1 C1 C2 . 110.5(15)
+C20 C1 C2 . 127.7(19)
+C3 C2 C1 . 106.7(17)
+C3 C2 C21 . 120.6(13)
+C1 C2 C21 . 132.8(18)
+C4 C3 C2 . 107.7(13)
+C4 C3 C26 . 130.7(19)
+C2 C3 C26 . 121.5(17)
+C5 C4 C3 . 128.9(13)
+C5 C4 N1 . 120.8(14)
+C3 C4 N1 . 110.2(17)
+C6 C5 C4 . 131.0(13)
+C6 C5 H5 . 114.5
+C4 C5 H5 . 114.5
+C5 C6 N2 . 125.2(18)
+C5 C6 C7 . 125.9(13)
+N2 C6 C7 . 108.9(15)
+C8 C7 C6 . 108.2(15)
+C8 C7 C27 . 129(2)
+C6 C7 C27 . 123.2(15)
+C7 C8 C9 . 107.2(19)
+C7 C8 C32 . 129.6(16)
+C9 C8 C32 . 123.2(13)
+C10 C9 N2 . 123.8(16)
+C10 C9 C8 . 126.7(18)
+N2 C9 C8 . 109.4(13)
+C9 C10 C11 . 125.3(19)
+C9 C10 H10 . 117.4
+C11 C10 H10 . 117.4
+N3 C11 C10 . 126.5(14)
+N3 C11 C12 . 111.3(14)
+C10 C11 C12 . 122.1(18)
+C13 C12 C33 . 131.7(13)
+C13 C12 C11 . 105.5(16)
+C33 C12 C11 . 122.6(15)
+C12 C13 C14 . 108.1(13)
+C12 C13 C38 . 119.2(17)
+C14 C13 C38 . 132.5(17)
+C15 C14 N3 . 122.1(15)
+C15 C14 C13 . 128.9(13)
+N3 C14 C13 . 109.0(17)
+C14 C15 C16 . 129.7(13)
+C14 C15 H15 . 115.2
+C16 C15 H15 . 115.2
+N4 C16 C15 . 124.7(18)
+N4 C16 C17 . 109.5(15)
+C15 C16 C17 . 125.7(13)
+C18 C17 C16 . 107.7(14)
+C18 C17 C39 . 124.2(19)
+C16 C17 C39 . 128.0(15)
+C17 C18 C19 . 105.7(18)
+C17 C18 C44 . 119.3(15)
+C19 C18 C44 . 134.9(13)
+N4 C19 C20 . 125.4(17)
+N4 C19 C18 . 109.8(12)
+C20 C19 C18 . 124.7(19)
+C19 C20 C1 . 128.0(19)
+C19 C20 H20 . 116.0
+C1 C20 H20 . 116.0
+C2 C21 C22 . 122.4(11)
+C2 C21 H21A . 106.7
+C22 C21 H21A . 106.7
+C2 C21 H21B . 106.7
+C22 C21 H21B . 106.7
+H21A C21 H21B . 106.6
+C21 C22 C23 . 112.8(11)
+C21 C22 H22A . 109.0
+C23 C22 H22A . 109.0
+C21 C22 H22B . 109.0
+C23 C22 H22B . 109.0
+H22A C22 H22B . 107.8
+O1 C23 O2 . 124.3(16)
+O1 C23 C22 . 119.5(16)
+O2 C23 C22 . 115.4(16)
+O2 C24 C25 . 112.9(15)
+O2 C24 H24A . 109.0
+C25 C24 H24A . 109.0
+O2 C24 H24B . 109.0
+C25 C24 H24B . 109.0
+H24A C24 H24B . 107.8
+C24 C25 H25A . 109.5
+C24 C25 H25B . 109.5
+H25A C25 H25B . 109.5
+C24 C25 H25C . 109.5
+H25A C25 H25C . 109.5
+H25B C25 H25C . 109.5
+C3 C26 H26A . 109.5
+C3 C26 H26B . 109.5
+H26A C26 H26B . 109.5
+C3 C26 H26C . 109.5
+H26A C26 H26C . 109.5
+H26B C26 H26C . 109.5
+C7 C27 C28 . 111.4(12)
+C7 C27 H27A . 109.3
+C28 C27 H27A . 109.3
+C7 C27 H27B . 109.3
+C28 C27 H27B . 109.3
+H27A C27 H27B . 108.0
+C29 C28 C27 . 117.0(15)
+C29 C28 H28A . 108.1
+C27 C28 H28A . 108.0
+C29 C28 H28B . 108.1
+C27 C28 H28B . 108.0
+H28A C28 H28B . 107.3
+O3 C29 O4 . 117.5(16)
+O3 C29 C28 . 121.8(16)
+O4 C29 C28 . 120.6(17)
+O4 C30 C31 . 106.7(17)
+O4 C30 H30A . 110.4
+C31 C30 H30A . 110.4
+O4 C30 H30B . 110.4
+C31 C30 H30B . 110.4
+H30A C30 H30B . 108.6
+C30 C31 H31A . 109.5
+C30 C31 H31B . 109.5
+H31A C31 H31B . 109.5
+C30 C31 H31C . 109.5
+H31A C31 H31C . 109.5
+H31B C31 H31C . 109.5
+C8 C32 H32A . 109.5
+C8 C32 H32B . 109.5
+H32A C32 H32B . 109.5
+C8 C32 H32C . 109.5
+H32A C32 H32C . 109.4
+H32B C32 H32C . 109.4
+C12 C33 C34 . 120.2(18)
+C12 C33 H33A . 107.3
+C34 C33 H33A . 107.3
+C12 C33 H33B . 107.3
+C34 C33 H33B . 107.3
+H33A C33 H33B . 106.9
+C33 C34 C35 . 109.8(15)
+C33 C34 H34A . 109.7
+C35 C34 H34A . 109.7
+C33 C34 H34B . 109.7
+C35 C34 H34B . 109.7
+H34A C34 H34B . 108.2
+O5 C35 O6 . 125.9(11)
+O5 C35 C34 . 118.1(14)
+O6 C35 C34 . 115.4(11)
+C37 C36 O6 . 107.1(17)
+C37 C36 H36A . 110.3
+O6 C36 H36A . 110.3
+C37 C36 H36B . 110.3
+O6 C36 H36B . 110.3
+H36A C36 H36B . 108.5
+C36 C37 H37A . 109.5
+C36 C37 H37B . 109.5
+H37A C37 H37B . 109.5
+C36 C37 H37C . 109.5
+H37A C37 H37C . 109.5
+H37B C37 H37C . 109.5
+C13 C38 H38A . 109.5
+C13 C38 H38B . 109.5
+H38A C38 H38B . 109.5
+C13 C38 H38C . 109.5
+H38A C38 H38C . 109.5
+H38B C38 H38C . 109.5
+C40 C39 C17 . 108.2(14)
+C40 C39 H39A . 110.1
+C17 C39 H39A . 110.1
+C40 C39 H39B . 110.1
+C17 C39 H39B . 110.1
+H39A C39 H39B . 108.4
+C41 C40 C39 . 113.1(15)
+C41 C40 H40A . 109.0
+C39 C40 H40A . 109.0
+C41 C40 H40B . 109.0
+C39 C40 H40B . 109.0
+H40A C40 H40B . 107.8
+O7 C41 O8 . 119.2(16)
+O7 C41 C40 . 115.9(13)
+O8 C41 C40 . 124.6(16)
+C43 C42 O8 . 111.1(17)
+C43 C42 H42A . 109.4
+O8 C42 H42A . 109.4
+C43 C42 H42B . 109.4
+O8 C42 H42B . 109.4
+H42A C42 H42B . 108.0
+C42 C43 H43A . 109.5
+C42 C43 H43B . 109.5
+H43A C43 H43B . 109.5
+C42 C43 H43C . 109.5
+H43A C43 H43C . 109.5
+H43B C43 H43C . 109.5
+C18 C44 H44A . 109.5
+C18 C44 H44B . 109.5
+H44A C44 H44B . 109.5
+C18 C44 H44C . 109.5
+H44A C44 H44C . 109.5
+H44B C44 H44C . 109.5
+C23 O2 C24 . 127.3(17)
+C29 O4 C30 . 125.7(15)
+C35 O5 Ru1 8_657 162.6(10)
+C35 O6 C36 . 115.1(12)
+C41 O8 C42 . 127.0(14)
+O9 C45 Ru1 . 173.9(13)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ru1 C45 . 1.871(19)
+Ru1 N2 . 2.025(17)
+Ru1 N4 . 2.031(16)
+Ru1 N1 . 2.041(12)
+Ru1 N3 . 2.055(12)
+Ru1 O5 8_647 2.194(12)
+N1 C1 . 1.39(3)
+N1 C4 . 1.418(18)
+N2 C6 . 1.383(17)
+N2 C9 . 1.39(3)
+N3 C11 . 1.34(3)
+N3 C14 . 1.404(18)
+N4 C16 . 1.366(16)
+N4 C19 . 1.37(3)
+C1 C20 . 1.39(2)
+C1 C2 . 1.418(19)
+C2 C3 . 1.40(3)
+C2 C21 . 1.43(3)
+C3 C4 . 1.39(3)
+C3 C26 . 1.513(18)
+C4 C5 . 1.38(3)
+C5 C6 . 1.37(2)
+C5 H5 . 0.9300
+C6 C7 . 1.45(3)
+C7 C8 . 1.33(2)
+C7 C27 . 1.50(2)
+C8 C9 . 1.45(2)
+C8 C32 . 1.49(3)
+C9 C10 . 1.380(19)
+C10 C11 . 1.39(2)
+C10 H10 . 0.9299
+C11 C12 . 1.467(19)
+C12 C13 . 1.36(3)
+C12 C33 . 1.45(3)
+C13 C14 . 1.44(3)
+C13 C38 . 1.512(17)
+C14 C15 . 1.37(3)
+C15 C16 . 1.40(3)
+C15 H15 . 0.9300
+C16 C17 . 1.44(3)
+C17 C18 . 1.37(2)
+C17 C39 . 1.55(2)
+C18 C19 . 1.45(3)
+C18 C44 . 1.52(3)
+C19 C20 . 1.385(18)
+C20 H20 . 0.9299
+C21 C22 . 1.45(3)
+C21 H21A . 0.9699
+C21 H21B . 0.9701
+C22 C23 . 1.55(3)
+C22 H22A . 0.9700
+C22 H22B . 0.9700
+C23 O1 . 1.16(2)
+C23 O2 . 1.36(2)
+C24 O2 . 1.44(3)
+C24 C25 . 1.50(3)
+C24 H24A . 0.9700
+C24 H24B . 0.9700
+C25 H25A . 0.9601
+C25 H25B . 0.9599
+C25 H25C . 0.9600
+C26 H26A . 0.9601
+C26 H26B . 0.9599
+C26 H26C . 0.9600
+C27 C28 . 1.53(2)
+C27 H27A . 0.9700
+C27 H27B . 0.9700
+C28 C29 . 1.50(3)
+C28 H28A . 0.9700
+C28 H28B . 0.9700
+C29 O3 . 1.23(2)
+C29 O4 . 1.34(2)
+C30 O4 . 1.50(2)
+C30 C31 . 1.54(2)
+C30 H30A . 0.9701
+C30 H30B . 0.9699
+C31 H31A . 0.9600
+C31 H31B . 0.9600
+C31 H31C . 0.9600
+C32 H32A . 0.9600
+C32 H32B . 0.9600
+C32 H32C . 0.9603
+C33 C34 . 1.46(3)
+C33 H33A . 0.9699
+C33 H33B . 0.9700
+C34 C35 . 1.558(16)
+C34 H34A . 0.9702
+C34 H34B . 0.9700
+C35 O5 . 1.143(17)
+C35 O6 . 1.35(2)
+C36 C37 . 1.49(3)
+C36 O6 . 1.512(19)
+C36 H36A . 0.9700
+C36 H36B . 0.9701
+C37 H37A . 0.9601
+C37 H37B . 0.9599
+C37 H37C . 0.9602
+C38 H38A . 0.9600
+C38 H38B . 0.9599
+C38 H38C . 0.9601
+C39 C40 . 1.54(2)
+C39 H39A . 0.9701
+C39 H39B . 0.9699
+C40 C41 . 1.49(2)
+C40 H40A . 0.9701
+C40 H40B . 0.9699
+C41 O7 . 1.21(2)
+C41 O8 . 1.297(18)
+C42 C43 . 1.48(2)
+C42 O8 . 1.48(2)
+C42 H42A . 0.9700
+C42 H42B . 0.9699
+C43 H43A . 0.9601
+C43 H43B . 0.9599
+C43 H43C . 0.9600
+C44 H44A . 0.9600
+C44 H44B . 0.9600
+C44 H44C . 0.9600
+O5 Ru1 8_657 2.194(11)
+O9 C45 . 1.17(2)
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+C25 H25C O2 6_757 0.96 2.17 3.08(2) 157
+C37 H37C O9 8_647 0.96 2.29 2.93(2) 123
+C39 H39A O7 7_666 0.97 2.43 3.37(2) 161
+C39 H39B O3 2_564 0.97 2.54 3.51(2) 173
+C43 H43B O1 4_454 0.96 2.19 3.00(2) 141
+C44 H44A O1 6_757 0.96 2.60 3.29(2) 129

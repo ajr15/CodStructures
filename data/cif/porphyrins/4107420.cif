@@ -1,0 +1,321 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:42:27 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178820 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/74/4107420.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4107420
+loop_
+_publ_author_name
+'Antonio G. DiPasquale'
+'James M. Mayer'
+_publ_section_title
+;
+ Hydrogen Peroxide: A Poor Ligand to Gallium Tetraphenylporphyrin
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              1812
+_journal_page_last               1813
+_journal_paper_doi               10.1021/ja077598w
+_journal_volume                  130
+_journal_year                    2008
+_chemical_formula_moiety         'C44 H29 Ga N4 O'
+_chemical_formula_sum            'C44 H29 Ga N4 O'
+_chemical_formula_weight         699.47
+_chemical_name_common            (TPP)GaOH
+_chemical_name_systematic
+;
+ (TPP)GaOH
+;
+_space_group_IT_number           87
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      87
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            2
+_cell_length_a                   13.344(5)
+_cell_length_b                   13.344(5)
+_cell_length_c                   9.651(4)
+_cell_measurement_reflns_used    107
+_cell_measurement_temperature    130(2)
+_cell_volume                     1718.5(12)
+_computing_cell_refinement       'HKL Scalepack (Otwinowski & Minor 1997)'
+_computing_data_collection       KappaCCD
+_computing_data_reduction        'HKL Scalepack (Otwinowski & Minor 1997)'
+_computing_molecular_graphics    'maXus, Zortep'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    SIR97
+_diffrn_ambient_temperature      130(2)
+_diffrn_measured_fraction_theta_full 0.896
+_diffrn_measured_fraction_theta_max 0.919
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0704
+_diffrn_reflns_av_sigmaI/netI    0.0713
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            1723
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         28.27
+_diffrn_reflns_theta_min         3.05
+_exptl_absorpt_coefficient_mu    0.842
+_exptl_absorpt_correction_T_max  0.8564
+_exptl_absorpt_correction_T_min  0.8235
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   HKL-2000
+_exptl_crystal_colour            'dark purple'
+_exptl_crystal_density_diffrn    1.352
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             720
+_exptl_crystal_size_max          0.24
+_exptl_crystal_size_mid          0.24
+_exptl_crystal_size_min          0.19
+_refine_diff_density_max         0.315
+_refine_diff_density_min         -0.804
+_refine_diff_density_rms         0.064
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.134
+_refine_ls_hydrogen_treatment    riding
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     74
+_refine_ls_number_reflns         1037
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.134
+_refine_ls_R_factor_all          0.0854
+_refine_ls_R_factor_gt           0.0638
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0391P)^2^+2.8727P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1389
+_refine_ls_wR_factor_ref         0.1467
+_reflns_number_gt                820
+_reflns_number_total             1037
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja077598w-file006.cif
+_cod_data_source_block           import
+_cod_original_cell_volume        1718.5(13)
+_cod_database_code               4107420
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+C1 C 0.1878(3) 0.1301(3) 0.0000 0.0279(8) Uani 1 2 d S
+C2 C 0.1342(3) 0.2208(3) 0.0000 0.0284(8) Uani 1 2 d S
+C3 C 0.0303(3) 0.2261(3) 0.0000 0.0271(8) Uani 1 2 d S
+C4 C -0.0256(3) 0.3188(3) 0.0000 0.0321(9) Uani 1 2 d S
+H4 H 0.0017 0.3845 0.0000 0.038 Uiso 1 2 calc SR
+C5 C 0.2947(3) 0.1238(3) 0.0000 0.0321(9) Uani 1 2 d S
+H5 H 0.3403 0.1785 0.0000 0.039 Uiso 1 2 calc SR
+C6 C 0.1915(2) 0.3159(3) 0.0000 0.0278(8) Uani 1 2 d S
+C7 C 0.2196(3) 0.3607(2) 0.1223(4) 0.0452(8) Uani 1 1 d .
+H7 H 0.2021 0.3307 0.2082 0.054 Uiso 1 1 calc R
+C8 C 0.2739(3) 0.4508(2) 0.1207(4) 0.0492(9) Uani 1 1 d .
+H8 H 0.2924 0.4814 0.2059 0.059 Uiso 1 1 calc R
+C9 C 0.3004(3) 0.4945(3) 0.0000 0.0388(11) Uani 1 2 d S
+H9 H 0.3373 0.5554 0.0000 0.047 Uiso 1 2 calc SR
+N1 N 0.1464(2) 0.0356(2) 0.0000 0.0266(7) Uani 1 2 d S
+O1 O 0.0000 0.0000 0.2328(9) 0.0373(18) Uani 0.50 4 d SP
+H1 H 0.0592 0.0040 0.2618 0.056 Uiso 0.13 1 calc PR
+Ga1 Ga 0.0000 0.0000 0.04528(15) 0.0297(4) Uani 0.50 4 d SP
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C1 0.0254(16) 0.0234(16) 0.035(2) 0.000 0.000 0.0013(13)
+C2 0.0280(17) 0.0232(16) 0.034(2) 0.000 0.000 -0.0025(13)
+C3 0.0266(17) 0.0225(16) 0.032(2) 0.000 0.000 -0.0036(13)
+C4 0.0313(17) 0.0237(16) 0.041(2) 0.000 0.000 0.0002(13)
+C5 0.0247(17) 0.0313(18) 0.040(2) 0.000 0.000 -0.0024(14)
+C6 0.0230(16) 0.0230(16) 0.037(2) 0.000 0.000 -0.0011(12)
+C7 0.0573(18) 0.0396(15) 0.0388(19) 0.0035(15) -0.0065(16) -0.0166(13)
+C8 0.0572(18) 0.0391(15) 0.051(2) -0.0100(16) -0.0096(18) -0.0164(13)
+C9 0.0274(18) 0.0240(17) 0.065(3) 0.000 0.000 -0.0036(14)
+N1 0.0235(14) 0.0217(13) 0.0345(18) 0.000 0.000 0.0025(10)
+O1 0.049(3) 0.049(3) 0.014(4) 0.000 0.000 0.000
+Ga1 0.0284(4) 0.0284(4) 0.0322(7) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+N1 C1 C2 125.8(3) . .
+N1 C1 C5 110.4(3) . .
+C2 C1 C5 123.9(3) . .
+C3 C2 C1 123.5(3) . .
+C3 C2 C6 118.2(3) . .
+C1 C2 C6 118.4(3) . .
+N1 C3 C2 126.6(3) 3 .
+N1 C3 C4 109.4(3) 3 .
+C2 C3 C4 124.0(3) . .
+C5 C4 C3 107.4(3) 3 .
+C4 C5 C1 107.1(3) 11 .
+C7 C6 C7 118.3(4) . 10
+C7 C6 C2 120.85(18) . .
+C7 C6 C2 120.85(18) 10 .
+C6 C7 C8 120.2(3) . .
+C9 C8 C7 121.0(4) . .
+C8 C9 C8 119.3(4) 10 .
+C1 N1 C3 105.9(3) . 11
+C1 N1 Ga1 126.4(2) . 9
+C3 N1 Ga1 125.8(2) 11 9
+C1 N1 Ga1 126.4(2) . .
+C3 N1 Ga1 125.8(2) 11 .
+Ga1 N1 Ga1 24.53(9) 9 .
+Ga1 Ga1 O1 180.0 9 .
+Ga1 Ga1 N1 77.74(4) 9 9
+O1 Ga1 N1 102.26(4) . 9
+Ga1 Ga1 N1 77.74(4) 9 11
+O1 Ga1 N1 102.26(4) . 11
+N1 Ga1 N1 87.414(18) 9 11
+Ga1 Ga1 N1 77.74(4) 9 3
+O1 Ga1 N1 102.26(4) . 3
+N1 Ga1 N1 87.414(18) 9 3
+N1 Ga1 N1 155.47(9) 11 3
+Ga1 Ga1 N1 77.74(4) 9 .
+O1 Ga1 N1 102.26(4) . .
+N1 Ga1 N1 155.47(9) 9 .
+N1 Ga1 N1 87.414(18) 11 .
+N1 Ga1 N1 87.414(18) 3 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+C1 N1 1.376(5) .
+C1 C2 1.407(5) .
+C1 C5 1.429(5) .
+C2 C3 1.389(5) .
+C2 C6 1.481(5) .
+C3 N1 1.380(4) 3
+C3 C4 1.443(5) .
+C4 C5 1.350(5) 3
+C5 C4 1.350(5) 11
+C6 C7 1.375(4) .
+C6 C7 1.375(4) 10
+C7 C8 1.404(4) .
+C8 C9 1.350(4) .
+C9 C8 1.350(4) 10
+N1 C3 1.380(4) 11
+N1 Ga1 2.057(3) 9
+N1 Ga1 2.057(3) .
+O1 Ga1 1.810(8) .
+Ga1 Ga1 0.874(3) 9
+Ga1 N1 2.057(3) 9
+Ga1 N1 2.057(3) 11
+Ga1 N1 2.057(3) 3
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+N1 C1 C2 C3 0.0 . .
+C5 C1 C2 C3 180.0 . .
+N1 C1 C2 C6 180.0 . .
+C5 C1 C2 C6 0.0 . .
+C1 C2 C3 N1 0.0 . 3
+C6 C2 C3 N1 180.0 . 3
+C1 C2 C3 C4 180.0 . .
+C6 C2 C3 C4 0.0 . .
+N1 C3 C4 C5 0.0 3 3
+C2 C3 C4 C5 180.0 . 3
+N1 C1 C5 C4 0.0 . 11
+C2 C1 C5 C4 180.0 . 11
+C3 C2 C6 C7 90.6(3) . .
+C1 C2 C6 C7 -89.4(3) . .
+C3 C2 C6 C7 -90.6(3) . 10
+C1 C2 C6 C7 89.4(3) . 10
+C7 C6 C7 C8 1.0(6) 10 .
+C2 C6 C7 C8 179.9(3) . .
+C6 C7 C8 C9 -0.6(5) . .
+C7 C8 C9 C8 0.1(7) . 10
+C2 C1 N1 C3 180.0 . 11
+C5 C1 N1 C3 0.0 . 11
+C2 C1 N1 Ga1 15.29(7) . 9
+C5 C1 N1 Ga1 -164.71(7) . 9
+C2 C1 N1 Ga1 -15.29(7) . .
+C5 C1 N1 Ga1 164.71(7) . .
+C1 N1 Ga1 Ga1 99.20(8) . 9
+C3 N1 Ga1 Ga1 -99.03(8) 11 9
+C1 N1 Ga1 O1 -80.80(8) . .
+C3 N1 Ga1 O1 80.97(8) 11 .
+Ga1 N1 Ga1 O1 180.0 9 .
+C1 N1 Ga1 N1 99.20(8) . 9
+C3 N1 Ga1 N1 -99.03(8) 11 9
+Ga1 N1 Ga1 N1 0.0 9 9
+C1 N1 Ga1 N1 177.21(7) . 11
+C3 N1 Ga1 N1 -21.02(11) 11 11
+Ga1 N1 Ga1 N1 78.01(4) 9 11
+C1 N1 Ga1 N1 21.20(11) . 3
+C3 N1 Ga1 N1 -177.03(7) 11 3
+Ga1 N1 Ga1 N1 -78.01(4) 9 3
