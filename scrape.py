@@ -5,6 +5,7 @@ import re
 from rdkit.Chem import rdchem
 import openbabel as ob
 import config
+import utils
 
 def find_all_structures(keyword: str, output_file: str):
     """Method to fetch all metadata for files with matching keyword (corrole, porphyrin, etc.). outputs the results to JSON file"""
@@ -42,6 +43,7 @@ def has_metal(formula_str: str):
     else:
         return False
 
+
 def find_structures_with_metals(output_file: str):
     with open(output_file, "r") as f:
         d = json.load(f)
@@ -54,16 +56,31 @@ def find_structures_with_metals(output_file: str):
     print("TOTAL NUMBER OF STRUCTURES WITH METAL =", len(metal_structs))
     return metal_structs
 
+
 def download_cif_files(codids, target_dir):
     """download all the cifs in list"""
     os.chdir(target_dir)
     for i, codid in enumerate(codids):
         print("downloading {} out of {}".format(i + 1, len(codids)))
-        os.system("wget https://www.crystallography.net/cod/{}.cif".format(codid))
+        if not os.path.exists("{}.cif".format(codid)):
+            os.system("wget https://www.crystallography.net/cod/{}.cif".format(codid))
+
+
+def scrape_structures(search_term, structure):
+    json_path = os.path.join(config.DATA_DIR, structure + "_structures.json")
+    cif_dir = utils.get_directory("cif", structure, create_dir=True)
+    print("getting full strcuture list...")
+    find_all_structures(search_term, json_path)
+    print("getting only structures with metal...")
+    codids = find_structures_with_metals(json_path)
+    print("downloading files...")
+    download_cif_files(codids, cif_dir)
+    # clean directory from garbage files (like .cif.1)
+    print("cleaning garbage...")
+    utils.clean_directory(cif_dir, "cif")
+    print("ALL DONE!")
 
 if __name__ == "__main__":
-    # find_all_structures("corrole", config.DATA_DIR + "corrole_structures.json")
-    # find_all_structures("porphyrin", config.DATA_DIR + "porphyrin_structures.json")
-    codids = find_structures_with_metals(config.CORROLE_RAW_JSON)
-    download_cif_files(codids, config.CORROLE_CIF_DIR)
-    # find_structures_with_metals(config.PORPHYRIN_RAW_JSON)
+    args = utils.read_command_line_arguments("scrape all files containing metal from the COD database. download as cif files")
+    struct = args.structure
+    scrape_structures(struct, struct)
