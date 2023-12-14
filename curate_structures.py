@@ -56,6 +56,14 @@ def valid_charge(mol_path: str, mol: ob.OBMol) -> bool:
         nelecs = sum([a.GetAtomicNum() for a in ob.OBMolAtomIter(counter)])
         if nelecs % 2 == 1:
             return False
+        # if counter mol is very large or has one atom - remove from database
+        if counter.NumAtoms() > 20 or counter.NumAtoms() == 1:
+            return False
+        # if counter mol contains a metal, remove it from set
+        for atom in ob.OBMolAtomIter(counter):
+            # importantly, it should be metal as defined in Openbabel (not including light elements)
+            if utils.is_metal(atom):
+                return False
     return True
         
 def curate_structure(args):
