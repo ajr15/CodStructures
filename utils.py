@@ -1,3 +1,4 @@
+from functools import reduce
 import networkx as nx
 from networkx.algorithms import isomorphism
 import os
@@ -12,7 +13,30 @@ def get_molecule(path: str) -> ob.OBMol:
     conv.ReadFile(obmol, path)
     return obmol
 
-def find_pyrrole_indices(mol: ob.OBMol) -> List[List[int]]:
+def get_counter_mols(mol_path: str):
+    """Method to extract other molecules in the crystal structure. this is done mostly for best esitmation of complex charge"""
+    dirpath, name = os.path.split(mol_path)
+    dirpath = dirpath.replace("curated", "xyz")
+    sid = name.split("_")[0]
+    ajr = []
+    for fname in os.listdir(dirpath):
+        if fname.startswith(sid) and not fname.endswith("_0.xyz"):
+            mol = get_molecule(os.path.join(dirpath, fname))
+            ajr.append(mol)
+    return ajr
+
+def mol_to_smiles(obmol: ob.OBMol) -> str:
+    """conert a molecule to SMILES string"""
+    conv = ob.OBConversion()
+    conv.SetOutFormat("smi")
+    s = conv.WriteString(obmol)
+    return s.split("\t")[0]
+
+def is_metal(atom: ob.OBAtom) -> bool:
+    Z = atom.GetAtomicNum()
+    return 10 < Z < 16 or 18 < Z < 35 or 36 < Z < 53 or 54 < Z
+
+def ob_find_pyrrole_indices(mol: ob.OBMol) -> List[List[int]]:
     # matches the corrole ring by SMARTS matching
     # first, we match all the pyrrolic nitrogens (only aromatic nitrogens, rest are kekulized)
     smarts_pattern = ob.OBSmartsPattern()
@@ -26,6 +50,11 @@ def find_pyrrole_indices(mol: ob.OBMol) -> List[List[int]]:
         if s not in ajr:
             ajr.append(s)
     return [list(x) for x in ajr]
+
+def find_pyrrole_indices(mol: ob.OBMol):
+    return find_structure_indices(mol, "pyrrole")
+    # fix indicis to fit with OB indices
+    # return [map(lambda x: x + 1, iso) for iso in isos]
     
 def find_pyrrolic_nitrogens(mol: ob.OBMol) -> List[ob.OBAtom]:
     ajr = []
@@ -46,8 +75,8 @@ def disect_complex(mol: ob.OBMol) -> List[List[ob.OBAtom]]:
     metal_idxs = []
     for n in nitrogens:
         neighbors = [atom for atom in ob.OBAtomAtomIter(n)]
-        metal_idxs += [atom.GetIdx() for atom in neighbors if atom.IsMetal()]
-        carbon_neighbors += [atom for atom in neighbors if not atom.IsMetal()]
+        metal_idxs += [atom.GetIdx() for atom in neighbors if is_metal(atom)]
+        carbon_neighbors += [atom for atom in neighbors if atom.GetAtomicNum() == 6]
     # now we go to the second nearest neighbors of the carbon neighbors - these are the meta and beta carbons
     if len(metal_idxs) == 0:
         return None, [], []
@@ -103,27 +132,41 @@ def mol_to_graph(obmol: ob.OBMol) -> nx.Graph:
     g = nx.Graph()
     # adding atoms to graph
     for i, atom in enumerate(ob.OBMolAtomIter(obmol)):
-        g.add_node(i, Z=atom.GetAtomicNum())
+        g.add_node(i + 1, Z=atom.GetAtomicNum())
     # adding bonds (edges to graph)
     for bond in ob.OBMolBondIter(obmol):
-        g.add_edge(bond.GetBeginAtomIdx() - 1, bond.GetEndAtomIdx() - 1)
+        g.add_edge(bond.GetBeginAtomIdx(), bond.GetEndAtomIdx())
     return g
 
 def get_definition(structure: str):
     mol = get_molecule(os.path.join(config.DATA_DIR, "definitions", structure + ".mol"))
     return mol_to_graph(mol)
 
-def validate_structure(obmol: ob.OBMol, structure: str, n_isomorphs: int=1) -> bool:
+def find_structure_indices(obmol: ob.OBMol, structure: str):
     subgraph = get_definition(structure)
     g = mol_to_graph(obmol)
     iso = isomorphism.GraphMatcher(g, subgraph, node_match=node_matcher)
     # get non-interceting isomorph counts
     covered_atoms = set()
-    counter = 0
+    isos = []
     for morph in iso.subgraph_isomorphisms_iter():
         atoms = list(morph.keys())
         if all([a not in covered_atoms for a in atoms]):
             covered_atoms = covered_atoms.union(atoms)
-            counter += 1
-    return counter == n_isomorphs
+            isos.append(atoms)
+    return isos
+
+
+def validate_structure(obmol: ob.OBMol, structure: str, n_isomorphs: int=1) -> bool:
+    isos = find_structure_indices(obmol, structure)
+    # if there are too many isomorphs, return false
+    if len(isos) != n_isomorphs:
+        return False
+    # else, make sure that the structure is valid (each atom in the macrocycle have exactly 3 neighbors)
+    for iso in isos:
+        for idx in iso:
+            atom = obmol.GetAtom(idx)
+            if len(list(ob.OBAtomAtomIter(atom))) != 3:
+                return False
+    return True
 
