@@ -1,3 +1,5 @@
+import networkx as nx
+from networkx.algorithms import isomorphism
 import os
 import openbabel as ob
 from typing import List
@@ -75,11 +77,12 @@ def get_directory(ftype: str, structure: str, create_dir: bool=False):
     """get the proper directory of a filetype (cif, xyz, curated...) and structure"""
     ftype_path = os.path.join(config.DATA_DIR, ftype)
     if os.path.isdir(ftype_path):
-        struct_dir = os.path.join(ftype_path, structure)
+        struct_dir = os.path.join(ftype_path, structure) + "/"
         if os.path.isdir(struct_dir):
             return struct_dir
         elif create_dir:
             os.mkdir(struct_dir)
+            return struct_dir
         else:
             raise ValueError("Structure not available for this file type. existing structures " + ", ".join(os.listdir(ftype_path)))
     else:
@@ -91,3 +94,36 @@ def clean_directory(direactory: str, extension: str):
         cid = fname.split(".")[0]
         if "{}.{}".format(cid, extension) != fname:
             os.remove(os.path.join(direactory, fname))
+
+def node_matcher(node1_attr, node2_attr):
+    return node1_attr["Z"] == node2_attr["Z"]
+
+def mol_to_graph(obmol: ob.OBMol) -> nx.Graph:
+    """Method to convert an openbabel molecule to a networkx graph with single-bonds only. meant as a subroutine for substructure search"""
+    g = nx.Graph()
+    # adding atoms to graph
+    for i, atom in enumerate(ob.OBMolAtomIter(obmol)):
+        g.add_node(i, Z=atom.GetAtomicNum())
+    # adding bonds (edges to graph)
+    for bond in ob.OBMolBondIter(obmol):
+        g.add_edge(bond.GetBeginAtomIdx() - 1, bond.GetEndAtomIdx() - 1)
+    return g
+
+def get_definition(structure: str):
+    mol = get_molecule(os.path.join(config.DATA_DIR, "definitions", structure + ".mol"))
+    return mol_to_graph(mol)
+
+def validate_structure(obmol: ob.OBMol, structure: str, n_isomorphs: int=1) -> bool:
+    subgraph = get_definition(structure)
+    g = mol_to_graph(obmol)
+    iso = isomorphism.GraphMatcher(g, subgraph, node_match=node_matcher)
+    # get non-interceting isomorph counts
+    covered_atoms = set()
+    counter = 0
+    for morph in iso.subgraph_isomorphisms_iter():
+        atoms = list(morph.keys())
+        if all([a not in covered_atoms for a in atoms]):
+            covered_atoms = covered_atoms.union(atoms)
+            counter += 1
+    return counter == n_isomorphs
+

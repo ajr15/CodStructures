@@ -5,43 +5,48 @@
 #   - has exactly one metal center
 import os
 import shutil
-import utils, config
+import multiprocessing
+import utils
 
-def curate_corroles():
-    valid_mols = 0
-    total_mols = 0
-    for fname in os.listdir(config.CORROLE_XYZ_DIR):
-        total_mols += 1
-        mol = utils.get_molecule(config.CORROLE_XYZ_DIR + fname)
-        nitrogens = utils.find_pyrrolic_nitrogens(mol)
-        if len(nitrogens) == 4:
-            metal, metas, betas = utils.disect_complex(mol)
-            if len(metas) == 3 and not metal == None:
-                valid_mols += 1
-                shutil.copyfile(config.CORROLE_XYZ_DIR + fname, config.CORROLE_CURATED_XYZ_DIR + fname)                
-    print("TOTAL NUMBER =", total_mols)
-    print("VALID MOLECULES =", valid_mols)
+def curate_structure(args):
+    mol_path, target_path, structure, nisomorphs = args
+    mol = utils.get_molecule(mol_path)
+    if utils.validate_structure(mol, structure, nisomorphs):
+        shutil.copy(mol_path, target_path)
 
-def curate_porphyrins():
-    valid_mols = 0
-    total_mols = 0
-    for fname in os.listdir(config.PORPHYRIN_XYZ_DIR):
-        total_mols += 1
-        mol = utils.get_molecule(config.PORPHYRIN_XYZ_DIR + fname)
-        nitrogens = utils.find_pyrrolic_nitrogens(mol)
-        if len(nitrogens) == 4:
-            print("1" * 30)
-            try:
-                metal, metas, betas = utils.disect_complex(mol)
-            except IndexError:
-                # in case the disection fails due to index issues, the molecule is probably not a porphyrin
-                valid_mols += 1
-                print("*" * 30)
-                continue
-            if len(metas) == 4:
-                shutil.copyfile(config.PORPHYRIN_XYZ_DIR + fname, config.PORPHYRIN_CURATED_XYZ_DIR + fname)                
-    print("TOTAL NUMBER =", total_mols)
-    print("VALID MOLECULES =", valid_mols)
+def main(structure: str, nisomorphs: int, nworkers: int):
+    print("initializing...")
+    xyz_dir = utils.get_directory("xyz", structure)
+    cur_dir = utils.get_directory("curated", structure, create_dir=True)
+    args = []
+    for fname in os.listdir(xyz_dir):
+        args.append((os.path.join(xyz_dir, fname), os.path.join(cur_dir, fname), structure, nisomorphs))
+    # running parallel the conversion jobs
+    print("starting conversion...")
+    if nworkers > 1:
+        with multiprocessing.Pool(nworkers) as pool:
+            pool.map(curate_structure, args)
+    else:
+        list(map(curate_structure, args))
+    # cleaning garbage files 
+    print("cleaning garbage...")
+    utils.clean_directory(cur_dir, "xyz")
+    print("ALL DONE!")
+    print("total curated XYZ files:", len(os.listdir(cur_dir)))
+
+
+def test_corrole():
+    fname = "7042334_0.xyz"
+    mol = utils.get_molecule(utils.get_directory("xyz", "porphyrins") + fname)
+    # mol = utils.get_molecule(os.path.join(config.DATA_DIR, "definitions", "corrole.mol"))
+    print(utils.validate_structure(mol, "porphyrins", 1))
+
 
 if __name__ == "__main__":
-    curate_corroles()
+    # test_corrole()
+    # exit()
+    parser = utils.read_command_line_arguments("curate XYZ files using substructure matching", return_args=False)
+    parser.add_argument("--nworkers", type=int, default=1, help="number of worker for parallel processing of files")
+    parser.add_argument("--nisomorphs", type=int, default=1, help="number of distinct isomorphisms between definition and molecule (1=monomer, 2=dimer...)")
+    args = parser.parse_args()
+    main(args.structure, args.nisomorphs, args.nworkers)

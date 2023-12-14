@@ -121,8 +121,6 @@ def test():
             mol.to("{}_{}.xyz".format(base_xyz_file, i), fmt="xyz")
 
 if __name__ == "__main__":
-    test()
-    exit()
     parser = utils.read_command_line_arguments("convert all CIF files to XYZ files of single molecule", return_args=False)
     parser.add_argument("--nworkers", type=int, default=1, help="number of worker for parallel processing of files")
     args = parser.parse_args()
