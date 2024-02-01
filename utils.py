@@ -1,8 +1,7 @@
-from functools import reduce
 import networkx as nx
 from networkx.algorithms import isomorphism
 import os
-import openbabel as ob
+from openbabel import openbabel as ob
 from typing import List
 import config
 
@@ -135,8 +134,23 @@ def mol_to_graph(obmol: ob.OBMol) -> nx.Graph:
         g.add_node(i + 1, Z=atom.GetAtomicNum())
     # adding bonds (edges to graph)
     for bond in ob.OBMolBondIter(obmol):
-        g.add_edge(bond.GetBeginAtomIdx(), bond.GetEndAtomIdx())
+        x = bond.GetBondOrder()
+        bo = x if x is not None or x != 0 else 1
+        g.add_edge(bond.GetBeginAtomIdx(), bond.GetEndAtomIdx(), bo=bo)
     return g
+
+def graph_to_mol(g: nx.Graph) -> ob.OBMol:
+    obmol = ob.OBMol()
+    for i, atom in enumerate(g):
+        obatom = ob.OBAtom()
+        obatom.SetAtomicNum(g.nodes[atom]["Z"])
+        obmol.InsertAtom(obatom)
+        g.nodes[atom]["idx"] = i + 1
+    for u, v in g.edges:
+        begin_atom = g.nodes[u]["idx"]
+        end_atom = g.nodes[v]["idx"]
+        obmol.AddBond(begin_atom, end_atom, g.edges[(u, v)]["bo"])
+    return obmol
 
 def get_definition(structure: str):
     mol = get_molecule(os.path.join(config.DATA_DIR, "definitions", structure + ".mol"))
@@ -170,3 +184,16 @@ def validate_structure(obmol: ob.OBMol, structure: str, n_isomorphs: int=1) -> b
                 return False
     return True
 
+def get_displaced_structures(structure: str):
+    """Get all displaced structures for a given structure"""
+    path = os.path.join(config.DISPLACED_STRUCTS_DIR, structure)
+    print(path)
+    if not os.path.isdir(path):
+        raise ValueError("{} is not a valid structure name".format(structure))
+    ajr = {}
+    for s in os.listdir(path):
+        f = os.path.join(path, s)
+        name = s.split(".")[0].lower()
+        struct = get_molecule(f)
+        ajr[name] = struct
+    return ajr
