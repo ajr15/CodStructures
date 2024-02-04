@@ -3,7 +3,6 @@ import os
 from typing import List
 import networkx as nx
 from openbabel import openbabel as ob
-import json
 import pandas as pd
 import utils
 import config
@@ -24,10 +23,12 @@ def find_substituent(mol: ob.OBMol, substitution_idx: int, macrocycle_idxs: List
         # note that there is only one susbtituent as we broke only one bond
         subs = [G.subgraph(x).copy() for x in nx.connected_components(cG) if n in x][0]
         # add a dummy atom instead of the macrocyle
-        subs.add_node(0, Z=0)
+        subs.add_node(0, Z=0, x=0, y=0, z=0)
         subs.add_edge(0, n, bo=1)
-        # convert it back to a molecule and get its SMILES
-        smiles = utils.mol_to_smiles(utils.graph_to_mol(subs))
+        # convert it back to a molecule, perceive proper bond orders and get its SMILES
+        m = utils.graph_to_mol(subs)
+        m.PerceiveBondOrders()
+        smiles = utils.mol_to_smiles(m)
         ajr.append(smiles)
         # adding edge back to G
     return ajr

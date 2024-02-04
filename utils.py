@@ -31,6 +31,13 @@ def mol_to_smiles(obmol: ob.OBMol) -> str:
     s = conv.WriteString(obmol)
     return s.split("\t")[0]
 
+def mol_from_smiles(smiles: str) -> ob.OBMol:
+    conv = ob.OBConversion()
+    conv.SetInFormat("smi")
+    mol = ob.OBMol()
+    conv.ReadString(mol, smiles)
+    return mol
+
 def is_metal(atom: ob.OBAtom) -> bool:
     Z = atom.GetAtomicNum()
     return 10 < Z < 16 or 18 < Z < 35 or 36 < Z < 53 or 54 < Z
@@ -131,7 +138,7 @@ def mol_to_graph(obmol: ob.OBMol) -> nx.Graph:
     g = nx.Graph()
     # adding atoms to graph
     for i, atom in enumerate(ob.OBMolAtomIter(obmol)):
-        g.add_node(i + 1, Z=atom.GetAtomicNum())
+        g.add_node(i + 1, Z=atom.GetAtomicNum(), x=atom.GetX(), y=atom.GetY(), z=atom.GetZ())
     # adding bonds (edges to graph)
     for bond in ob.OBMolBondIter(obmol):
         x = bond.GetBondOrder()
@@ -144,6 +151,9 @@ def graph_to_mol(g: nx.Graph) -> ob.OBMol:
     for i, atom in enumerate(g):
         obatom = ob.OBAtom()
         obatom.SetAtomicNum(g.nodes[atom]["Z"])
+        if not g.nodes[atom]["x"] is None:
+            coord_vec = ob.vector3(g.nodes[atom]["x"], g.nodes[atom]["y"], g.nodes[atom]["z"])
+            obatom.SetVector(coord_vec)
         obmol.InsertAtom(obatom)
         g.nodes[atom]["idx"] = i + 1
     for u, v in g.edges:
