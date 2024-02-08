@@ -29,7 +29,8 @@ def find_substituent(mol: ob.OBMol, substitution_idx: int, macrocycle_idxs: List
         m = utils.graph_to_mol(subs)
         m.PerceiveBondOrders()
         smiles = utils.mol_to_smiles(m)
-        ajr.append(smiles)
+        # add the smiles and atomic idxs to the output
+        ajr.append((smiles, list(subs.nodes.keys())))
         # adding edge back to G
     return ajr
 
@@ -68,17 +69,17 @@ def mol_to_entries(mol: ob.OBMol, stype: str, sid: int):
             continue
         if row["position"] == "metal":
             continue
-        subs = find_substituent(mol, row["target"], macrocycle_atoms)[0]
-        entries.append(Substituent(structure=sid, substituent=subs, position=row["position"], position_index=row["position_idx"]))
+        smiles, idxs = find_substituent(mol, row["target"], macrocycle_atoms)[0]
+        entries.append(Substituent(structure=sid, substituent=smiles, position=row["position"], position_index=row["position_idx"], atom_indicis=",".join([str(x) for x in idxs])))
     # now, analyze for the metal idx
     metal = df[df["position"] == "metal"]["target"].values[0]
     # add record for metal atom
     metal_z = mol.GetAtom(int(metal)).GetAtomicNum()
     smiles = "[{}]".format(ob.GetSymbol(metal_z))
-    entries.append(Substituent(structure=sid, substituent=smiles, position="metal"))
+    entries.append(Substituent(structure=sid, substituent=smiles, position="metal", atom_indicis=str(int(metal))))
     # now add the axial ligand (if exists)
-    for i, subs in enumerate(find_substituent(mol, metal, macrocycle_atoms)):
-        entries.append(Substituent(structure=sid, substituent=subs, position="axial", position_index=i+1))
+    for i, (smiles, atoms) in enumerate(find_substituent(mol, metal, macrocycle_atoms)):
+        entries.append(Substituent(structure=sid, substituent=smiles, position="axial", position_index=i+1, atom_indicis=",".join([str(x) for x in atoms])))
     return entries
 
 def entries_for_structure(stype: str):

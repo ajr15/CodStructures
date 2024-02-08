@@ -29,6 +29,7 @@ class Substituent (SqlBase):
     substituent = Column(String)
     position = Column(String) # metal, meso, beta or axial
     position_index = Column(Integer) # to specify index of each substituent (e.g. meta1, beta4...)
+    atom_indicis = Column(String) # to specify the atomic indices of the substituent's atoms in the parent molecule (for easy future reference)
 
 
 class SubstituentProperty (SqlBase):
@@ -43,6 +44,8 @@ class SubstituentProperty (SqlBase):
     units = Column(String)
     source = Column(String) # calculated, experimental...
     structure = Column(Integer, ForeignKey("structures.id"), nullable=True) # optionally specify value of property for a given structure, good for metal charges for example
+    position = Column(String) # optionally specify the position of the substituent in the macrocycle
+    position_index = Column(Integer) # optionally specify the position of the substituent in the macrocycle
 
 
 class StructureProperty (SqlBase):
