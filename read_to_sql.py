@@ -60,6 +60,20 @@ class StructureProperty (SqlBase):
     units = Column(String)
     source = Column(String) # calculated, experimental...
 
+def run_parser(parser_name: str, db_path: str, nworkers: int):
+    # trying to import the main function from the parsing file
+    try:
+        parser_module = importlib.import_module("parsers.{}".format(parser_name))
+        parser_func = getattr(parser_module, "main")
+    except ImportError:
+        raise ValueError("The required parser ({}) does not exist or does not contain a 'main' function".format(parser_name))
+    # connect to the databse
+    engine = create_engine("sqlite:///{}".format(db_path))
+    SqlBase.metadata.create_all(engine)
+    session = sessionmaker(bind=engine)()
+    # run the parsing function
+    parser_func(session, nworkers)
+    
 
 if __name__ == "__main__":
     # when running the script, one can choose what to read to the SQL database
@@ -72,18 +86,16 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--n_workers", type=int, default=1, help="number of processes to be used in parsing")
     parser.add_argument("--delete", type=bool, default=False, help="delete existing database file")
     args = parser.parse_args()
-    # trying to import the main function from the parsing file
-    try:
-        parser_module = importlib.import_module("parsers.{}".format(args.parser))
-        parser_func = getattr(parser_module, "main")
-    except ImportError:
-        raise ValueError("The required parser ({}) does not exist or does not contain a 'main' function".format(args.parser))
+    if args.parser == "all":
+        parsers = [fname.split(".")[0] for fname in os.listdir("parsers") if fname.endswith(".py") and not fname.startswith("_")]
+        parsers.remove("structure_details")
+        parsers.remove("substituents")
+        parsers = ["structure_details", "substituents"] + parsers
+    else:
+        parsers = [args.parser]
     # if requested delete, remove the database
     if args.delete and os.path.isfile(args.database):
         os.remove(args.database)
-    # connect to the databse
-    engine = create_engine("sqlite:///{}".format(args.database))
-    SqlBase.metadata.create_all(engine)
-    session = sessionmaker(bind=engine)()
-    # run the parsing function
-    parser_func(session, args.n_workers)
+    for parser in parsers:
+        print("running with", parser)
+        run_parser(parser, args.database, args.n_workers)

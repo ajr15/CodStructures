@@ -13,36 +13,51 @@ import utils
 
 def topologically_valid(mol: ob.OBMol, structure: str, nisomorphs: int) -> bool:
     """Validate the topology of the complex"""
+    # if the molecule is not fully connected, return false
+    g = utils.mol_to_graph(mol)
+    if not nx.is_connected(g):
+        return False, "NOT_CONNECTED_MOLECULE"
     isos = utils.find_structure_indices(mol, structure)
     # first check if the number of isomorphs is correct
     if len(isos) != nisomorphs:
-        return False
+        return False, "NOT_A_MONOMER"
     # make sure there are exactly 4 pyrrole rings in the structure
     ajr = utils.find_structure_indices(mol, "pyrrole")
     # first check if the number of isomorphs is correct
     if len(ajr) != 4:
-        return False
+        return False, "HAS_MORE_THAN_4_PYRROLES"
+    metal, metas, betas = utils.disect_complex(mol)
+    if metal is None:
+        return False, "DOESNT_HAVE_METAL"
     # then make sure the structure is properly saturated (exactly 3 neighbors for each atom)    
     macrocycle = list(set(reduce(lambda x, y: x + y, isos)))
     for idx in macrocycle:
         atom = mol.GetAtom(idx)
         if len(list(ob.OBAtomAtomIter(atom))) != 3:
-            return False
+            return False, "NOT_SATURATED"
+        # if a pyrrolic nitrogen is not bound to the metal, raise an error (prevents N-methyl compounds)
+        if atom.GetAtomicNum() == 7 and mol.GetBond(idx, metal) is None:
+            return False, "PYRROLE_NOT_BOUND_TO_METAL"
     # finally, make sure that each meta and beta sub is separate
-    metal, metas, betas = utils.disect_complex(mol)
-    if metal is None:
-        return False
-    g = utils.mol_to_graph(mol)
     for idx in metas + betas:
         out_neighbor = None
+        g = utils.mol_to_graph(mol)
         for n in g.neighbors(idx):
             if not n in macrocycle:
                 out_neighbor = n
         g.remove_edge(idx, out_neighbor)
         if nx.is_connected(g):
-            return False
+            return False, "BIDENTATE_MACROCYCLE_SUBS"
         g.add_edge(idx, out_neighbor)
-    return True
+    # make sure all axial ligands are mono-dentate
+    g = utils.mol_to_graph(mol)
+    for n in g.neighbors(metal):
+        if not n in macrocycle:
+            g = utils.mol_to_graph(mol)
+            g.remove_edge(metal, n)
+            if nx.is_connected(g):
+                return False, "BIDENTATE_AXIAL_LIGANDS"
+    return True, ""
 
 
 def valid_charge(mol_path: str, mol: ob.OBMol) -> bool:
@@ -50,28 +65,32 @@ def valid_charge(mol_path: str, mol: ob.OBMol) -> bool:
     # make sure the number of electron is not odd
     nelecs = sum([a.GetAtomicNum() for a in ob.OBMolAtomIter(mol)])
     if nelecs % 2 == 1:
-        return False
+        return False, "MOL_ODD_NUMBER_OF_ELECTRONS"
     # make sure all the counter molecules in the crystal structure do not have odd number of electrons
     for counter in utils.get_counter_mols(mol_path):
         nelecs = sum([a.GetAtomicNum() for a in ob.OBMolAtomIter(counter)])
         if nelecs % 2 == 1:
-            return False
+            return False, "COUNTER_MOL_ODD_NUMBER_OF_ELECTRONS"
         # if counter mol is very large or has one atom - remove from database
         if counter.NumAtoms() > 20 or counter.NumAtoms() == 1:
-            return False
+            return False, "TOO_LARGE_COUNTER_MOL"
         # if counter mol contains a metal, remove it from set
         for atom in ob.OBMolAtomIter(counter):
             # importantly, it should be metal as defined in Openbabel (not including light elements)
             if utils.is_metal(atom):
-                return False
-    return True
+                return False, "METAL_IN_COUNTER_MOL"
+    return True, ""
         
 def curate_structure(args):
     mol_path, target_path, structure, nisomorphs = args
     mol = utils.get_molecule(mol_path)
-    if not topologically_valid(mol, structure, nisomorphs):
+    res, msg = topologically_valid(mol, structure, nisomorphs)
+    if not res:
+        print(mol_path, "topolocial", msg)
         return
-    if not valid_charge(mol_path, mol):
+    res, msg = valid_charge(mol_path, mol)
+    if not res:
+        print(mol_path, "charge", msg)
         return    
     # if it passed all the tests, copy the file to the curated directory
     shutil.copy(mol_path, target_path)
@@ -98,38 +117,10 @@ def main(structure: str, nisomorphs: int, nworkers: int):
 
 
 def test_corrole():
-    mol_path = "data/xyz/corroles/4513497_0.xyz"
-    structure = "corroles"
-    nisomorphs = 1
+    mol_path = "data/xyz/porphyrins/4320458_0.xyz"
+    structure = "porphyrins"
     mol = utils.get_molecule(mol_path)
-    isos = utils.find_structure_indices(mol, structure)
-    # first check if the number of isomorphs is correct
-    if len(isos) != nisomorphs:
-        print(1)
-    # make sure there are exactly 4 pyrrole rings in the structure
-    ajr = utils.find_structure_indices(mol, "pyrrole")
-    # first check if the number of isomorphs is correct
-    if len(ajr) != 4:
-        print(2)
-    # then make sure the structure is properly saturated (exactly 3 neighbors for each atom)    
-    macrocycle = list(set(reduce(lambda x, y: x + y, isos)))
-    for idx in macrocycle:
-        atom = mol.GetAtom(idx)
-        if len(list(ob.OBAtomAtomIter(atom))) != 3:
-            print(3)
-    # finally, make sure that each meta and beta sub is separate
-    metal, metas, betas = utils.disect_complex(mol)
-    print(len(metas), len(betas))
-    g = utils.mol_to_graph(mol)
-    for idx in metas + betas:
-        out_neighbor = None
-        for n in g.neighbors(idx):
-            if not n in macrocycle:
-                out_neighbor = n
-        g.remove_edge(idx, out_neighbor)
-        if nx.is_connected(g):
-            print(4)
-        g.add_edge(idx, out_neighbor)
+    print(topologically_valid(mol, structure, 1))
 
 
 if __name__ == "__main__":

@@ -3,6 +3,7 @@ from networkx.algorithms import isomorphism
 import os
 from openbabel import openbabel as ob
 from typing import List
+from read_to_sql import Structure
 import config
 
 def get_molecule(path: str) -> ob.OBMol:
@@ -197,7 +198,6 @@ def validate_structure(obmol: ob.OBMol, structure: str, n_isomorphs: int=1) -> b
 def get_displaced_structures(structure: str):
     """Get all displaced structures for a given structure"""
     path = os.path.join(config.DISPLACED_STRUCTS_DIR, structure)
-    print(path)
     if not os.path.isdir(path):
         raise ValueError("{} is not a valid structure name".format(structure))
     ajr = {}
@@ -207,3 +207,13 @@ def get_displaced_structures(structure: str):
         struct = get_molecule(f)
         ajr[name] = struct
     return ajr
+
+def sids_by_type(session, stype: str="all"):
+    if stype in ["corrole", "porphyrin"]:
+        q = session.query(Structure.id).filter(Structure.type == stype)
+    elif stype == "all":
+        q = session.query(Structure.id)
+    else:
+        raise ValueError("Unknown structure type ({}). allowed values are 'corrole', 'porphyrin' or 'all'".format(stype))
+    ajr = q.distinct().all()
+    return [x[0] for x in ajr]
