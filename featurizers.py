@@ -1,105 +1,62 @@
 # module to contain all featurizers used for ML analysis
+from functools import reduce
+from typing import List
 from abc import ABC, abstractmethod
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-from read_to_sql import StructureProperty
+from read_to_sql import StructureProperty, SubstituentProperty
 
 class Featurizer (ABC):
 
-    def __init__(self, session, structure_ids, feature_names, **featurizer_kwargs):
-        self.session = session
-        self.structure_ids = structure_ids
+    def __init__(self, feature_names, navalue=None):
         self.feature_names = feature_names
-        self._featurized = self.featurize(session, structure_ids, **featurizer_kwargs)
-        self._normalization_parameters = None
+        self.navalue = navalue
 
-    @classmethod
     @abstractmethod
-    def featurize(cls, session, structure_ids, **kwargs) -> np.array:
+    def _featurize(self, session, structure_ids) -> np.array:
         pass
 
-    def data(self):
-        return self._featurized
-    
-    def normalize(self):
-        features = self.data()
-        means = features.mean(axis=0)
-        stds = features.std(axis=0)
-        self._normalization_parameters = (means, stds)
-        self._featurized = (features - means) / stds
+    def featurize(self, session, structure_ids) -> pd.DataFrame:
+        vecs = self._featurize(session, structure_ids)
+        df = pd.DataFrame(vecs, index=structure_ids, columns=self.feature_names)
+        df = df.sort_index()
+        if self.navalue is not None:
+            df = df.fillna(self.navalue)
+        return df
 
-    def reverse_normalize(self, data):
-        if self._normalization_parameters is None:
-            return data
-        else:
-            means, stds = self._normalization_parameters
-            return data * stds + means
-        
-    def to_dataframe(self) -> pd.DataFrame:
-        return pd.DataFrame(data=self.data(), columns=self.feature_names, index=self.structure_ids)
-        
-    def correlation_matrix_plot(self):
-        df = self.to_dataframe()
-        corr = df.corr() ** 2
-        plt.matshow(corr, cmap="Greens")
-        plt.xticks(range(len(df.columns)), df.columns, rotation=45, ha="left")
-        plt.yticks(range(len(df.columns)), df.columns)
-        plt.colorbar()
+    def __add__(self, other):
+        if not isinstance(other, Featurizer):
+            raise ValueError("Cannot add 'Featurizer' to {}".format(type(other)))
+        return ComboFeaturizer([self, other])
 
-    def pca_plot(self, color_by):
-        plt.figure()
-        pca = PCA(n_components=2)
-        vis = pca.fit_transform(self.data())
-        if color_by is not None:
-            if type(color_by[0]) is np.str_:
-                for val in np.unique(color_by):
-                    idxs = [i for i, c in enumerate(color_by) if c == val]
-                    plt.scatter(vis[idxs][:, 0], vis[idxs][:, 1], label=val)
-                plt.legend()
-            else:
-                plt.scatter(vis[:, 0], vis[:, 1], c=color_by, cmap="Greens")
-                plt.colorbar()
-        else:
-            plt.scatter(vis[:, 0], vis[:, 1])
-    
-    def features_histograms(self):
-        if len(self.features_names) > 8:
-            nrows = int(np.ceil(len(self.features_names) / 2))
-            ncols = 2
-            axs_func = lambda axs, i: axs[i, 0] if i < nrows else axs[i - nrows, 1]
-        else:
-            nrows = len(self.features_names)
-            ncols = 1
-            axs_func = lambda axs, i: axs[i]
-        fig, axs = plt.subplots(nrows=nrows, ncols=ncols, figsize=(10, 10))
-        fig.tight_layout()
-        features = self.data()
-        for i, name in enumerate(self.features_names):
-            ax = axs_func(axs, i)
-            ax.hist(features[:, i], bins=30, color="green")
-            ax.set_title(name)
+class ComboFeaturizer (Featurizer):
 
-    def correlation_plot(self, feat1_name, feat2_name):
-        i1 = self.feature_names.index(feat1_name)
-        i2 = self.feature_names.index(feat2_name)
-        features = self.data()
-        plt.scatter(features[:, i1], features[:, i2])
+    def __init__(self, featurizers: List[Featurizer]):
+        self.featurizers = featurizers
+        names = []
+        for x in featurizers:
+            names.extend(x.feature_names)
+        super().__init__(names)
 
+    def _featurize(self, session, structure_ids) -> np.array:
+        vecs = tuple([feat.featurize(session, structure_ids) for feat in self.featurizers])
+        return np.hstack(vecs)
 
         
 class StructurePropertyFeaturizer (Featurizer):
 
-    def __init__(self, session, structure_ids, property_names, property_units):
-        super().__init__(session, structure_ids, property_names, property_names=property_names, property_units=property_units)
+    def __init__(self, property_names, property_units, navalue):
+        super().__init__(property_names, navalue)
+        self.property_names = property_names
+        self.property_units = property_units
 
-    @classmethod
-    def featurize(cls, session, structure_ids, property_names, property_units) -> np.array:
+    def _featurize(self, session, structure_ids) -> np.array:
         res = []
         for sid in structure_ids:
             vec = []
-            for pname, punits in zip(property_names, property_units):
-                vec.append(cls.structure_property(session, sid, pname, punits))
+            for pname, punits in zip(self.property_names, self.property_units):
+                vec.append(self.structure_property(session, sid, pname, punits))
             res.append(vec)
         return np.array(res)
 
@@ -110,6 +67,47 @@ class StructurePropertyFeaturizer (Featurizer):
             q = q.filter(StructureProperty.units == units)
         v = q.all()
         if len(v) == 0:
-            raise ValueError("The property {} does not exists".format(property))
+            return None
         else:
             return v[0][0]
+
+
+class SubstituentPropertyFeaturizer (Featurizer):
+
+    def __init__(self, property_name, property_units, positions, navalue):
+        super().__init__(positions, navalue)
+        self.property_name = property_name
+        self.property_units = property_units
+        self.positions = positions
+
+    def _featurize(self, session, structure_ids) -> np.array:
+        res = []
+        for sid in structure_ids:
+            vec = self.structure_property(session, sid, self.property_name, self.property_units)
+            res.append(vec)
+        df = pd.DataFrame(res)
+        df = df[self.positions]
+        return df.values
+
+    @staticmethod
+    def structure_property(session, sid: int, prop: str, units: str):
+        q = session.query(SubstituentProperty.position, SubstituentProperty.position_index, SubstituentProperty.value).filter(SubstituentProperty.structure == sid).filter(SubstituentProperty.property == prop).order_by(SubstituentProperty.position, SubstituentProperty.position_index)
+        if units is not None:
+            q = q.filter(StructureProperty.units == units)
+        rows = q.all()
+        if len(rows) == 0:
+            raise ValueError("The property {} does not exists".format(prop))
+        else:
+            ajr = {v[0] + str(v[1]): v[2] for v in rows}
+            return ajr
+
+
+class FunctionFeaturizer (Featurizer):
+
+    def __init__(self, name: str, func, navalue):
+        super().__init__([name], navalue)
+        self.func = func
+
+    def _featurize(self, session, structure_ids) -> np.array:
+        res = np.array([self.func(session, sid) for sid in structure_ids])
+        return res.reshape((-1, 1))

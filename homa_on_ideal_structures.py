@@ -140,16 +140,20 @@ def homa_vs_mod(stype, modes, scaling_factors, key, mol_dir=None):
             if x is not None:
                 porphyvals.append(x)
         plt.plot(porphyvals, vals, "-o", label=mode)
-    plt.ylabel(key)
     plt.xlabel("total out of plane")
+    plt.ylabel(key)
     plt.legend()
 
 if __name__ == "__main__":
     # mol = displaced_mol("porphyrins", "Saddling", 0.1)
     # conv = ob.OBConversion()
     # conv.WriteFile(mol, "test/test.mol2")
+    utils.define_pallet()
     stype = "porphyrins"
     modes = [fname.split('.')[0] for fname in os.listdir("displaced_structures/" + stype) if not "plannar" in fname]
-    modes = ["Saddling", "Ruffling"]
-    homa_vs_mod(stype, modes, np.linspace(0, 3, 15), "inner_circuit en", None)
+    modes = ["Saddling", "Ruffling", "Doming"]
+    homa_vs_mod(stype, modes, np.linspace(0, 3, 15), "outer_circuit homa", None)
+    plt.xlim(0, 4)
+    plt.ylim(0, 1)
+    plt.ylabel("HOMA")
     plt.show()

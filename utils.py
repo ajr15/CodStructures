@@ -1,9 +1,19 @@
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+from copy import deepcopy
+import pandas as pd
 import networkx as nx
 from networkx.algorithms import isomorphism
 import os
 from openbabel import openbabel as ob
 from typing import List
+from sklearn.model_selection import train_test_split
+from sklearn.utils import resample
+from sklearn.metrics import classification_report
+from sklearn.base import BaseEstimator
+import numpy as np
 from read_to_sql import Structure
+from featurizers import Featurizer
 import config
 
 def get_molecule(path: str) -> ob.OBMol:
@@ -217,3 +227,147 @@ def sids_by_type(session, stype: str="all"):
         raise ValueError("Unknown structure type ({}). allowed values are 'corrole', 'porphyrin' or 'all'".format(stype))
     ajr = q.distinct().all()
     return [x[0] for x in ajr]
+
+
+
+# ML related utils
+
+def split_train_test(X, y, test_size: int, random_seed=1):
+    org_state = np.random.get_state()
+    # setting seed for uniform results
+    np.random.seed(random_seed)
+    x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=test_size)
+    # returning to original random state (to keep consistancy with other subroutines)
+    np.random.set_state(org_state)
+    return x_train, x_test, y_train, y_test
+    
+def bootstrap_idxs(n, n_bootstraps, n_test):
+    idxs = range(n)
+    res = []
+    for _ in range(n_bootstraps):
+      train = resample(idxs, replace=True, n_samples=(len(idxs)-n_test))
+      test = resample([x for x in idxs if not x in train], replace=True, n_samples=n_test)
+      res.append((train, test))
+    return res 
+    
+def bootstrap_data(X, y, n_bootstraps, test_size, random_seed=1):
+    org_state = np.random.get_state()
+    # setting seed for uniform results
+    np.random.seed(random_seed)
+    res = []
+    bs = bootstrap_idxs(len(y), n_bootstraps, test_size)
+    for train_idxs, test_idxs in bs:
+        x_train = np.array([X[i] for i in train_idxs])
+        x_test = np.array([X[i] for i in test_idxs])
+        y_train = np.array([y[i] for i in train_idxs])
+        y_test = np.array([y[i] for i in test_idxs])
+        res.append((x_train, x_test, y_train, y_test))
+    # returning to original random state (to keep consistancy with other subroutines)
+    np.random.set_state(org_state)
+    return res
+
+def normalize(data: np.array, ref_data: np.ndarray):
+    """Method to make a z-score normalization for data vectors.
+    ARGS:
+        - data (np.array): data on input batches to normalize. normalizes each batch.
+        - params (list): list of [mean, std] to use for calculation"""
+    m = np.mean(ref_data, axis=0)
+    s = np.std(ref_data, axis=0)
+    return (data - m) / s
+
+def unnormalize(data: np.ndarray, ref_data: np.ndarray):
+    """Method to undo a z-score normalization, given reference population data"""
+    m = np.mean(ref_data, axis=0)
+    s = np.std(ref_data, axis=0)
+    return data * s + m
+
+
+def _safe_calc_sum_of_binary_func(pred, true, func) -> float:
+    """Method to calculate sum of binary function values on two vectors in a memory-safe way"""
+    s = 0
+    for p, t in zip(pred, true):
+        val = func(p, t)
+        if not val == [np.inf] and not val == np.inf:
+            s = s + val
+    return s
+
+
+def calc_rmse(pred, true) -> float:
+    f = lambda p, t: np.square(p - t)
+    return np.sqrt(_safe_calc_sum_of_binary_func(pred, true, f) / len(pred))
+
+
+def calc_mae(pred, true) -> float:
+    f = lambda p, t: np.abs(p - t)
+    return _safe_calc_sum_of_binary_func(pred, true, f) / len(pred)
+
+
+def calc_mare(pred, true) -> float:
+    f = lambda p, t: np.abs((p - t) / t) if not t == 0 else 0
+    return _safe_calc_sum_of_binary_func(pred, true, f)/ len(pred)
+
+
+def calc_r_squared(pred, true) -> float:
+    avg_t = _safe_calc_sum_of_binary_func(pred, true, lambda p, t: t) / len(true)
+    avg_p = _safe_calc_sum_of_binary_func(pred, true, lambda p, t: p) / len(pred)
+    var_t = _safe_calc_sum_of_binary_func(pred, true, lambda p, t: np.square(t - avg_t)) / len(true)
+    var_p = _safe_calc_sum_of_binary_func(pred, true, lambda p, t: np.square(p - avg_p)) / len(pred)
+    cov = _safe_calc_sum_of_binary_func(pred, true, lambda p, t: (t - avg_t) * (p - avg_p)) / len(true)
+    return cov**2 / (var_p * var_t)
+
+
+def estimate_regression_fit(pred, true, prefix="") -> dict:
+    return {
+        prefix + "rmse": calc_rmse(pred, true)[0],
+        prefix + "mae": calc_mae(pred, true)[0],
+        prefix + "mare": calc_mare(pred, true)[0],
+        prefix + "r_squared": calc_r_squared(pred, true)[0]
+    }
+
+def estimate_classification_fit(pred, true, prefix="") -> dict:
+    d = classification_report(true, pred, output_dict=True)
+    return {
+        prefix + "accuracy": d["accuracy"],
+        prefix + "true_f1": d["True"]["f1-score"],
+        prefix + "false_f1": d["False"]["f1-score"],
+    }
+    
+
+def train_model(task: str, model: BaseEstimator, X: pd.DataFrame, y: pd.DataFrame, n_bootstraps: int, test_size: float):
+    # task input validation
+    if task not in ["regression", "classification"]:
+        raise ValueError("Unknown task {}. allowed values are 'regression' and 'classification'.".format(task))
+    metric_data = []
+    models = []
+    # bootstrapping data and training model
+    for xtrain, xtest, ytrain, ytest in bootstrap_data(X.to_numpy(), y.to_numpy(), n_bootstraps, test_size):
+        # depending on task, fitting and calculating metrics
+        xtrain = normalize(xtrain, xtrain)
+        xtest = normalize(xtest, xtrain)
+        if task == "regression":
+            model.fit(xtrain, normalize(ytrain, ytrain))
+            # calculating metrics
+            metrics = estimate_regression_fit(unnormalize(model.predict(xtrain), ytrain), ytrain, "train_")
+            metrics.update(estimate_regression_fit(unnormalize(model.predict(xtest), ytrain), ytest, "test_"))
+        else:
+            model.fit(xtrain, ytrain)
+            # calcualting metrics
+            metrics = estimate_classification_fit(model.predict(xtrain), ytrain, "train_")
+            metrics.update(estimate_classification_fit(model.predict(xtest), ytest, "test_"))
+        # add metric data to list
+        models.append(deepcopy(model))
+        metric_data.append(metrics)
+    return models, pd.DataFrame(metric_data)
+
+
+# plotting utils
+
+def define_pallet():
+    # Define custom color palette
+    blue_palette = ["#496989", "#58A399", "#A8CD9F", "#E2F4C5"]
+
+    # Register custom colormap
+    plt.rcParams['axes.prop_cycle'] = plt.cycler(color=blue_palette)
+
+    # Define custom fonts
+    plt.rcParams['font.size'] = 14
